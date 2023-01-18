@@ -1,4 +1,4 @@
-import express from 'express'
+import express, { NextFunction, Request, Response } from 'express'
 import morgan from 'morgan'
 import bodyParser from 'body-parser'
 import { initDb } from './db/sequelize'
@@ -15,9 +15,10 @@ initDb()
 
 routes(app)
 
-app.use(({res}) => {
-  const message = `Path not found`
+app.use((req: Request, res: Response, next: NextFunction) => {
+  const message = `Path not found 😵‍💫`
   res.status(404).json({message})
+  next()
 })
 
 app.listen(port, () => console.log("[SUCCESS] Server started!"))
