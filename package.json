@@ -5,11 +5,11 @@
   "main": "dist/index.js",
   "scripts": {
     "start": "",
-    "build": "npx tsc",
     "dev": "nodemon dist/index.js",
     "ts": "ts-node index.ts",
     "up": "docker-compose up -d",
     "down": "docker-compose down",
+    "build": "npx tsc",
     "watch": "npx tsc --watch"
   },
   "author": "RAKOTONDRABE As Manjaka Josvah",
