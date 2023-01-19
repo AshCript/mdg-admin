@@ -3,7 +3,7 @@ import { Express } from 'express-serve-static-core'
 import { Province } from '../../db/sequelize'
 
 const findAll = (app: Express) => {
-  app.get("/api/provinces", (req: Request, res: Response) => {
+  app.get('/api/provinces', (req: Request, res: Response) => {
     Province.findAll({order: [['id', 'ASC']]}).then(provinces => {
       const message = "All province data is loaded successfully!"
       res.json({message, data: provinces})

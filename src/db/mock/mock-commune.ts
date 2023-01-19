@@ -5,7 +5,7 @@ const communes = [
     "2": 1,
     "id": 1,
     "name": "Ambato",
-    "id_district": 1
+    "districtId": 1
   },
   {
     "0": 2,
@@ -13,7 +13,7 @@ const communes = [
     "2": 1,
     "id": 2,
     "name": "Ambatolampy Tsimahafotsy",
-    "id_district": 1
+    "districtId": 1
   },
   {
     "0": 3,
@@ -21,7 +21,7 @@ const communes = [
     "2": 1,
     "id": 3,
     "name": "Ambohidratrimo",
-    "id_district": 1
+    "districtId": 1
   },
   {
     "0": 4,
@@ -29,7 +29,7 @@ const communes = [
     "2": 1,
     "id": 4,
     "name": "Ambohimanjaka",
-    "id_district": 1
+    "districtId": 1
   },
   {
     "0": 5,
@@ -37,7 +37,7 @@ const communes = [
     "2": 1,
     "id": 5,
     "name": "Ambohimpihaonana",
-    "id_district": 1
+    "districtId": 1
   },
   {
     "0": 6,
@@ -45,7 +45,7 @@ const communes = [
     "2": 1,
     "id": 6,
     "name": "Ambohitrimanjaka",
-    "id_district": 1
+    "districtId": 1
   },
   {
     "0": 7,
@@ -53,7 +53,7 @@ const communes = [
     "2": 1,
     "id": 7,
     "name": "Ampangabe",
-    "id_district": 1
+    "districtId": 1
   },
   {
     "0": 8,
@@ -61,7 +61,7 @@ const communes = [
     "2": 1,
     "id": 8,
     "name": "Ampanotokana",
-    "id_district": 1
+    "districtId": 1
   },
   {
     "0": 9,
@@ -69,7 +69,7 @@ const communes = [
     "2": 1,
     "id": 9,
     "name": "Anjanadoria",
-    "id_district": 1
+    "districtId": 1
   },
   {
     "0": 10,
@@ -77,7 +77,7 @@ const communes = [
     "2": 1,
     "id": 10,
     "name": "Anosiala",
-    "id_district": 1
+    "districtId": 1
   },
   {
     "0": 11,
@@ -85,7 +85,7 @@ const communes = [
     "2": 1,
     "id": 11,
     "name": "Antanetibe Mahazaza",
-    "id_district": 1
+    "districtId": 1
   },
   {
     "0": 12,
@@ -93,7 +93,7 @@ const communes = [
     "2": 1,
     "id": 12,
     "name": "Antehiroka",
-    "id_district": 1
+    "districtId": 1
   },
   {
     "0": 13,
@@ -101,7 +101,7 @@ const communes = [
     "2": 1,
     "id": 13,
     "name": "Antsahafilo",
-    "id_district": 1
+    "districtId": 1
   },
   {
     "0": 14,
@@ -109,7 +109,7 @@ const communes = [
     "2": 1,
     "id": 14,
     "name": "Avaratsena",
-    "id_district": 1
+    "districtId": 1
   },
   {
     "0": 15,
@@ -117,7 +117,7 @@ const communes = [
     "2": 1,
     "id": 15,
     "name": "Fiadanana",
-    "id_district": 1
+    "districtId": 1
   },
   {
     "0": 16,
@@ -125,7 +125,7 @@ const communes = [
     "2": 1,
     "id": 16,
     "name": "Iarinarivo",
-    "id_district": 1
+    "districtId": 1
   },
   {
     "0": 17,
@@ -133,7 +133,7 @@ const communes = [
     "2": 1,
     "id": 17,
     "name": "Ivato",
-    "id_district": 1
+    "districtId": 1
   },
   {
     "0": 18,
@@ -141,7 +141,7 @@ const communes = [
     "2": 1,
     "id": 18,
     "name": "Mahabo",
-    "id_district": 1
+    "districtId": 1
   },
   {
     "0": 19,
@@ -149,7 +149,7 @@ const communes = [
     "2": 1,
     "id": 19,
     "name": "Mahereza",
-    "id_district": 1
+    "districtId": 1
   },
   {
     "0": 20,
@@ -157,7 +157,7 @@ const communes = [
     "2": 1,
     "id": 20,
     "name": "Mahitsy",
-    "id_district": 1
+    "districtId": 1
   },
   {
     "0": 21,
@@ -165,7 +165,7 @@ const communes = [
     "2": 1,
     "id": 21,
     "name": "Mananjara",
-    "id_district": 1
+    "districtId": 1
   },
   {
     "0": 22,
@@ -173,7 +173,7 @@ const communes = [
     "2": 1,
     "id": 22,
     "name": "Manjakavaradrano",
-    "id_district": 1
+    "districtId": 1
   },
   {
     "0": 23,
@@ -181,7 +181,7 @@ const communes = [
     "2": 1,
     "id": 23,
     "name": "Merimandroso",
-    "id_district": 1
+    "districtId": 1
   },
   {
     "0": 24,
@@ -189,7 +189,7 @@ const communes = [
     "2": 1,
     "id": 24,
     "name": "Talatamaty",
-    "id_district": 1
+    "districtId": 1
   },
   {
     "0": 25,
@@ -197,7 +197,7 @@ const communes = [
     "2": 2,
     "id": 25,
     "name": "Alarobia Vatosola",
-    "id_district": 2
+    "districtId": 2
   },
   {
     "0": 26,
@@ -205,7 +205,7 @@ const communes = [
     "2": 2,
     "id": 26,
     "name": "Alatsinainy Bakaro",
-    "id_district": 2
+    "districtId": 2
   },
   {
     "0": 27,
@@ -213,7 +213,7 @@ const communes = [
     "2": 2,
     "id": 27,
     "name": "Ambohimiadana",
-    "id_district": 2
+    "districtId": 2
   },
   {
     "0": 28,
@@ -221,7 +221,7 @@ const communes = [
     "2": 2,
     "id": 28,
     "name": "Andohariana",
-    "id_district": 2
+    "districtId": 2
   },
   {
     "0": 29,
@@ -229,7 +229,7 @@ const communes = [
     "2": 2,
     "id": 29,
     "name": "Andramasina",
-    "id_district": 2
+    "districtId": 2
   },
   {
     "0": 30,
@@ -237,7 +237,7 @@ const communes = [
     "2": 2,
     "id": 30,
     "name": "Anjoma Faliarivo",
-    "id_district": 2
+    "districtId": 2
   },
   {
     "0": 31,
@@ -245,7 +245,7 @@ const communes = [
     "2": 2,
     "id": 31,
     "name": "Anosibe Trimoloharano",
-    "id_district": 2
+    "districtId": 2
   },
   {
     "0": 32,
@@ -253,7 +253,7 @@ const communes = [
     "2": 2,
     "id": 32,
     "name": "Antotohazo",
-    "id_district": 2
+    "districtId": 2
   },
   {
     "0": 33,
@@ -261,7 +261,7 @@ const communes = [
     "2": 2,
     "id": 33,
     "name": "Fitsinjovana Bakaro",
-    "id_district": 2
+    "districtId": 2
   },
   {
     "0": 34,
@@ -269,7 +269,7 @@ const communes = [
     "2": 2,
     "id": 34,
     "name": "Mandrosoa",
-    "id_district": 2
+    "districtId": 2
   },
   {
     "0": 35,
@@ -277,7 +277,7 @@ const communes = [
     "2": 2,
     "id": 35,
     "name": "Morarano Soafiraisana",
-    "id_district": 2
+    "districtId": 2
   },
   {
     "0": 36,
@@ -285,7 +285,7 @@ const communes = [
     "2": 2,
     "id": 36,
     "name": "Sabotsy Ambohitromby",
-    "id_district": 2
+    "districtId": 2
   },
   {
     "0": 37,
@@ -293,7 +293,7 @@ const communes = [
     "2": 2,
     "id": 37,
     "name": "Sabotsy Manjakavahoaka",
-    "id_district": 2
+    "districtId": 2
   },
   {
     "0": 38,
@@ -301,7 +301,7 @@ const communes = [
     "2": 2,
     "id": 38,
     "name": "Tankafatra",
-    "id_district": 2
+    "districtId": 2
   },
   {
     "0": 39,
@@ -309,7 +309,7 @@ const communes = [
     "2": 3,
     "id": 39,
     "name": "Alakamisy",
-    "id_district": 3
+    "districtId": 3
   },
   {
     "0": 40,
@@ -317,7 +317,7 @@ const communes = [
     "2": 3,
     "id": 40,
     "name": "Ambatomanoina",
-    "id_district": 3
+    "districtId": 3
   },
   {
     "0": 41,
@@ -325,7 +325,7 @@ const communes = [
     "2": 3,
     "id": 41,
     "name": "Amboasary Nord",
-    "id_district": 3
+    "districtId": 3
   },
   {
     "0": 42,
@@ -333,7 +333,7 @@ const communes = [
     "2": 3,
     "id": 42,
     "name": "Ambohibary Vohilena",
-    "id_district": 3
+    "districtId": 3
   },
   {
     "0": 43,
@@ -341,7 +341,7 @@ const communes = [
     "2": 3,
     "id": 43,
     "name": "Ambohimanarina Marovazaha",
-    "id_district": 3
+    "districtId": 3
   },
   {
     "0": 44,
@@ -349,7 +349,7 @@ const communes = [
     "2": 3,
     "id": 44,
     "name": "Ambohimirary",
-    "id_district": 3
+    "districtId": 3
   },
   {
     "0": 45,
@@ -357,7 +357,7 @@ const communes = [
     "2": 3,
     "id": 45,
     "name": "Ambongamarina",
-    "id_district": 3
+    "districtId": 3
   },
   {
     "0": 46,
@@ -365,7 +365,7 @@ const communes = [
     "2": 3,
     "id": 46,
     "name": "Amparatanjona",
-    "id_district": 3
+    "districtId": 3
   },
   {
     "0": 47,
@@ -373,7 +373,7 @@ const communes = [
     "2": 3,
     "id": 47,
     "name": "Analaroa",
-    "id_district": 3
+    "districtId": 3
   },
   {
     "0": 48,
@@ -381,7 +381,7 @@ const communes = [
     "2": 3,
     "id": 48,
     "name": "Andranomisa",
-    "id_district": 3
+    "districtId": 3
   },
   {
     "0": 49,
@@ -389,7 +389,7 @@ const communes = [
     "2": 3,
     "id": 49,
     "name": "Androvakely",
-    "id_district": 3
+    "districtId": 3
   },
   {
     "0": 50,
@@ -397,7 +397,7 @@ const communes = [
     "2": 3,
     "id": 50,
     "name": "Anjozorobe",
-    "id_district": 3
+    "districtId": 3
   },
   {
     "0": 51,
@@ -405,7 +405,7 @@ const communes = [
     "2": 3,
     "id": 51,
     "name": "Antanetibe",
-    "id_district": 3
+    "districtId": 3
   },
   {
     "0": 52,
@@ -413,7 +413,7 @@ const communes = [
     "2": 3,
     "id": 52,
     "name": "Belanitra",
-    "id_district": 3
+    "districtId": 3
   },
   {
     "0": 53,
@@ -421,7 +421,7 @@ const communes = [
     "2": 3,
     "id": 53,
     "name": "Beronono",
-    "id_district": 3
+    "districtId": 3
   },
   {
     "0": 54,
@@ -429,7 +429,7 @@ const communes = [
     "2": 3,
     "id": 54,
     "name": "Betatao",
-    "id_district": 3
+    "districtId": 3
   },
   {
     "0": 55,
@@ -437,7 +437,7 @@ const communes = [
     "2": 3,
     "id": 55,
     "name": "Mangamila",
-    "id_district": 3
+    "districtId": 3
   },
   {
     "0": 56,
@@ -445,7 +445,7 @@ const communes = [
     "2": 3,
     "id": 56,
     "name": "Marotsipoy",
-    "id_district": 3
+    "districtId": 3
   },
   {
     "0": 57,
@@ -453,7 +453,7 @@ const communes = [
     "2": 3,
     "id": 57,
     "name": "Tsarasaotra Andanona",
-    "id_district": 3
+    "districtId": 3
   },
   {
     "0": 58,
@@ -461,7 +461,7 @@ const communes = [
     "2": 4,
     "id": 58,
     "name": "Ambohitromby",
-    "id_district": 4
+    "districtId": 4
   },
   {
     "0": 59,
@@ -469,7 +469,7 @@ const communes = [
     "2": 4,
     "id": 59,
     "name": "Ambolotarakely",
-    "id_district": 4
+    "districtId": 4
   },
   {
     "0": 60,
@@ -477,7 +477,7 @@ const communes = [
     "2": 4,
     "id": 60,
     "name": "Andranomiely",
-    "id_district": 4
+    "districtId": 4
   },
   {
     "0": 61,
@@ -485,7 +485,7 @@ const communes = [
     "2": 4,
     "id": 61,
     "name": "Ankazobe",
-    "id_district": 4
+    "districtId": 4
   },
   {
     "0": 62,
@@ -493,7 +493,7 @@ const communes = [
     "2": 4,
     "id": 62,
     "name": "Antakavana",
-    "id_district": 4
+    "districtId": 4
   },
   {
     "0": 63,
@@ -501,7 +501,7 @@ const communes = [
     "2": 4,
     "id": 63,
     "name": "Antotohazo",
-    "id_district": 4
+    "districtId": 4
   },
   {
     "0": 64,
@@ -509,7 +509,7 @@ const communes = [
     "2": 4,
     "id": 64,
     "name": "Fiadanana",
-    "id_district": 4
+    "districtId": 4
   },
   {
     "0": 65,
@@ -517,7 +517,7 @@ const communes = [
     "2": 4,
     "id": 65,
     "name": "Fihaonana",
-    "id_district": 4
+    "districtId": 4
   },
   {
     "0": 66,
@@ -525,7 +525,7 @@ const communes = [
     "2": 4,
     "id": 66,
     "name": "Kiangara",
-    "id_district": 4
+    "districtId": 4
   },
   {
     "0": 67,
@@ -533,7 +533,7 @@ const communes = [
     "2": 4,
     "id": 67,
     "name": "Mahavelona",
-    "id_district": 4
+    "districtId": 4
   },
   {
     "0": 68,
@@ -541,7 +541,7 @@ const communes = [
     "2": 4,
     "id": 68,
     "name": "Mangasoavina",
-    "id_district": 4
+    "districtId": 4
   },
   {
     "0": 69,
@@ -549,7 +549,7 @@ const communes = [
     "2": 4,
     "id": 69,
     "name": "Marondry",
-    "id_district": 4
+    "districtId": 4
   },
   {
     "0": 70,
@@ -557,7 +557,7 @@ const communes = [
     "2": 4,
     "id": 70,
     "name": "Miantso",
-    "id_district": 4
+    "districtId": 4
   },
   {
     "0": 71,
@@ -565,7 +565,7 @@ const communes = [
     "2": 4,
     "id": 71,
     "name": "Talata-Angavo",
-    "id_district": 4
+    "districtId": 4
   },
   {
     "0": 72,
@@ -573,7 +573,7 @@ const communes = [
     "2": 4,
     "id": 72,
     "name": "Tsaramasoandro",
-    "id_district": 4
+    "districtId": 4
   },
   {
     "0": 73,
@@ -581,7 +581,7 @@ const communes = [
     "2": 5,
     "id": 73,
     "name": "Alakamisy Fenoarivo",
-    "id_district": 5
+    "districtId": 5
   },
   {
     "0": 74,
@@ -589,7 +589,7 @@ const communes = [
     "2": 5,
     "id": 74,
     "name": "Alatsinainy Ambazaha",
-    "id_district": 5
+    "districtId": 5
   },
   {
     "0": 75,
@@ -597,7 +597,7 @@ const communes = [
     "2": 5,
     "id": 75,
     "name": "Ambalavao",
-    "id_district": 5
+    "districtId": 5
   },
   {
     "0": 76,
@@ -605,7 +605,7 @@ const communes = [
     "2": 5,
     "id": 76,
     "name": "Ambatofahavalo",
-    "id_district": 5
+    "districtId": 5
   },
   {
     "0": 77,
@@ -613,7 +613,7 @@ const communes = [
     "2": 5,
     "id": 77,
     "name": "Ambavahaditokana",
-    "id_district": 5
+    "districtId": 5
   },
   {
     "0": 78,
@@ -621,7 +621,7 @@ const communes = [
     "2": 5,
     "id": 78,
     "name": "Ambohidrapeto",
-    "id_district": 5
+    "districtId": 5
   },
   {
     "0": 79,
@@ -629,7 +629,7 @@ const communes = [
     "2": 5,
     "id": 79,
     "name": "Ambohijanaka",
-    "id_district": 5
+    "districtId": 5
   },
   {
     "0": 80,
@@ -637,7 +637,7 @@ const communes = [
     "2": 5,
     "id": 80,
     "name": "Ampahitrosy",
-    "id_district": 5
+    "districtId": 5
   },
   {
     "0": 81,
@@ -645,7 +645,7 @@ const communes = [
     "2": 5,
     "id": 81,
     "name": "Ampanefy",
-    "id_district": 5
+    "districtId": 5
   },
   {
     "0": 82,
@@ -653,7 +653,7 @@ const communes = [
     "2": 5,
     "id": 82,
     "name": "Ampitatafika",
-    "id_district": 5
+    "districtId": 5
   },
   {
     "0": 83,
@@ -661,7 +661,7 @@ const communes = [
     "2": 5,
     "id": 83,
     "name": "Andoharanofotsy",
-    "id_district": 5
+    "districtId": 5
   },
   {
     "0": 84,
@@ -669,7 +669,7 @@ const communes = [
     "2": 5,
     "id": 84,
     "name": "Andranonahoatra",
-    "id_district": 5
+    "districtId": 5
   },
   {
     "0": 85,
@@ -677,7 +677,7 @@ const communes = [
     "2": 5,
     "id": 85,
     "name": "Androhibe",
-    "id_district": 5
+    "districtId": 5
   },
   {
     "0": 86,
@@ -685,7 +685,7 @@ const communes = [
     "2": 5,
     "id": 86,
     "name": "Ankadimanga",
-    "id_district": 5
+    "districtId": 5
   },
   {
     "0": 87,
@@ -693,7 +693,7 @@ const communes = [
     "2": 5,
     "id": 87,
     "name": "Ankaraobato",
-    "id_district": 5
+    "districtId": 5
   },
   {
     "0": 88,
@@ -701,7 +701,7 @@ const communes = [
     "2": 5,
     "id": 88,
     "name": "Anosizato Andrefana",
-    "id_district": 5
+    "districtId": 5
   },
   {
     "0": 89,
@@ -709,7 +709,7 @@ const communes = [
     "2": 5,
     "id": 89,
     "name": "Antanetikely",
-    "id_district": 5
+    "districtId": 5
   },
   {
     "0": 90,
@@ -717,7 +717,7 @@ const communes = [
     "2": 5,
     "id": 90,
     "name": "Bemasoandro",
-    "id_district": 5
+    "districtId": 5
   },
   {
     "0": 91,
@@ -725,7 +725,7 @@ const communes = [
     "2": 5,
     "id": 91,
     "name": "Bongatsara",
-    "id_district": 5
+    "districtId": 5
   },
   {
     "0": 92,
@@ -733,7 +733,7 @@ const communes = [
     "2": 5,
     "id": 92,
     "name": "Fenoarivo",
-    "id_district": 5
+    "districtId": 5
   },
   {
     "0": 93,
@@ -741,7 +741,7 @@ const communes = [
     "2": 5,
     "id": 93,
     "name": "Fiombonana",
-    "id_district": 5
+    "districtId": 5
   },
   {
     "0": 94,
@@ -749,7 +749,7 @@ const communes = [
     "2": 5,
     "id": 94,
     "name": "Itaosy",
-    "id_district": 5
+    "districtId": 5
   },
   {
     "0": 95,
@@ -757,7 +757,7 @@ const communes = [
     "2": 5,
     "id": 95,
     "name": "Soalandy",
-    "id_district": 5
+    "districtId": 5
   },
   {
     "0": 96,
@@ -765,7 +765,7 @@ const communes = [
     "2": 5,
     "id": 96,
     "name": "Soavina",
-    "id_district": 5
+    "districtId": 5
   },
   {
     "0": 97,
@@ -773,7 +773,7 @@ const communes = [
     "2": 5,
     "id": 97,
     "name": "Tanjombato",
-    "id_district": 5
+    "districtId": 5
   },
   {
     "0": 98,
@@ -781,7 +781,7 @@ const communes = [
     "2": 5,
     "id": 98,
     "name": "Tsiafahy",
-    "id_district": 5
+    "districtId": 5
   },
   {
     "0": 99,
@@ -789,7 +789,7 @@ const communes = [
     "2": 6,
     "id": 99,
     "name": "Alasora",
-    "id_district": 6
+    "districtId": 6
   },
   {
     "0": 100,
@@ -797,7 +797,7 @@ const communes = [
     "2": 6,
     "id": 100,
     "name": "Ambohimalaza Miray",
-    "id_district": 6
+    "districtId": 6
   },
   {
     "0": 101,
@@ -805,7 +805,7 @@ const communes = [
     "2": 6,
     "id": 101,
     "name": "Ambohimanambola",
-    "id_district": 6
+    "districtId": 6
   },
   {
     "0": 102,
@@ -813,7 +813,7 @@ const communes = [
     "2": 6,
     "id": 102,
     "name": "Ambohimanga Rova",
-    "id_district": 6
+    "districtId": 6
   },
   {
     "0": 103,
@@ -821,7 +821,7 @@ const communes = [
     "2": 6,
     "id": 103,
     "name": "Ambohimangakely",
-    "id_district": 6
+    "districtId": 6
   },
   {
     "0": 104,
@@ -829,7 +829,7 @@ const communes = [
     "2": 6,
     "id": 104,
     "name": "Ambohitrabiby",
-    "id_district": 6
+    "districtId": 6
   },
   {
     "0": 105,
@@ -837,7 +837,7 @@ const communes = [
     "2": 6,
     "id": 105,
     "name": "Anjeva Gare",
-    "id_district": 6
+    "districtId": 6
   },
   {
     "0": 106,
@@ -845,7 +845,7 @@ const communes = [
     "2": 6,
     "id": 106,
     "name": "Ankadikely Ilafy",
-    "id_district": 6
+    "districtId": 6
   },
   {
     "0": 107,
@@ -853,7 +853,7 @@ const communes = [
     "2": 6,
     "id": 107,
     "name": "Ankadinandriana",
-    "id_district": 6
+    "districtId": 6
   },
   {
     "0": 108,
@@ -861,7 +861,7 @@ const communes = [
     "2": 6,
     "id": 108,
     "name": "Anosy Avaratra",
-    "id_district": 6
+    "districtId": 6
   },
   {
     "0": 109,
@@ -869,7 +869,7 @@ const communes = [
     "2": 6,
     "id": 109,
     "name": "Fieferana",
-    "id_district": 6
+    "districtId": 6
   },
   {
     "0": 110,
@@ -877,7 +877,7 @@ const communes = [
     "2": 6,
     "id": 110,
     "name": "Manandriana",
-    "id_district": 6
+    "districtId": 6
   },
   {
     "0": 111,
@@ -885,7 +885,7 @@ const communes = [
     "2": 6,
     "id": 111,
     "name": "Masindray",
-    "id_district": 6
+    "districtId": 6
   },
   {
     "0": 112,
@@ -893,7 +893,7 @@ const communes = [
     "2": 6,
     "id": 112,
     "name": "Sabotsy Namehana",
-    "id_district": 6
+    "districtId": 6
   },
   {
     "0": 113,
@@ -901,7 +901,7 @@ const communes = [
     "2": 6,
     "id": 113,
     "name": "Talata Volonondry",
-    "id_district": 6
+    "districtId": 6
   },
   {
     "0": 114,
@@ -909,7 +909,7 @@ const communes = [
     "2": 6,
     "id": 114,
     "name": "Viliahazo",
-    "id_district": 6
+    "districtId": 6
   },
   {
     "0": 115,
@@ -917,7 +917,7 @@ const communes = [
     "2": 7,
     "id": 115,
     "name": "CU Antananarivo (Arr. I)",
-    "id_district": 7
+    "districtId": 7
   },
   {
     "0": 116,
@@ -925,7 +925,7 @@ const communes = [
     "2": 8,
     "id": 116,
     "name": "CU Antananarivo (Arr. II)",
-    "id_district": 8
+    "districtId": 8
   },
   {
     "0": 117,
@@ -933,7 +933,7 @@ const communes = [
     "2": 9,
     "id": 117,
     "name": "CU Antananarivo (Arr. III)",
-    "id_district": 9
+    "districtId": 9
   },
   {
     "0": 118,
@@ -941,7 +941,7 @@ const communes = [
     "2": 10,
     "id": 118,
     "name": "CU Antananarivo (Arr. IV)",
-    "id_district": 10
+    "districtId": 10
   },
   {
     "0": 119,
@@ -949,7 +949,7 @@ const communes = [
     "2": 11,
     "id": 119,
     "name": "CU Antananarivo (Arr. V)",
-    "id_district": 11
+    "districtId": 11
   },
   {
     "0": 120,
@@ -957,7 +957,7 @@ const communes = [
     "2": 12,
     "id": 120,
     "name": "CU Antananarivo (Arr. VI)",
-    "id_district": 12
+    "districtId": 12
   },
   {
     "0": 121,
@@ -965,7 +965,7 @@ const communes = [
     "2": 13,
     "id": 121,
     "name": "Alarobia",
-    "id_district": 13
+    "districtId": 13
   },
   {
     "0": 122,
@@ -973,7 +973,7 @@ const communes = [
     "2": 13,
     "id": 122,
     "name": "Ambanitsena",
-    "id_district": 13
+    "districtId": 13
   },
   {
     "0": 123,
@@ -981,7 +981,7 @@ const communes = [
     "2": 13,
     "id": 123,
     "name": "Ambatolaona",
-    "id_district": 13
+    "districtId": 13
   },
   {
     "0": 124,
@@ -989,7 +989,7 @@ const communes = [
     "2": 13,
     "id": 124,
     "name": "Ambatomanga",
-    "id_district": 13
+    "districtId": 13
   },
   {
     "0": 125,
@@ -997,7 +997,7 @@ const communes = [
     "2": 13,
     "id": 125,
     "name": "Ambatomena",
-    "id_district": 13
+    "districtId": 13
   },
   {
     "0": 126,
@@ -1005,7 +1005,7 @@ const communes = [
     "2": 13,
     "id": 126,
     "name": "Ambohibao Sud",
-    "id_district": 13
+    "districtId": 13
   },
   {
     "0": 127,
@@ -1013,7 +1013,7 @@ const communes = [
     "2": 13,
     "id": 127,
     "name": "Ambohibary",
-    "id_district": 13
+    "districtId": 13
   },
   {
     "0": 128,
@@ -1021,7 +1021,7 @@ const communes = [
     "2": 13,
     "id": 128,
     "name": "Ambohitrandriamanitra",
-    "id_district": 13
+    "districtId": 13
   },
   {
     "0": 129,
@@ -1029,7 +1029,7 @@ const communes = [
     "2": 13,
     "id": 129,
     "name": "Ambohitrolomahitsy",
-    "id_district": 13
+    "districtId": 13
   },
   {
     "0": 130,
@@ -1037,7 +1037,7 @@ const communes = [
     "2": 13,
     "id": 130,
     "name": "Ambohitrony",
-    "id_district": 13
+    "districtId": 13
   },
   {
     "0": 131,
@@ -1045,7 +1045,7 @@ const communes = [
     "2": 13,
     "id": 131,
     "name": "Ambohitseheno",
-    "id_district": 13
+    "districtId": 13
   },
   {
     "0": 132,
@@ -1053,7 +1053,7 @@ const communes = [
     "2": 13,
     "id": 132,
     "name": "Ampaneva",
-    "id_district": 13
+    "districtId": 13
   },
   {
     "0": 133,
@@ -1061,7 +1061,7 @@ const communes = [
     "2": 13,
     "id": 133,
     "name": "Anjepy",
-    "id_district": 13
+    "districtId": 13
   },
   {
     "0": 134,
@@ -1069,7 +1069,7 @@ const communes = [
     "2": 13,
     "id": 134,
     "name": "Anjoma Betoho",
-    "id_district": 13
+    "districtId": 13
   },
   {
     "0": 135,
@@ -1077,7 +1077,7 @@ const communes = [
     "2": 13,
     "id": 135,
     "name": "Ankazondandy",
-    "id_district": 13
+    "districtId": 13
   },
   {
     "0": 136,
@@ -1085,7 +1085,7 @@ const communes = [
     "2": 13,
     "id": 136,
     "name": "Antsahalalina",
-    "id_district": 13
+    "districtId": 13
   },
   {
     "0": 137,
@@ -1093,7 +1093,7 @@ const communes = [
     "2": 13,
     "id": 137,
     "name": "Manjakandriana",
-    "id_district": 13
+    "districtId": 13
   },
   {
     "0": 138,
@@ -1101,7 +1101,7 @@ const communes = [
     "2": 13,
     "id": 138,
     "name": "Mantasoa",
-    "id_district": 13
+    "districtId": 13
   },
   {
     "0": 139,
@@ -1109,7 +1109,7 @@ const communes = [
     "2": 13,
     "id": 139,
     "name": "Merikanjaka",
-    "id_district": 13
+    "districtId": 13
   },
   {
     "0": 140,
@@ -1117,7 +1117,7 @@ const communes = [
     "2": 13,
     "id": 140,
     "name": "Miadanandriana",
-    "id_district": 13
+    "districtId": 13
   },
   {
     "0": 141,
@@ -1125,7 +1125,7 @@ const communes = [
     "2": 13,
     "id": 141,
     "name": "Nandihizana Carion",
-    "id_district": 13
+    "districtId": 13
   },
   {
     "0": 142,
@@ -1133,7 +1133,7 @@ const communes = [
     "2": 13,
     "id": 142,
     "name": "Ranovao",
-    "id_district": 13
+    "districtId": 13
   },
   {
     "0": 143,
@@ -1141,7 +1141,7 @@ const communes = [
     "2": 13,
     "id": 143,
     "name": "Sadabe",
-    "id_district": 13
+    "districtId": 13
   },
   {
     "0": 144,
@@ -1149,7 +1149,7 @@ const communes = [
     "2": 13,
     "id": 144,
     "name": "Sambaina",
-    "id_district": 13
+    "districtId": 13
   },
   {
     "0": 145,
@@ -1157,7 +1157,7 @@ const communes = [
     "2": 13,
     "id": 145,
     "name": "Soavinandriana (Ambohidratrimoanala)",
-    "id_district": 13
+    "districtId": 13
   },
   {
     "0": 146,
@@ -1165,7 +1165,7 @@ const communes = [
     "2": 14,
     "id": 146,
     "name": "Ambatomainty Sud",
-    "id_district": 14
+    "districtId": 14
   },
   {
     "0": 147,
@@ -1173,7 +1173,7 @@ const communes = [
     "2": 14,
     "id": 147,
     "name": "Ambohitromby",
-    "id_district": 14
+    "districtId": 14
   },
   {
     "0": 148,
@@ -1181,7 +1181,7 @@ const communes = [
     "2": 14,
     "id": 148,
     "name": "Andriampotsy",
-    "id_district": 14
+    "districtId": 14
   },
   {
     "0": 149,
@@ -1189,7 +1189,7 @@ const communes = [
     "2": 14,
     "id": 149,
     "name": "Fenoarivo-Be",
-    "id_district": 14
+    "districtId": 14
   },
   {
     "0": 150,
@@ -1197,7 +1197,7 @@ const communes = [
     "2": 14,
     "id": 150,
     "name": "Firavahana",
-    "id_district": 14
+    "districtId": 14
   },
   {
     "0": 151,
@@ -1205,7 +1205,7 @@ const communes = [
     "2": 14,
     "id": 151,
     "name": "Kiranomena",
-    "id_district": 14
+    "districtId": 14
   },
   {
     "0": 152,
@@ -1213,7 +1213,7 @@ const communes = [
     "2": 14,
     "id": 152,
     "name": "Mahajeby",
-    "id_district": 14
+    "districtId": 14
   },
   {
     "0": 153,
@@ -1221,7 +1221,7 @@ const communes = [
     "2": 14,
     "id": 153,
     "name": "Mangatany",
-    "id_district": 14
+    "districtId": 14
   },
   {
     "0": 154,
@@ -1229,7 +1229,7 @@ const communes = [
     "2": 14,
     "id": 154,
     "name": "Morarano Maritampona",
-    "id_district": 14
+    "districtId": 14
   },
   {
     "0": 155,
@@ -1237,7 +1237,7 @@ const communes = [
     "2": 14,
     "id": 155,
     "name": "Tsinjoarivo",
-    "id_district": 14
+    "districtId": 14
   },
   {
     "0": 156,
@@ -1245,7 +1245,7 @@ const communes = [
     "2": 15,
     "id": 156,
     "name": "Ambalanirana",
-    "id_district": 15
+    "districtId": 15
   },
   {
     "0": 157,
@@ -1253,7 +1253,7 @@ const communes = [
     "2": 15,
     "id": 157,
     "name": "Ambararatabe",
-    "id_district": 15
+    "districtId": 15
   },
   {
     "0": 158,
@@ -1261,7 +1261,7 @@ const communes = [
     "2": 15,
     "id": 158,
     "name": "Ambatolampy",
-    "id_district": 15
+    "districtId": 15
   },
   {
     "0": 159,
@@ -1269,7 +1269,7 @@ const communes = [
     "2": 15,
     "id": 159,
     "name": "Ankadinondry Sakay",
-    "id_district": 15
+    "districtId": 15
   },
   {
     "0": 160,
@@ -1277,7 +1277,7 @@ const communes = [
     "2": 15,
     "id": 160,
     "name": "Ankerana Nord",
-    "id_district": 15
+    "districtId": 15
   },
   {
     "0": 161,
@@ -1285,7 +1285,7 @@ const communes = [
     "2": 15,
     "id": 161,
     "name": "Anosy",
-    "id_district": 15
+    "districtId": 15
   },
   {
     "0": 162,
@@ -1293,7 +1293,7 @@ const communes = [
     "2": 15,
     "id": 162,
     "name": "Antsahalava",
-    "id_district": 15
+    "districtId": 15
   },
   {
     "0": 163,
@@ -1301,7 +1301,7 @@ const communes = [
     "2": 15,
     "id": 163,
     "name": "Belobaka",
-    "id_district": 15
+    "districtId": 15
   },
   {
     "0": 164,
@@ -1309,7 +1309,7 @@ const communes = [
     "2": 15,
     "id": 164,
     "name": "Bemahatazana",
-    "id_district": 15
+    "districtId": 15
   },
   {
     "0": 165,
@@ -1317,7 +1317,7 @@ const communes = [
     "2": 15,
     "id": 165,
     "name": "Bevato",
-    "id_district": 15
+    "districtId": 15
   },
   {
     "0": 166,
@@ -1325,7 +1325,7 @@ const communes = [
     "2": 15,
     "id": 166,
     "name": "Fiadanantsoa",
-    "id_district": 15
+    "districtId": 15
   },
   {
     "0": 167,
@@ -1333,7 +1333,7 @@ const communes = [
     "2": 15,
     "id": 167,
     "name": "Fierenana",
-    "id_district": 15
+    "districtId": 15
   },
   {
     "0": 168,
@@ -1341,7 +1341,7 @@ const communes = [
     "2": 15,
     "id": 168,
     "name": "Mahasolo",
-    "id_district": 15
+    "districtId": 15
   },
   {
     "0": 169,
@@ -1349,7 +1349,7 @@ const communes = [
     "2": 15,
     "id": 169,
     "name": "Maritampona",
-    "id_district": 15
+    "districtId": 15
   },
   {
     "0": 170,
@@ -1357,7 +1357,7 @@ const communes = [
     "2": 15,
     "id": 170,
     "name": "Maroharona",
-    "id_district": 15
+    "districtId": 15
   },
   {
     "0": 171,
@@ -1365,7 +1365,7 @@ const communes = [
     "2": 15,
     "id": 171,
     "name": "Miandrarivo",
-    "id_district": 15
+    "districtId": 15
   },
   {
     "0": 172,
@@ -1373,7 +1373,7 @@ const communes = [
     "2": 15,
     "id": 172,
     "name": "Soanierana",
-    "id_district": 15
+    "districtId": 15
   },
   {
     "0": 173,
@@ -1381,7 +1381,7 @@ const communes = [
     "2": 15,
     "id": 173,
     "name": "Tsinjoarivo-Imanga",
-    "id_district": 15
+    "districtId": 15
   },
   {
     "0": 174,
@@ -1389,7 +1389,7 @@ const communes = [
     "2": 15,
     "id": 174,
     "name": "Tsiroanomandidy Fihaonana",
-    "id_district": 15
+    "districtId": 15
   },
   {
     "0": 175,
@@ -1397,7 +1397,7 @@ const communes = [
     "2": 15,
     "id": 175,
     "name": "Tsiroanomandidy Ville",
-    "id_district": 15
+    "districtId": 15
   },
   {
     "0": 176,
@@ -1405,7 +1405,7 @@ const communes = [
     "2": 16,
     "id": 176,
     "name": "Alakamisikely",
-    "id_district": 16
+    "districtId": 16
   },
   {
     "0": 177,
@@ -1413,7 +1413,7 @@ const communes = [
     "2": 16,
     "id": 177,
     "name": "Ambatomanga",
-    "id_district": 16
+    "districtId": 16
   },
   {
     "0": 178,
@@ -1421,7 +1421,7 @@ const communes = [
     "2": 16,
     "id": 178,
     "name": "Ambatomirahavavy",
-    "id_district": 16
+    "districtId": 16
   },
   {
     "0": 179,
@@ -1429,7 +1429,7 @@ const communes = [
     "2": 16,
     "id": 179,
     "name": "Amboanana",
-    "id_district": 16
+    "districtId": 16
   },
   {
     "0": 180,
@@ -1437,7 +1437,7 @@ const communes = [
     "2": 16,
     "id": 180,
     "name": "Ambohimandry",
-    "id_district": 16
+    "districtId": 16
   },
   {
     "0": 181,
@@ -1445,7 +1445,7 @@ const communes = [
     "2": 16,
     "id": 181,
     "name": "Ambohimasina",
-    "id_district": 16
+    "districtId": 16
   },
   {
     "0": 182,
@@ -1453,7 +1453,7 @@ const communes = [
     "2": 16,
     "id": 182,
     "name": "Ambohipandrano",
-    "id_district": 16
+    "districtId": 16
   },
   {
     "0": 183,
@@ -1461,7 +1461,7 @@ const communes = [
     "2": 16,
     "id": 183,
     "name": "Ambohitrambo",
-    "id_district": 16
+    "districtId": 16
   },
   {
     "0": 184,
@@ -1469,7 +1469,7 @@ const communes = [
     "2": 16,
     "id": 184,
     "name": "Ampahimanga",
-    "id_district": 16
+    "districtId": 16
   },
   {
     "0": 185,
@@ -1477,7 +1477,7 @@ const communes = [
     "2": 16,
     "id": 185,
     "name": "Andranomiely",
-    "id_district": 16
+    "districtId": 16
   },
   {
     "0": 186,
@@ -1485,7 +1485,7 @@ const communes = [
     "2": 16,
     "id": 186,
     "name": "Antambolo",
-    "id_district": 16
+    "districtId": 16
   },
   {
     "0": 187,
@@ -1493,7 +1493,7 @@ const communes = [
     "2": 16,
     "id": 187,
     "name": "Antenimbe",
-    "id_district": 16
+    "districtId": 16
   },
   {
     "0": 188,
@@ -1501,7 +1501,7 @@ const communes = [
     "2": 16,
     "id": 188,
     "name": "Arivonimamo",
-    "id_district": 16
+    "districtId": 16
   },
   {
     "0": 189,
@@ -1509,7 +1509,7 @@ const communes = [
     "2": 16,
     "id": 189,
     "name": "Arivonimamo II",
-    "id_district": 16
+    "districtId": 16
   },
   {
     "0": 190,
@@ -1517,7 +1517,7 @@ const communes = [
     "2": 16,
     "id": 190,
     "name": "Imerintsiatosika",
-    "id_district": 16
+    "districtId": 16
   },
   {
     "0": 191,
@@ -1525,7 +1525,7 @@ const communes = [
     "2": 16,
     "id": 191,
     "name": "Mahatsinjo Est",
-    "id_district": 16
+    "districtId": 16
   },
   {
     "0": 192,
@@ -1533,7 +1533,7 @@ const communes = [
     "2": 16,
     "id": 192,
     "name": "Manalalondo",
-    "id_district": 16
+    "districtId": 16
   },
   {
     "0": 193,
@@ -1541,7 +1541,7 @@ const communes = [
     "2": 16,
     "id": 193,
     "name": "Marofangady",
-    "id_district": 16
+    "districtId": 16
   },
   {
     "0": 194,
@@ -1549,7 +1549,7 @@ const communes = [
     "2": 16,
     "id": 194,
     "name": "Miandrandra",
-    "id_district": 16
+    "districtId": 16
   },
   {
     "0": 195,
@@ -1557,7 +1557,7 @@ const communes = [
     "2": 16,
     "id": 195,
     "name": "Miantsoarivo",
-    "id_district": 16
+    "districtId": 16
   },
   {
     "0": 196,
@@ -1565,7 +1565,7 @@ const communes = [
     "2": 16,
     "id": 196,
     "name": "Morafeno",
-    "id_district": 16
+    "districtId": 16
   },
   {
     "0": 197,
@@ -1573,7 +1573,7 @@ const communes = [
     "2": 16,
     "id": 197,
     "name": "Morarano",
-    "id_district": 16
+    "districtId": 16
   },
   {
     "0": 198,
@@ -1581,7 +1581,7 @@ const communes = [
     "2": 16,
     "id": 198,
     "name": "Talata Tsimadilo",
-    "id_district": 16
+    "districtId": 16
   },
   {
     "0": 199,
@@ -1589,7 +1589,7 @@ const communes = [
     "2": 17,
     "id": 199,
     "name": "Alatsinainikely",
-    "id_district": 17
+    "districtId": 17
   },
   {
     "0": 200,
@@ -1597,7 +1597,7 @@ const communes = [
     "2": 17,
     "id": 200,
     "name": "Ambatomanjaka",
-    "id_district": 17
+    "districtId": 17
   },
   {
     "0": 201,
@@ -1605,7 +1605,7 @@ const communes = [
     "2": 17,
     "id": 201,
     "name": "Analavory",
-    "id_district": 17
+    "districtId": 17
   },
   {
     "0": 202,
@@ -1613,7 +1613,7 @@ const communes = [
     "2": 17,
     "id": 202,
     "name": "Andolofotsy",
-    "id_district": 17
+    "districtId": 17
   },
   {
     "0": 203,
@@ -1621,7 +1621,7 @@ const communes = [
     "2": 17,
     "id": 203,
     "name": "Anosibe-Ifanja",
-    "id_district": 17
+    "districtId": 17
   },
   {
     "0": 204,
@@ -1629,7 +1629,7 @@ const communes = [
     "2": 17,
     "id": 204,
     "name": "Antoby Est",
-    "id_district": 17
+    "districtId": 17
   },
   {
     "0": 205,
@@ -1637,7 +1637,7 @@ const communes = [
     "2": 17,
     "id": 205,
     "name": "Manazary",
-    "id_district": 17
+    "districtId": 17
   },
   {
     "0": 206,
@@ -1645,7 +1645,7 @@ const communes = [
     "2": 17,
     "id": 206,
     "name": "Mandiavato",
-    "id_district": 17
+    "districtId": 17
   },
   {
     "0": 207,
@@ -1653,7 +1653,7 @@ const communes = [
     "2": 17,
     "id": 207,
     "name": "Miarinarivo",
-    "id_district": 17
+    "districtId": 17
   },
   {
     "0": 208,
@@ -1661,7 +1661,7 @@ const communes = [
     "2": 17,
     "id": 208,
     "name": "Miarinarivo II",
-    "id_district": 17
+    "districtId": 17
   },
   {
     "0": 209,
@@ -1669,7 +1669,7 @@ const communes = [
     "2": 17,
     "id": 209,
     "name": "Sarobaratra",
-    "id_district": 17
+    "districtId": 17
   },
   {
     "0": 210,
@@ -1677,7 +1677,7 @@ const communes = [
     "2": 17,
     "id": 210,
     "name": "Soamahamanina",
-    "id_district": 17
+    "districtId": 17
   },
   {
     "0": 211,
@@ -1685,7 +1685,7 @@ const communes = [
     "2": 17,
     "id": 211,
     "name": "Soavimbazaha",
-    "id_district": 17
+    "districtId": 17
   },
   {
     "0": 212,
@@ -1693,7 +1693,7 @@ const communes = [
     "2": 17,
     "id": 212,
     "name": "Zoma Behaloka",
-    "id_district": 17
+    "districtId": 17
   },
   {
     "0": 213,
@@ -1701,7 +1701,7 @@ const communes = [
     "2": 18,
     "id": 213,
     "name": "Ambatoasana Centre",
-    "id_district": 18
+    "districtId": 18
   },
   {
     "0": 214,
@@ -1709,7 +1709,7 @@ const communes = [
     "2": 18,
     "id": 214,
     "name": "Amberomanga",
-    "id_district": 18
+    "districtId": 18
   },
   {
     "0": 215,
@@ -1717,7 +1717,7 @@ const communes = [
     "2": 18,
     "id": 215,
     "name": "Ambohidanerana",
-    "id_district": 18
+    "districtId": 18
   },
   {
     "0": 216,
@@ -1725,7 +1725,7 @@ const communes = [
     "2": 18,
     "id": 216,
     "name": "Amparaky",
-    "id_district": 18
+    "districtId": 18
   },
   {
     "0": 217,
@@ -1733,7 +1733,7 @@ const communes = [
     "2": 18,
     "id": 217,
     "name": "Amparibohitra",
-    "id_district": 18
+    "districtId": 18
   },
   {
     "0": 218,
@@ -1741,7 +1741,7 @@ const communes = [
     "2": 18,
     "id": 218,
     "name": "Ampary",
-    "id_district": 18
+    "districtId": 18
   },
   {
     "0": 219,
@@ -1749,7 +1749,7 @@ const communes = [
     "2": 18,
     "id": 219,
     "name": "Ampefy",
-    "id_district": 18
+    "districtId": 18
   },
   {
     "0": 220,
@@ -1757,7 +1757,7 @@ const communes = [
     "2": 18,
     "id": 220,
     "name": "Ankaranana",
-    "id_district": 18
+    "districtId": 18
   },
   {
     "0": 221,
@@ -1765,7 +1765,7 @@ const communes = [
     "2": 18,
     "id": 221,
     "name": "Ankisabe",
-    "id_district": 18
+    "districtId": 18
   },
   {
     "0": 222,
@@ -1773,7 +1773,7 @@ const communes = [
     "2": 18,
     "id": 222,
     "name": "Antanetibe",
-    "id_district": 18
+    "districtId": 18
   },
   {
     "0": 223,
@@ -1781,7 +1781,7 @@ const communes = [
     "2": 18,
     "id": 223,
     "name": "Dondona",
-    "id_district": 18
+    "districtId": 18
   },
   {
     "0": 224,
@@ -1789,7 +1789,7 @@ const communes = [
     "2": 18,
     "id": 224,
     "name": "Mahavelona",
-    "id_district": 18
+    "districtId": 18
   },
   {
     "0": 225,
@@ -1797,7 +1797,7 @@ const communes = [
     "2": 18,
     "id": 225,
     "name": "Mananasy",
-    "id_district": 18
+    "districtId": 18
   },
   {
     "0": 226,
@@ -1805,7 +1805,7 @@ const communes = [
     "2": 18,
     "id": 226,
     "name": "Masindray",
-    "id_district": 18
+    "districtId": 18
   },
   {
     "0": 227,
@@ -1813,7 +1813,7 @@ const communes = [
     "2": 18,
     "id": 227,
     "name": "Soavinandriana",
-    "id_district": 18
+    "districtId": 18
   },
   {
     "0": 228,
@@ -1821,7 +1821,7 @@ const communes = [
     "2": 18,
     "id": 228,
     "name": "Tamponala",
-    "id_district": 18
+    "districtId": 18
   },
   {
     "0": 229,
@@ -1829,7 +1829,7 @@ const communes = [
     "2": 19,
     "id": 229,
     "name": "Ambatolampy",
-    "id_district": 19
+    "districtId": 19
   },
   {
     "0": 230,
@@ -1837,7 +1837,7 @@ const communes = [
     "2": 19,
     "id": 230,
     "name": "Ambatondrakalavao",
-    "id_district": 19
+    "districtId": 19
   },
   {
     "0": 231,
@@ -1845,7 +1845,7 @@ const communes = [
     "2": 19,
     "id": 231,
     "name": "Ambodifarihy Fenomanana",
-    "id_district": 19
+    "districtId": 19
   },
   {
     "0": 232,
@@ -1853,7 +1853,7 @@ const communes = [
     "2": 19,
     "id": 232,
     "name": "Ambohimpihaonana",
-    "id_district": 19
+    "districtId": 19
   },
   {
     "0": 233,
@@ -1861,7 +1861,7 @@ const communes = [
     "2": 19,
     "id": 233,
     "name": "Andranovelona",
-    "id_district": 19
+    "districtId": 19
   },
   {
     "0": 234,
@@ -1869,7 +1869,7 @@ const communes = [
     "2": 19,
     "id": 234,
     "name": "Andravola Vohipeno",
-    "id_district": 19
+    "districtId": 19
   },
   {
     "0": 235,
@@ -1877,7 +1877,7 @@ const communes = [
     "2": 19,
     "id": 235,
     "name": "Andriambilany",
-    "id_district": 19
+    "districtId": 19
   },
   {
     "0": 236,
@@ -1885,7 +1885,7 @@ const communes = [
     "2": 19,
     "id": 236,
     "name": "Andriatsivalana",
-    "id_district": 19
+    "districtId": 19
   },
   {
     "0": 237,
@@ -1893,7 +1893,7 @@ const communes = [
     "2": 19,
     "id": 237,
     "name": "Antakasina",
-    "id_district": 19
+    "districtId": 19
   },
   {
     "0": 238,
@@ -1901,7 +1901,7 @@ const communes = [
     "2": 19,
     "id": 238,
     "name": "Antanamalaza",
-    "id_district": 19
+    "districtId": 19
   },
   {
     "0": 239,
@@ -1909,7 +1909,7 @@ const communes = [
     "2": 19,
     "id": 239,
     "name": "Antanimasaka",
-    "id_district": 19
+    "districtId": 19
   },
   {
     "0": 240,
@@ -1917,7 +1917,7 @@ const communes = [
     "2": 19,
     "id": 240,
     "name": "Antsampandrano",
-    "id_district": 19
+    "districtId": 19
   },
   {
     "0": 241,
@@ -1925,7 +1925,7 @@ const communes = [
     "2": 19,
     "id": 241,
     "name": "Behenjy",
-    "id_district": 19
+    "districtId": 19
   },
   {
     "0": 242,
@@ -1933,7 +1933,7 @@ const communes = [
     "2": 19,
     "id": 242,
     "name": "Belambo Firaisana",
-    "id_district": 19
+    "districtId": 19
   },
   {
     "0": 243,
@@ -1941,7 +1941,7 @@ const communes = [
     "2": 19,
     "id": 243,
     "name": "Manjakatompo",
-    "id_district": 19
+    "districtId": 19
   },
   {
     "0": 244,
@@ -1949,7 +1949,7 @@ const communes = [
     "2": 19,
     "id": 244,
     "name": "Morarano",
-    "id_district": 19
+    "districtId": 19
   },
   {
     "0": 245,
@@ -1957,7 +1957,7 @@ const communes = [
     "2": 19,
     "id": 245,
     "name": "Sabotsy Namatoana",
-    "id_district": 19
+    "districtId": 19
   },
   {
     "0": 246,
@@ -1965,7 +1965,7 @@ const communes = [
     "2": 19,
     "id": 246,
     "name": "Tsiafajavona Ankaratra",
-    "id_district": 19
+    "districtId": 19
   },
   {
     "0": 247,
@@ -1973,7 +1973,7 @@ const communes = [
     "2": 19,
     "id": 247,
     "name": "Tsinjoarivo",
-    "id_district": 19
+    "districtId": 19
   },
   {
     "0": 248,
@@ -1981,7 +1981,7 @@ const communes = [
     "2": 20,
     "id": 248,
     "name": "Ambatolahy",
-    "id_district": 20
+    "districtId": 20
   },
   {
     "0": 249,
@@ -1989,7 +1989,7 @@ const communes = [
     "2": 20,
     "id": 249,
     "name": "Ambatomiady",
-    "id_district": 20
+    "districtId": 20
   },
   {
     "0": 250,
@@ -1997,7 +1997,7 @@ const communes = [
     "2": 20,
     "id": 250,
     "name": "Ambatotsipihana",
-    "id_district": 20
+    "districtId": 20
   },
   {
     "0": 251,
@@ -2005,7 +2005,7 @@ const communes = [
     "2": 20,
     "id": 251,
     "name": "Ambodiriana",
-    "id_district": 20
+    "districtId": 20
   },
   {
     "0": 252,
@@ -2013,7 +2013,7 @@ const communes = [
     "2": 20,
     "id": 252,
     "name": "Ambohimandroso",
-    "id_district": 20
+    "districtId": 20
   },
   {
     "0": 253,
@@ -2021,7 +2021,7 @@ const communes = [
     "2": 20,
     "id": 253,
     "name": "Ambohitompoina",
-    "id_district": 20
+    "districtId": 20
   },
   {
     "0": 254,
@@ -2029,7 +2029,7 @@ const communes = [
     "2": 20,
     "id": 254,
     "name": "Ampitatafika",
-    "id_district": 20
+    "districtId": 20
   },
   {
     "0": 255,
@@ -2037,7 +2037,7 @@ const communes = [
     "2": 20,
     "id": 255,
     "name": "Andranofito",
-    "id_district": 20
+    "districtId": 20
   },
   {
     "0": 256,
@@ -2045,7 +2045,7 @@ const communes = [
     "2": 20,
     "id": 256,
     "name": "Anjamanga",
-    "id_district": 20
+    "districtId": 20
   },
   {
     "0": 257,
@@ -2053,7 +2053,7 @@ const communes = [
     "2": 20,
     "id": 257,
     "name": "Antanifotsy",
-    "id_district": 20
+    "districtId": 20
   },
   {
     "0": 258,
@@ -2061,7 +2061,7 @@ const communes = [
     "2": 20,
     "id": 258,
     "name": "Antsahalava",
-    "id_district": 20
+    "districtId": 20
   },
   {
     "0": 259,
@@ -2069,7 +2069,7 @@ const communes = [
     "2": 20,
     "id": 259,
     "name": "Antsampandrano",
-    "id_district": 20
+    "districtId": 20
   },
   {
     "0": 260,
@@ -2077,7 +2077,7 @@ const communes = [
     "2": 20,
     "id": 260,
     "name": "Belanitra",
-    "id_district": 20
+    "districtId": 20
   },
   {
     "0": 261,
@@ -2085,7 +2085,7 @@ const communes = [
     "2": 20,
     "id": 261,
     "name": "Soamanandrariny",
-    "id_district": 20
+    "districtId": 20
   },
   {
     "0": 262,
@@ -2093,7 +2093,7 @@ const communes = [
     "2": 21,
     "id": 262,
     "name": "CU Antsirabe",
-    "id_district": 21
+    "districtId": 21
   },
   {
     "0": 263,
@@ -2101,7 +2101,7 @@ const communes = [
     "2": 22,
     "id": 263,
     "name": "Alakamisy",
-    "id_district": 22
+    "districtId": 22
   },
   {
     "0": 264,
@@ -2109,7 +2109,7 @@ const communes = [
     "2": 22,
     "id": 264,
     "name": "Alatsinainy Ibity",
-    "id_district": 22
+    "districtId": 22
   },
   {
     "0": 265,
@@ -2117,7 +2117,7 @@ const communes = [
     "2": 22,
     "id": 265,
     "name": "Ambano",
-    "id_district": 22
+    "districtId": 22
   },
   {
     "0": 266,
@@ -2125,7 +2125,7 @@ const communes = [
     "2": 22,
     "id": 266,
     "name": "Ambatomena",
-    "id_district": 22
+    "districtId": 22
   },
   {
     "0": 267,
@@ -2133,7 +2133,7 @@ const communes = [
     "2": 22,
     "id": 267,
     "name": "Ambohibary",
-    "id_district": 22
+    "districtId": 22
   },
   {
     "0": 268,
@@ -2141,7 +2141,7 @@ const communes = [
     "2": 22,
     "id": 268,
     "name": "Ambohidranandriana",
-    "id_district": 22
+    "districtId": 22
   },
   {
     "0": 269,
@@ -2149,7 +2149,7 @@ const communes = [
     "2": 22,
     "id": 269,
     "name": "Ambohimiarivo",
-    "id_district": 22
+    "districtId": 22
   },
   {
     "0": 270,
@@ -2157,7 +2157,7 @@ const communes = [
     "2": 22,
     "id": 270,
     "name": "Ambohitsimanova",
-    "id_district": 22
+    "districtId": 22
   },
   {
     "0": 271,
@@ -2165,7 +2165,7 @@ const communes = [
     "2": 22,
     "id": 271,
     "name": "Andranomanelatra",
-    "id_district": 22
+    "districtId": 22
   },
   {
     "0": 272,
@@ -2173,7 +2173,7 @@ const communes = [
     "2": 22,
     "id": 272,
     "name": "Antanambao",
-    "id_district": 22
+    "districtId": 22
   },
   {
     "0": 273,
@@ -2181,7 +2181,7 @@ const communes = [
     "2": 22,
     "id": 273,
     "name": "Antanimandry",
-    "id_district": 22
+    "districtId": 22
   },
   {
     "0": 274,
@@ -2189,7 +2189,7 @@ const communes = [
     "2": 22,
     "id": 274,
     "name": "Antsoatany",
-    "id_district": 22
+    "districtId": 22
   },
   {
     "0": 275,
@@ -2197,7 +2197,7 @@ const communes = [
     "2": 22,
     "id": 275,
     "name": "Belazao",
-    "id_district": 22
+    "districtId": 22
   },
   {
     "0": 276,
@@ -2205,7 +2205,7 @@ const communes = [
     "2": 22,
     "id": 276,
     "name": "Manandona",
-    "id_district": 22
+    "districtId": 22
   },
   {
     "0": 277,
@@ -2213,7 +2213,7 @@ const communes = [
     "2": 22,
     "id": 277,
     "name": "Mandrosohasina",
-    "id_district": 22
+    "districtId": 22
   },
   {
     "0": 278,
@@ -2221,7 +2221,7 @@ const communes = [
     "2": 22,
     "id": 278,
     "name": "Mangarano",
-    "id_district": 22
+    "districtId": 22
   },
   {
     "0": 279,
@@ -2229,7 +2229,7 @@ const communes = [
     "2": 22,
     "id": 279,
     "name": "Sahanivotry Manandona",
-    "id_district": 22
+    "districtId": 22
   },
   {
     "0": 280,
@@ -2237,7 +2237,7 @@ const communes = [
     "2": 22,
     "id": 280,
     "name": "Soanindrariny",
-    "id_district": 22
+    "districtId": 22
   },
   {
     "0": 281,
@@ -2245,7 +2245,7 @@ const communes = [
     "2": 22,
     "id": 281,
     "name": "Tsarahonenana Sahanivotry",
-    "id_district": 22
+    "districtId": 22
   },
   {
     "0": 282,
@@ -2253,7 +2253,7 @@ const communes = [
     "2": 22,
     "id": 282,
     "name": "Vinanikarena",
-    "id_district": 22
+    "districtId": 22
   },
   {
     "0": 283,
@@ -2261,7 +2261,7 @@ const communes = [
     "2": 23,
     "id": 283,
     "name": "Alakamisy Anativato",
-    "id_district": 23
+    "districtId": 23
   },
   {
     "0": 284,
@@ -2269,7 +2269,7 @@ const communes = [
     "2": 23,
     "id": 284,
     "name": "Alakamisy Marososona",
-    "id_district": 23
+    "districtId": 23
   },
   {
     "0": 285,
@@ -2277,7 +2277,7 @@ const communes = [
     "2": 23,
     "id": 285,
     "name": "Alarobia Bemaha",
-    "id_district": 23
+    "districtId": 23
   },
   {
     "0": 286,
@@ -2285,7 +2285,7 @@ const communes = [
     "2": 23,
     "id": 286,
     "name": "Ambatonikolahy",
-    "id_district": 23
+    "districtId": 23
   },
   {
     "0": 287,
@@ -2293,7 +2293,7 @@ const communes = [
     "2": 23,
     "id": 287,
     "name": "Ambohimanambola",
-    "id_district": 23
+    "districtId": 23
   },
   {
     "0": 288,
@@ -2301,7 +2301,7 @@ const communes = [
     "2": 23,
     "id": 288,
     "name": "Ambohimasina",
-    "id_district": 23
+    "districtId": 23
   },
   {
     "0": 289,
@@ -2309,7 +2309,7 @@ const communes = [
     "2": 23,
     "id": 289,
     "name": "Andranomafana",
-    "id_district": 23
+    "districtId": 23
   },
   {
     "0": 290,
@@ -2317,7 +2317,7 @@ const communes = [
     "2": 23,
     "id": 290,
     "name": "Andrembesoa",
-    "id_district": 23
+    "districtId": 23
   },
   {
     "0": 291,
@@ -2325,7 +2325,7 @@ const communes = [
     "2": 23,
     "id": 291,
     "name": "Anosiarivo Manapa",
-    "id_district": 23
+    "districtId": 23
   },
   {
     "0": 292,
@@ -2333,7 +2333,7 @@ const communes = [
     "2": 23,
     "id": 292,
     "name": "Antohobe",
-    "id_district": 23
+    "districtId": 23
   },
   {
     "0": 293,
@@ -2341,7 +2341,7 @@ const communes = [
     "2": 23,
     "id": 293,
     "name": "Antsoso",
-    "id_district": 23
+    "districtId": 23
   },
   {
     "0": 294,
@@ -2349,7 +2349,7 @@ const communes = [
     "2": 23,
     "id": 294,
     "name": "Betafo",
-    "id_district": 23
+    "districtId": 23
   },
   {
     "0": 295,
@@ -2357,7 +2357,7 @@ const communes = [
     "2": 23,
     "id": 295,
     "name": "Inanantonana",
-    "id_district": 23
+    "districtId": 23
   },
   {
     "0": 296,
@@ -2365,7 +2365,7 @@ const communes = [
     "2": 23,
     "id": 296,
     "name": "Mahaiza",
-    "id_district": 23
+    "districtId": 23
   },
   {
     "0": 297,
@@ -2373,7 +2373,7 @@ const communes = [
     "2": 23,
     "id": 297,
     "name": "Mandritsara",
-    "id_district": 23
+    "districtId": 23
   },
   {
     "0": 298,
@@ -2381,7 +2381,7 @@ const communes = [
     "2": 23,
     "id": 298,
     "name": "Manohisoa",
-    "id_district": 23
+    "districtId": 23
   },
   {
     "0": 299,
@@ -2389,7 +2389,7 @@ const communes = [
     "2": 23,
     "id": 299,
     "name": "Soavina",
-    "id_district": 23
+    "districtId": 23
   },
   {
     "0": 300,
@@ -2397,7 +2397,7 @@ const communes = [
     "2": 23,
     "id": 300,
     "name": "Tritriva",
-    "id_district": 23
+    "districtId": 23
   },
   {
     "0": 301,
@@ -2405,7 +2405,7 @@ const communes = [
     "2": 24,
     "id": 301,
     "name": "Ambohiborona",
-    "id_district": 24
+    "districtId": 24
   },
   {
     "0": 302,
@@ -2413,7 +2413,7 @@ const communes = [
     "2": 24,
     "id": 302,
     "name": "Andranomiady",
-    "id_district": 24
+    "districtId": 24
   },
   {
     "0": 303,
@@ -2421,7 +2421,7 @@ const communes = [
     "2": 24,
     "id": 303,
     "name": "Antsampanimahazo",
-    "id_district": 24
+    "districtId": 24
   },
   {
     "0": 304,
@@ -2429,7 +2429,7 @@ const communes = [
     "2": 24,
     "id": 304,
     "name": "Faratsiho",
-    "id_district": 24
+    "districtId": 24
   },
   {
     "0": 305,
@@ -2437,7 +2437,7 @@ const communes = [
     "2": 24,
     "id": 305,
     "name": "Faravohitra",
-    "id_district": 24
+    "districtId": 24
   },
   {
     "0": 306,
@@ -2445,7 +2445,7 @@ const communes = [
     "2": 24,
     "id": 306,
     "name": "Miandrarivo",
-    "id_district": 24
+    "districtId": 24
   },
   {
     "0": 307,
@@ -2453,7 +2453,7 @@ const communes = [
     "2": 24,
     "id": 307,
     "name": "Ramainandro",
-    "id_district": 24
+    "districtId": 24
   },
   {
     "0": 308,
@@ -2461,7 +2461,7 @@ const communes = [
     "2": 24,
     "id": 308,
     "name": "Valabetokana",
-    "id_district": 24
+    "districtId": 24
   },
   {
     "0": 309,
@@ -2469,7 +2469,7 @@ const communes = [
     "2": 24,
     "id": 309,
     "name": "Vinaninony Sud",
-    "id_district": 24
+    "districtId": 24
   },
   {
     "0": 310,
@@ -2477,7 +2477,7 @@ const communes = [
     "2": 25,
     "id": 310,
     "name": "Anjoma Ramartina",
-    "id_district": 25
+    "districtId": 25
   },
   {
     "0": 311,
@@ -2485,7 +2485,7 @@ const communes = [
     "2": 25,
     "id": 311,
     "name": "Ankazomiriotra",
-    "id_district": 25
+    "districtId": 25
   },
   {
     "0": 312,
@@ -2493,7 +2493,7 @@ const communes = [
     "2": 25,
     "id": 312,
     "name": "Antanambao Ambary",
-    "id_district": 25
+    "districtId": 25
   },
   {
     "0": 313,
@@ -2501,7 +2501,7 @@ const communes = [
     "2": 25,
     "id": 313,
     "name": "Betsohana",
-    "id_district": 25
+    "districtId": 25
   },
   {
     "0": 314,
@@ -2509,7 +2509,7 @@ const communes = [
     "2": 25,
     "id": 314,
     "name": "Fidirana",
-    "id_district": 25
+    "districtId": 25
   },
   {
     "0": 315,
@@ -2517,7 +2517,7 @@ const communes = [
     "2": 25,
     "id": 315,
     "name": "Mandoto",
-    "id_district": 25
+    "districtId": 25
   },
   {
     "0": 316,
@@ -2525,7 +2525,7 @@ const communes = [
     "2": 25,
     "id": 316,
     "name": "Maromandray",
-    "id_district": 25
+    "districtId": 25
   },
   {
     "0": 317,
@@ -2533,7 +2533,7 @@ const communes = [
     "2": 25,
     "id": 317,
     "name": "Vasiana",
-    "id_district": 25
+    "districtId": 25
   },
   {
     "0": 318,
@@ -2541,7 +2541,7 @@ const communes = [
     "2": 25,
     "id": 318,
     "name": "Vinany",
-    "id_district": 25
+    "districtId": 25
   },
   {
     "0": 319,
@@ -2549,7 +2549,7 @@ const communes = [
     "2": 26,
     "id": 319,
     "name": "Ambalahonko",
-    "id_district": 26
+    "districtId": 26
   },
   {
     "0": 320,
@@ -2557,7 +2557,7 @@ const communes = [
     "2": 26,
     "id": 320,
     "name": "Ambaliha",
-    "id_district": 26
+    "districtId": 26
   },
   {
     "0": 321,
@@ -2565,7 +2565,7 @@ const communes = [
     "2": 26,
     "id": 321,
     "name": "Ambanja",
-    "id_district": 26
+    "districtId": 26
   },
   {
     "0": 322,
@@ -2573,7 +2573,7 @@ const communes = [
     "2": 26,
     "id": 322,
     "name": "Ambodimanga Ramena",
-    "id_district": 26
+    "districtId": 26
   },
   {
     "0": 323,
@@ -2581,7 +2581,7 @@ const communes = [
     "2": 26,
     "id": 323,
     "name": "Ambohimarina",
-    "id_district": 26
+    "districtId": 26
   },
   {
     "0": 324,
@@ -2589,7 +2589,7 @@ const communes = [
     "2": 26,
     "id": 324,
     "name": "Ambohimena",
-    "id_district": 26
+    "districtId": 26
   },
   {
     "0": 325,
@@ -2597,7 +2597,7 @@ const communes = [
     "2": 26,
     "id": 325,
     "name": "Ambohitrandriana",
-    "id_district": 26
+    "districtId": 26
   },
   {
     "0": 326,
@@ -2605,7 +2605,7 @@ const communes = [
     "2": 26,
     "id": 326,
     "name": "Ankatafa",
-    "id_district": 26
+    "districtId": 26
   },
   {
     "0": 327,
@@ -2613,7 +2613,7 @@ const communes = [
     "2": 26,
     "id": 327,
     "name": "Ankingameloka",
-    "id_district": 26
+    "districtId": 26
   },
   {
     "0": 328,
@@ -2621,7 +2621,7 @@ const communes = [
     "2": 26,
     "id": 328,
     "name": "Anorotsangana",
-    "id_district": 26
+    "districtId": 26
   },
   {
     "0": 329,
@@ -2629,7 +2629,7 @@ const communes = [
     "2": 26,
     "id": 329,
     "name": "Antafiambotry",
-    "id_district": 26
+    "districtId": 26
   },
   {
     "0": 330,
@@ -2637,7 +2637,7 @@ const communes = [
     "2": 26,
     "id": 330,
     "name": "Antranokarany",
-    "id_district": 26
+    "districtId": 26
   },
   {
     "0": 331,
@@ -2645,7 +2645,7 @@ const communes = [
     "2": 26,
     "id": 331,
     "name": "Antsahabe Centre",
-    "id_district": 26
+    "districtId": 26
   },
   {
     "0": 332,
@@ -2653,7 +2653,7 @@ const communes = [
     "2": 26,
     "id": 332,
     "name": "Antsakoamanondro",
-    "id_district": 26
+    "districtId": 26
   },
   {
     "0": 333,
@@ -2661,7 +2661,7 @@ const communes = [
     "2": 26,
     "id": 333,
     "name": "Antsatsaka",
-    "id_district": 26
+    "districtId": 26
   },
   {
     "0": 334,
@@ -2669,7 +2669,7 @@ const communes = [
     "2": 26,
     "id": 334,
     "name": "Antsirabe",
-    "id_district": 26
+    "districtId": 26
   },
   {
     "0": 335,
@@ -2677,7 +2677,7 @@ const communes = [
     "2": 26,
     "id": 335,
     "name": "Bemanevika Haut-Sambirano",
-    "id_district": 26
+    "districtId": 26
   },
   {
     "0": 336,
@@ -2685,7 +2685,7 @@ const communes = [
     "2": 26,
     "id": 336,
     "name": "Bemanevika Ouest",
-    "id_district": 26
+    "districtId": 26
   },
   {
     "0": 337,
@@ -2693,7 +2693,7 @@ const communes = [
     "2": 26,
     "id": 337,
     "name": "Benavony",
-    "id_district": 26
+    "districtId": 26
   },
   {
     "0": 338,
@@ -2701,7 +2701,7 @@ const communes = [
     "2": 26,
     "id": 338,
     "name": "Djangoa",
-    "id_district": 26
+    "districtId": 26
   },
   {
     "0": 339,
@@ -2709,7 +2709,7 @@ const communes = [
     "2": 26,
     "id": 339,
     "name": "Maevatanàna",
-    "id_district": 26
+    "districtId": 26
   },
   {
     "0": 340,
@@ -2717,7 +2717,7 @@ const communes = [
     "2": 26,
     "id": 340,
     "name": "Maherivaratra",
-    "id_district": 26
+    "districtId": 26
   },
   {
     "0": 341,
@@ -2725,7 +2725,7 @@ const communes = [
     "2": 26,
     "id": 341,
     "name": "Marotolana",
-    "id_district": 26
+    "districtId": 26
   },
   {
     "0": 342,
@@ -2733,7 +2733,7 @@ const communes = [
     "2": 26,
     "id": 342,
     "name": "Marovato",
-    "id_district": 26
+    "districtId": 26
   },
   {
     "0": 343,
@@ -2741,7 +2741,7 @@ const communes = [
     "2": 27,
     "id": 343,
     "name": "Ambakirano",
-    "id_district": 27
+    "districtId": 27
   },
   {
     "0": 344,
@@ -2749,7 +2749,7 @@ const communes = [
     "2": 27,
     "id": 344,
     "name": "Ambarakaraka",
-    "id_district": 27
+    "districtId": 27
   },
   {
     "0": 345,
@@ -2757,7 +2757,7 @@ const communes = [
     "2": 27,
     "id": 345,
     "name": "Ambatoben_Anjavy",
-    "id_district": 27
+    "districtId": 27
   },
   {
     "0": 346,
@@ -2765,7 +2765,7 @@ const communes = [
     "2": 27,
     "id": 346,
     "name": "Ambilobe",
-    "id_district": 27
+    "districtId": 27
   },
   {
     "0": 347,
@@ -2773,7 +2773,7 @@ const communes = [
     "2": 27,
     "id": 347,
     "name": "Ambodibonara",
-    "id_district": 27
+    "districtId": 27
   },
   {
     "0": 348,
@@ -2781,7 +2781,7 @@ const communes = [
     "2": 27,
     "id": 348,
     "name": "Ampondralava",
-    "id_district": 27
+    "districtId": 27
   },
   {
     "0": 349,
@@ -2789,7 +2789,7 @@ const communes = [
     "2": 27,
     "id": 349,
     "name": "Anaborano Ifasy",
-    "id_district": 27
+    "districtId": 27
   },
   {
     "0": 350,
@@ -2797,7 +2797,7 @@ const communes = [
     "2": 27,
     "id": 350,
     "name": "Anjiabe Haut",
-    "id_district": 27
+    "districtId": 27
   },
   {
     "0": 351,
@@ -2805,7 +2805,7 @@ const communes = [
     "2": 27,
     "id": 351,
     "name": "Antanabe",
-    "id_district": 27
+    "districtId": 27
   },
   {
     "0": 352,
@@ -2813,7 +2813,7 @@ const communes = [
     "2": 27,
     "id": 352,
     "name": "Antsaravibe",
-    "id_district": 27
+    "districtId": 27
   },
   {
     "0": 353,
@@ -2821,7 +2821,7 @@ const communes = [
     "2": 27,
     "id": 353,
     "name": "Antsohimbondrona",
-    "id_district": 27
+    "districtId": 27
   },
   {
     "0": 354,
@@ -2829,7 +2829,7 @@ const communes = [
     "2": 27,
     "id": 354,
     "name": "Beramanja",
-    "id_district": 27
+    "districtId": 27
   },
   {
     "0": 355,
@@ -2837,7 +2837,7 @@ const communes = [
     "2": 27,
     "id": 355,
     "name": "Betsiaka",
-    "id_district": 27
+    "districtId": 27
   },
   {
     "0": 356,
@@ -2845,7 +2845,7 @@ const communes = [
     "2": 27,
     "id": 356,
     "name": "Manambato",
-    "id_district": 27
+    "districtId": 27
   },
   {
     "0": 357,
@@ -2853,7 +2853,7 @@ const communes = [
     "2": 27,
     "id": 357,
     "name": "Mantaly",
-    "id_district": 27
+    "districtId": 27
   },
   {
     "0": 358,
@@ -2861,7 +2861,7 @@ const communes = [
     "2": 27,
     "id": 358,
     "name": "SIRAMA",
-    "id_district": 27
+    "districtId": 27
   },
   {
     "0": 359,
@@ -2869,7 +2869,7 @@ const communes = [
     "2": 27,
     "id": 359,
     "name": "Tanambao Marivorahona",
-    "id_district": 27
+    "districtId": 27
   },
   {
     "0": 360,
@@ -2877,7 +2877,7 @@ const communes = [
     "2": 28,
     "id": 360,
     "name": "CU Antsiranana",
-    "id_district": 28
+    "districtId": 28
   },
   {
     "0": 361,
@@ -2885,7 +2885,7 @@ const communes = [
     "2": 29,
     "id": 361,
     "name": "Ambolobozobe",
-    "id_district": 29
+    "districtId": 29
   },
   {
     "0": 362,
@@ -2893,7 +2893,7 @@ const communes = [
     "2": 29,
     "id": 362,
     "name": "Ambondrona",
-    "id_district": 29
+    "districtId": 29
   },
   {
     "0": 363,
@@ -2901,7 +2901,7 @@ const communes = [
     "2": 29,
     "id": 363,
     "name": "Andrafiabe",
-    "id_district": 29
+    "districtId": 29
   },
   {
     "0": 364,
@@ -2909,7 +2909,7 @@ const communes = [
     "2": 29,
     "id": 364,
     "name": "Andranofanjava",
-    "id_district": 29
+    "districtId": 29
   },
   {
     "0": 365,
@@ -2917,7 +2917,7 @@ const communes = [
     "2": 29,
     "id": 365,
     "name": "Andranovondronina",
-    "id_district": 29
+    "districtId": 29
   },
   {
     "0": 366,
@@ -2925,7 +2925,7 @@ const communes = [
     "2": 29,
     "id": 366,
     "name": "Anivorano Nord",
-    "id_district": 29
+    "districtId": 29
   },
   {
     "0": 367,
@@ -2933,7 +2933,7 @@ const communes = [
     "2": 29,
     "id": 367,
     "name": "Ankarongana",
-    "id_district": 29
+    "districtId": 29
   },
   {
     "0": 368,
@@ -2941,7 +2941,7 @@ const communes = [
     "2": 29,
     "id": 368,
     "name": "Anketrakabe",
-    "id_district": 29
+    "districtId": 29
   },
   {
     "0": 369,
@@ -2949,7 +2949,7 @@ const communes = [
     "2": 29,
     "id": 369,
     "name": "Antanamitarana",
-    "id_district": 29
+    "districtId": 29
   },
   {
     "0": 370,
@@ -2957,7 +2957,7 @@ const communes = [
     "2": 29,
     "id": 370,
     "name": "Antsahampano",
-    "id_district": 29
+    "districtId": 29
   },
   {
     "0": 371,
@@ -2965,7 +2965,7 @@ const communes = [
     "2": 29,
     "id": 371,
     "name": "Antsakoabe",
-    "id_district": 29
+    "districtId": 29
   },
   {
     "0": 372,
@@ -2973,7 +2973,7 @@ const communes = [
     "2": 29,
     "id": 372,
     "name": "Antsalaka",
-    "id_district": 29
+    "districtId": 29
   },
   {
     "0": 373,
@@ -2981,7 +2981,7 @@ const communes = [
     "2": 29,
     "id": 373,
     "name": "Antsoha",
-    "id_district": 29
+    "districtId": 29
   },
   {
     "0": 374,
@@ -2989,7 +2989,7 @@ const communes = [
     "2": 29,
     "id": 374,
     "name": "Bobakilandy",
-    "id_district": 29
+    "districtId": 29
   },
   {
     "0": 375,
@@ -2997,7 +2997,7 @@ const communes = [
     "2": 29,
     "id": 375,
     "name": "Bobasakoa",
-    "id_district": 29
+    "districtId": 29
   },
   {
     "0": 376,
@@ -3005,7 +3005,7 @@ const communes = [
     "2": 29,
     "id": 376,
     "name": "Joffre-Ville",
-    "id_district": 29
+    "districtId": 29
   },
   {
     "0": 377,
@@ -3013,7 +3013,7 @@ const communes = [
     "2": 29,
     "id": 377,
     "name": "Mahalina",
-    "id_district": 29
+    "districtId": 29
   },
   {
     "0": 378,
@@ -3021,7 +3021,7 @@ const communes = [
     "2": 29,
     "id": 378,
     "name": "Mahavanona",
-    "id_district": 29
+    "districtId": 29
   },
   {
     "0": 379,
@@ -3029,7 +3029,7 @@ const communes = [
     "2": 29,
     "id": 379,
     "name": "Mangaoka",
-    "id_district": 29
+    "districtId": 29
   },
   {
     "0": 380,
@@ -3037,7 +3037,7 @@ const communes = [
     "2": 29,
     "id": 380,
     "name": "Mosorolava",
-    "id_district": 29
+    "districtId": 29
   },
   {
     "0": 381,
@@ -3045,7 +3045,7 @@ const communes = [
     "2": 29,
     "id": 381,
     "name": "Ramena",
-    "id_district": 29
+    "districtId": 29
   },
   {
     "0": 382,
@@ -3053,7 +3053,7 @@ const communes = [
     "2": 29,
     "id": 382,
     "name": "Sadjoavato",
-    "id_district": 29
+    "districtId": 29
   },
   {
     "0": 383,
@@ -3061,7 +3061,7 @@ const communes = [
     "2": 29,
     "id": 383,
     "name": "Sakaramy",
-    "id_district": 29
+    "districtId": 29
   },
   {
     "0": 384,
@@ -3069,7 +3069,7 @@ const communes = [
     "2": 30,
     "id": 384,
     "name": "Ambatozavavy",
-    "id_district": 30
+    "districtId": 30
   },
   {
     "0": 385,
@@ -3077,7 +3077,7 @@ const communes = [
     "2": 30,
     "id": 385,
     "name": "Ampangoriana",
-    "id_district": 30
+    "districtId": 30
   },
   {
     "0": 386,
@@ -3085,7 +3085,7 @@ const communes = [
     "2": 30,
     "id": 386,
     "name": "Bemanondrobe",
-    "id_district": 30
+    "districtId": 30
   },
   {
     "0": 387,
@@ -3093,7 +3093,7 @@ const communes = [
     "2": 30,
     "id": 387,
     "name": "Dzamandzar",
-    "id_district": 30
+    "districtId": 30
   },
   {
     "0": 388,
@@ -3101,7 +3101,7 @@ const communes = [
     "2": 30,
     "id": 388,
     "name": "Hell-Ville",
-    "id_district": 30
+    "districtId": 30
   },
   {
     "0": 389,
@@ -3109,7 +3109,7 @@ const communes = [
     "2": 31,
     "id": 389,
     "name": "Ambalamanasy II",
-    "id_district": 31
+    "districtId": 31
   },
   {
     "0": 390,
@@ -3117,7 +3117,7 @@ const communes = [
     "2": 31,
     "id": 390,
     "name": "Ambalavelona",
-    "id_district": 31
+    "districtId": 31
   },
   {
     "0": 391,
@@ -3125,7 +3125,7 @@ const communes = [
     "2": 31,
     "id": 391,
     "name": "Ambodiangezoka",
-    "id_district": 31
+    "districtId": 31
   },
   {
     "0": 392,
@@ -3133,7 +3133,7 @@ const communes = [
     "2": 31,
     "id": 392,
     "name": "Ambodidivaina",
-    "id_district": 31
+    "districtId": 31
   },
   {
     "0": 393,
@@ -3141,7 +3141,7 @@ const communes = [
     "2": 31,
     "id": 393,
     "name": "Ambodimanga I",
-    "id_district": 31
+    "districtId": 31
   },
   {
     "0": 394,
@@ -3149,7 +3149,7 @@ const communes = [
     "2": 31,
     "id": 394,
     "name": "Andapa",
-    "id_district": 31
+    "districtId": 31
   },
   {
     "0": 395,
@@ -3157,7 +3157,7 @@ const communes = [
     "2": 31,
     "id": 395,
     "name": "Andasibe Kobahina",
-    "id_district": 31
+    "districtId": 31
   },
   {
     "0": 396,
@@ -3165,7 +3165,7 @@ const communes = [
     "2": 31,
     "id": 396,
     "name": "Andrakata",
-    "id_district": 31
+    "districtId": 31
   },
   {
     "0": 397,
@@ -3173,7 +3173,7 @@ const communes = [
     "2": 31,
     "id": 397,
     "name": "Andranomena",
-    "id_district": 31
+    "districtId": 31
   },
   {
     "0": 398,
@@ -3181,7 +3181,7 @@ const communes = [
     "2": 31,
     "id": 398,
     "name": "Anjialavabe",
-    "id_district": 31
+    "districtId": 31
   },
   {
     "0": 399,
@@ -3189,7 +3189,7 @@ const communes = [
     "2": 31,
     "id": 399,
     "name": "Ankiakabe Nord",
-    "id_district": 31
+    "districtId": 31
   },
   {
     "0": 400,
@@ -3197,7 +3197,7 @@ const communes = [
     "2": 31,
     "id": 400,
     "name": "Anoviara",
-    "id_district": 31
+    "districtId": 31
   },
   {
     "0": 401,
@@ -3205,7 +3205,7 @@ const communes = [
     "2": 31,
     "id": 401,
     "name": "Antsahamena",
-    "id_district": 31
+    "districtId": 31
   },
   {
     "0": 402,
@@ -3213,7 +3213,7 @@ const communes = [
     "2": 31,
     "id": 402,
     "name": "Bealampona",
-    "id_district": 31
+    "districtId": 31
   },
   {
     "0": 403,
@@ -3221,7 +3221,7 @@ const communes = [
     "2": 31,
     "id": 403,
     "name": "Belaoka Lokoho",
-    "id_district": 31
+    "districtId": 31
   },
   {
     "0": 404,
@@ -3229,7 +3229,7 @@ const communes = [
     "2": 31,
     "id": 404,
     "name": "Belaoka Marovato",
-    "id_district": 31
+    "districtId": 31
   },
   {
     "0": 405,
@@ -3237,7 +3237,7 @@ const communes = [
     "2": 31,
     "id": 405,
     "name": "Betsakotsako Andranotsara",
-    "id_district": 31
+    "districtId": 31
   },
   {
     "0": 406,
@@ -3245,7 +3245,7 @@ const communes = [
     "2": 31,
     "id": 406,
     "name": "Doany",
-    "id_district": 31
+    "districtId": 31
   },
   {
     "0": 407,
@@ -3253,7 +3253,7 @@ const communes = [
     "2": 31,
     "id": 407,
     "name": "Marovato",
-    "id_district": 31
+    "districtId": 31
   },
   {
     "0": 408,
@@ -3261,7 +3261,7 @@ const communes = [
     "2": 31,
     "id": 408,
     "name": "Matsohely",
-    "id_district": 31
+    "districtId": 31
   },
   {
     "0": 409,
@@ -3269,7 +3269,7 @@ const communes = [
     "2": 31,
     "id": 409,
     "name": "Tanandava",
-    "id_district": 31
+    "districtId": 31
   },
   {
     "0": 410,
@@ -3277,7 +3277,7 @@ const communes = [
     "2": 32,
     "id": 410,
     "name": "Ambalabe",
-    "id_district": 32
+    "districtId": 32
   },
   {
     "0": 411,
@@ -3285,7 +3285,7 @@ const communes = [
     "2": 32,
     "id": 411,
     "name": "Ambinanifaho",
-    "id_district": 32
+    "districtId": 32
   },
   {
     "0": 412,
@@ -3293,7 +3293,7 @@ const communes = [
     "2": 32,
     "id": 412,
     "name": "Ambohitralanana",
-    "id_district": 32
+    "districtId": 32
   },
   {
     "0": 413,
@@ -3301,7 +3301,7 @@ const communes = [
     "2": 32,
     "id": 413,
     "name": "Ampahana",
-    "id_district": 32
+    "districtId": 32
   },
   {
     "0": 414,
@@ -3309,7 +3309,7 @@ const communes = [
     "2": 32,
     "id": 414,
     "name": "Ampanavoana",
-    "id_district": 32
+    "districtId": 32
   },
   {
     "0": 415,
@@ -3317,7 +3317,7 @@ const communes = [
     "2": 32,
     "id": 415,
     "name": "Ampohibe",
-    "id_district": 32
+    "districtId": 32
   },
   {
     "0": 416,
@@ -3325,7 +3325,7 @@ const communes = [
     "2": 32,
     "id": 416,
     "name": "Andampy",
-    "id_district": 32
+    "districtId": 32
   },
   {
     "0": 417,
@@ -3333,7 +3333,7 @@ const communes = [
     "2": 32,
     "id": 417,
     "name": "Antalaha",
-    "id_district": 32
+    "districtId": 32
   },
   {
     "0": 418,
@@ -3341,7 +3341,7 @@ const communes = [
     "2": 32,
     "id": 418,
     "name": "Antananambo",
-    "id_district": 32
+    "districtId": 32
   },
   {
     "0": 419,
@@ -3349,7 +3349,7 @@ const communes = [
     "2": 32,
     "id": 419,
     "name": "Antombana",
-    "id_district": 32
+    "districtId": 32
   },
   {
     "0": 420,
@@ -3357,7 +3357,7 @@ const communes = [
     "2": 32,
     "id": 420,
     "name": "Antsahanoro",
-    "id_district": 32
+    "districtId": 32
   },
   {
     "0": 421,
@@ -3365,7 +3365,7 @@ const communes = [
     "2": 32,
     "id": 421,
     "name": "Antsambalahy",
-    "id_district": 32
+    "districtId": 32
   },
   {
     "0": 422,
@@ -3373,7 +3373,7 @@ const communes = [
     "2": 32,
     "id": 422,
     "name": "Lanjarivo",
-    "id_district": 32
+    "districtId": 32
   },
   {
     "0": 423,
@@ -3381,7 +3381,7 @@ const communes = [
     "2": 32,
     "id": 423,
     "name": "Manakambahiny Ankavia",
-    "id_district": 32
+    "districtId": 32
   },
   {
     "0": 424,
@@ -3389,7 +3389,7 @@ const communes = [
     "2": 32,
     "id": 424,
     "name": "Marofinaritra",
-    "id_district": 32
+    "districtId": 32
   },
   {
     "0": 425,
@@ -3397,7 +3397,7 @@ const communes = [
     "2": 32,
     "id": 425,
     "name": "Sahantaha",
-    "id_district": 32
+    "districtId": 32
   },
   {
     "0": 426,
@@ -3405,7 +3405,7 @@ const communes = [
     "2": 32,
     "id": 426,
     "name": "Sarahandrano",
-    "id_district": 32
+    "districtId": 32
   },
   {
     "0": 427,
@@ -3413,7 +3413,7 @@ const communes = [
     "2": 32,
     "id": 427,
     "name": "Vinanivao",
-    "id_district": 32
+    "districtId": 32
   },
   {
     "0": 428,
@@ -3421,7 +3421,7 @@ const communes = [
     "2": 33,
     "id": 428,
     "name": "Ambatoafo",
-    "id_district": 33
+    "districtId": 33
   },
   {
     "0": 429,
@@ -3429,7 +3429,7 @@ const communes = [
     "2": 33,
     "id": 429,
     "name": "Amboangibe",
-    "id_district": 33
+    "districtId": 33
   },
   {
     "0": 430,
@@ -3437,7 +3437,7 @@ const communes = [
     "2": 33,
     "id": 430,
     "name": "Ambodiampana",
-    "id_district": 33
+    "districtId": 33
   },
   {
     "0": 431,
@@ -3445,7 +3445,7 @@ const communes = [
     "2": 33,
     "id": 431,
     "name": "Ambodivoara",
-    "id_district": 33
+    "districtId": 33
   },
   {
     "0": 432,
@@ -3453,7 +3453,7 @@ const communes = [
     "2": 33,
     "id": 432,
     "name": "Ambohimalaza",
-    "id_district": 33
+    "districtId": 33
   },
   {
     "0": 433,
@@ -3461,7 +3461,7 @@ const communes = [
     "2": 33,
     "id": 433,
     "name": "Ambohimitsinjo",
-    "id_district": 33
+    "districtId": 33
   },
   {
     "0": 434,
@@ -3469,7 +3469,7 @@ const communes = [
     "2": 33,
     "id": 434,
     "name": "Analamaho",
-    "id_district": 33
+    "districtId": 33
   },
   {
     "0": 435,
@@ -3477,7 +3477,7 @@ const communes = [
     "2": 33,
     "id": 435,
     "name": "Andapabe",
-    "id_district": 33
+    "districtId": 33
   },
   {
     "0": 436,
@@ -3485,7 +3485,7 @@ const communes = [
     "2": 33,
     "id": 436,
     "name": "Andrahanjo",
-    "id_district": 33
+    "districtId": 33
   },
   {
     "0": 437,
@@ -3493,7 +3493,7 @@ const communes = [
     "2": 33,
     "id": 437,
     "name": "Andratamarina",
-    "id_district": 33
+    "districtId": 33
   },
   {
     "0": 438,
@@ -3501,7 +3501,7 @@ const communes = [
     "2": 33,
     "id": 438,
     "name": "Andrembona",
-    "id_district": 33
+    "districtId": 33
   },
   {
     "0": 439,
@@ -3509,7 +3509,7 @@ const communes = [
     "2": 33,
     "id": 439,
     "name": "Anjangoveratra",
-    "id_district": 33
+    "districtId": 33
   },
   {
     "0": 440,
@@ -3517,7 +3517,7 @@ const communes = [
     "2": 33,
     "id": 440,
     "name": "Anjialava",
-    "id_district": 33
+    "districtId": 33
   },
   {
     "0": 441,
@@ -3525,7 +3525,7 @@ const communes = [
     "2": 33,
     "id": 441,
     "name": "Anjinjaomby",
-    "id_district": 33
+    "districtId": 33
   },
   {
     "0": 442,
@@ -3533,7 +3533,7 @@ const communes = [
     "2": 33,
     "id": 442,
     "name": "Antindra",
-    "id_district": 33
+    "districtId": 33
   },
   {
     "0": 443,
@@ -3541,7 +3541,7 @@ const communes = [
     "2": 33,
     "id": 443,
     "name": "Antsahavaribe",
-    "id_district": 33
+    "districtId": 33
   },
   {
     "0": 444,
@@ -3549,7 +3549,7 @@ const communes = [
     "2": 33,
     "id": 444,
     "name": "Antsambaharo",
-    "id_district": 33
+    "districtId": 33
   },
   {
     "0": 445,
@@ -3557,7 +3557,7 @@ const communes = [
     "2": 33,
     "id": 445,
     "name": "Bemanevika",
-    "id_district": 33
+    "districtId": 33
   },
   {
     "0": 446,
@@ -3565,7 +3565,7 @@ const communes = [
     "2": 33,
     "id": 446,
     "name": "Bevonotra",
-    "id_district": 33
+    "districtId": 33
   },
   {
     "0": 447,
@@ -3573,7 +3573,7 @@ const communes = [
     "2": 33,
     "id": 447,
     "name": "CU Sambava",
-    "id_district": 33
+    "districtId": 33
   },
   {
     "0": 448,
@@ -3581,7 +3581,7 @@ const communes = [
     "2": 33,
     "id": 448,
     "name": "Farahalana",
-    "id_district": 33
+    "districtId": 33
   },
   {
     "0": 449,
@@ -3589,7 +3589,7 @@ const communes = [
     "2": 33,
     "id": 449,
     "name": "Mahasoa",
-    "id_district": 33
+    "districtId": 33
   },
   {
     "0": 450,
@@ -3597,7 +3597,7 @@ const communes = [
     "2": 33,
     "id": 450,
     "name": "Maroambihy",
-    "id_district": 33
+    "districtId": 33
   },
   {
     "0": 451,
@@ -3605,7 +3605,7 @@ const communes = [
     "2": 33,
     "id": 451,
     "name": "Marogaona",
-    "id_district": 33
+    "districtId": 33
   },
   {
     "0": 452,
@@ -3613,7 +3613,7 @@ const communes = [
     "2": 33,
     "id": 452,
     "name": "Marojala",
-    "id_district": 33
+    "districtId": 33
   },
   {
     "0": 453,
@@ -3621,7 +3621,7 @@ const communes = [
     "2": 33,
     "id": 453,
     "name": "Morafeno",
-    "id_district": 33
+    "districtId": 33
   },
   {
     "0": 454,
@@ -3629,7 +3629,7 @@ const communes = [
     "2": 33,
     "id": 454,
     "name": "Nosiarina",
-    "id_district": 33
+    "districtId": 33
   },
   {
     "0": 455,
@@ -3637,7 +3637,7 @@ const communes = [
     "2": 33,
     "id": 455,
     "name": "Tanambao Daoud",
-    "id_district": 33
+    "districtId": 33
   },
   {
     "0": 456,
@@ -3645,7 +3645,7 @@ const communes = [
     "2": 34,
     "id": 456,
     "name": "Ambalasatrana",
-    "id_district": 34
+    "districtId": 34
   },
   {
     "0": 457,
@@ -3653,7 +3653,7 @@ const communes = [
     "2": 34,
     "id": 457,
     "name": "Ambinanin_Andravory",
-    "id_district": 34
+    "districtId": 34
   },
   {
     "0": 458,
@@ -3661,7 +3661,7 @@ const communes = [
     "2": 34,
     "id": 458,
     "name": "Ambodisambalahy",
-    "id_district": 34
+    "districtId": 34
   },
   {
     "0": 459,
@@ -3669,7 +3669,7 @@ const communes = [
     "2": 34,
     "id": 459,
     "name": "Amboriala",
-    "id_district": 34
+    "districtId": 34
   },
   {
     "0": 460,
@@ -3677,7 +3677,7 @@ const communes = [
     "2": 34,
     "id": 460,
     "name": "Ampanefena",
-    "id_district": 34
+    "districtId": 34
   },
   {
     "0": 461,
@@ -3685,7 +3685,7 @@ const communes = [
     "2": 34,
     "id": 461,
     "name": "Ampisikinana",
-    "id_district": 34
+    "districtId": 34
   },
   {
     "0": 462,
@@ -3693,7 +3693,7 @@ const communes = [
     "2": 34,
     "id": 462,
     "name": "Ampondra",
-    "id_district": 34
+    "districtId": 34
   },
   {
     "0": 463,
@@ -3701,7 +3701,7 @@ const communes = [
     "2": 34,
     "id": 463,
     "name": "Andrafainkona",
-    "id_district": 34
+    "districtId": 34
   },
   {
     "0": 464,
@@ -3709,7 +3709,7 @@ const communes = [
     "2": 34,
     "id": 464,
     "name": "Andravory",
-    "id_district": 34
+    "districtId": 34
   },
   {
     "0": 465,
@@ -3717,7 +3717,7 @@ const communes = [
     "2": 34,
     "id": 465,
     "name": "Antsirabe Nord",
-    "id_district": 34
+    "districtId": 34
   },
   {
     "0": 466,
@@ -3725,7 +3725,7 @@ const communes = [
     "2": 34,
     "id": 466,
     "name": "Belambo",
-    "id_district": 34
+    "districtId": 34
   },
   {
     "0": 467,
@@ -3733,7 +3733,7 @@ const communes = [
     "2": 34,
     "id": 467,
     "name": "Bobakindro",
-    "id_district": 34
+    "districtId": 34
   },
   {
     "0": 468,
@@ -3741,7 +3741,7 @@ const communes = [
     "2": 34,
     "id": 468,
     "name": "Daraina",
-    "id_district": 34
+    "districtId": 34
   },
   {
     "0": 469,
@@ -3749,7 +3749,7 @@ const communes = [
     "2": 34,
     "id": 469,
     "name": "Fanambana",
-    "id_district": 34
+    "districtId": 34
   },
   {
     "0": 470,
@@ -3757,7 +3757,7 @@ const communes = [
     "2": 34,
     "id": 470,
     "name": "Maromokotra Loky",
-    "id_district": 34
+    "districtId": 34
   },
   {
     "0": 471,
@@ -3765,7 +3765,7 @@ const communes = [
     "2": 34,
     "id": 471,
     "name": "Milanoa",
-    "id_district": 34
+    "districtId": 34
   },
   {
     "0": 472,
@@ -3773,7 +3773,7 @@ const communes = [
     "2": 34,
     "id": 472,
     "name": "Nosibe",
-    "id_district": 34
+    "districtId": 34
   },
   {
     "0": 473,
@@ -3781,7 +3781,7 @@ const communes = [
     "2": 34,
     "id": 473,
     "name": "Tsarabaria",
-    "id_district": 34
+    "districtId": 34
   },
   {
     "0": 474,
@@ -3789,7 +3789,7 @@ const communes = [
     "2": 34,
     "id": 474,
     "name": "Vohémar",
-    "id_district": 34
+    "districtId": 34
   },
   {
     "0": 475,
@@ -3797,7 +3797,7 @@ const communes = [
     "2": 35,
     "id": 475,
     "name": "Ambatofinandrahana",
-    "id_district": 35
+    "districtId": 35
   },
   {
     "0": 476,
@@ -3805,7 +3805,7 @@ const communes = [
     "2": 35,
     "id": 476,
     "name": "Ambatomifanongoa",
-    "id_district": 35
+    "districtId": 35
   },
   {
     "0": 477,
@@ -3813,7 +3813,7 @@ const communes = [
     "2": 35,
     "id": 477,
     "name": "Ambondromisotra",
-    "id_district": 35
+    "districtId": 35
   },
   {
     "0": 478,
@@ -3821,7 +3821,7 @@ const communes = [
     "2": 35,
     "id": 478,
     "name": "Amborompotsy",
-    "id_district": 35
+    "districtId": 35
   },
   {
     "0": 479,
@@ -3829,7 +3829,7 @@ const communes = [
     "2": 35,
     "id": 479,
     "name": "Fenoarivo",
-    "id_district": 35
+    "districtId": 35
   },
   {
     "0": 480,
@@ -3837,7 +3837,7 @@ const communes = [
     "2": 35,
     "id": 480,
     "name": "Itremo",
-    "id_district": 35
+    "districtId": 35
   },
   {
     "0": 481,
@@ -3845,7 +3845,7 @@ const communes = [
     "2": 35,
     "id": 481,
     "name": "Mandrosonoro",
-    "id_district": 35
+    "districtId": 35
   },
   {
     "0": 482,
@@ -3853,7 +3853,7 @@ const communes = [
     "2": 35,
     "id": 482,
     "name": "Mangataboahangy",
-    "id_district": 35
+    "districtId": 35
   },
   {
     "0": 483,
@@ -3861,7 +3861,7 @@ const communes = [
     "2": 35,
     "id": 483,
     "name": "Soavina",
-    "id_district": 35
+    "districtId": 35
   },
   {
     "0": 484,
@@ -3869,7 +3869,7 @@ const communes = [
     "2": 36,
     "id": 484,
     "name": "Alakamisy Ambohijato",
-    "id_district": 36
+    "districtId": 36
   },
   {
     "0": 485,
@@ -3877,7 +3877,7 @@ const communes = [
     "2": 36,
     "id": 485,
     "name": "Ambalamanakana",
-    "id_district": 36
+    "districtId": 36
   },
   {
     "0": 486,
@@ -3885,7 +3885,7 @@ const communes = [
     "2": 36,
     "id": 486,
     "name": "Ambatofitorahana",
-    "id_district": 36
+    "districtId": 36
   },
   {
     "0": 487,
@@ -3893,7 +3893,7 @@ const communes = [
     "2": 36,
     "id": 487,
     "name": "Ambinanindrano",
-    "id_district": 36
+    "districtId": 36
   },
   {
     "0": 488,
@@ -3901,7 +3901,7 @@ const communes = [
     "2": 36,
     "id": 488,
     "name": "Ambohimitombo I",
-    "id_district": 36
+    "districtId": 36
   },
   {
     "0": 489,
@@ -3909,7 +3909,7 @@ const communes = [
     "2": 36,
     "id": 489,
     "name": "Ambohimitombo II",
-    "id_district": 36
+    "districtId": 36
   },
   {
     "0": 490,
@@ -3917,7 +3917,7 @@ const communes = [
     "2": 36,
     "id": 490,
     "name": "Ambohiperivoana",
-    "id_district": 36
+    "districtId": 36
   },
   {
     "0": 491,
@@ -3925,7 +3925,7 @@ const communes = [
     "2": 36,
     "id": 491,
     "name": "Ambositra",
-    "id_district": 36
+    "districtId": 36
   },
   {
     "0": 492,
@@ -3933,7 +3933,7 @@ const communes = [
     "2": 36,
     "id": 492,
     "name": "Ambositra Banlieue",
-    "id_district": 36
+    "districtId": 36
   },
   {
     "0": 493,
@@ -3941,7 +3941,7 @@ const communes = [
     "2": 36,
     "id": 493,
     "name": "Andina",
-    "id_district": 36
+    "districtId": 36
   },
   {
     "0": 494,
@@ -3949,7 +3949,7 @@ const communes = [
     "2": 36,
     "id": 494,
     "name": "Ankazoambo",
-    "id_district": 36
+    "districtId": 36
   },
   {
     "0": 495,
@@ -3957,7 +3957,7 @@ const communes = [
     "2": 36,
     "id": 495,
     "name": "Ankazotsararavina",
-    "id_district": 36
+    "districtId": 36
   },
   {
     "0": 496,
@@ -3965,7 +3965,7 @@ const communes = [
     "2": 36,
     "id": 496,
     "name": "Antoetra",
-    "id_district": 36
+    "districtId": 36
   },
   {
     "0": 497,
@@ -3973,7 +3973,7 @@ const communes = [
     "2": 36,
     "id": 497,
     "name": "Fahizay",
-    "id_district": 36
+    "districtId": 36
   },
   {
     "0": 498,
@@ -3981,7 +3981,7 @@ const communes = [
     "2": 36,
     "id": 498,
     "name": "Ihadilanana Ambohinambo",
-    "id_district": 36
+    "districtId": 36
   },
   {
     "0": 499,
@@ -3989,7 +3989,7 @@ const communes = [
     "2": 36,
     "id": 499,
     "name": "Ilaka Centre",
-    "id_district": 36
+    "districtId": 36
   },
   {
     "0": 500,
@@ -3997,7 +3997,7 @@ const communes = [
     "2": 36,
     "id": 500,
     "name": "Imerina Imady",
-    "id_district": 36
+    "districtId": 36
   },
   {
     "0": 501,
@@ -4005,7 +4005,7 @@ const communes = [
     "2": 36,
     "id": 501,
     "name": "Ivato Centre",
-    "id_district": 36
+    "districtId": 36
   },
   {
     "0": 502,
@@ -4013,7 +4013,7 @@ const communes = [
     "2": 36,
     "id": 502,
     "name": "Ivony Miaramiasa",
-    "id_district": 36
+    "districtId": 36
   },
   {
     "0": 503,
@@ -4021,7 +4021,7 @@ const communes = [
     "2": 36,
     "id": 503,
     "name": "Kianjandrakefina",
-    "id_district": 36
+    "districtId": 36
   },
   {
     "0": 504,
@@ -4029,7 +4029,7 @@ const communes = [
     "2": 36,
     "id": 504,
     "name": "Mahazina Ambohipierenana",
-    "id_district": 36
+    "districtId": 36
   },
   {
     "0": 505,
@@ -4037,7 +4037,7 @@ const communes = [
     "2": 36,
     "id": 505,
     "name": "Marosoa",
-    "id_district": 36
+    "districtId": 36
   },
   {
     "0": 506,
@@ -4045,7 +4045,7 @@ const communes = [
     "2": 36,
     "id": 506,
     "name": "Sahatsiho Ambohimanjaka",
-    "id_district": 36
+    "districtId": 36
   },
   {
     "0": 507,
@@ -4053,7 +4053,7 @@ const communes = [
     "2": 36,
     "id": 507,
     "name": "Tsarasaotra",
-    "id_district": 36
+    "districtId": 36
   },
   {
     "0": 508,
@@ -4061,7 +4061,7 @@ const communes = [
     "2": 36,
     "id": 508,
     "name": "Vohidahy",
-    "id_district": 36
+    "districtId": 36
   },
   {
     "0": 509,
@@ -4069,7 +4069,7 @@ const communes = [
     "2": 37,
     "id": 509,
     "name": "Alakamisy Ambohimahazo",
-    "id_district": 37
+    "districtId": 37
   },
   {
     "0": 510,
@@ -4077,7 +4077,7 @@ const communes = [
     "2": 37,
     "id": 510,
     "name": "Ankarinoro",
-    "id_district": 37
+    "districtId": 37
   },
   {
     "0": 511,
@@ -4085,7 +4085,7 @@ const communes = [
     "2": 37,
     "id": 511,
     "name": "Betsimisotra",
-    "id_district": 37
+    "districtId": 37
   },
   {
     "0": 512,
@@ -4093,7 +4093,7 @@ const communes = [
     "2": 37,
     "id": 512,
     "name": "Fandriana",
-    "id_district": 37
+    "districtId": 37
   },
   {
     "0": 513,
@@ -4101,7 +4101,7 @@ const communes = [
     "2": 37,
     "id": 513,
     "name": "Fiadanana",
-    "id_district": 37
+    "districtId": 37
   },
   {
     "0": 514,
@@ -4109,7 +4109,7 @@ const communes = [
     "2": 37,
     "id": 514,
     "name": "Imito",
-    "id_district": 37
+    "districtId": 37
   },
   {
     "0": 515,
@@ -4117,7 +4117,7 @@ const communes = [
     "2": 37,
     "id": 515,
     "name": "Isandrandahy Ambony",
-    "id_district": 37
+    "districtId": 37
   },
   {
     "0": 516,
@@ -4125,7 +4125,7 @@ const communes = [
     "2": 37,
     "id": 516,
     "name": "Mahazoarivo",
-    "id_district": 37
+    "districtId": 37
   },
   {
     "0": 517,
@@ -4133,7 +4133,7 @@ const communes = [
     "2": 37,
     "id": 517,
     "name": "Miarinavaratra",
-    "id_district": 37
+    "districtId": 37
   },
   {
     "0": 518,
@@ -4141,7 +4141,7 @@ const communes = [
     "2": 37,
     "id": 518,
     "name": "Milamaina",
-    "id_district": 37
+    "districtId": 37
   },
   {
     "0": 519,
@@ -4149,7 +4149,7 @@ const communes = [
     "2": 37,
     "id": 519,
     "name": "Sahamadio Fisakana",
-    "id_district": 37
+    "districtId": 37
   },
   {
     "0": 520,
@@ -4157,7 +4157,7 @@ const communes = [
     "2": 37,
     "id": 520,
     "name": "Sandrandahy",
-    "id_district": 37
+    "districtId": 37
   },
   {
     "0": 521,
@@ -4165,7 +4165,7 @@ const communes = [
     "2": 37,
     "id": 521,
     "name": "Soanakambana",
-    "id_district": 37
+    "districtId": 37
   },
   {
     "0": 522,
@@ -4173,7 +4173,7 @@ const communes = [
     "2": 37,
     "id": 522,
     "name": "Tatamalaza",
-    "id_district": 37
+    "districtId": 37
   },
   {
     "0": 523,
@@ -4181,7 +4181,7 @@ const communes = [
     "2": 37,
     "id": 523,
     "name": "Tsarazaza",
-    "id_district": 37
+    "districtId": 37
   },
   {
     "0": 524,
@@ -4189,7 +4189,7 @@ const communes = [
     "2": 38,
     "id": 524,
     "name": "Ambatomarina",
-    "id_district": 38
+    "districtId": 38
   },
   {
     "0": 525,
@@ -4197,7 +4197,7 @@ const communes = [
     "2": 38,
     "id": 525,
     "name": "Ambohimahazo",
-    "id_district": 38
+    "districtId": 38
   },
   {
     "0": 526,
@@ -4205,7 +4205,7 @@ const communes = [
     "2": 38,
     "id": 526,
     "name": "Ambohimilanja",
-    "id_district": 38
+    "districtId": 38
   },
   {
     "0": 527,
@@ -4213,7 +4213,7 @@ const communes = [
     "2": 38,
     "id": 527,
     "name": "Ambohipo",
-    "id_district": 38
+    "districtId": 38
   },
   {
     "0": 528,
@@ -4221,7 +4221,7 @@ const communes = [
     "2": 38,
     "id": 528,
     "name": "Ambovombe Centre",
-    "id_district": 38
+    "districtId": 38
   },
   {
     "0": 529,
@@ -4229,7 +4229,7 @@ const communes = [
     "2": 38,
     "id": 529,
     "name": "Andakatany",
-    "id_district": 38
+    "districtId": 38
   },
   {
     "0": 530,
@@ -4237,7 +4237,7 @@ const communes = [
     "2": 38,
     "id": 530,
     "name": "Anjoma Nandihizana",
-    "id_district": 38
+    "districtId": 38
   },
   {
     "0": 531,
@@ -4245,7 +4245,7 @@ const communes = [
     "2": 38,
     "id": 531,
     "name": "Anjoman_ankona",
-    "id_district": 38
+    "districtId": 38
   },
   {
     "0": 532,
@@ -4253,7 +4253,7 @@ const communes = [
     "2": 38,
     "id": 532,
     "name": "Ilanjana",
-    "id_district": 38
+    "districtId": 38
   },
   {
     "0": 533,
@@ -4261,7 +4261,7 @@ const communes = [
     "2": 38,
     "id": 533,
     "name": "Soatanàna",
-    "id_district": 38
+    "districtId": 38
   },
   {
     "0": 534,
@@ -4269,7 +4269,7 @@ const communes = [
     "2": 38,
     "id": 534,
     "name": "Talata Vohimena",
-    "id_district": 38
+    "districtId": 38
   },
   {
     "0": 535,
@@ -4277,7 +4277,7 @@ const communes = [
     "2": 38,
     "id": 535,
     "name": "Vinany Andakatanikely",
-    "id_district": 38
+    "districtId": 38
   },
   {
     "0": 536,
@@ -4285,7 +4285,7 @@ const communes = [
     "2": 39,
     "id": 536,
     "name": "Antaninarenina",
-    "id_district": 39
+    "districtId": 39
   },
   {
     "0": 537,
@@ -4293,7 +4293,7 @@ const communes = [
     "2": 39,
     "id": 537,
     "name": "Antokoboritelo",
-    "id_district": 39
+    "districtId": 39
   },
   {
     "0": 538,
@@ -4301,7 +4301,7 @@ const communes = [
     "2": 39,
     "id": 538,
     "name": "Antondabe",
-    "id_district": 39
+    "districtId": 39
   },
   {
     "0": 539,
@@ -4309,7 +4309,7 @@ const communes = [
     "2": 39,
     "id": 539,
     "name": "Befotaka Sud",
-    "id_district": 39
+    "districtId": 39
   },
   {
     "0": 540,
@@ -4317,7 +4317,7 @@ const communes = [
     "2": 39,
     "id": 540,
     "name": "Beharena",
-    "id_district": 39
+    "districtId": 39
   },
   {
     "0": 541,
@@ -4325,7 +4325,7 @@ const communes = [
     "2": 39,
     "id": 541,
     "name": "Bekofafa Sud",
-    "id_district": 39
+    "districtId": 39
   },
   {
     "0": 542,
@@ -4333,7 +4333,7 @@ const communes = [
     "2": 39,
     "id": 542,
     "name": "Inosy",
-    "id_district": 39
+    "districtId": 39
   },
   {
     "0": 543,
@@ -4341,7 +4341,7 @@ const communes = [
     "2": 39,
     "id": 543,
     "name": "Marovitsika Sud",
-    "id_district": 39
+    "districtId": 39
   },
   {
     "0": 544,
@@ -4349,7 +4349,7 @@ const communes = [
     "2": 39,
     "id": 544,
     "name": "Ranotsara Sud",
-    "id_district": 39
+    "districtId": 39
   },
   {
     "0": 545,
@@ -4357,7 +4357,7 @@ const communes = [
     "2": 40,
     "id": 545,
     "name": "Ambalatany",
-    "id_district": 40
+    "districtId": 40
   },
   {
     "0": 546,
@@ -4365,7 +4365,7 @@ const communes = [
     "2": 40,
     "id": 546,
     "name": "Ambalavato Antevato",
-    "id_district": 40
+    "districtId": 40
   },
   {
     "0": 547,
@@ -4373,7 +4373,7 @@ const communes = [
     "2": 40,
     "id": 547,
     "name": "Ambalavato Nord",
-    "id_district": 40
+    "districtId": 40
   },
   {
     "0": 548,
@@ -4381,7 +4381,7 @@ const communes = [
     "2": 40,
     "id": 548,
     "name": "Ambohigogo",
-    "id_district": 40
+    "districtId": 40
   },
   {
     "0": 549,
@@ -4389,7 +4389,7 @@ const communes = [
     "2": 40,
     "id": 549,
     "name": "Ambohimandroso",
-    "id_district": 40
+    "districtId": 40
   },
   {
     "0": 550,
@@ -4397,7 +4397,7 @@ const communes = [
     "2": 40,
     "id": 550,
     "name": "Amporoforo",
-    "id_district": 40
+    "districtId": 40
   },
   {
     "0": 551,
@@ -4405,7 +4405,7 @@ const communes = [
     "2": 40,
     "id": 551,
     "name": "Ankarana Miraihina",
-    "id_district": 40
+    "districtId": 40
   },
   {
     "0": 552,
@@ -4413,7 +4413,7 @@ const communes = [
     "2": 40,
     "id": 552,
     "name": "Anosivelo",
-    "id_district": 40
+    "districtId": 40
   },
   {
     "0": 553,
@@ -4421,7 +4421,7 @@ const communes = [
     "2": 40,
     "id": 553,
     "name": "Anosy Tsararafa",
-    "id_district": 40
+    "districtId": 40
   },
   {
     "0": 554,
@@ -4429,7 +4429,7 @@ const communes = [
     "2": 40,
     "id": 554,
     "name": "Antseranambe",
-    "id_district": 40
+    "districtId": 40
   },
   {
     "0": 555,
@@ -4437,7 +4437,7 @@ const communes = [
     "2": 40,
     "id": 555,
     "name": "Bevoay Beretra",
-    "id_district": 40
+    "districtId": 40
   },
   {
     "0": 556,
@@ -4445,7 +4445,7 @@ const communes = [
     "2": 40,
     "id": 556,
     "name": "Efatsy Anandroza",
-    "id_district": 40
+    "districtId": 40
   },
   {
     "0": 557,
@@ -4453,7 +4453,7 @@ const communes = [
     "2": 40,
     "id": 557,
     "name": "Etrotroka",
-    "id_district": 40
+    "districtId": 40
   },
   {
     "0": 558,
@@ -4461,7 +4461,7 @@ const communes = [
     "2": 40,
     "id": 558,
     "name": "Evato",
-    "id_district": 40
+    "districtId": 40
   },
   {
     "0": 559,
@@ -4469,7 +4469,7 @@ const communes = [
     "2": 40,
     "id": 559,
     "name": "Farafangana",
-    "id_district": 40
+    "districtId": 40
   },
   {
     "0": 560,
@@ -4477,7 +4477,7 @@ const communes = [
     "2": 40,
     "id": 560,
     "name": "Fenoarivo",
-    "id_district": 40
+    "districtId": 40
   },
   {
     "0": 561,
@@ -4485,7 +4485,7 @@ const communes = [
     "2": 40,
     "id": 561,
     "name": "Iabohazo",
-    "id_district": 40
+    "districtId": 40
   },
   {
     "0": 562,
@@ -4493,7 +4493,7 @@ const communes = [
     "2": 40,
     "id": 562,
     "name": "Ihorombe",
-    "id_district": 40
+    "districtId": 40
   },
   {
     "0": 563,
@@ -4501,7 +4501,7 @@ const communes = [
     "2": 40,
     "id": 563,
     "name": "Ivandrika",
-    "id_district": 40
+    "districtId": 40
   },
   {
     "0": 564,
@@ -4509,7 +4509,7 @@ const communes = [
     "2": 40,
     "id": 564,
     "name": "Mahabo Mananivo",
-    "id_district": 40
+    "districtId": 40
   },
   {
     "0": 565,
@@ -4517,7 +4517,7 @@ const communes = [
     "2": 40,
     "id": 565,
     "name": "Mahafasa",
-    "id_district": 40
+    "districtId": 40
   },
   {
     "0": 566,
@@ -4525,7 +4525,7 @@ const communes = [
     "2": 40,
     "id": 566,
     "name": "Mahavelo",
-    "id_district": 40
+    "districtId": 40
   },
   {
     "0": 567,
@@ -4533,7 +4533,7 @@ const communes = [
     "2": 40,
     "id": 567,
     "name": "Maheriraty",
-    "id_district": 40
+    "districtId": 40
   },
   {
     "0": 568,
@@ -4541,7 +4541,7 @@ const communes = [
     "2": 40,
     "id": 568,
     "name": "Manambotra Sud",
-    "id_district": 40
+    "districtId": 40
   },
   {
     "0": 569,
@@ -4549,7 +4549,7 @@ const communes = [
     "2": 40,
     "id": 569,
     "name": "Marovandrika",
-    "id_district": 40
+    "districtId": 40
   },
   {
     "0": 570,
@@ -4557,7 +4557,7 @@ const communes = [
     "2": 40,
     "id": 570,
     "name": "Namohora Iaborano",
-    "id_district": 40
+    "districtId": 40
   },
   {
     "0": 571,
@@ -4565,7 +4565,7 @@ const communes = [
     "2": 40,
     "id": 571,
     "name": "Sahamadio",
-    "id_district": 40
+    "districtId": 40
   },
   {
     "0": 572,
@@ -4573,7 +4573,7 @@ const communes = [
     "2": 40,
     "id": 572,
     "name": "Tangainony",
-    "id_district": 40
+    "districtId": 40
   },
   {
     "0": 573,
@@ -4581,7 +4581,7 @@ const communes = [
     "2": 40,
     "id": 573,
     "name": "Tovona",
-    "id_district": 40
+    "districtId": 40
   },
   {
     "0": 574,
@@ -4589,7 +4589,7 @@ const communes = [
     "2": 40,
     "id": 574,
     "name": "Vohilavan_i Manampatrana",
-    "id_district": 40
+    "districtId": 40
   },
   {
     "0": 575,
@@ -4597,7 +4597,7 @@ const communes = [
     "2": 40,
     "id": 575,
     "name": "Vohilengo",
-    "id_district": 40
+    "districtId": 40
   },
   {
     "0": 576,
@@ -4605,7 +4605,7 @@ const communes = [
     "2": 40,
     "id": 576,
     "name": "Vohimasy",
-    "id_district": 40
+    "districtId": 40
   },
   {
     "0": 577,
@@ -4613,7 +4613,7 @@ const communes = [
     "2": 40,
     "id": 577,
     "name": "Vohitromby",
-    "id_district": 40
+    "districtId": 40
   },
   {
     "0": 578,
@@ -4621,7 +4621,7 @@ const communes = [
     "2": 41,
     "id": 578,
     "name": "Andranolalina",
-    "id_district": 41
+    "districtId": 41
   },
   {
     "0": 579,
@@ -4629,7 +4629,7 @@ const communes = [
     "2": 41,
     "id": 579,
     "name": "Ankazovelo",
-    "id_district": 41
+    "districtId": 41
   },
   {
     "0": 580,
@@ -4637,7 +4637,7 @@ const communes = [
     "2": 41,
     "id": 580,
     "name": "Bevaho",
-    "id_district": 41
+    "districtId": 41
   },
   {
     "0": 581,
@@ -4645,7 +4645,7 @@ const communes = [
     "2": 41,
     "id": 581,
     "name": "Ivondro (ex-Lavaraty)",
-    "id_district": 41
+    "districtId": 41
   },
   {
     "0": 582,
@@ -4653,7 +4653,7 @@ const communes = [
     "2": 41,
     "id": 582,
     "name": "Nosifeno (ex-Midongy Sud)",
-    "id_district": 41
+    "districtId": 41
   },
   {
     "0": 583,
@@ -4661,7 +4661,7 @@ const communes = [
     "2": 41,
     "id": 583,
     "name": "Soakibany",
-    "id_district": 41
+    "districtId": 41
   },
   {
     "0": 584,
@@ -4669,7 +4669,7 @@ const communes = [
     "2": 41,
     "id": 584,
     "name": "Zara (ex-Maliorano)",
-    "id_district": 41
+    "districtId": 41
   },
   {
     "0": 585,
@@ -4677,7 +4677,7 @@ const communes = [
     "2": 42,
     "id": 585,
     "name": "Ambatolava",
-    "id_district": 42
+    "districtId": 42
   },
   {
     "0": 586,
@@ -4685,7 +4685,7 @@ const communes = [
     "2": 42,
     "id": 586,
     "name": "Ambongo",
-    "id_district": 42
+    "districtId": 42
   },
   {
     "0": 587,
@@ -4693,7 +4693,7 @@ const communes = [
     "2": 42,
     "id": 587,
     "name": "Amparihy Est",
-    "id_district": 42
+    "districtId": 42
   },
   {
     "0": 588,
@@ -4701,7 +4701,7 @@ const communes = [
     "2": 42,
     "id": 588,
     "name": "Ampasimalemy",
-    "id_district": 42
+    "districtId": 42
   },
   {
     "0": 589,
@@ -4709,7 +4709,7 @@ const communes = [
     "2": 42,
     "id": 589,
     "name": "Ampataka",
-    "id_district": 42
+    "districtId": 42
   },
   {
     "0": 590,
@@ -4717,7 +4717,7 @@ const communes = [
     "2": 42,
     "id": 590,
     "name": "Anilobe",
-    "id_district": 42
+    "districtId": 42
   },
   {
     "0": 591,
@@ -4725,7 +4725,7 @@ const communes = [
     "2": 42,
     "id": 591,
     "name": "Bekaraoky",
-    "id_district": 42
+    "districtId": 42
   },
   {
     "0": 592,
@@ -4733,7 +4733,7 @@ const communes = [
     "2": 42,
     "id": 592,
     "name": "Bema",
-    "id_district": 42
+    "districtId": 42
   },
   {
     "0": 593,
@@ -4741,7 +4741,7 @@ const communes = [
     "2": 42,
     "id": 593,
     "name": "Bevata",
-    "id_district": 42
+    "districtId": 42
   },
   {
     "0": 594,
@@ -4749,7 +4749,7 @@ const communes = [
     "2": 42,
     "id": 594,
     "name": "Fenoambany",
-    "id_district": 42
+    "districtId": 42
   },
   {
     "0": 595,
@@ -4757,7 +4757,7 @@ const communes = [
     "2": 42,
     "id": 595,
     "name": "Fonilaza",
-    "id_district": 42
+    "districtId": 42
   },
   {
     "0": 596,
@@ -4765,7 +4765,7 @@ const communes = [
     "2": 42,
     "id": 596,
     "name": "Iara",
-    "id_district": 42
+    "districtId": 42
   },
   {
     "0": 597,
@@ -4773,7 +4773,7 @@ const communes = [
     "2": 42,
     "id": 597,
     "name": "Isahara",
-    "id_district": 42
+    "districtId": 42
   },
   {
     "0": 598,
@@ -4781,7 +4781,7 @@ const communes = [
     "2": 42,
     "id": 598,
     "name": "Karimbary",
-    "id_district": 42
+    "districtId": 42
   },
   {
     "0": 599,
@@ -4789,7 +4789,7 @@ const communes = [
     "2": 42,
     "id": 599,
     "name": "Lohafary",
-    "id_district": 42
+    "districtId": 42
   },
   {
     "0": 600,
@@ -4797,7 +4797,7 @@ const communes = [
     "2": 42,
     "id": 600,
     "name": "Lopary",
-    "id_district": 42
+    "districtId": 42
   },
   {
     "0": 601,
@@ -4805,7 +4805,7 @@ const communes = [
     "2": 42,
     "id": 601,
     "name": "Mahabe",
-    "id_district": 42
+    "districtId": 42
   },
   {
     "0": 602,
@@ -4813,7 +4813,7 @@ const communes = [
     "2": 42,
     "id": 602,
     "name": "Manambondro",
-    "id_district": 42
+    "districtId": 42
   },
   {
     "0": 603,
@@ -4821,7 +4821,7 @@ const communes = [
     "2": 42,
     "id": 603,
     "name": "Marokibo",
-    "id_district": 42
+    "districtId": 42
   },
   {
     "0": 604,
@@ -4829,7 +4829,7 @@ const communes = [
     "2": 42,
     "id": 604,
     "name": "Masianaka",
-    "id_district": 42
+    "districtId": 42
   },
   {
     "0": 605,
@@ -4837,7 +4837,7 @@ const communes = [
     "2": 42,
     "id": 605,
     "name": "Matanga",
-    "id_district": 42
+    "districtId": 42
   },
   {
     "0": 606,
@@ -4845,7 +4845,7 @@ const communes = [
     "2": 42,
     "id": 606,
     "name": "Ranomena",
-    "id_district": 42
+    "districtId": 42
   },
   {
     "0": 607,
@@ -4853,7 +4853,7 @@ const communes = [
     "2": 42,
     "id": 607,
     "name": "Sandravinany",
-    "id_district": 42
+    "districtId": 42
   },
   {
     "0": 608,
@@ -4861,7 +4861,7 @@ const communes = [
     "2": 42,
     "id": 608,
     "name": "Soamanova",
-    "id_district": 42
+    "districtId": 42
   },
   {
     "0": 609,
@@ -4869,7 +4869,7 @@ const communes = [
     "2": 42,
     "id": 609,
     "name": "Tsianofana",
-    "id_district": 42
+    "districtId": 42
   },
   {
     "0": 610,
@@ -4877,7 +4877,7 @@ const communes = [
     "2": 42,
     "id": 610,
     "name": "Tsiately",
-    "id_district": 42
+    "districtId": 42
   },
   {
     "0": 611,
@@ -4885,7 +4885,7 @@ const communes = [
     "2": 42,
     "id": 611,
     "name": "Vangaindrano",
-    "id_district": 42
+    "districtId": 42
   },
   {
     "0": 612,
@@ -4893,7 +4893,7 @@ const communes = [
     "2": 42,
     "id": 612,
     "name": "Vatanato",
-    "id_district": 42
+    "districtId": 42
   },
   {
     "0": 613,
@@ -4901,7 +4901,7 @@ const communes = [
     "2": 42,
     "id": 613,
     "name": "Vohimalaza",
-    "id_district": 42
+    "districtId": 42
   },
   {
     "0": 614,
@@ -4909,7 +4909,7 @@ const communes = [
     "2": 42,
     "id": 614,
     "name": "Vohipaho",
-    "id_district": 42
+    "districtId": 42
   },
   {
     "0": 615,
@@ -4917,7 +4917,7 @@ const communes = [
     "2": 42,
     "id": 615,
     "name": "Vohitrambo",
-    "id_district": 42
+    "districtId": 42
   },
   {
     "0": 616,
@@ -4925,7 +4925,7 @@ const communes = [
     "2": 43,
     "id": 616,
     "name": "Ambodirano",
-    "id_district": 43
+    "districtId": 43
   },
   {
     "0": 617,
@@ -4933,7 +4933,7 @@ const communes = [
     "2": 43,
     "id": 617,
     "name": "Ambohimana",
-    "id_district": 43
+    "districtId": 43
   },
   {
     "0": 618,
@@ -4941,7 +4941,7 @@ const communes = [
     "2": 43,
     "id": 618,
     "name": "Anandravy",
-    "id_district": 43
+    "districtId": 43
   },
   {
     "0": 619,
@@ -4949,7 +4949,7 @@ const communes = [
     "2": 43,
     "id": 619,
     "name": "Andakana",
-    "id_district": 43
+    "districtId": 43
   },
   {
     "0": 620,
@@ -4957,7 +4957,7 @@ const communes = [
     "2": 43,
     "id": 620,
     "name": "Antokonala",
-    "id_district": 43
+    "districtId": 43
   },
   {
     "0": 621,
@@ -4965,7 +4965,7 @@ const communes = [
     "2": 43,
     "id": 621,
     "name": "Iamonta",
-    "id_district": 43
+    "districtId": 43
   },
   {
     "0": 622,
@@ -4973,7 +4973,7 @@ const communes = [
     "2": 43,
     "id": 622,
     "name": "Ivato",
-    "id_district": 43
+    "districtId": 43
   },
   {
     "0": 623,
@@ -4981,7 +4981,7 @@ const communes = [
     "2": 43,
     "id": 623,
     "name": "Karianga",
-    "id_district": 43
+    "districtId": 43
   },
   {
     "0": 624,
@@ -4989,7 +4989,7 @@ const communes = [
     "2": 43,
     "id": 624,
     "name": "Mahatsinjo",
-    "id_district": 43
+    "districtId": 43
   },
   {
     "0": 625,
@@ -4997,7 +4997,7 @@ const communes = [
     "2": 43,
     "id": 625,
     "name": "Mahavelo",
-    "id_district": 43
+    "districtId": 43
   },
   {
     "0": 626,
@@ -5005,7 +5005,7 @@ const communes = [
     "2": 43,
     "id": 626,
     "name": "Mahazoarivo",
-    "id_district": 43
+    "districtId": 43
   },
   {
     "0": 627,
@@ -5013,7 +5013,7 @@ const communes = [
     "2": 43,
     "id": 627,
     "name": "Manambidala",
-    "id_district": 43
+    "districtId": 43
   },
   {
     "0": 628,
@@ -5021,7 +5021,7 @@ const communes = [
     "2": 43,
     "id": 628,
     "name": "Manato",
-    "id_district": 43
+    "districtId": 43
   },
   {
     "0": 629,
@@ -5029,7 +5029,7 @@ const communes = [
     "2": 43,
     "id": 629,
     "name": "Moroteza",
-    "id_district": 43
+    "districtId": 43
   },
   {
     "0": 630,
@@ -5037,7 +5037,7 @@ const communes = [
     "2": 43,
     "id": 630,
     "name": "Vohiboreka",
-    "id_district": 43
+    "districtId": 43
   },
   {
     "0": 631,
@@ -5045,7 +5045,7 @@ const communes = [
     "2": 43,
     "id": 631,
     "name": "Vohimary",
-    "id_district": 43
+    "districtId": 43
   },
   {
     "0": 632,
@@ -5053,7 +5053,7 @@ const communes = [
     "2": 43,
     "id": 632,
     "name": "Vondrozo",
-    "id_district": 43
+    "districtId": 43
   },
   {
     "0": 633,
@@ -5061,7 +5061,7 @@ const communes = [
     "2": 44,
     "id": 633,
     "name": "Ambalavao",
-    "id_district": 44
+    "districtId": 44
   },
   {
     "0": 634,
@@ -5069,7 +5069,7 @@ const communes = [
     "2": 44,
     "id": 634,
     "name": "Ambinanindovoka",
-    "id_district": 44
+    "districtId": 44
   },
   {
     "0": 635,
@@ -5077,7 +5077,7 @@ const communes = [
     "2": 44,
     "id": 635,
     "name": "Ambinaniroa",
-    "id_district": 44
+    "districtId": 44
   },
   {
     "0": 636,
@@ -5085,7 +5085,7 @@ const communes = [
     "2": 44,
     "id": 636,
     "name": "Ambohimahamasina",
-    "id_district": 44
+    "districtId": 44
   },
   {
     "0": 637,
@@ -5093,7 +5093,7 @@ const communes = [
     "2": 44,
     "id": 637,
     "name": "Ambohimandroso",
-    "id_district": 44
+    "districtId": 44
   },
   {
     "0": 638,
@@ -5101,7 +5101,7 @@ const communes = [
     "2": 44,
     "id": 638,
     "name": "Andrainjato",
-    "id_district": 44
+    "districtId": 44
   },
   {
     "0": 639,
@@ -5109,7 +5109,7 @@ const communes = [
     "2": 44,
     "id": 639,
     "name": "Anjoma",
-    "id_district": 44
+    "districtId": 44
   },
   {
     "0": 640,
@@ -5117,7 +5117,7 @@ const communes = [
     "2": 44,
     "id": 640,
     "name": "Ankaramena",
-    "id_district": 44
+    "districtId": 44
   },
   {
     "0": 641,
@@ -5125,7 +5125,7 @@ const communes = [
     "2": 44,
     "id": 641,
     "name": "Besoa",
-    "id_district": 44
+    "districtId": 44
   },
   {
     "0": 642,
@@ -5133,7 +5133,7 @@ const communes = [
     "2": 44,
     "id": 642,
     "name": "Fenoarivo",
-    "id_district": 44
+    "districtId": 44
   },
   {
     "0": 643,
@@ -5141,7 +5141,7 @@ const communes = [
     "2": 44,
     "id": 643,
     "name": "Iarintsena",
-    "id_district": 44
+    "districtId": 44
   },
   {
     "0": 644,
@@ -5149,7 +5149,7 @@ const communes = [
     "2": 44,
     "id": 644,
     "name": "Kirano",
-    "id_district": 44
+    "districtId": 44
   },
   {
     "0": 645,
@@ -5157,7 +5157,7 @@ const communes = [
     "2": 44,
     "id": 645,
     "name": "Mahazony",
-    "id_district": 44
+    "districtId": 44
   },
   {
     "0": 646,
@@ -5165,7 +5165,7 @@ const communes = [
     "2": 44,
     "id": 646,
     "name": "Manamisoa",
-    "id_district": 44
+    "districtId": 44
   },
   {
     "0": 647,
@@ -5173,7 +5173,7 @@ const communes = [
     "2": 44,
     "id": 647,
     "name": "Miarinarivo",
-    "id_district": 44
+    "districtId": 44
   },
   {
     "0": 648,
@@ -5181,7 +5181,7 @@ const communes = [
     "2": 44,
     "id": 648,
     "name": "Namoly",
-    "id_district": 44
+    "districtId": 44
   },
   {
     "0": 649,
@@ -5189,7 +5189,7 @@ const communes = [
     "2": 44,
     "id": 649,
     "name": "Sendrisoa",
-    "id_district": 44
+    "districtId": 44
   },
   {
     "0": 650,
@@ -5197,7 +5197,7 @@ const communes = [
     "2": 44,
     "id": 650,
     "name": "Vohitsaoka",
-    "id_district": 44
+    "districtId": 44
   },
   {
     "0": 651,
@@ -5205,7 +5205,7 @@ const communes = [
     "2": 44,
     "id": 651,
     "name": "Volamena",
-    "id_district": 44
+    "districtId": 44
   },
   {
     "0": 652,
@@ -5213,7 +5213,7 @@ const communes = [
     "2": 45,
     "id": 652,
     "name": "Ambalakindresy",
-    "id_district": 45
+    "districtId": 45
   },
   {
     "0": 653,
@@ -5221,7 +5221,7 @@ const communes = [
     "2": 45,
     "id": 653,
     "name": "Ambatosoa",
-    "id_district": 45
+    "districtId": 45
   },
   {
     "0": 654,
@@ -5229,7 +5229,7 @@ const communes = [
     "2": 45,
     "id": 654,
     "name": "Ambohimahasoa",
-    "id_district": 45
+    "districtId": 45
   },
   {
     "0": 655,
@@ -5237,7 +5237,7 @@ const communes = [
     "2": 45,
     "id": 655,
     "name": "Ambohinamboarina",
-    "id_district": 45
+    "districtId": 45
   },
   {
     "0": 656,
@@ -5245,7 +5245,7 @@ const communes = [
     "2": 45,
     "id": 656,
     "name": "Ampitana",
-    "id_district": 45
+    "districtId": 45
   },
   {
     "0": 657,
@@ -5253,7 +5253,7 @@ const communes = [
     "2": 45,
     "id": 657,
     "name": "Ankafina Tsarafidy",
-    "id_district": 45
+    "districtId": 45
   },
   {
     "0": 658,
@@ -5261,7 +5261,7 @@ const communes = [
     "2": 45,
     "id": 658,
     "name": "Ankerana",
-    "id_district": 45
+    "districtId": 45
   },
   {
     "0": 659,
@@ -5269,7 +5269,7 @@ const communes = [
     "2": 45,
     "id": 659,
     "name": "Befeta",
-    "id_district": 45
+    "districtId": 45
   },
   {
     "0": 660,
@@ -5277,7 +5277,7 @@ const communes = [
     "2": 45,
     "id": 660,
     "name": "Camp Robin",
-    "id_district": 45
+    "districtId": 45
   },
   {
     "0": 661,
@@ -5285,7 +5285,7 @@ const communes = [
     "2": 45,
     "id": 661,
     "name": "Fiadanana",
-    "id_district": 45
+    "districtId": 45
   },
   {
     "0": 662,
@@ -5293,7 +5293,7 @@ const communes = [
     "2": 45,
     "id": 662,
     "name": "Ikalalao",
-    "id_district": 45
+    "districtId": 45
   },
   {
     "0": 663,
@@ -5301,7 +5301,7 @@ const communes = [
     "2": 45,
     "id": 663,
     "name": "Isaka",
-    "id_district": 45
+    "districtId": 45
   },
   {
     "0": 664,
@@ -5309,7 +5309,7 @@ const communes = [
     "2": 45,
     "id": 664,
     "name": "Manandroy",
-    "id_district": 45
+    "districtId": 45
   },
   {
     "0": 665,
@@ -5317,7 +5317,7 @@ const communes = [
     "2": 45,
     "id": 665,
     "name": "Morafeno",
-    "id_district": 45
+    "districtId": 45
   },
   {
     "0": 666,
@@ -5325,7 +5325,7 @@ const communes = [
     "2": 45,
     "id": 666,
     "name": "Sahatona",
-    "id_district": 45
+    "districtId": 45
   },
   {
     "0": 667,
@@ -5333,7 +5333,7 @@ const communes = [
     "2": 45,
     "id": 667,
     "name": "Sahave",
-    "id_district": 45
+    "districtId": 45
   },
   {
     "0": 668,
@@ -5341,7 +5341,7 @@ const communes = [
     "2": 45,
     "id": 668,
     "name": "Vohiposa",
-    "id_district": 45
+    "districtId": 45
   },
   {
     "0": 669,
@@ -5349,7 +5349,7 @@ const communes = [
     "2": 45,
     "id": 669,
     "name": "Vohitrarivo",
-    "id_district": 45
+    "districtId": 45
   },
   {
     "0": 670,
@@ -5357,7 +5357,7 @@ const communes = [
     "2": 46,
     "id": 670,
     "name": "Andrainjato",
-    "id_district": 46
+    "districtId": 46
   },
   {
     "0": 671,
@@ -5365,7 +5365,7 @@ const communes = [
     "2": 46,
     "id": 671,
     "name": "Andrainjato Nord",
-    "id_district": 46
+    "districtId": 46
   },
   {
     "0": 672,
@@ -5373,7 +5373,7 @@ const communes = [
     "2": 46,
     "id": 672,
     "name": "Lazana",
-    "id_district": 46
+    "districtId": 46
   },
   {
     "0": 673,
@@ -5381,7 +5381,7 @@ const communes = [
     "2": 46,
     "id": 673,
     "name": "Manolafaka",
-    "id_district": 46
+    "districtId": 46
   },
   {
     "0": 674,
@@ -5389,7 +5389,7 @@ const communes = [
     "2": 46,
     "id": 674,
     "name": "Vatosola",
-    "id_district": 46
+    "districtId": 46
   },
   {
     "0": 675,
@@ -5397,7 +5397,7 @@ const communes = [
     "2": 46,
     "id": 675,
     "name": "Ville Basse",
-    "id_district": 46
+    "districtId": 46
   },
   {
     "0": 676,
@@ -5405,7 +5405,7 @@ const communes = [
     "2": 46,
     "id": 676,
     "name": "Ville Haute",
-    "id_district": 46
+    "districtId": 46
   },
   {
     "0": 677,
@@ -5413,7 +5413,7 @@ const communes = [
     "2": 47,
     "id": 677,
     "name": "Ambatomainty",
-    "id_district": 47
+    "districtId": 47
   },
   {
     "0": 678,
@@ -5421,7 +5421,7 @@ const communes = [
     "2": 47,
     "id": 678,
     "name": "Fitampito",
-    "id_district": 47
+    "districtId": 47
   },
   {
     "0": 679,
@@ -5429,7 +5429,7 @@ const communes = [
     "2": 47,
     "id": 679,
     "name": "Ikalamavony",
-    "id_district": 47
+    "districtId": 47
   },
   {
     "0": 680,
@@ -5437,7 +5437,7 @@ const communes = [
     "2": 47,
     "id": 680,
     "name": "Mangidy",
-    "id_district": 47
+    "districtId": 47
   },
   {
     "0": 681,
@@ -5445,7 +5445,7 @@ const communes = [
     "2": 47,
     "id": 681,
     "name": "Solila",
-    "id_district": 47
+    "districtId": 47
   },
   {
     "0": 682,
@@ -5453,7 +5453,7 @@ const communes = [
     "2": 47,
     "id": 682,
     "name": "Tanamarina Bekisopa",
-    "id_district": 47
+    "districtId": 47
   },
   {
     "0": 683,
@@ -5461,7 +5461,7 @@ const communes = [
     "2": 47,
     "id": 683,
     "name": "Tanamarina Sakay",
-    "id_district": 47
+    "districtId": 47
   },
   {
     "0": 684,
@@ -5469,7 +5469,7 @@ const communes = [
     "2": 47,
     "id": 684,
     "name": "Tsitondroina",
-    "id_district": 47
+    "districtId": 47
   },
   {
     "0": 685,
@@ -5477,7 +5477,7 @@ const communes = [
     "2": 48,
     "id": 685,
     "name": "Ambalamidera Ambohimanana",
-    "id_district": 48
+    "districtId": 48
   },
   {
     "0": 686,
@@ -5485,7 +5485,7 @@ const communes = [
     "2": 48,
     "id": 686,
     "name": "Ambalamidera II",
-    "id_district": 48
+    "districtId": 48
   },
   {
     "0": 687,
@@ -5493,7 +5493,7 @@ const communes = [
     "2": 48,
     "id": 687,
     "name": "Ambondrona",
-    "id_district": 48
+    "districtId": 48
   },
   {
     "0": 688,
@@ -5501,7 +5501,7 @@ const communes = [
     "2": 48,
     "id": 688,
     "name": "Andoharanomaitso",
-    "id_district": 48
+    "districtId": 48
   },
   {
     "0": 689,
@@ -5509,7 +5509,7 @@ const communes = [
     "2": 48,
     "id": 689,
     "name": "Andreamalama",
-    "id_district": 48
+    "districtId": 48
   },
   {
     "0": 690,
@@ -5517,7 +5517,7 @@ const communes = [
     "2": 48,
     "id": 690,
     "name": "Anjoma Itsara",
-    "id_district": 48
+    "districtId": 48
   },
   {
     "0": 691,
@@ -5525,7 +5525,7 @@ const communes = [
     "2": 48,
     "id": 691,
     "name": "Ankarinarivo Manirisoa",
-    "id_district": 48
+    "districtId": 48
   },
   {
     "0": 692,
@@ -5533,7 +5533,7 @@ const communes = [
     "2": 48,
     "id": 692,
     "name": "Fanjakana",
-    "id_district": 48
+    "districtId": 48
   },
   {
     "0": 693,
@@ -5541,7 +5541,7 @@ const communes = [
     "2": 48,
     "id": 693,
     "name": "Iavinomby Vohibola",
-    "id_district": 48
+    "districtId": 48
   },
   {
     "0": 694,
@@ -5549,7 +5549,7 @@ const communes = [
     "2": 48,
     "id": 694,
     "name": "Isorana",
-    "id_district": 48
+    "districtId": 48
   },
   {
     "0": 695,
@@ -5557,7 +5557,7 @@ const communes = [
     "2": 48,
     "id": 695,
     "name": "Mahazoarivo",
-    "id_district": 48
+    "districtId": 48
   },
   {
     "0": 696,
@@ -5565,7 +5565,7 @@ const communes = [
     "2": 48,
     "id": 696,
     "name": "Nasandratrony",
-    "id_district": 48
+    "districtId": 48
   },
   {
     "0": 697,
@@ -5573,7 +5573,7 @@ const communes = [
     "2": 48,
     "id": 697,
     "name": "Soatanàna",
-    "id_district": 48
+    "districtId": 48
   },
   {
     "0": 698,
@@ -5581,7 +5581,7 @@ const communes = [
     "2": 49,
     "id": 698,
     "name": "Alakamisy Ambohimaha",
-    "id_district": 49
+    "districtId": 49
   },
   {
     "0": 699,
@@ -5589,7 +5589,7 @@ const communes = [
     "2": 49,
     "id": 699,
     "name": "Alatsinainy Ialamarina",
-    "id_district": 49
+    "districtId": 49
   },
   {
     "0": 700,
@@ -5597,7 +5597,7 @@ const communes = [
     "2": 49,
     "id": 700,
     "name": "Ambalakely",
-    "id_district": 49
+    "districtId": 49
   },
   {
     "0": 701,
@@ -5605,7 +5605,7 @@ const communes = [
     "2": 49,
     "id": 701,
     "name": "Ambalamahasoa",
-    "id_district": 49
+    "districtId": 49
   },
   {
     "0": 702,
@@ -5613,7 +5613,7 @@ const communes = [
     "2": 49,
     "id": 702,
     "name": "Ampatsy Ampangabe",
-    "id_district": 49
+    "districtId": 49
   },
   {
     "0": 703,
@@ -5621,7 +5621,7 @@ const communes = [
     "2": 49,
     "id": 703,
     "name": "Andrainjato Centre",
-    "id_district": 49
+    "districtId": 49
   },
   {
     "0": 704,
@@ -5629,7 +5629,7 @@ const communes = [
     "2": 49,
     "id": 704,
     "name": "Andrainjato Est",
-    "id_district": 49
+    "districtId": 49
   },
   {
     "0": 705,
@@ -5637,7 +5637,7 @@ const communes = [
     "2": 49,
     "id": 705,
     "name": "Androy",
-    "id_district": 49
+    "districtId": 49
   },
   {
     "0": 706,
@@ -5645,7 +5645,7 @@ const communes = [
     "2": 49,
     "id": 706,
     "name": "Fandrandava",
-    "id_district": 49
+    "districtId": 49
   },
   {
     "0": 707,
@@ -5653,7 +5653,7 @@ const communes = [
     "2": 49,
     "id": 707,
     "name": "Ialananindro",
-    "id_district": 49
+    "districtId": 49
   },
   {
     "0": 708,
@@ -5661,7 +5661,7 @@ const communes = [
     "2": 49,
     "id": 708,
     "name": "Ivoamba",
-    "id_district": 49
+    "districtId": 49
   },
   {
     "0": 709,
@@ -5669,7 +5669,7 @@ const communes = [
     "2": 49,
     "id": 709,
     "name": "Mahatsinjony",
-    "id_district": 49
+    "districtId": 49
   },
   {
     "0": 710,
@@ -5677,7 +5677,7 @@ const communes = [
     "2": 49,
     "id": 710,
     "name": "Safata",
-    "id_district": 49
+    "districtId": 49
   },
   {
     "0": 711,
@@ -5685,7 +5685,7 @@ const communes = [
     "2": 49,
     "id": 711,
     "name": "Sahambavy",
-    "id_district": 49
+    "districtId": 49
   },
   {
     "0": 712,
@@ -5693,7 +5693,7 @@ const communes = [
     "2": 49,
     "id": 712,
     "name": "Taindambo",
-    "id_district": 49
+    "districtId": 49
   },
   {
     "0": 713,
@@ -5701,7 +5701,7 @@ const communes = [
     "2": 49,
     "id": 713,
     "name": "Vinaninoro Andrefana",
-    "id_district": 49
+    "districtId": 49
   },
   {
     "0": 714,
@@ -5709,7 +5709,7 @@ const communes = [
     "2": 50,
     "id": 714,
     "name": "Alakamisy Itenina",
-    "id_district": 50
+    "districtId": 50
   },
   {
     "0": 715,
@@ -5717,7 +5717,7 @@ const communes = [
     "2": 50,
     "id": 715,
     "name": "Andranomiditra",
-    "id_district": 50
+    "districtId": 50
   },
   {
     "0": 716,
@@ -5725,7 +5725,7 @@ const communes = [
     "2": 50,
     "id": 716,
     "name": "Andranovorivato",
-    "id_district": 50
+    "districtId": 50
   },
   {
     "0": 717,
@@ -5733,7 +5733,7 @@ const communes = [
     "2": 50,
     "id": 717,
     "name": "Anjanomanana Tsimanavaka",
-    "id_district": 50
+    "districtId": 50
   },
   {
     "0": 718,
@@ -5741,7 +5741,7 @@ const communes = [
     "2": 50,
     "id": 718,
     "name": "Ankaromalaza Mifanasoa",
-    "id_district": 50
+    "districtId": 50
   },
   {
     "0": 719,
@@ -5749,7 +5749,7 @@ const communes = [
     "2": 50,
     "id": 719,
     "name": "Ihazoara",
-    "id_district": 50
+    "districtId": 50
   },
   {
     "0": 720,
@@ -5757,7 +5757,7 @@ const communes = [
     "2": 50,
     "id": 720,
     "name": "Lamosina",
-    "id_district": 50
+    "districtId": 50
   },
   {
     "0": 721,
@@ -5765,7 +5765,7 @@ const communes = [
     "2": 50,
     "id": 721,
     "name": "Mahaditra",
-    "id_district": 50
+    "districtId": 50
   },
   {
     "0": 722,
@@ -5773,7 +5773,7 @@ const communes = [
     "2": 50,
     "id": 722,
     "name": "Mahasoabe",
-    "id_district": 50
+    "districtId": 50
   },
   {
     "0": 723,
@@ -5781,7 +5781,7 @@ const communes = [
     "2": 50,
     "id": 723,
     "name": "Maneva",
-    "id_district": 50
+    "districtId": 50
   },
   {
     "0": 724,
@@ -5789,7 +5789,7 @@ const communes = [
     "2": 50,
     "id": 724,
     "name": "Soaindrana",
-    "id_district": 50
+    "districtId": 50
   },
   {
     "0": 725,
@@ -5797,7 +5797,7 @@ const communes = [
     "2": 50,
     "id": 725,
     "name": "Talata Ampano",
-    "id_district": 50
+    "districtId": 50
   },
   {
     "0": 726,
@@ -5805,7 +5805,7 @@ const communes = [
     "2": 50,
     "id": 726,
     "name": "Vinanitelo",
-    "id_district": 50
+    "districtId": 50
   },
   {
     "0": 727,
@@ -5813,7 +5813,7 @@ const communes = [
     "2": 50,
     "id": 727,
     "name": "Vohibato Ouest",
-    "id_district": 50
+    "districtId": 50
   },
   {
     "0": 728,
@@ -5821,7 +5821,7 @@ const communes = [
     "2": 50,
     "id": 728,
     "name": "Vohimarina Lamosina",
-    "id_district": 50
+    "districtId": 50
   },
   {
     "0": 729,
@@ -5829,7 +5829,7 @@ const communes = [
     "2": 50,
     "id": 729,
     "name": "Vohitrafeno",
-    "id_district": 50
+    "districtId": 50
   },
   {
     "0": 730,
@@ -5837,7 +5837,7 @@ const communes = [
     "2": 51,
     "id": 730,
     "name": "Andranombao",
-    "id_district": 51
+    "districtId": 51
   },
   {
     "0": 731,
@@ -5845,7 +5845,7 @@ const communes = [
     "2": 51,
     "id": 731,
     "name": "Begogo",
-    "id_district": 51
+    "districtId": 51
   },
   {
     "0": 732,
@@ -5853,7 +5853,7 @@ const communes = [
     "2": 51,
     "id": 732,
     "name": "Iakora",
-    "id_district": 51
+    "districtId": 51
   },
   {
     "0": 733,
@@ -5861,7 +5861,7 @@ const communes = [
     "2": 51,
     "id": 733,
     "name": "Ranotsara Nord",
-    "id_district": 51
+    "districtId": 51
   },
   {
     "0": 734,
@@ -5869,7 +5869,7 @@ const communes = [
     "2": 51,
     "id": 734,
     "name": "Volambita",
-    "id_district": 51
+    "districtId": 51
   },
   {
     "0": 735,
@@ -5877,7 +5877,7 @@ const communes = [
     "2": 52,
     "id": 735,
     "name": "Ambatolahy",
-    "id_district": 52
+    "districtId": 52
   },
   {
     "0": 736,
@@ -5885,7 +5885,7 @@ const communes = [
     "2": 52,
     "id": 736,
     "name": "Ambia",
-    "id_district": 52
+    "districtId": 52
   },
   {
     "0": 737,
@@ -5893,7 +5893,7 @@ const communes = [
     "2": 52,
     "id": 737,
     "name": "Analaliry",
-    "id_district": 52
+    "districtId": 52
   },
   {
     "0": 738,
@@ -5901,7 +5901,7 @@ const communes = [
     "2": 52,
     "id": 738,
     "name": "Analavoka",
-    "id_district": 52
+    "districtId": 52
   },
   {
     "0": 739,
@@ -5909,7 +5909,7 @@ const communes = [
     "2": 52,
     "id": 739,
     "name": "Andiolava",
-    "id_district": 52
+    "districtId": 52
   },
   {
     "0": 740,
@@ -5917,7 +5917,7 @@ const communes = [
     "2": 52,
     "id": 740,
     "name": "Andohan_Ilakaka",
-    "id_district": 52
+    "districtId": 52
   },
   {
     "0": 741,
@@ -5925,7 +5925,7 @@ const communes = [
     "2": 52,
     "id": 741,
     "name": "Ankily",
-    "id_district": 52
+    "districtId": 52
   },
   {
     "0": 742,
@@ -5933,7 +5933,7 @@ const communes = [
     "2": 52,
     "id": 742,
     "name": "Antsoha",
-    "id_district": 52
+    "districtId": 52
   },
   {
     "0": 743,
@@ -5941,7 +5941,7 @@ const communes = [
     "2": 52,
     "id": 743,
     "name": "Ihosy",
-    "id_district": 52
+    "districtId": 52
   },
   {
     "0": 744,
@@ -5949,7 +5949,7 @@ const communes = [
     "2": 52,
     "id": 744,
     "name": "Ilakaka Be",
-    "id_district": 52
+    "districtId": 52
   },
   {
     "0": 745,
@@ -5957,7 +5957,7 @@ const communes = [
     "2": 52,
     "id": 745,
     "name": "Irina",
-    "id_district": 52
+    "districtId": 52
   },
   {
     "0": 746,
@@ -5965,7 +5965,7 @@ const communes = [
     "2": 52,
     "id": 746,
     "name": "Mahasoa",
-    "id_district": 52
+    "districtId": 52
   },
   {
     "0": 747,
@@ -5973,7 +5973,7 @@ const communes = [
     "2": 52,
     "id": 747,
     "name": "Menamaty-Iloto",
-    "id_district": 52
+    "districtId": 52
   },
   {
     "0": 748,
@@ -5981,7 +5981,7 @@ const communes = [
     "2": 52,
     "id": 748,
     "name": "Ranohira",
-    "id_district": 52
+    "districtId": 52
   },
   {
     "0": 749,
@@ -5989,7 +5989,7 @@ const communes = [
     "2": 52,
     "id": 749,
     "name": "Sahambano",
-    "id_district": 52
+    "districtId": 52
   },
   {
     "0": 750,
@@ -5997,7 +5997,7 @@ const communes = [
     "2": 52,
     "id": 750,
     "name": "Sakalalina",
-    "id_district": 52
+    "districtId": 52
   },
   {
     "0": 751,
@@ -6005,7 +6005,7 @@ const communes = [
     "2": 52,
     "id": 751,
     "name": "Satrokala",
-    "id_district": 52
+    "districtId": 52
   },
   {
     "0": 752,
@@ -6013,7 +6013,7 @@ const communes = [
     "2": 52,
     "id": 752,
     "name": "Soamatasy",
-    "id_district": 52
+    "districtId": 52
   },
   {
     "0": 753,
@@ -6021,7 +6021,7 @@ const communes = [
     "2": 52,
     "id": 753,
     "name": "Tolohomiady",
-    "id_district": 52
+    "districtId": 52
   },
   {
     "0": 754,
@@ -6029,7 +6029,7 @@ const communes = [
     "2": 52,
     "id": 754,
     "name": "Zazafotsy",
-    "id_district": 52
+    "districtId": 52
   },
   {
     "0": 755,
@@ -6037,7 +6037,7 @@ const communes = [
     "2": 53,
     "id": 755,
     "name": "Antambohobe",
-    "id_district": 53
+    "districtId": 53
   },
   {
     "0": 756,
@@ -6045,7 +6045,7 @@ const communes = [
     "2": 53,
     "id": 756,
     "name": "Antaramena",
-    "id_district": 53
+    "districtId": 53
   },
   {
     "0": 757,
@@ -6053,7 +6053,7 @@ const communes = [
     "2": 53,
     "id": 757,
     "name": "Ivohibe",
-    "id_district": 53
+    "districtId": 53
   },
   {
     "0": 758,
@@ -6061,7 +6061,7 @@ const communes = [
     "2": 53,
     "id": 758,
     "name": "Ivongo",
-    "id_district": 53
+    "districtId": 53
   },
   {
     "0": 759,
@@ -6069,7 +6069,7 @@ const communes = [
     "2": 53,
     "id": 759,
     "name": "Kotipa",
-    "id_district": 53
+    "districtId": 53
   },
   {
     "0": 760,
@@ -6077,7 +6077,7 @@ const communes = [
     "2": 53,
     "id": 760,
     "name": "Maropaika",
-    "id_district": 53
+    "districtId": 53
   },
   {
     "0": 761,
@@ -6085,7 +6085,7 @@ const communes = [
     "2": 54,
     "id": 761,
     "name": "Ambiabe",
-    "id_district": 54
+    "districtId": 54
   },
   {
     "0": 762,
@@ -6093,7 +6093,7 @@ const communes = [
     "2": 54,
     "id": 762,
     "name": "Ambohimanga Sud",
-    "id_district": 54
+    "districtId": 54
   },
   {
     "0": 763,
@@ -6101,7 +6101,7 @@ const communes = [
     "2": 54,
     "id": 763,
     "name": "Ambohimiera",
-    "id_district": 54
+    "districtId": 54
   },
   {
     "0": 764,
@@ -6109,7 +6109,7 @@ const communes = [
     "2": 54,
     "id": 764,
     "name": "Ampasinambo",
-    "id_district": 54
+    "districtId": 54
   },
   {
     "0": 765,
@@ -6117,7 +6117,7 @@ const communes = [
     "2": 54,
     "id": 765,
     "name": "Analampasina",
-    "id_district": 54
+    "districtId": 54
   },
   {
     "0": 766,
@@ -6125,7 +6125,7 @@ const communes = [
     "2": 54,
     "id": 766,
     "name": "Androrangavola",
-    "id_district": 54
+    "districtId": 54
   },
   {
     "0": 767,
@@ -6133,7 +6133,7 @@ const communes = [
     "2": 54,
     "id": 767,
     "name": "Antaretra",
-    "id_district": 54
+    "districtId": 54
   },
   {
     "0": 768,
@@ -6141,7 +6141,7 @@ const communes = [
     "2": 54,
     "id": 768,
     "name": "Antsindra",
-    "id_district": 54
+    "districtId": 54
   },
   {
     "0": 769,
@@ -6149,7 +6149,7 @@ const communes = [
     "2": 54,
     "id": 769,
     "name": "Fasintsara",
-    "id_district": 54
+    "districtId": 54
   },
   {
     "0": 770,
@@ -6157,7 +6157,7 @@ const communes = [
     "2": 54,
     "id": 770,
     "name": "Ifanadiana",
-    "id_district": 54
+    "districtId": 54
   },
   {
     "0": 771,
@@ -6165,7 +6165,7 @@ const communes = [
     "2": 54,
     "id": 771,
     "name": "Kelilalina",
-    "id_district": 54
+    "districtId": 54
   },
   {
     "0": 772,
@@ -6173,7 +6173,7 @@ const communes = [
     "2": 54,
     "id": 772,
     "name": "Maroharatra",
-    "id_district": 54
+    "districtId": 54
   },
   {
     "0": 773,
@@ -6181,7 +6181,7 @@ const communes = [
     "2": 54,
     "id": 773,
     "name": "Marotoko",
-    "id_district": 54
+    "districtId": 54
   },
   {
     "0": 774,
@@ -6189,7 +6189,7 @@ const communes = [
     "2": 54,
     "id": 774,
     "name": "Ranomafana",
-    "id_district": 54
+    "districtId": 54
   },
   {
     "0": 775,
@@ -6197,7 +6197,7 @@ const communes = [
     "2": 54,
     "id": 775,
     "name": "Tsaratanàna",
-    "id_district": 54
+    "districtId": 54
   },
   {
     "0": 776,
@@ -6205,7 +6205,7 @@ const communes = [
     "2": 55,
     "id": 776,
     "name": "Ambatofotsy",
-    "id_district": 55
+    "districtId": 55
   },
   {
     "0": 777,
@@ -6213,7 +6213,7 @@ const communes = [
     "2": 55,
     "id": 777,
     "name": "Ambinanitromby",
-    "id_district": 55
+    "districtId": 55
   },
   {
     "0": 778,
@@ -6221,7 +6221,7 @@ const communes = [
     "2": 55,
     "id": 778,
     "name": "Ambohimisafy",
-    "id_district": 55
+    "districtId": 55
   },
   {
     "0": 779,
@@ -6229,7 +6229,7 @@ const communes = [
     "2": 55,
     "id": 779,
     "name": "Ambolomadinika",
-    "id_district": 55
+    "districtId": 55
   },
   {
     "0": 780,
@@ -6237,7 +6237,7 @@ const communes = [
     "2": 55,
     "id": 780,
     "name": "Andefapony",
-    "id_district": 55
+    "districtId": 55
   },
   {
     "0": 781,
@@ -6245,7 +6245,7 @@ const communes = [
     "2": 55,
     "id": 781,
     "name": "Ankarimbelo",
-    "id_district": 55
+    "districtId": 55
   },
   {
     "0": 782,
@@ -6253,7 +6253,7 @@ const communes = [
     "2": 55,
     "id": 782,
     "name": "Antondinga",
-    "id_district": 55
+    "districtId": 55
   },
   {
     "0": 783,
@@ -6261,7 +6261,7 @@ const communes = [
     "2": 55,
     "id": 783,
     "name": "Belemoka",
-    "id_district": 55
+    "districtId": 55
   },
   {
     "0": 784,
@@ -6269,7 +6269,7 @@ const communes = [
     "2": 55,
     "id": 784,
     "name": "Ifanirea",
-    "id_district": 55
+    "districtId": 55
   },
   {
     "0": 785,
@@ -6277,7 +6277,7 @@ const communes = [
     "2": 55,
     "id": 785,
     "name": "Ikongo",
-    "id_district": 55
+    "districtId": 55
   },
   {
     "0": 786,
@@ -6285,7 +6285,7 @@ const communes = [
     "2": 55,
     "id": 786,
     "name": "Kalafotsy",
-    "id_district": 55
+    "districtId": 55
   },
   {
     "0": 787,
@@ -6293,7 +6293,7 @@ const communes = [
     "2": 55,
     "id": 787,
     "name": "Manampatrana",
-    "id_district": 55
+    "districtId": 55
   },
   {
     "0": 788,
@@ -6301,7 +6301,7 @@ const communes = [
     "2": 55,
     "id": 788,
     "name": "Maromiandra",
-    "id_district": 55
+    "districtId": 55
   },
   {
     "0": 789,
@@ -6309,7 +6309,7 @@ const communes = [
     "2": 55,
     "id": 789,
     "name": "Sahalanona",
-    "id_district": 55
+    "districtId": 55
   },
   {
     "0": 790,
@@ -6317,7 +6317,7 @@ const communes = [
     "2": 55,
     "id": 790,
     "name": "Tanakambana",
-    "id_district": 55
+    "districtId": 55
   },
   {
     "0": 791,
@@ -6325,7 +6325,7 @@ const communes = [
     "2": 55,
     "id": 791,
     "name": "Tolongoina",
-    "id_district": 55
+    "districtId": 55
   },
   {
     "0": 792,
@@ -6333,7 +6333,7 @@ const communes = [
     "2": 55,
     "id": 792,
     "name": "Tsifenokataka",
-    "id_district": 55
+    "districtId": 55
   },
   {
     "0": 793,
@@ -6341,7 +6341,7 @@ const communes = [
     "2": 56,
     "id": 793,
     "name": "Ambahatrazo",
-    "id_district": 56
+    "districtId": 56
   },
   {
     "0": 794,
@@ -6349,7 +6349,7 @@ const communes = [
     "2": 56,
     "id": 794,
     "name": "Ambahive",
-    "id_district": 56
+    "districtId": 56
   },
   {
     "0": 795,
@@ -6357,7 +6357,7 @@ const communes = [
     "2": 56,
     "id": 795,
     "name": "Ambalaroka",
-    "id_district": 56
+    "districtId": 56
   },
   {
     "0": 796,
@@ -6365,7 +6365,7 @@ const communes = [
     "2": 56,
     "id": 796,
     "name": "Ambalavero",
-    "id_district": 56
+    "districtId": 56
   },
   {
     "0": 797,
@@ -6373,7 +6373,7 @@ const communes = [
     "2": 56,
     "id": 797,
     "name": "Ambandrika",
-    "id_district": 56
+    "districtId": 56
   },
   {
     "0": 798,
@@ -6381,7 +6381,7 @@ const communes = [
     "2": 56,
     "id": 798,
     "name": "Ambila",
-    "id_district": 56
+    "districtId": 56
   },
   {
     "0": 799,
@@ -6389,7 +6389,7 @@ const communes = [
     "2": 56,
     "id": 799,
     "name": "Amboanjo",
-    "id_district": 56
+    "districtId": 56
   },
   {
     "0": 800,
@@ -6397,7 +6397,7 @@ const communes = [
     "2": 56,
     "id": 800,
     "name": "Ambohitrova",
-    "id_district": 56
+    "districtId": 56
   },
   {
     "0": 801,
@@ -6405,7 +6405,7 @@ const communes = [
     "2": 56,
     "id": 801,
     "name": "Ambohitsara-M",
-    "id_district": 56
+    "districtId": 56
   },
   {
     "0": 802,
@@ -6413,7 +6413,7 @@ const communes = [
     "2": 56,
     "id": 802,
     "name": "Amborondra",
-    "id_district": 56
+    "districtId": 56
   },
   {
     "0": 803,
@@ -6421,7 +6421,7 @@ const communes = [
     "2": 56,
     "id": 803,
     "name": "Ambotaka",
-    "id_district": 56
+    "districtId": 56
   },
   {
     "0": 804,
@@ -6429,7 +6429,7 @@ const communes = [
     "2": 56,
     "id": 804,
     "name": "Ampasimanjeva",
-    "id_district": 56
+    "districtId": 56
   },
   {
     "0": 805,
@@ -6437,7 +6437,7 @@ const communes = [
     "2": 56,
     "id": 805,
     "name": "Ampasimboraka",
-    "id_district": 56
+    "districtId": 56
   },
   {
     "0": 806,
@@ -6445,7 +6445,7 @@ const communes = [
     "2": 56,
     "id": 806,
     "name": "Ampasipotsy Sud",
-    "id_district": 56
+    "districtId": 56
   },
   {
     "0": 807,
@@ -6453,7 +6453,7 @@ const communes = [
     "2": 56,
     "id": 807,
     "name": "Analavory",
-    "id_district": 56
+    "districtId": 56
   },
   {
     "0": 808,
@@ -6461,7 +6461,7 @@ const communes = [
     "2": 56,
     "id": 808,
     "name": "Anorombato",
-    "id_district": 56
+    "districtId": 56
   },
   {
     "0": 809,
@@ -6469,7 +6469,7 @@ const communes = [
     "2": 56,
     "id": 809,
     "name": "Anteza",
-    "id_district": 56
+    "districtId": 56
   },
   {
     "0": 810,
@@ -6477,7 +6477,7 @@ const communes = [
     "2": 56,
     "id": 810,
     "name": "Bekatra",
-    "id_district": 56
+    "districtId": 56
   },
   {
     "0": 811,
@@ -6485,7 +6485,7 @@ const communes = [
     "2": 56,
     "id": 811,
     "name": "Betampona",
-    "id_district": 56
+    "districtId": 56
   },
   {
     "0": 812,
@@ -6493,7 +6493,7 @@ const communes = [
     "2": 56,
     "id": 812,
     "name": "Fenomby",
-    "id_district": 56
+    "districtId": 56
   },
   {
     "0": 813,
@@ -6501,7 +6501,7 @@ const communes = [
     "2": 56,
     "id": 813,
     "name": "Kianjanomby",
-    "id_district": 56
+    "districtId": 56
   },
   {
     "0": 814,
@@ -6509,7 +6509,7 @@ const communes = [
     "2": 56,
     "id": 814,
     "name": "Lokomby",
-    "id_district": 56
+    "districtId": 56
   },
   {
     "0": 815,
@@ -6517,7 +6517,7 @@ const communes = [
     "2": 56,
     "id": 815,
     "name": "Mahabako",
-    "id_district": 56
+    "districtId": 56
   },
   {
     "0": 816,
@@ -6525,7 +6525,7 @@ const communes = [
     "2": 56,
     "id": 816,
     "name": "Mahamaibe",
-    "id_district": 56
+    "districtId": 56
   },
   {
     "0": 817,
@@ -6533,7 +6533,7 @@ const communes = [
     "2": 56,
     "id": 817,
     "name": "Manakara",
-    "id_district": 56
+    "districtId": 56
   },
   {
     "0": 818,
@@ -6541,7 +6541,7 @@ const communes = [
     "2": 56,
     "id": 818,
     "name": "Mangatsiotra",
-    "id_district": 56
+    "districtId": 56
   },
   {
     "0": 819,
@@ -6549,7 +6549,7 @@ const communes = [
     "2": 56,
     "id": 819,
     "name": "Manjarivo",
-    "id_district": 56
+    "districtId": 56
   },
   {
     "0": 820,
@@ -6557,7 +6557,7 @@ const communes = [
     "2": 56,
     "id": 820,
     "name": "Marofarihy",
-    "id_district": 56
+    "districtId": 56
   },
   {
     "0": 821,
@@ -6565,7 +6565,7 @@ const communes = [
     "2": 56,
     "id": 821,
     "name": "Mavorano",
-    "id_district": 56
+    "districtId": 56
   },
   {
     "0": 822,
@@ -6573,7 +6573,7 @@ const communes = [
     "2": 56,
     "id": 822,
     "name": "Mitanty",
-    "id_district": 56
+    "districtId": 56
   },
   {
     "0": 823,
@@ -6581,7 +6581,7 @@ const communes = [
     "2": 56,
     "id": 823,
     "name": "Mizilo Gare",
-    "id_district": 56
+    "districtId": 56
   },
   {
     "0": 824,
@@ -6589,7 +6589,7 @@ const communes = [
     "2": 56,
     "id": 824,
     "name": "Nihaonana Ambany",
-    "id_district": 56
+    "districtId": 56
   },
   {
     "0": 825,
@@ -6597,7 +6597,7 @@ const communes = [
     "2": 56,
     "id": 825,
     "name": "Nosiala",
-    "id_district": 56
+    "districtId": 56
   },
   {
     "0": 826,
@@ -6605,7 +6605,7 @@ const communes = [
     "2": 56,
     "id": 826,
     "name": "Onilahy",
-    "id_district": 56
+    "districtId": 56
   },
   {
     "0": 827,
@@ -6613,7 +6613,7 @@ const communes = [
     "2": 56,
     "id": 827,
     "name": "Sahanambohitra",
-    "id_district": 56
+    "districtId": 56
   },
   {
     "0": 828,
@@ -6621,7 +6621,7 @@ const communes = [
     "2": 56,
     "id": 828,
     "name": "Saharefo",
-    "id_district": 56
+    "districtId": 56
   },
   {
     "0": 829,
@@ -6629,7 +6629,7 @@ const communes = [
     "2": 56,
     "id": 829,
     "name": "Sahasinaka",
-    "id_district": 56
+    "districtId": 56
   },
   {
     "0": 830,
@@ -6637,7 +6637,7 @@ const communes = [
     "2": 56,
     "id": 830,
     "name": "Sakoana",
-    "id_district": 56
+    "districtId": 56
   },
   {
     "0": 831,
@@ -6645,7 +6645,7 @@ const communes = [
     "2": 56,
     "id": 831,
     "name": "Sorombo",
-    "id_district": 56
+    "districtId": 56
   },
   {
     "0": 832,
@@ -6653,7 +6653,7 @@ const communes = [
     "2": 56,
     "id": 832,
     "name": "Tataho",
-    "id_district": 56
+    "districtId": 56
   },
   {
     "0": 833,
@@ -6661,7 +6661,7 @@ const communes = [
     "2": 56,
     "id": 833,
     "name": "Vatana",
-    "id_district": 56
+    "districtId": 56
   },
   {
     "0": 834,
@@ -6669,7 +6669,7 @@ const communes = [
     "2": 56,
     "id": 834,
     "name": "Vinanitelo",
-    "id_district": 56
+    "districtId": 56
   },
   {
     "0": 835,
@@ -6677,7 +6677,7 @@ const communes = [
     "2": 56,
     "id": 835,
     "name": "Vohilava Sahasondry",
-    "id_district": 56
+    "districtId": 56
   },
   {
     "0": 836,
@@ -6685,7 +6685,7 @@ const communes = [
     "2": 56,
     "id": 836,
     "name": "Vohimanitra",
-    "id_district": 56
+    "districtId": 56
   },
   {
     "0": 837,
@@ -6693,7 +6693,7 @@ const communes = [
     "2": 56,
     "id": 837,
     "name": "Vohimasina Nord",
-    "id_district": 56
+    "districtId": 56
   },
   {
     "0": 838,
@@ -6701,7 +6701,7 @@ const communes = [
     "2": 56,
     "id": 838,
     "name": "Vohimasina Sud",
-    "id_district": 56
+    "districtId": 56
   },
   {
     "0": 839,
@@ -6709,7 +6709,7 @@ const communes = [
     "2": 56,
     "id": 839,
     "name": "Vohimasy",
-    "id_district": 56
+    "districtId": 56
   },
   {
     "0": 840,
@@ -6717,7 +6717,7 @@ const communes = [
     "2": 57,
     "id": 840,
     "name": "Ambalahosy Nord",
-    "id_district": 57
+    "districtId": 57
   },
   {
     "0": 841,
@@ -6725,7 +6725,7 @@ const communes = [
     "2": 57,
     "id": 841,
     "name": "Ambodinonoka",
-    "id_district": 57
+    "districtId": 57
   },
   {
     "0": 842,
@@ -6733,7 +6733,7 @@ const communes = [
     "2": 57,
     "id": 842,
     "name": "Ambohimiarina II",
-    "id_district": 57
+    "districtId": 57
   },
   {
     "0": 843,
@@ -6741,7 +6741,7 @@ const communes = [
     "2": 57,
     "id": 843,
     "name": "Ambohinihaonana",
-    "id_district": 57
+    "districtId": 57
   },
   {
     "0": 844,
@@ -6749,7 +6749,7 @@ const communes = [
     "2": 57,
     "id": 844,
     "name": "Ambohitsara Est",
-    "id_district": 57
+    "districtId": 57
   },
   {
     "0": 845,
@@ -6757,7 +6757,7 @@ const communes = [
     "2": 57,
     "id": 845,
     "name": "Andonabe",
-    "id_district": 57
+    "districtId": 57
   },
   {
     "0": 846,
@@ -6765,7 +6765,7 @@ const communes = [
     "2": 57,
     "id": 846,
     "name": "Andranambolava",
-    "id_district": 57
+    "districtId": 57
   },
   {
     "0": 847,
@@ -6773,7 +6773,7 @@ const communes = [
     "2": 57,
     "id": 847,
     "name": "Andranomavo",
-    "id_district": 57
+    "districtId": 57
   },
   {
     "0": 848,
@@ -6781,7 +6781,7 @@ const communes = [
     "2": 57,
     "id": 848,
     "name": "Ankatafana",
-    "id_district": 57
+    "districtId": 57
   },
   {
     "0": 849,
@@ -6789,7 +6789,7 @@ const communes = [
     "2": 57,
     "id": 849,
     "name": "Anosiparihy",
-    "id_district": 57
+    "districtId": 57
   },
   {
     "0": 850,
@@ -6797,7 +6797,7 @@ const communes = [
     "2": 57,
     "id": 850,
     "name": "Antaretra",
-    "id_district": 57
+    "districtId": 57
   },
   {
     "0": 851,
@@ -6805,7 +6805,7 @@ const communes = [
     "2": 57,
     "id": 851,
     "name": "Antsenavolo",
-    "id_district": 57
+    "districtId": 57
   },
   {
     "0": 852,
@@ -6813,7 +6813,7 @@ const communes = [
     "2": 57,
     "id": 852,
     "name": "Kianjavato",
-    "id_district": 57
+    "districtId": 57
   },
   {
     "0": 853,
@@ -6821,7 +6821,7 @@ const communes = [
     "2": 57,
     "id": 853,
     "name": "Mahatsara Iefaka",
-    "id_district": 57
+    "districtId": 57
   },
   {
     "0": 854,
@@ -6829,7 +6829,7 @@ const communes = [
     "2": 57,
     "id": 854,
     "name": "Mahatsara Sud",
-    "id_district": 57
+    "districtId": 57
   },
   {
     "0": 855,
@@ -6837,7 +6837,7 @@ const communes = [
     "2": 57,
     "id": 855,
     "name": "Mahavoky Nord",
-    "id_district": 57
+    "districtId": 57
   },
   {
     "0": 856,
@@ -6845,7 +6845,7 @@ const communes = [
     "2": 57,
     "id": 856,
     "name": "Mahela",
-    "id_district": 57
+    "districtId": 57
   },
   {
     "0": 857,
@@ -6853,7 +6853,7 @@ const communes = [
     "2": 57,
     "id": 857,
     "name": "Manakana Nord",
-    "id_district": 57
+    "districtId": 57
   },
   {
     "0": 858,
@@ -6861,7 +6861,7 @@ const communes = [
     "2": 57,
     "id": 858,
     "name": "Mananjary",
-    "id_district": 57
+    "districtId": 57
   },
   {
     "0": 859,
@@ -6869,7 +6869,7 @@ const communes = [
     "2": 57,
     "id": 859,
     "name": "Marofody",
-    "id_district": 57
+    "districtId": 57
   },
   {
     "0": 860,
@@ -6877,7 +6877,7 @@ const communes = [
     "2": 57,
     "id": 860,
     "name": "Marofototra",
-    "id_district": 57
+    "districtId": 57
   },
   {
     "0": 861,
@@ -6885,7 +6885,7 @@ const communes = [
     "2": 57,
     "id": 861,
     "name": "Marokarima",
-    "id_district": 57
+    "districtId": 57
   },
   {
     "0": 862,
@@ -6893,7 +6893,7 @@ const communes = [
     "2": 57,
     "id": 862,
     "name": "Marosangy",
-    "id_district": 57
+    "districtId": 57
   },
   {
     "0": 863,
@@ -6901,7 +6901,7 @@ const communes = [
     "2": 57,
     "id": 863,
     "name": "Morafeno",
-    "id_district": 57
+    "districtId": 57
   },
   {
     "0": 864,
@@ -6909,7 +6909,7 @@ const communes = [
     "2": 57,
     "id": 864,
     "name": "Namorona",
-    "id_district": 57
+    "districtId": 57
   },
   {
     "0": 865,
@@ -6917,7 +6917,7 @@ const communes = [
     "2": 57,
     "id": 865,
     "name": "Sandrohy",
-    "id_district": 57
+    "districtId": 57
   },
   {
     "0": 866,
@@ -6925,7 +6925,7 @@ const communes = [
     "2": 57,
     "id": 866,
     "name": "Tsarahafatra",
-    "id_district": 57
+    "districtId": 57
   },
   {
     "0": 867,
@@ -6933,7 +6933,7 @@ const communes = [
     "2": 57,
     "id": 867,
     "name": "Tsaravary",
-    "id_district": 57
+    "districtId": 57
   },
   {
     "0": 868,
@@ -6941,7 +6941,7 @@ const communes = [
     "2": 57,
     "id": 868,
     "name": "Tsiatosika",
-    "id_district": 57
+    "districtId": 57
   },
   {
     "0": 869,
@@ -6949,7 +6949,7 @@ const communes = [
     "2": 57,
     "id": 869,
     "name": "Vatohandrina",
-    "id_district": 57
+    "districtId": 57
   },
   {
     "0": 870,
@@ -6957,7 +6957,7 @@ const communes = [
     "2": 57,
     "id": 870,
     "name": "Vohilava",
-    "id_district": 57
+    "districtId": 57
   },
   {
     "0": 871,
@@ -6965,7 +6965,7 @@ const communes = [
     "2": 58,
     "id": 871,
     "name": "Ambahy",
-    "id_district": 58
+    "districtId": 58
   },
   {
     "0": 872,
@@ -6973,7 +6973,7 @@ const communes = [
     "2": 58,
     "id": 872,
     "name": "Ambakobe",
-    "id_district": 58
+    "districtId": 58
   },
   {
     "0": 873,
@@ -6981,7 +6981,7 @@ const communes = [
     "2": 58,
     "id": 873,
     "name": "Ambodiara",
-    "id_district": 58
+    "districtId": 58
   },
   {
     "0": 874,
@@ -6989,7 +6989,7 @@ const communes = [
     "2": 58,
     "id": 874,
     "name": "Ambodilafa",
-    "id_district": 58
+    "districtId": 58
   },
   {
     "0": 875,
@@ -6997,7 +6997,7 @@ const communes = [
     "2": 58,
     "id": 875,
     "name": "Ambodirian_i Sahafary",
-    "id_district": 58
+    "districtId": 58
   },
   {
     "0": 876,
@@ -7005,7 +7005,7 @@ const communes = [
     "2": 58,
     "id": 876,
     "name": "Ampasinambo",
-    "id_district": 58
+    "districtId": 58
   },
   {
     "0": 877,
@@ -7013,7 +7013,7 @@ const communes = [
     "2": 58,
     "id": 877,
     "name": "Andara",
-    "id_district": 58
+    "districtId": 58
   },
   {
     "0": 878,
@@ -7021,7 +7021,7 @@ const communes = [
     "2": 58,
     "id": 878,
     "name": "Androrangavola",
-    "id_district": 58
+    "districtId": 58
   },
   {
     "0": 879,
@@ -7029,7 +7029,7 @@ const communes = [
     "2": 58,
     "id": 879,
     "name": "Angodongodona",
-    "id_district": 58
+    "districtId": 58
   },
   {
     "0": 880,
@@ -7037,7 +7037,7 @@ const communes = [
     "2": 58,
     "id": 880,
     "name": "Antanambao",
-    "id_district": 58
+    "districtId": 58
   },
   {
     "0": 881,
@@ -7045,7 +7045,7 @@ const communes = [
     "2": 58,
     "id": 881,
     "name": "Befody",
-    "id_district": 58
+    "districtId": 58
   },
   {
     "0": 882,
@@ -7053,7 +7053,7 @@ const communes = [
     "2": 58,
     "id": 882,
     "name": "Fanivelona",
-    "id_district": 58
+    "districtId": 58
   },
   {
     "0": 883,
@@ -7061,7 +7061,7 @@ const communes = [
     "2": 58,
     "id": 883,
     "name": "Fiadanana",
-    "id_district": 58
+    "districtId": 58
   },
   {
     "0": 884,
@@ -7069,7 +7069,7 @@ const communes = [
     "2": 58,
     "id": 884,
     "name": "Nosy Varika",
-    "id_district": 58
+    "districtId": 58
   },
   {
     "0": 885,
@@ -7077,7 +7077,7 @@ const communes = [
     "2": 58,
     "id": 885,
     "name": "Sahavato",
-    "id_district": 58
+    "districtId": 58
   },
   {
     "0": 886,
@@ -7085,7 +7085,7 @@ const communes = [
     "2": 58,
     "id": 886,
     "name": "Soavina",
-    "id_district": 58
+    "districtId": 58
   },
   {
     "0": 887,
@@ -7093,7 +7093,7 @@ const communes = [
     "2": 58,
     "id": 887,
     "name": "Vohidroa",
-    "id_district": 58
+    "districtId": 58
   },
   {
     "0": 888,
@@ -7101,7 +7101,7 @@ const communes = [
     "2": 58,
     "id": 888,
     "name": "Vohilava",
-    "id_district": 58
+    "districtId": 58
   },
   {
     "0": 889,
@@ -7109,7 +7109,7 @@ const communes = [
     "2": 58,
     "id": 889,
     "name": "Vohitrandriana",
-    "id_district": 58
+    "districtId": 58
   },
   {
     "0": 890,
@@ -7117,7 +7117,7 @@ const communes = [
     "2": 59,
     "id": 890,
     "name": "Amborobe",
-    "id_district": 59
+    "districtId": 59
   },
   {
     "0": 891,
@@ -7125,7 +7125,7 @@ const communes = [
     "2": 59,
     "id": 891,
     "name": "Andemaka",
-    "id_district": 59
+    "districtId": 59
   },
   {
     "0": 892,
@@ -7133,7 +7133,7 @@ const communes = [
     "2": 59,
     "id": 892,
     "name": "Ankarimbary",
-    "id_district": 59
+    "districtId": 59
   },
   {
     "0": 893,
@@ -7141,7 +7141,7 @@ const communes = [
     "2": 59,
     "id": 893,
     "name": "Anoloka",
-    "id_district": 59
+    "districtId": 59
   },
   {
     "0": 894,
@@ -7149,7 +7149,7 @@ const communes = [
     "2": 59,
     "id": 894,
     "name": "Antananabo",
-    "id_district": 59
+    "districtId": 59
   },
   {
     "0": 895,
@@ -7157,7 +7157,7 @@ const communes = [
     "2": 59,
     "id": 895,
     "name": "Ifatsy",
-    "id_district": 59
+    "districtId": 59
   },
   {
     "0": 896,
@@ -7165,7 +7165,7 @@ const communes = [
     "2": 59,
     "id": 896,
     "name": "Ilakatra",
-    "id_district": 59
+    "districtId": 59
   },
   {
     "0": 897,
@@ -7173,7 +7173,7 @@ const communes = [
     "2": 59,
     "id": 897,
     "name": "Ivato",
-    "id_district": 59
+    "districtId": 59
   },
   {
     "0": 898,
@@ -7181,7 +7181,7 @@ const communes = [
     "2": 59,
     "id": 898,
     "name": "Lanivo",
-    "id_district": 59
+    "districtId": 59
   },
   {
     "0": 899,
@@ -7189,7 +7189,7 @@ const communes = [
     "2": 59,
     "id": 899,
     "name": "Mahabo",
-    "id_district": 59
+    "districtId": 59
   },
   {
     "0": 900,
@@ -7197,7 +7197,7 @@ const communes = [
     "2": 59,
     "id": 900,
     "name": "Mahasoabe",
-    "id_district": 59
+    "districtId": 59
   },
   {
     "0": 901,
@@ -7205,7 +7205,7 @@ const communes = [
     "2": 59,
     "id": 901,
     "name": "Mahazoarivo",
-    "id_district": 59
+    "districtId": 59
   },
   {
     "0": 902,
@@ -7213,7 +7213,7 @@ const communes = [
     "2": 59,
     "id": 902,
     "name": "Nato",
-    "id_district": 59
+    "districtId": 59
   },
   {
     "0": 903,
@@ -7221,7 +7221,7 @@ const communes = [
     "2": 59,
     "id": 903,
     "name": "Onjatsy",
-    "id_district": 59
+    "districtId": 59
   },
   {
     "0": 904,
@@ -7229,7 +7229,7 @@ const communes = [
     "2": 59,
     "id": 904,
     "name": "Sahalava",
-    "id_district": 59
+    "districtId": 59
   },
   {
     "0": 905,
@@ -7237,7 +7237,7 @@ const communes = [
     "2": 59,
     "id": 905,
     "name": "Savana",
-    "id_district": 59
+    "districtId": 59
   },
   {
     "0": 906,
@@ -7245,7 +7245,7 @@ const communes = [
     "2": 59,
     "id": 906,
     "name": "Vohilany",
-    "id_district": 59
+    "districtId": 59
   },
   {
     "0": 907,
@@ -7253,7 +7253,7 @@ const communes = [
     "2": 59,
     "id": 907,
     "name": "Vohindava",
-    "id_district": 59
+    "districtId": 59
   },
   {
     "0": 908,
@@ -7261,7 +7261,7 @@ const communes = [
     "2": 59,
     "id": 908,
     "name": "Vohipeno",
-    "id_district": 59
+    "districtId": 59
   },
   {
     "0": 909,
@@ -7269,7 +7269,7 @@ const communes = [
     "2": 59,
     "id": 909,
     "name": "Vohitrindry",
-    "id_district": 59
+    "districtId": 59
   },
   {
     "0": 910,
@@ -7277,7 +7277,7 @@ const communes = [
     "2": 59,
     "id": 910,
     "name": "Zafindrafady",
-    "id_district": 59
+    "districtId": 59
   },
   {
     "0": 911,
@@ -7285,7 +7285,7 @@ const communes = [
     "2": 60,
     "id": 911,
     "name": "Ambaliha",
-    "id_district": 60
+    "districtId": 60
   },
   {
     "0": 912,
@@ -7293,7 +7293,7 @@ const communes = [
     "2": 60,
     "id": 912,
     "name": "Andasibe",
-    "id_district": 60
+    "districtId": 60
   },
   {
     "0": 913,
@@ -7301,7 +7301,7 @@ const communes = [
     "2": 60,
     "id": 913,
     "name": "Antanimbaribe",
-    "id_district": 60
+    "districtId": 60
   },
   {
     "0": 914,
@@ -7309,7 +7309,7 @@ const communes = [
     "2": 60,
     "id": 914,
     "name": "Behazomaty",
-    "id_district": 60
+    "districtId": 60
   },
   {
     "0": 915,
@@ -7317,7 +7317,7 @@ const communes = [
     "2": 60,
     "id": 915,
     "name": "Betaimboay",
-    "id_district": 60
+    "districtId": 60
   },
   {
     "0": 916,
@@ -7325,7 +7325,7 @@ const communes = [
     "2": 60,
     "id": 916,
     "name": "Kandreho",
-    "id_district": 60
+    "districtId": 60
   },
   {
     "0": 917,
@@ -7333,7 +7333,7 @@ const communes = [
     "2": 61,
     "id": 917,
     "name": "Ambalajia",
-    "id_district": 61
+    "districtId": 61
   },
   {
     "0": 918,
@@ -7341,7 +7341,7 @@ const communes = [
     "2": 61,
     "id": 918,
     "name": "Ambalanjanakomby",
-    "id_district": 61
+    "districtId": 61
   },
   {
     "0": 919,
@@ -7349,7 +7349,7 @@ const communes = [
     "2": 61,
     "id": 919,
     "name": "Andriba",
-    "id_district": 61
+    "districtId": 61
   },
   {
     "0": 920,
@@ -7357,7 +7357,7 @@ const communes = [
     "2": 61,
     "id": 920,
     "name": "Antanimbary",
-    "id_district": 61
+    "districtId": 61
   },
   {
     "0": 921,
@@ -7365,7 +7365,7 @@ const communes = [
     "2": 61,
     "id": 921,
     "name": "Antsiafabositra",
-    "id_district": 61
+    "districtId": 61
   },
   {
     "0": 922,
@@ -7373,7 +7373,7 @@ const communes = [
     "2": 61,
     "id": 922,
     "name": "Bemokotra",
-    "id_district": 61
+    "districtId": 61
   },
   {
     "0": 923,
@@ -7381,7 +7381,7 @@ const communes = [
     "2": 61,
     "id": 923,
     "name": "Beratsimanina",
-    "id_district": 61
+    "districtId": 61
   },
   {
     "0": 924,
@@ -7389,7 +7389,7 @@ const communes = [
     "2": 61,
     "id": 924,
     "name": "Madiromirafy",
-    "id_district": 61
+    "districtId": 61
   },
   {
     "0": 925,
@@ -7397,7 +7397,7 @@ const communes = [
     "2": 61,
     "id": 925,
     "name": "Maevatanàna I",
-    "id_district": 61
+    "districtId": 61
   },
   {
     "0": 926,
@@ -7405,7 +7405,7 @@ const communes = [
     "2": 61,
     "id": 926,
     "name": "Maevatanàna II",
-    "id_district": 61
+    "districtId": 61
   },
   {
     "0": 927,
@@ -7413,7 +7413,7 @@ const communes = [
     "2": 61,
     "id": 927,
     "name": "Mahatsinjo",
-    "id_district": 61
+    "districtId": 61
   },
   {
     "0": 928,
@@ -7421,7 +7421,7 @@ const communes = [
     "2": 61,
     "id": 928,
     "name": "Mahazoma",
-    "id_district": 61
+    "districtId": 61
   },
   {
     "0": 929,
@@ -7429,7 +7429,7 @@ const communes = [
     "2": 61,
     "id": 929,
     "name": "Mangabe",
-    "id_district": 61
+    "districtId": 61
   },
   {
     "0": 930,
@@ -7437,7 +7437,7 @@ const communes = [
     "2": 61,
     "id": 930,
     "name": "Maria",
-    "id_district": 61
+    "districtId": 61
   },
   {
     "0": 931,
@@ -7445,7 +7445,7 @@ const communes = [
     "2": 61,
     "id": 931,
     "name": "Marokoro",
-    "id_district": 61
+    "districtId": 61
   },
   {
     "0": 932,
@@ -7453,7 +7453,7 @@ const communes = [
     "2": 61,
     "id": 932,
     "name": "Morafeno",
-    "id_district": 61
+    "districtId": 61
   },
   {
     "0": 933,
@@ -7461,7 +7461,7 @@ const communes = [
     "2": 61,
     "id": 933,
     "name": "Tsararano",
-    "id_district": 61
+    "districtId": 61
   },
   {
     "0": 934,
@@ -7469,7 +7469,7 @@ const communes = [
     "2": 62,
     "id": 934,
     "name": "Ambakireny",
-    "id_district": 62
+    "districtId": 62
   },
   {
     "0": 935,
@@ -7477,7 +7477,7 @@ const communes = [
     "2": 62,
     "id": 935,
     "name": "Ampandrana",
-    "id_district": 62
+    "districtId": 62
   },
   {
     "0": 936,
@@ -7485,7 +7485,7 @@ const communes = [
     "2": 62,
     "id": 936,
     "name": "Andriamena",
-    "id_district": 62
+    "districtId": 62
   },
   {
     "0": 937,
@@ -7493,7 +7493,7 @@ const communes = [
     "2": 62,
     "id": 937,
     "name": "Bekapaika",
-    "id_district": 62
+    "districtId": 62
   },
   {
     "0": 938,
@@ -7501,7 +7501,7 @@ const communes = [
     "2": 62,
     "id": 938,
     "name": "Betrandraka",
-    "id_district": 62
+    "districtId": 62
   },
   {
     "0": 939,
@@ -7509,7 +7509,7 @@ const communes = [
     "2": 62,
     "id": 939,
     "name": "Brieville",
-    "id_district": 62
+    "districtId": 62
   },
   {
     "0": 940,
@@ -7517,7 +7517,7 @@ const communes = [
     "2": 62,
     "id": 940,
     "name": "Keliloha",
-    "id_district": 62
+    "districtId": 62
   },
   {
     "0": 941,
@@ -7525,7 +7525,7 @@ const communes = [
     "2": 62,
     "id": 941,
     "name": "Manakana",
-    "id_district": 62
+    "districtId": 62
   },
   {
     "0": 942,
@@ -7533,7 +7533,7 @@ const communes = [
     "2": 62,
     "id": 942,
     "name": "Sakoamadinika",
-    "id_district": 62
+    "districtId": 62
   },
   {
     "0": 943,
@@ -7541,7 +7541,7 @@ const communes = [
     "2": 62,
     "id": 943,
     "name": "Sarobaratra",
-    "id_district": 62
+    "districtId": 62
   },
   {
     "0": 944,
@@ -7549,7 +7549,7 @@ const communes = [
     "2": 62,
     "id": 944,
     "name": "Tsararova",
-    "id_district": 62
+    "districtId": 62
   },
   {
     "0": 945,
@@ -7557,7 +7557,7 @@ const communes = [
     "2": 62,
     "id": 945,
     "name": "Tsaratanàna",
-    "id_district": 62
+    "districtId": 62
   },
   {
     "0": 946,
@@ -7565,7 +7565,7 @@ const communes = [
     "2": 63,
     "id": 946,
     "name": "Ambato Ambarimay",
-    "id_district": 63
+    "districtId": 63
   },
   {
     "0": 947,
@@ -7573,7 +7573,7 @@ const communes = [
     "2": 63,
     "id": 947,
     "name": "Ambondromamy",
-    "id_district": 63
+    "districtId": 63
   },
   {
     "0": 948,
@@ -7581,7 +7581,7 @@ const communes = [
     "2": 63,
     "id": 948,
     "name": "Andranofasika",
-    "id_district": 63
+    "districtId": 63
   },
   {
     "0": 949,
@@ -7589,7 +7589,7 @@ const communes = [
     "2": 63,
     "id": 949,
     "name": "Andranomamy",
-    "id_district": 63
+    "districtId": 63
   },
   {
     "0": 950,
@@ -7597,7 +7597,7 @@ const communes = [
     "2": 63,
     "id": 950,
     "name": "Anjiajia",
-    "id_district": 63
+    "districtId": 63
   },
   {
     "0": 951,
@@ -7605,7 +7605,7 @@ const communes = [
     "2": 63,
     "id": 951,
     "name": "Ankijabe",
-    "id_district": 63
+    "districtId": 63
   },
   {
     "0": 952,
@@ -7613,7 +7613,7 @@ const communes = [
     "2": 63,
     "id": 952,
     "name": "Ankirihitra",
-    "id_district": 63
+    "districtId": 63
   },
   {
     "0": 953,
@@ -7621,7 +7621,7 @@ const communes = [
     "2": 63,
     "id": 953,
     "name": "Madirovalo",
-    "id_district": 63
+    "districtId": 63
   },
   {
     "0": 954,
@@ -7629,7 +7629,7 @@ const communes = [
     "2": 63,
     "id": 954,
     "name": "Manerinerina",
-    "id_district": 63
+    "districtId": 63
   },
   {
     "0": 955,
@@ -7637,7 +7637,7 @@ const communes = [
     "2": 63,
     "id": 955,
     "name": "Sitampiky",
-    "id_district": 63
+    "districtId": 63
   },
   {
     "0": 956,
@@ -7645,7 +7645,7 @@ const communes = [
     "2": 63,
     "id": 956,
     "name": "Tsaramandroso",
-    "id_district": 63
+    "districtId": 63
   },
   {
     "0": 957,
@@ -7653,7 +7653,7 @@ const communes = [
     "2": 64,
     "id": 957,
     "name": "Mahajanga",
-    "id_district": 64
+    "districtId": 64
   },
   {
     "0": 958,
@@ -7661,7 +7661,7 @@ const communes = [
     "2": 65,
     "id": 958,
     "name": "Ambalabe Befanjava",
-    "id_district": 65
+    "districtId": 65
   },
   {
     "0": 959,
@@ -7669,7 +7669,7 @@ const communes = [
     "2": 65,
     "id": 959,
     "name": "Ambalakida",
-    "id_district": 65
+    "districtId": 65
   },
   {
     "0": 960,
@@ -7677,7 +7677,7 @@ const communes = [
     "2": 65,
     "id": 960,
     "name": "Andranoboboka",
-    "id_district": 65
+    "districtId": 65
   },
   {
     "0": 961,
@@ -7685,7 +7685,7 @@ const communes = [
     "2": 65,
     "id": 961,
     "name": "Bekobay Centre",
-    "id_district": 65
+    "districtId": 65
   },
   {
     "0": 962,
@@ -7693,7 +7693,7 @@ const communes = [
     "2": 65,
     "id": 962,
     "name": "Belobaka",
-    "id_district": 65
+    "districtId": 65
   },
   {
     "0": 963,
@@ -7701,7 +7701,7 @@ const communes = [
     "2": 65,
     "id": 963,
     "name": "Betsako",
-    "id_district": 65
+    "districtId": 65
   },
   {
     "0": 964,
@@ -7709,7 +7709,7 @@ const communes = [
     "2": 65,
     "id": 964,
     "name": "Boanamary",
-    "id_district": 65
+    "districtId": 65
   },
   {
     "0": 965,
@@ -7717,7 +7717,7 @@ const communes = [
     "2": 65,
     "id": 965,
     "name": "Mahajamba Usine",
-    "id_district": 65
+    "districtId": 65
   },
   {
     "0": 966,
@@ -7725,7 +7725,7 @@ const communes = [
     "2": 65,
     "id": 966,
     "name": "Mariarano",
-    "id_district": 65
+    "districtId": 65
   },
   {
     "0": 967,
@@ -7733,7 +7733,7 @@ const communes = [
     "2": 66,
     "id": 967,
     "name": "Ambolomoty",
-    "id_district": 66
+    "districtId": 66
   },
   {
     "0": 968,
@@ -7741,7 +7741,7 @@ const communes = [
     "2": 66,
     "id": 968,
     "name": "Ankaraobato",
-    "id_district": 66
+    "districtId": 66
   },
   {
     "0": 969,
@@ -7749,7 +7749,7 @@ const communes = [
     "2": 66,
     "id": 969,
     "name": "Ankazomborona",
-    "id_district": 66
+    "districtId": 66
   },
   {
     "0": 970,
@@ -7757,7 +7757,7 @@ const communes = [
     "2": 66,
     "id": 970,
     "name": "Anosinalainolona",
-    "id_district": 66
+    "districtId": 66
   },
   {
     "0": 971,
@@ -7765,7 +7765,7 @@ const communes = [
     "2": 66,
     "id": 971,
     "name": "Antanambao Andranolava",
-    "id_district": 66
+    "districtId": 66
   },
   {
     "0": 972,
@@ -7773,7 +7773,7 @@ const communes = [
     "2": 66,
     "id": 972,
     "name": "Antanimasaka",
-    "id_district": 66
+    "districtId": 66
   },
   {
     "0": 973,
@@ -7781,7 +7781,7 @@ const communes = [
     "2": 66,
     "id": 973,
     "name": "Bemaharivo",
-    "id_district": 66
+    "districtId": 66
   },
   {
     "0": 974,
@@ -7789,7 +7789,7 @@ const communes = [
     "2": 66,
     "id": 974,
     "name": "Manaratsandry",
-    "id_district": 66
+    "districtId": 66
   },
   {
     "0": 975,
@@ -7797,7 +7797,7 @@ const communes = [
     "2": 66,
     "id": 975,
     "name": "Marosakoa",
-    "id_district": 66
+    "districtId": 66
   },
   {
     "0": 976,
@@ -7805,7 +7805,7 @@ const communes = [
     "2": 66,
     "id": 976,
     "name": "Marovoay",
-    "id_district": 66
+    "districtId": 66
   },
   {
     "0": 977,
@@ -7813,7 +7813,7 @@ const communes = [
     "2": 66,
     "id": 977,
     "name": "Marovoay Banlieue",
-    "id_district": 66
+    "districtId": 66
   },
   {
     "0": 978,
@@ -7821,7 +7821,7 @@ const communes = [
     "2": 66,
     "id": 978,
     "name": "Tsararano",
-    "id_district": 66
+    "districtId": 66
   },
   {
     "0": 979,
@@ -7829,7 +7829,7 @@ const communes = [
     "2": 67,
     "id": 979,
     "name": "Ambarimaninga",
-    "id_district": 67
+    "districtId": 67
   },
   {
     "0": 980,
@@ -7837,7 +7837,7 @@ const communes = [
     "2": 67,
     "id": 980,
     "name": "Antongomena Bevary",
-    "id_district": 67
+    "districtId": 67
   },
   {
     "0": 981,
@@ -7845,7 +7845,7 @@ const communes = [
     "2": 67,
     "id": 981,
     "name": "Antseza",
-    "id_district": 67
+    "districtId": 67
   },
   {
     "0": 982,
@@ -7853,7 +7853,7 @@ const communes = [
     "2": 67,
     "id": 982,
     "name": "Bekipay",
-    "id_district": 67
+    "districtId": 67
   },
   {
     "0": 983,
@@ -7861,7 +7861,7 @@ const communes = [
     "2": 67,
     "id": 983,
     "name": "Katsepy",
-    "id_district": 67
+    "districtId": 67
   },
   {
     "0": 984,
@@ -7869,7 +7869,7 @@ const communes = [
     "2": 67,
     "id": 984,
     "name": "Matsaka Banja",
-    "id_district": 67
+    "districtId": 67
   },
   {
     "0": 985,
@@ -7877,7 +7877,7 @@ const communes = [
     "2": 67,
     "id": 985,
     "name": "Mitsinjo",
-    "id_district": 67
+    "districtId": 67
   },
   {
     "0": 986,
@@ -7885,7 +7885,7 @@ const communes = [
     "2": 68,
     "id": 986,
     "name": "Ambohipaky",
-    "id_district": 68
+    "districtId": 68
   },
   {
     "0": 987,
@@ -7893,7 +7893,7 @@ const communes = [
     "2": 68,
     "id": 987,
     "name": "Andranomavo",
-    "id_district": 68
+    "districtId": 68
   },
   {
     "0": 988,
@@ -7901,7 +7901,7 @@ const communes = [
     "2": 68,
     "id": 988,
     "name": "Soalala",
-    "id_district": 68
+    "districtId": 68
   },
   {
     "0": 989,
@@ -7909,7 +7909,7 @@ const communes = [
     "2": 69,
     "id": 989,
     "name": "Ambatomainty",
-    "id_district": 69
+    "districtId": 69
   },
   {
     "0": 990,
@@ -7917,7 +7917,7 @@ const communes = [
     "2": 69,
     "id": 990,
     "name": "Bemarivo",
-    "id_district": 69
+    "districtId": 69
   },
   {
     "0": 991,
@@ -7925,7 +7925,7 @@ const communes = [
     "2": 69,
     "id": 991,
     "name": "Marotsialeha",
-    "id_district": 69
+    "districtId": 69
   },
   {
     "0": 992,
@@ -7933,7 +7933,7 @@ const communes = [
     "2": 69,
     "id": 992,
     "name": "Sarodrano",
-    "id_district": 69
+    "districtId": 69
   },
   {
     "0": 993,
@@ -7941,7 +7941,7 @@ const communes = [
     "2": 70,
     "id": 993,
     "name": "Antsalova",
-    "id_district": 70
+    "districtId": 70
   },
   {
     "0": 994,
@@ -7949,7 +7949,7 @@ const communes = [
     "2": 70,
     "id": 994,
     "name": "Bekopaka",
-    "id_district": 70
+    "districtId": 70
   },
   {
     "0": 995,
@@ -7957,7 +7957,7 @@ const communes = [
     "2": 70,
     "id": 995,
     "name": "Masoarivo",
-    "id_district": 70
+    "districtId": 70
   },
   {
     "0": 996,
@@ -7965,7 +7965,7 @@ const communes = [
     "2": 70,
     "id": 996,
     "name": "Soahany",
-    "id_district": 70
+    "districtId": 70
   },
   {
     "0": 997,
@@ -7973,7 +7973,7 @@ const communes = [
     "2": 70,
     "id": 997,
     "name": "Trangahy",
-    "id_district": 70
+    "districtId": 70
   },
   {
     "0": 998,
@@ -7981,7 +7981,7 @@ const communes = [
     "2": 71,
     "id": 998,
     "name": "Ambolodia Sud",
-    "id_district": 71
+    "districtId": 71
   },
   {
     "0": 999,
@@ -7989,7 +7989,7 @@ const communes = [
     "2": 71,
     "id": 999,
     "name": "Ampako",
-    "id_district": 71
+    "districtId": 71
   },
   {
     "0": 1000,
@@ -7997,7 +7997,7 @@ const communes = [
     "2": 71,
     "id": 1000,
     "name": "Ankasakasa",
-    "id_district": 71
+    "districtId": 71
   },
   {
     "0": 1001,
@@ -8005,7 +8005,7 @@ const communes = [
     "2": 71,
     "id": 1001,
     "name": "Bekodoka",
-    "id_district": 71
+    "districtId": 71
   },
   {
     "0": 1002,
@@ -8013,7 +8013,7 @@ const communes = [
     "2": 71,
     "id": 1002,
     "name": "Besalampy",
-    "id_district": 71
+    "districtId": 71
   },
   {
     "0": 1003,
@@ -8021,7 +8021,7 @@ const communes = [
     "2": 71,
     "id": 1003,
     "name": "Mahabe",
-    "id_district": 71
+    "districtId": 71
   },
   {
     "0": 1004,
@@ -8029,7 +8029,7 @@ const communes = [
     "2": 71,
     "id": 1004,
     "name": "Marovoay Sud",
-    "id_district": 71
+    "districtId": 71
   },
   {
     "0": 1005,
@@ -8037,7 +8037,7 @@ const communes = [
     "2": 71,
     "id": 1005,
     "name": "Soanenga",
-    "id_district": 71
+    "districtId": 71
   },
   {
     "0": 1006,
@@ -8045,7 +8045,7 @@ const communes = [
     "2": 72,
     "id": 1006,
     "name": "Andabotoka",
-    "id_district": 72
+    "districtId": 72
   },
   {
     "0": 1007,
@@ -8053,7 +8053,7 @@ const communes = [
     "2": 72,
     "id": 1007,
     "name": "Andranovao",
-    "id_district": 72
+    "districtId": 72
   },
   {
     "0": 1008,
@@ -8061,7 +8061,7 @@ const communes = [
     "2": 72,
     "id": 1008,
     "name": "Andrea",
-    "id_district": 72
+    "districtId": 72
   },
   {
     "0": 1009,
@@ -8069,7 +8069,7 @@ const communes = [
     "2": 72,
     "id": 1009,
     "name": "Ankisatra",
-    "id_district": 72
+    "districtId": 72
   },
   {
     "0": 1010,
@@ -8077,7 +8077,7 @@ const communes = [
     "2": 72,
     "id": 1010,
     "name": "Antsaidoha Bebao",
-    "id_district": 72
+    "districtId": 72
   },
   {
     "0": 1011,
@@ -8085,7 +8085,7 @@ const communes = [
     "2": 72,
     "id": 1011,
     "name": "Antsondrondava",
-    "id_district": 72
+    "districtId": 72
   },
   {
     "0": 1012,
@@ -8093,7 +8093,7 @@ const communes = [
     "2": 72,
     "id": 1012,
     "name": "Bebaboka Sud",
-    "id_district": 72
+    "districtId": 72
   },
   {
     "0": 1013,
@@ -8101,7 +8101,7 @@ const communes = [
     "2": 72,
     "id": 1013,
     "name": "Belitsaky",
-    "id_district": 72
+    "districtId": 72
   },
   {
     "0": 1014,
@@ -8109,7 +8109,7 @@ const communes = [
     "2": 72,
     "id": 1014,
     "name": "Bemokotra",
-    "id_district": 72
+    "districtId": 72
   },
   {
     "0": 1015,
@@ -8117,7 +8117,7 @@ const communes = [
     "2": 72,
     "id": 1015,
     "name": "Berevo Ranobe",
-    "id_district": 72
+    "districtId": 72
   },
   {
     "0": 1016,
@@ -8125,7 +8125,7 @@ const communes = [
     "2": 72,
     "id": 1016,
     "name": "Betanatanana",
-    "id_district": 72
+    "districtId": 72
   },
   {
     "0": 1017,
@@ -8133,7 +8133,7 @@ const communes = [
     "2": 72,
     "id": 1017,
     "name": "Mafaijijo",
-    "id_district": 72
+    "districtId": 72
   },
   {
     "0": 1018,
@@ -8141,7 +8141,7 @@ const communes = [
     "2": 72,
     "id": 1018,
     "name": "Maintirano Cu",
-    "id_district": 72
+    "districtId": 72
   },
   {
     "0": 1019,
@@ -8149,7 +8149,7 @@ const communes = [
     "2": 72,
     "id": 1019,
     "name": "Marohazo",
-    "id_district": 72
+    "districtId": 72
   },
   {
     "0": 1020,
@@ -8157,7 +8157,7 @@ const communes = [
     "2": 72,
     "id": 1020,
     "name": "Maromavo",
-    "id_district": 72
+    "districtId": 72
   },
   {
     "0": 1021,
@@ -8165,7 +8165,7 @@ const communes = [
     "2": 72,
     "id": 1021,
     "name": "Tambohorano",
-    "id_district": 72
+    "districtId": 72
   },
   {
     "0": 1022,
@@ -8173,7 +8173,7 @@ const communes = [
     "2": 72,
     "id": 1022,
     "name": "Veromanga",
-    "id_district": 72
+    "districtId": 72
   },
   {
     "0": 1023,
@@ -8181,7 +8181,7 @@ const communes = [
     "2": 73,
     "id": 1023,
     "name": "Andramy",
-    "id_district": 73
+    "districtId": 73
   },
   {
     "0": 1024,
@@ -8189,7 +8189,7 @@ const communes = [
     "2": 73,
     "id": 1024,
     "name": "Beravina",
-    "id_district": 73
+    "districtId": 73
   },
   {
     "0": 1025,
@@ -8197,7 +8197,7 @@ const communes = [
     "2": 73,
     "id": 1025,
     "name": "Morafenobe",
-    "id_district": 73
+    "districtId": 73
   },
   {
     "0": 1026,
@@ -8205,7 +8205,7 @@ const communes = [
     "2": 74,
     "id": 1026,
     "name": "Ambaliha",
-    "id_district": 74
+    "districtId": 74
   },
   {
     "0": 1027,
@@ -8213,7 +8213,7 @@ const communes = [
     "2": 74,
     "id": 1027,
     "name": "Ambarijeby Sud",
-    "id_district": 74
+    "districtId": 74
   },
   {
     "0": 1028,
@@ -8221,7 +8221,7 @@ const communes = [
     "2": 74,
     "id": 1028,
     "name": "Ambolobozo",
-    "id_district": 74
+    "districtId": 74
   },
   {
     "0": 1029,
@@ -8229,7 +8229,7 @@ const communes = [
     "2": 74,
     "id": 1029,
     "name": "Analalava",
-    "id_district": 74
+    "districtId": 74
   },
   {
     "0": 1030,
@@ -8237,7 +8237,7 @@ const communes = [
     "2": 74,
     "id": 1030,
     "name": "Andribavontsina",
-    "id_district": 74
+    "districtId": 74
   },
   {
     "0": 1031,
@@ -8245,7 +8245,7 @@ const communes = [
     "2": 74,
     "id": 1031,
     "name": "Angoaka Sud",
-    "id_district": 74
+    "districtId": 74
   },
   {
     "0": 1032,
@@ -8253,7 +8253,7 @@ const communes = [
     "2": 74,
     "id": 1032,
     "name": "Ankaramy",
-    "id_district": 74
+    "districtId": 74
   },
   {
     "0": 1033,
@@ -8261,7 +8261,7 @@ const communes = [
     "2": 74,
     "id": 1033,
     "name": "Antonibe",
-    "id_district": 74
+    "districtId": 74
   },
   {
     "0": 1034,
@@ -8269,7 +8269,7 @@ const communes = [
     "2": 74,
     "id": 1034,
     "name": "Befotaka Nord",
-    "id_district": 74
+    "districtId": 74
   },
   {
     "0": 1035,
@@ -8277,7 +8277,7 @@ const communes = [
     "2": 74,
     "id": 1035,
     "name": "Mahadrodroka",
-    "id_district": 74
+    "districtId": 74
   },
   {
     "0": 1036,
@@ -8285,7 +8285,7 @@ const communes = [
     "2": 74,
     "id": 1036,
     "name": "Maromandia",
-    "id_district": 74
+    "districtId": 74
   },
   {
     "0": 1037,
@@ -8293,7 +8293,7 @@ const communes = [
     "2": 74,
     "id": 1037,
     "name": "Marovantaza",
-    "id_district": 74
+    "districtId": 74
   },
   {
     "0": 1038,
@@ -8301,7 +8301,7 @@ const communes = [
     "2": 74,
     "id": 1038,
     "name": "Marovatolena",
-    "id_district": 74
+    "districtId": 74
   },
   {
     "0": 1039,
@@ -8309,7 +8309,7 @@ const communes = [
     "2": 75,
     "id": 1039,
     "name": "Ambodimadiro",
-    "id_district": 75
+    "districtId": 75
   },
   {
     "0": 1040,
@@ -8317,7 +8317,7 @@ const communes = [
     "2": 75,
     "id": 1040,
     "name": "Ambodimanary",
-    "id_district": 75
+    "districtId": 75
   },
   {
     "0": 1041,
@@ -8325,7 +8325,7 @@ const communes = [
     "2": 75,
     "id": 1041,
     "name": "Ambodimandresy",
-    "id_district": 75
+    "districtId": 75
   },
   {
     "0": 1042,
@@ -8333,7 +8333,7 @@ const communes = [
     "2": 75,
     "id": 1042,
     "name": "Ampandriakilandy",
-    "id_district": 75
+    "districtId": 75
   },
   {
     "0": 1043,
@@ -8341,7 +8341,7 @@ const communes = [
     "2": 75,
     "id": 1043,
     "name": "Anahidrano",
-    "id_district": 75
+    "districtId": 75
   },
   {
     "0": 1044,
@@ -8349,7 +8349,7 @@ const communes = [
     "2": 75,
     "id": 1044,
     "name": "Andreba",
-    "id_district": 75
+    "districtId": 75
   },
   {
     "0": 1045,
@@ -8357,7 +8357,7 @@ const communes = [
     "2": 75,
     "id": 1045,
     "name": "Anjalazala",
-    "id_district": 75
+    "districtId": 75
   },
   {
     "0": 1046,
@@ -8365,7 +8365,7 @@ const communes = [
     "2": 75,
     "id": 1046,
     "name": "Anjiamangirana",
-    "id_district": 75
+    "districtId": 75
   },
   {
     "0": 1047,
@@ -8373,7 +8373,7 @@ const communes = [
     "2": 75,
     "id": 1047,
     "name": "Ankerika",
-    "id_district": 75
+    "districtId": 75
   },
   {
     "0": 1048,
@@ -8381,7 +8381,7 @@ const communes = [
     "2": 75,
     "id": 1048,
     "name": "Antsahabe",
-    "id_district": 75
+    "districtId": 75
   },
   {
     "0": 1049,
@@ -8389,7 +8389,7 @@ const communes = [
     "2": 75,
     "id": 1049,
     "name": "Antsohihy",
-    "id_district": 75
+    "districtId": 75
   },
   {
     "0": 1050,
@@ -8397,7 +8397,7 @@ const communes = [
     "2": 75,
     "id": 1050,
     "name": "Maroala",
-    "id_district": 75
+    "districtId": 75
   },
   {
     "0": 1051,
@@ -8405,7 +8405,7 @@ const communes = [
     "2": 76,
     "id": 1051,
     "name": "Ambalaromba",
-    "id_district": 76
+    "districtId": 76
   },
   {
     "0": 1052,
@@ -8413,7 +8413,7 @@ const communes = [
     "2": 76,
     "id": 1052,
     "name": "Ambararata Sofia",
-    "id_district": 76
+    "districtId": 76
   },
   {
     "0": 1053,
@@ -8421,7 +8421,7 @@ const communes = [
     "2": 76,
     "id": 1053,
     "name": "Ambararatabe Nord",
-    "id_district": 76
+    "districtId": 76
   },
   {
     "0": 1054,
@@ -8429,7 +8429,7 @@ const communes = [
     "2": 76,
     "id": 1054,
     "name": "Ambatoriha Est",
-    "id_district": 76
+    "districtId": 76
   },
   {
     "0": 1055,
@@ -8437,7 +8437,7 @@ const communes = [
     "2": 76,
     "id": 1055,
     "name": "Ambatosia",
-    "id_district": 76
+    "districtId": 76
   },
   {
     "0": 1056,
@@ -8445,7 +8445,7 @@ const communes = [
     "2": 76,
     "id": 1056,
     "name": "Ambodiadabo M",
-    "id_district": 76
+    "districtId": 76
   },
   {
     "0": 1057,
@@ -8453,7 +8453,7 @@ const communes = [
     "2": 76,
     "id": 1057,
     "name": "Ambodiampana",
-    "id_district": 76
+    "districtId": 76
   },
   {
     "0": 1058,
@@ -8461,7 +8461,7 @@ const communes = [
     "2": 76,
     "id": 1058,
     "name": "Ambodisikidy",
-    "id_district": 76
+    "districtId": 76
   },
   {
     "0": 1059,
@@ -8469,7 +8469,7 @@ const communes = [
     "2": 76,
     "id": 1059,
     "name": "Ambovonomby",
-    "id_district": 76
+    "districtId": 76
   },
   {
     "0": 1060,
@@ -8477,7 +8477,7 @@ const communes = [
     "2": 76,
     "id": 1060,
     "name": "Analila",
-    "id_district": 76
+    "districtId": 76
   },
   {
     "0": 1061,
@@ -8485,7 +8485,7 @@ const communes = [
     "2": 76,
     "id": 1061,
     "name": "Anjoromadosy",
-    "id_district": 76
+    "districtId": 76
   },
   {
     "0": 1062,
@@ -8493,7 +8493,7 @@ const communes = [
     "2": 76,
     "id": 1062,
     "name": "Ankazotokana",
-    "id_district": 76
+    "districtId": 76
   },
   {
     "0": 1063,
@@ -8501,7 +8501,7 @@ const communes = [
     "2": 76,
     "id": 1063,
     "name": "Antananarivo Haut",
-    "id_district": 76
+    "districtId": 76
   },
   {
     "0": 1064,
@@ -8509,7 +8509,7 @@ const communes = [
     "2": 76,
     "id": 1064,
     "name": "Antsamaka",
-    "id_district": 76
+    "districtId": 76
   },
   {
     "0": 1065,
@@ -8517,7 +8517,7 @@ const communes = [
     "2": 76,
     "id": 1065,
     "name": "Bealalana",
-    "id_district": 76
+    "districtId": 76
   },
   {
     "0": 1066,
@@ -8525,7 +8525,7 @@ const communes = [
     "2": 76,
     "id": 1066,
     "name": "Beandrarezona",
-    "id_district": 76
+    "districtId": 76
   },
   {
     "0": 1067,
@@ -8533,7 +8533,7 @@ const communes = [
     "2": 76,
     "id": 1067,
     "name": "Mangindrano",
-    "id_district": 76
+    "districtId": 76
   },
   {
     "0": 1068,
@@ -8541,7 +8541,7 @@ const communes = [
     "2": 76,
     "id": 1068,
     "name": "Marotolana",
-    "id_district": 76
+    "districtId": 76
   },
   {
     "0": 1069,
@@ -8549,7 +8549,7 @@ const communes = [
     "2": 77,
     "id": 1069,
     "name": "Ambararata",
-    "id_district": 77
+    "districtId": 77
   },
   {
     "0": 1070,
@@ -8557,7 +8557,7 @@ const communes = [
     "2": 77,
     "id": 1070,
     "name": "Ambodimotso Sud",
-    "id_district": 77
+    "districtId": 77
   },
   {
     "0": 1071,
@@ -8565,7 +8565,7 @@ const communes = [
     "2": 77,
     "id": 1071,
     "name": "Ambolidibe Est",
-    "id_district": 77
+    "districtId": 77
   },
   {
     "0": 1072,
@@ -8573,7 +8573,7 @@ const communes = [
     "2": 77,
     "id": 1072,
     "name": "Ankarongana",
-    "id_district": 77
+    "districtId": 77
   },
   {
     "0": 1073,
@@ -8581,7 +8581,7 @@ const communes = [
     "2": 77,
     "id": 1073,
     "name": "Antsakabary",
-    "id_district": 77
+    "districtId": 77
   },
   {
     "0": 1074,
@@ -8589,7 +8589,7 @@ const communes = [
     "2": 77,
     "id": 1074,
     "name": "Antsakanalabe",
-    "id_district": 77
+    "districtId": 77
   },
   {
     "0": 1075,
@@ -8597,7 +8597,7 @@ const communes = [
     "2": 77,
     "id": 1075,
     "name": "Befandriana Nord",
-    "id_district": 77
+    "districtId": 77
   },
   {
     "0": 1076,
@@ -8605,7 +8605,7 @@ const communes = [
     "2": 77,
     "id": 1076,
     "name": "Maroamalona",
-    "id_district": 77
+    "districtId": 77
   },
   {
     "0": 1077,
@@ -8613,7 +8613,7 @@ const communes = [
     "2": 77,
     "id": 1077,
     "name": "Matsondakana",
-    "id_district": 77
+    "districtId": 77
   },
   {
     "0": 1078,
@@ -8621,7 +8621,7 @@ const communes = [
     "2": 77,
     "id": 1078,
     "name": "Morafeno",
-    "id_district": 77
+    "districtId": 77
   },
   {
     "0": 1079,
@@ -8629,7 +8629,7 @@ const communes = [
     "2": 77,
     "id": 1079,
     "name": "Tsarahonenana",
-    "id_district": 77
+    "districtId": 77
   },
   {
     "0": 1080,
@@ -8637,7 +8637,7 @@ const communes = [
     "2": 77,
     "id": 1080,
     "name": "Tsiamalao",
-    "id_district": 77
+    "districtId": 77
   },
   {
     "0": 1081,
@@ -8645,7 +8645,7 @@ const communes = [
     "2": 78,
     "id": 1081,
     "name": "Ambodihazoambo",
-    "id_district": 78
+    "districtId": 78
   },
   {
     "0": 1082,
@@ -8653,7 +8653,7 @@ const communes = [
     "2": 78,
     "id": 1082,
     "name": "Ambohitoaka",
-    "id_district": 78
+    "districtId": 78
   },
   {
     "0": 1083,
@@ -8661,7 +8661,7 @@ const communes = [
     "2": 78,
     "id": 1083,
     "name": "Ampasimatera",
-    "id_district": 78
+    "districtId": 78
   },
   {
     "0": 1084,
@@ -8669,7 +8669,7 @@ const communes = [
     "2": 78,
     "id": 1084,
     "name": "Ankiririky",
-    "id_district": 78
+    "districtId": 78
   },
   {
     "0": 1085,
@@ -8677,7 +8677,7 @@ const communes = [
     "2": 78,
     "id": 1085,
     "name": "Bekoratsaka",
-    "id_district": 78
+    "districtId": 78
   },
   {
     "0": 1086,
@@ -8685,7 +8685,7 @@ const communes = [
     "2": 78,
     "id": 1086,
     "name": "Betaramahamay",
-    "id_district": 78
+    "districtId": 78
   },
   {
     "0": 1087,
@@ -8693,7 +8693,7 @@ const communes = [
     "2": 78,
     "id": 1087,
     "name": "Komajia",
-    "id_district": 78
+    "districtId": 78
   },
   {
     "0": 1088,
@@ -8701,7 +8701,7 @@ const communes = [
     "2": 78,
     "id": 1088,
     "name": "Malakialina",
-    "id_district": 78
+    "districtId": 78
   },
   {
     "0": 1089,
@@ -8709,7 +8709,7 @@ const communes = [
     "2": 78,
     "id": 1089,
     "name": "Mampikony",
-    "id_district": 78
+    "districtId": 78
   },
   {
     "0": 1090,
@@ -8717,7 +8717,7 @@ const communes = [
     "2": 78,
     "id": 1090,
     "name": "Mampikony II",
-    "id_district": 78
+    "districtId": 78
   },
   {
     "0": 1091,
@@ -8725,7 +8725,7 @@ const communes = [
     "2": 79,
     "id": 1091,
     "name": "Ambalakirajy",
-    "id_district": 79
+    "districtId": 79
   },
   {
     "0": 1092,
@@ -8733,7 +8733,7 @@ const communes = [
     "2": 79,
     "id": 1092,
     "name": "Ambarikorano",
-    "id_district": 79
+    "districtId": 79
   },
   {
     "0": 1093,
@@ -8741,7 +8741,7 @@ const communes = [
     "2": 79,
     "id": 1093,
     "name": "Ambaripaika",
-    "id_district": 79
+    "districtId": 79
   },
   {
     "0": 1094,
@@ -8749,7 +8749,7 @@ const communes = [
     "2": 79,
     "id": 1094,
     "name": "Ambilombe",
-    "id_district": 79
+    "districtId": 79
   },
   {
     "0": 1095,
@@ -8757,7 +8757,7 @@ const communes = [
     "2": 79,
     "id": 1095,
     "name": "Amboaboa",
-    "id_district": 79
+    "districtId": 79
   },
   {
     "0": 1096,
@@ -8765,7 +8765,7 @@ const communes = [
     "2": 79,
     "id": 1096,
     "name": "Ambodiadabo",
-    "id_district": 79
+    "districtId": 79
   },
   {
     "0": 1097,
@@ -8773,7 +8773,7 @@ const communes = [
     "2": 79,
     "id": 1097,
     "name": "Ambodiamontana Kianga",
-    "id_district": 79
+    "districtId": 79
   },
   {
     "0": 1098,
@@ -8781,7 +8781,7 @@ const communes = [
     "2": 79,
     "id": 1098,
     "name": "Ambohisoa",
-    "id_district": 79
+    "districtId": 79
   },
   {
     "0": 1099,
@@ -8789,7 +8789,7 @@ const communes = [
     "2": 79,
     "id": 1099,
     "name": "Amborondolo",
-    "id_district": 79
+    "districtId": 79
   },
   {
     "0": 1100,
@@ -8797,7 +8797,7 @@ const communes = [
     "2": 79,
     "id": 1100,
     "name": "Ampatakamaroreny",
-    "id_district": 79
+    "districtId": 79
   },
   {
     "0": 1101,
@@ -8805,7 +8805,7 @@ const communes = [
     "2": 79,
     "id": 1101,
     "name": "Andohajango",
-    "id_district": 79
+    "districtId": 79
   },
   {
     "0": 1102,
@@ -8813,7 +8813,7 @@ const communes = [
     "2": 79,
     "id": 1102,
     "name": "Andratamarina",
-    "id_district": 79
+    "districtId": 79
   },
   {
     "0": 1103,
@@ -8821,7 +8821,7 @@ const communes = [
     "2": 79,
     "id": 1103,
     "name": "Anjiabe",
-    "id_district": 79
+    "districtId": 79
   },
   {
     "0": 1104,
@@ -8829,7 +8829,7 @@ const communes = [
     "2": 79,
     "id": 1104,
     "name": "Ankiabe Fonoko",
-    "id_district": 79
+    "districtId": 79
   },
   {
     "0": 1105,
@@ -8837,7 +8837,7 @@ const communes = [
     "2": 79,
     "id": 1105,
     "name": "Ankiabe Salohy",
-    "id_district": 79
+    "districtId": 79
   },
   {
     "0": 1106,
@@ -8845,7 +8845,7 @@ const communes = [
     "2": 79,
     "id": 1106,
     "name": "Antanambaon_amberina",
-    "id_district": 79
+    "districtId": 79
   },
   {
     "0": 1107,
@@ -8853,7 +8853,7 @@ const communes = [
     "2": 79,
     "id": 1107,
     "name": "Antanandava",
-    "id_district": 79
+    "districtId": 79
   },
   {
     "0": 1108,
@@ -8861,7 +8861,7 @@ const communes = [
     "2": 79,
     "id": 1108,
     "name": "Antsatramidola",
-    "id_district": 79
+    "districtId": 79
   },
   {
     "0": 1109,
@@ -8869,7 +8869,7 @@ const communes = [
     "2": 79,
     "id": 1109,
     "name": "Antsiatsiaka",
-    "id_district": 79
+    "districtId": 79
   },
   {
     "0": 1110,
@@ -8877,7 +8877,7 @@ const communes = [
     "2": 79,
     "id": 1110,
     "name": "Antsirabe Centre",
-    "id_district": 79
+    "districtId": 79
   },
   {
     "0": 1111,
@@ -8885,7 +8885,7 @@ const communes = [
     "2": 79,
     "id": 1111,
     "name": "Antsoha",
-    "id_district": 79
+    "districtId": 79
   },
   {
     "0": 1112,
@@ -8893,7 +8893,7 @@ const communes = [
     "2": 79,
     "id": 1112,
     "name": "Kalandy",
-    "id_district": 79
+    "districtId": 79
   },
   {
     "0": 1113,
@@ -8901,7 +8901,7 @@ const communes = [
     "2": 79,
     "id": 1113,
     "name": "Manampaneva",
-    "id_district": 79
+    "districtId": 79
   },
   {
     "0": 1114,
@@ -8909,7 +8909,7 @@ const communes = [
     "2": 79,
     "id": 1114,
     "name": "Mandritsara",
-    "id_district": 79
+    "districtId": 79
   },
   {
     "0": 1115,
@@ -8917,7 +8917,7 @@ const communes = [
     "2": 79,
     "id": 1115,
     "name": "Marotandrano",
-    "id_district": 79
+    "districtId": 79
   },
   {
     "0": 1116,
@@ -8925,7 +8925,7 @@ const communes = [
     "2": 79,
     "id": 1116,
     "name": "Pont Sofia",
-    "id_district": 79
+    "districtId": 79
   },
   {
     "0": 1117,
@@ -8933,7 +8933,7 @@ const communes = [
     "2": 79,
     "id": 1117,
     "name": "Tsarajomoko",
-    "id_district": 79
+    "districtId": 79
   },
   {
     "0": 1118,
@@ -8941,7 +8941,7 @@ const communes = [
     "2": 79,
     "id": 1118,
     "name": "Tsaratanàna",
-    "id_district": 79
+    "districtId": 79
   },
   {
     "0": 1119,
@@ -8949,7 +8949,7 @@ const communes = [
     "2": 80,
     "id": 1119,
     "name": "Ambanjabe",
-    "id_district": 80
+    "districtId": 80
   },
   {
     "0": 1120,
@@ -8957,7 +8957,7 @@ const communes = [
     "2": 80,
     "id": 1120,
     "name": "Ambodimahabibo",
-    "id_district": 80
+    "districtId": 80
   },
   {
     "0": 1121,
@@ -8965,7 +8965,7 @@ const communes = [
     "2": 80,
     "id": 1121,
     "name": "Ambodisakoana",
-    "id_district": 80
+    "districtId": 80
   },
   {
     "0": 1122,
@@ -8973,7 +8973,7 @@ const communes = [
     "2": 80,
     "id": 1122,
     "name": "Ambodivongo",
-    "id_district": 80
+    "districtId": 80
   },
   {
     "0": 1123,
@@ -8981,7 +8981,7 @@ const communes = [
     "2": 80,
     "id": 1123,
     "name": "Amparihy",
-    "id_district": 80
+    "districtId": 80
   },
   {
     "0": 1124,
@@ -8989,7 +8989,7 @@ const communes = [
     "2": 80,
     "id": 1124,
     "name": "Andranomeva",
-    "id_district": 80
+    "districtId": 80
   },
   {
     "0": 1125,
@@ -8997,7 +8997,7 @@ const communes = [
     "2": 80,
     "id": 1125,
     "name": "Leanja",
-    "id_district": 80
+    "districtId": 80
   },
   {
     "0": 1126,
@@ -9005,7 +9005,7 @@ const communes = [
     "2": 80,
     "id": 1126,
     "name": "Mahevaranohely",
-    "id_district": 80
+    "districtId": 80
   },
   {
     "0": 1127,
@@ -9013,7 +9013,7 @@ const communes = [
     "2": 80,
     "id": 1127,
     "name": "Marovato",
-    "id_district": 80
+    "districtId": 80
   },
   {
     "0": 1128,
@@ -9021,7 +9021,7 @@ const communes = [
     "2": 80,
     "id": 1128,
     "name": "Port-Berger I",
-    "id_district": 80
+    "districtId": 80
   },
   {
     "0": 1129,
@@ -9029,7 +9029,7 @@ const communes = [
     "2": 80,
     "id": 1129,
     "name": "Port-Berger II",
-    "id_district": 80
+    "districtId": 80
   },
   {
     "0": 1130,
@@ -9037,7 +9037,7 @@ const communes = [
     "2": 80,
     "id": 1130,
     "name": "Tsarahasina",
-    "id_district": 80
+    "districtId": 80
   },
   {
     "0": 1131,
@@ -9045,7 +9045,7 @@ const communes = [
     "2": 80,
     "id": 1131,
     "name": "Tsaratanàna I",
-    "id_district": 80
+    "districtId": 80
   },
   {
     "0": 1132,
@@ -9053,7 +9053,7 @@ const communes = [
     "2": 80,
     "id": 1132,
     "name": "Tsiningia",
-    "id_district": 80
+    "districtId": 80
   },
   {
     "0": 1133,
@@ -9061,7 +9061,7 @@ const communes = [
     "2": 80,
     "id": 1133,
     "name": "Tsinjomitondraka",
-    "id_district": 80
+    "districtId": 80
   },
   {
     "0": 1134,
@@ -9069,7 +9069,7 @@ const communes = [
     "2": 81,
     "id": 1134,
     "name": "Ambandrika",
-    "id_district": 81
+    "districtId": 81
   },
   {
     "0": 1135,
@@ -9077,7 +9077,7 @@ const communes = [
     "2": 81,
     "id": 1135,
     "name": "Ambatondrazaka",
-    "id_district": 81
+    "districtId": 81
   },
   {
     "0": 1136,
@@ -9085,7 +9085,7 @@ const communes = [
     "2": 81,
     "id": 1136,
     "name": "Ambatondrazaka Suburbaine",
-    "id_district": 81
+    "districtId": 81
   },
   {
     "0": 1137,
@@ -9093,7 +9093,7 @@ const communes = [
     "2": 81,
     "id": 1137,
     "name": "Ambatosoratra",
-    "id_district": 81
+    "districtId": 81
   },
   {
     "0": 1138,
@@ -9101,7 +9101,7 @@ const communes = [
     "2": 81,
     "id": 1138,
     "name": "Ambohitsilaozana",
-    "id_district": 81
+    "districtId": 81
   },
   {
     "0": 1139,
@@ -9109,7 +9109,7 @@ const communes = [
     "2": 81,
     "id": 1139,
     "name": "Amparihintsokatra",
-    "id_district": 81
+    "districtId": 81
   },
   {
     "0": 1140,
@@ -9117,7 +9117,7 @@ const communes = [
     "2": 81,
     "id": 1140,
     "name": "Ampitatsimo",
-    "id_district": 81
+    "districtId": 81
   },
   {
     "0": 1141,
@@ -9125,7 +9125,7 @@ const communes = [
     "2": 81,
     "id": 1141,
     "name": "Andilanatoby",
-    "id_district": 81
+    "districtId": 81
   },
   {
     "0": 1142,
@@ -9133,7 +9133,7 @@ const communes = [
     "2": 81,
     "id": 1142,
     "name": "Andromba",
-    "id_district": 81
+    "districtId": 81
   },
   {
     "0": 1143,
@@ -9141,7 +9141,7 @@ const communes = [
     "2": 81,
     "id": 1143,
     "name": "Antanandava",
-    "id_district": 81
+    "districtId": 81
   },
   {
     "0": 1144,
@@ -9149,7 +9149,7 @@ const communes = [
     "2": 81,
     "id": 1144,
     "name": "Antsangasanga",
-    "id_district": 81
+    "districtId": 81
   },
   {
     "0": 1145,
@@ -9157,7 +9157,7 @@ const communes = [
     "2": 81,
     "id": 1145,
     "name": "Bejofo",
-    "id_district": 81
+    "districtId": 81
   },
   {
     "0": 1146,
@@ -9165,7 +9165,7 @@ const communes = [
     "2": 81,
     "id": 1146,
     "name": "Didy",
-    "id_district": 81
+    "districtId": 81
   },
   {
     "0": 1147,
@@ -9173,7 +9173,7 @@ const communes = [
     "2": 81,
     "id": 1147,
     "name": "Feramanga Nord",
-    "id_district": 81
+    "districtId": 81
   },
   {
     "0": 1148,
@@ -9181,7 +9181,7 @@ const communes = [
     "2": 81,
     "id": 1148,
     "name": "Ilafy",
-    "id_district": 81
+    "districtId": 81
   },
   {
     "0": 1149,
@@ -9189,7 +9189,7 @@ const communes = [
     "2": 81,
     "id": 1149,
     "name": "Imerimandroso",
-    "id_district": 81
+    "districtId": 81
   },
   {
     "0": 1150,
@@ -9197,7 +9197,7 @@ const communes = [
     "2": 81,
     "id": 1150,
     "name": "Manakambahiny Est",
-    "id_district": 81
+    "districtId": 81
   },
   {
     "0": 1151,
@@ -9205,7 +9205,7 @@ const communes = [
     "2": 81,
     "id": 1151,
     "name": "Manakambahiny Ouest",
-    "id_district": 81
+    "districtId": 81
   },
   {
     "0": 1152,
@@ -9213,7 +9213,7 @@ const communes = [
     "2": 81,
     "id": 1152,
     "name": "Soalazaina",
-    "id_district": 81
+    "districtId": 81
   },
   {
     "0": 1153,
@@ -9221,7 +9221,7 @@ const communes = [
     "2": 81,
     "id": 1153,
     "name": "Tanambao Besakay",
-    "id_district": 81
+    "districtId": 81
   },
   {
     "0": 1154,
@@ -9229,7 +9229,7 @@ const communes = [
     "2": 82,
     "id": 1154,
     "name": "Ambatomainty",
-    "id_district": 82
+    "districtId": 82
   },
   {
     "0": 1155,
@@ -9237,7 +9237,7 @@ const communes = [
     "2": 82,
     "id": 1155,
     "name": "Amboavory",
-    "id_district": 82
+    "districtId": 82
   },
   {
     "0": 1156,
@@ -9245,7 +9245,7 @@ const communes = [
     "2": 82,
     "id": 1156,
     "name": "Ambodimanga",
-    "id_district": 82
+    "districtId": 82
   },
   {
     "0": 1157,
@@ -9253,7 +9253,7 @@ const communes = [
     "2": 82,
     "id": 1157,
     "name": "Ambohijanahary",
-    "id_district": 82
+    "districtId": 82
   },
   {
     "0": 1158,
@@ -9261,7 +9261,7 @@ const communes = [
     "2": 82,
     "id": 1158,
     "name": "Ambohimandroso I",
-    "id_district": 82
+    "districtId": 82
   },
   {
     "0": 1159,
@@ -9269,7 +9269,7 @@ const communes = [
     "2": 82,
     "id": 1159,
     "name": "Ambohitrarivo",
-    "id_district": 82
+    "districtId": 82
   },
   {
     "0": 1160,
@@ -9277,7 +9277,7 @@ const communes = [
     "2": 82,
     "id": 1160,
     "name": "Amparafaravola",
-    "id_district": 82
+    "districtId": 82
   },
   {
     "0": 1161,
@@ -9285,7 +9285,7 @@ const communes = [
     "2": 82,
     "id": 1161,
     "name": "Ampasikely",
-    "id_district": 82
+    "districtId": 82
   },
   {
     "0": 1162,
@@ -9293,7 +9293,7 @@ const communes = [
     "2": 82,
     "id": 1162,
     "name": "Andilana Nord",
-    "id_district": 82
+    "districtId": 82
   },
   {
     "0": 1163,
@@ -9301,7 +9301,7 @@ const communes = [
     "2": 82,
     "id": 1163,
     "name": "Andrebakely Nord",
-    "id_district": 82
+    "districtId": 82
   },
   {
     "0": 1164,
@@ -9309,7 +9309,7 @@ const communes = [
     "2": 82,
     "id": 1164,
     "name": "Andrebakely Sud",
-    "id_district": 82
+    "districtId": 82
   },
   {
     "0": 1165,
@@ -9317,7 +9317,7 @@ const communes = [
     "2": 82,
     "id": 1165,
     "name": "Anororo",
-    "id_district": 82
+    "districtId": 82
   },
   {
     "0": 1166,
@@ -9325,7 +9325,7 @@ const communes = [
     "2": 82,
     "id": 1166,
     "name": "Beanana",
-    "id_district": 82
+    "districtId": 82
   },
   {
     "0": 1167,
@@ -9333,7 +9333,7 @@ const communes = [
     "2": 82,
     "id": 1167,
     "name": "Bedidy",
-    "id_district": 82
+    "districtId": 82
   },
   {
     "0": 1168,
@@ -9341,7 +9341,7 @@ const communes = [
     "2": 82,
     "id": 1168,
     "name": "Morarano Chrome",
-    "id_district": 82
+    "districtId": 82
   },
   {
     "0": 1169,
@@ -9349,7 +9349,7 @@ const communes = [
     "2": 82,
     "id": 1169,
     "name": "Ranomainty",
-    "id_district": 82
+    "districtId": 82
   },
   {
     "0": 1170,
@@ -9357,7 +9357,7 @@ const communes = [
     "2": 82,
     "id": 1170,
     "name": "Sahamamy",
-    "id_district": 82
+    "districtId": 82
   },
   {
     "0": 1171,
@@ -9365,7 +9365,7 @@ const communes = [
     "2": 82,
     "id": 1171,
     "name": "Tanambe",
-    "id_district": 82
+    "districtId": 82
   },
   {
     "0": 1172,
@@ -9373,7 +9373,7 @@ const communes = [
     "2": 82,
     "id": 1172,
     "name": "Vohimena",
-    "id_district": 82
+    "districtId": 82
   },
   {
     "0": 1173,
@@ -9381,7 +9381,7 @@ const communes = [
     "2": 82,
     "id": 1173,
     "name": "Vohitsara",
-    "id_district": 82
+    "districtId": 82
   },
   {
     "0": 1174,
@@ -9389,7 +9389,7 @@ const communes = [
     "2": 83,
     "id": 1174,
     "name": "Andilamena",
-    "id_district": 83
+    "districtId": 83
   },
   {
     "0": 1175,
@@ -9397,7 +9397,7 @@ const communes = [
     "2": 83,
     "id": 1175,
     "name": "Antanimenabaka",
-    "id_district": 83
+    "districtId": 83
   },
   {
     "0": 1176,
@@ -9405,7 +9405,7 @@ const communes = [
     "2": 83,
     "id": 1176,
     "name": "Bemaintso",
-    "id_district": 83
+    "districtId": 83
   },
   {
     "0": 1177,
@@ -9413,7 +9413,7 @@ const communes = [
     "2": 83,
     "id": 1177,
     "name": "Maitsokely",
-    "id_district": 83
+    "districtId": 83
   },
   {
     "0": 1178,
@@ -9421,7 +9421,7 @@ const communes = [
     "2": 83,
     "id": 1178,
     "name": "Maroadabo",
-    "id_district": 83
+    "districtId": 83
   },
   {
     "0": 1179,
@@ -9429,7 +9429,7 @@ const communes = [
     "2": 83,
     "id": 1179,
     "name": "Marovato",
-    "id_district": 83
+    "districtId": 83
   },
   {
     "0": 1180,
@@ -9437,7 +9437,7 @@ const communes = [
     "2": 83,
     "id": 1180,
     "name": "Miarinarivo",
-    "id_district": 83
+    "districtId": 83
   },
   {
     "0": 1181,
@@ -9445,7 +9445,7 @@ const communes = [
     "2": 83,
     "id": 1181,
     "name": "Tanananifololahy",
-    "id_district": 83
+    "districtId": 83
   },
   {
     "0": 1182,
@@ -9453,7 +9453,7 @@ const communes = [
     "2": 84,
     "id": 1182,
     "name": "Ambalaomby",
-    "id_district": 84
+    "districtId": 84
   },
   {
     "0": 1183,
@@ -9461,7 +9461,7 @@ const communes = [
     "2": 84,
     "id": 1183,
     "name": "Ambatoharanana",
-    "id_district": 84
+    "districtId": 84
   },
   {
     "0": 1184,
@@ -9469,7 +9469,7 @@ const communes = [
     "2": 84,
     "id": 1184,
     "name": "Ampandroantraka",
-    "id_district": 84
+    "districtId": 84
   },
   {
     "0": 1185,
@@ -9477,7 +9477,7 @@ const communes = [
     "2": 84,
     "id": 1185,
     "name": "Ampasimaneva",
-    "id_district": 84
+    "districtId": 84
   },
   {
     "0": 1186,
@@ -9485,7 +9485,7 @@ const communes = [
     "2": 84,
     "id": 1186,
     "name": "Anosibe An_ala",
-    "id_district": 84
+    "districtId": 84
   },
   {
     "0": 1187,
@@ -9493,7 +9493,7 @@ const communes = [
     "2": 84,
     "id": 1187,
     "name": "Antandrokomby",
-    "id_district": 84
+    "districtId": 84
   },
   {
     "0": 1188,
@@ -9501,7 +9501,7 @@ const communes = [
     "2": 84,
     "id": 1188,
     "name": "Longozabe",
-    "id_district": 84
+    "districtId": 84
   },
   {
     "0": 1189,
@@ -9509,7 +9509,7 @@ const communes = [
     "2": 84,
     "id": 1189,
     "name": "Niarovana",
-    "id_district": 84
+    "districtId": 84
   },
   {
     "0": 1190,
@@ -9517,7 +9517,7 @@ const communes = [
     "2": 84,
     "id": 1190,
     "name": "Tratramarina",
-    "id_district": 84
+    "districtId": 84
   },
   {
     "0": 1191,
@@ -9525,7 +9525,7 @@ const communes = [
     "2": 84,
     "id": 1191,
     "name": "Tsaravinany",
-    "id_district": 84
+    "districtId": 84
   },
   {
     "0": 1192,
@@ -9533,7 +9533,7 @@ const communes = [
     "2": 85,
     "id": 1192,
     "name": "Ambatovola",
-    "id_district": 85
+    "districtId": 85
   },
   {
     "0": 1193,
@@ -9541,7 +9541,7 @@ const communes = [
     "2": 85,
     "id": 1193,
     "name": "Amboasary",
-    "id_district": 85
+    "districtId": 85
   },
   {
     "0": 1194,
@@ -9549,7 +9549,7 @@ const communes = [
     "2": 85,
     "id": 1194,
     "name": "Ambohibary",
-    "id_district": 85
+    "districtId": 85
   },
   {
     "0": 1195,
@@ -9557,7 +9557,7 @@ const communes = [
     "2": 85,
     "id": 1195,
     "name": "Ambohidronono",
-    "id_district": 85
+    "districtId": 85
   },
   {
     "0": 1196,
@@ -9565,7 +9565,7 @@ const communes = [
     "2": 85,
     "id": 1196,
     "name": "Ampasimpotsy Gare",
-    "id_district": 85
+    "districtId": 85
   },
   {
     "0": 1197,
@@ -9573,7 +9573,7 @@ const communes = [
     "2": 85,
     "id": 1197,
     "name": "Ampasimpotsy Mandialaza",
-    "id_district": 85
+    "districtId": 85
   },
   {
     "0": 1198,
@@ -9581,7 +9581,7 @@ const communes = [
     "2": 85,
     "id": 1198,
     "name": "Andaingo",
-    "id_district": 85
+    "districtId": 85
   },
   {
     "0": 1199,
@@ -9589,7 +9589,7 @@ const communes = [
     "2": 85,
     "id": 1199,
     "name": "Andasibe",
-    "id_district": 85
+    "districtId": 85
   },
   {
     "0": 1200,
@@ -9597,7 +9597,7 @@ const communes = [
     "2": 85,
     "id": 1200,
     "name": "Anosibe Ifody",
-    "id_district": 85
+    "districtId": 85
   },
   {
     "0": 1201,
@@ -9605,7 +9605,7 @@ const communes = [
     "2": 85,
     "id": 1201,
     "name": "Antanandava",
-    "id_district": 85
+    "districtId": 85
   },
   {
     "0": 1202,
@@ -9613,7 +9613,7 @@ const communes = [
     "2": 85,
     "id": 1202,
     "name": "Antaniditra",
-    "id_district": 85
+    "districtId": 85
   },
   {
     "0": 1203,
@@ -9621,7 +9621,7 @@ const communes = [
     "2": 85,
     "id": 1203,
     "name": "Beforona",
-    "id_district": 85
+    "districtId": 85
   },
   {
     "0": 1204,
@@ -9629,7 +9629,7 @@ const communes = [
     "2": 85,
     "id": 1204,
     "name": "Belavabary",
-    "id_district": 85
+    "districtId": 85
   },
   {
     "0": 1205,
@@ -9637,7 +9637,7 @@ const communes = [
     "2": 85,
     "id": 1205,
     "name": "Beparasy Mangarivotra",
-    "id_district": 85
+    "districtId": 85
   },
   {
     "0": 1206,
@@ -9645,7 +9645,7 @@ const communes = [
     "2": 85,
     "id": 1206,
     "name": "Fierenana",
-    "id_district": 85
+    "districtId": 85
   },
   {
     "0": 1207,
@@ -9653,7 +9653,7 @@ const communes = [
     "2": 85,
     "id": 1207,
     "name": "Lakato",
-    "id_district": 85
+    "districtId": 85
   },
   {
     "0": 1208,
@@ -9661,7 +9661,7 @@ const communes = [
     "2": 85,
     "id": 1208,
     "name": "Mandialaza",
-    "id_district": 85
+    "districtId": 85
   },
   {
     "0": 1209,
@@ -9669,7 +9669,7 @@ const communes = [
     "2": 85,
     "id": 1209,
     "name": "Moramanga",
-    "id_district": 85
+    "districtId": 85
   },
   {
     "0": 1210,
@@ -9677,7 +9677,7 @@ const communes = [
     "2": 85,
     "id": 1210,
     "name": "Morarano Gare",
-    "id_district": 85
+    "districtId": 85
   },
   {
     "0": 1211,
@@ -9685,7 +9685,7 @@ const communes = [
     "2": 85,
     "id": 1211,
     "name": "Sabotsy Anjiro",
-    "id_district": 85
+    "districtId": 85
   },
   {
     "0": 1212,
@@ -9693,7 +9693,7 @@ const communes = [
     "2": 85,
     "id": 1212,
     "name": "Vodiriana",
-    "id_district": 85
+    "districtId": 85
   },
   {
     "0": 1213,
@@ -9701,7 +9701,7 @@ const communes = [
     "2": 86,
     "id": 1213,
     "name": "Ambatoharanana",
-    "id_district": 86
+    "districtId": 86
   },
   {
     "0": 1214,
@@ -9709,7 +9709,7 @@ const communes = [
     "2": 86,
     "id": 1214,
     "name": "Ambodimanga II",
-    "id_district": 86
+    "districtId": 86
   },
   {
     "0": 1215,
@@ -9717,7 +9717,7 @@ const communes = [
     "2": 86,
     "id": 1215,
     "name": "Ampasimbe Manantsantrana",
-    "id_district": 86
+    "districtId": 86
   },
   {
     "0": 1216,
@@ -9725,7 +9725,7 @@ const communes = [
     "2": 86,
     "id": 1216,
     "name": "Ampasina Maningoro",
-    "id_district": 86
+    "districtId": 86
   },
   {
     "0": 1217,
@@ -9733,7 +9733,7 @@ const communes = [
     "2": 86,
     "id": 1217,
     "name": "Antsiatsiaka",
-    "id_district": 86
+    "districtId": 86
   },
   {
     "0": 1218,
@@ -9741,7 +9741,7 @@ const communes = [
     "2": 86,
     "id": 1218,
     "name": "Fenerive Ville",
-    "id_district": 86
+    "districtId": 86
   },
   {
     "0": 1219,
@@ -9749,7 +9749,7 @@ const communes = [
     "2": 86,
     "id": 1219,
     "name": "Mahambo",
-    "id_district": 86
+    "districtId": 86
   },
   {
     "0": 1220,
@@ -9757,7 +9757,7 @@ const communes = [
     "2": 86,
     "id": 1220,
     "name": "Mahanoro",
-    "id_district": 86
+    "districtId": 86
   },
   {
     "0": 1221,
@@ -9765,7 +9765,7 @@ const communes = [
     "2": 86,
     "id": 1221,
     "name": "Miorimivalana",
-    "id_district": 86
+    "districtId": 86
   },
   {
     "0": 1222,
@@ -9773,7 +9773,7 @@ const communes = [
     "2": 86,
     "id": 1222,
     "name": "Saranambana",
-    "id_district": 86
+    "districtId": 86
   },
   {
     "0": 1223,
@@ -9781,7 +9781,7 @@ const communes = [
     "2": 86,
     "id": 1223,
     "name": "Vohilengo",
-    "id_district": 86
+    "districtId": 86
   },
   {
     "0": 1224,
@@ -9789,7 +9789,7 @@ const communes = [
     "2": 86,
     "id": 1224,
     "name": "Vohipeno",
-    "id_district": 86
+    "districtId": 86
   },
   {
     "0": 1225,
@@ -9797,7 +9797,7 @@ const communes = [
     "2": 87,
     "id": 1225,
     "name": "Ambatoharanana",
-    "id_district": 87
+    "districtId": 87
   },
   {
     "0": 1226,
@@ -9805,7 +9805,7 @@ const communes = [
     "2": 87,
     "id": 1226,
     "name": "Ambodiampana",
-    "id_district": 87
+    "districtId": 87
   },
   {
     "0": 1227,
@@ -9813,7 +9813,7 @@ const communes = [
     "2": 87,
     "id": 1227,
     "name": "Ambodivoanio",
-    "id_district": 87
+    "districtId": 87
   },
   {
     "0": 1228,
@@ -9821,7 +9821,7 @@ const communes = [
     "2": 87,
     "id": 1228,
     "name": "Andasibe",
-    "id_district": 87
+    "districtId": 87
   },
   {
     "0": 1229,
@@ -9829,7 +9829,7 @@ const communes = [
     "2": 87,
     "id": 1229,
     "name": "Antanambaobe",
-    "id_district": 87
+    "districtId": 87
   },
   {
     "0": 1230,
@@ -9837,7 +9837,7 @@ const communes = [
     "2": 87,
     "id": 1230,
     "name": "Antanambe",
-    "id_district": 87
+    "districtId": 87
   },
   {
     "0": 1231,
@@ -9845,7 +9845,7 @@ const communes = [
     "2": 87,
     "id": 1231,
     "name": "Antananivo",
-    "id_district": 87
+    "districtId": 87
   },
   {
     "0": 1232,
@@ -9853,7 +9853,7 @@ const communes = [
     "2": 87,
     "id": 1232,
     "name": "Imorona",
-    "id_district": 87
+    "districtId": 87
   },
   {
     "0": 1233,
@@ -9861,7 +9861,7 @@ const communes = [
     "2": 87,
     "id": 1233,
     "name": "Manambolosy",
-    "id_district": 87
+    "districtId": 87
   },
   {
     "0": 1234,
@@ -9869,7 +9869,7 @@ const communes = [
     "2": 87,
     "id": 1234,
     "name": "Mananara Nord",
-    "id_district": 87
+    "districtId": 87
   },
   {
     "0": 1235,
@@ -9877,7 +9877,7 @@ const communes = [
     "2": 87,
     "id": 1235,
     "name": "Sandrakatsy",
-    "id_district": 87
+    "districtId": 87
   },
   {
     "0": 1236,
@@ -9885,7 +9885,7 @@ const communes = [
     "2": 87,
     "id": 1236,
     "name": "Saromaona",
-    "id_district": 87
+    "districtId": 87
   },
   {
     "0": 1237,
@@ -9893,7 +9893,7 @@ const communes = [
     "2": 87,
     "id": 1237,
     "name": "Tanibe",
-    "id_district": 87
+    "districtId": 87
   },
   {
     "0": 1238,
@@ -9901,7 +9901,7 @@ const communes = [
     "2": 87,
     "id": 1238,
     "name": "Vanono",
-    "id_district": 87
+    "districtId": 87
   },
   {
     "0": 1239,
@@ -9909,7 +9909,7 @@ const communes = [
     "2": 88,
     "id": 1239,
     "name": "Ambanizana",
-    "id_district": 88
+    "districtId": 88
   },
   {
     "0": 1240,
@@ -9917,7 +9917,7 @@ const communes = [
     "2": 88,
     "id": 1240,
     "name": "Ambinanitelo",
-    "id_district": 88
+    "districtId": 88
   },
   {
     "0": 1241,
@@ -9925,7 +9925,7 @@ const communes = [
     "2": 88,
     "id": 1241,
     "name": "Ambodimanga Rantabe",
-    "id_district": 88
+    "districtId": 88
   },
   {
     "0": 1242,
@@ -9933,7 +9933,7 @@ const communes = [
     "2": 88,
     "id": 1242,
     "name": "Anandrivola",
-    "id_district": 88
+    "districtId": 88
   },
   {
     "0": 1243,
@@ -9941,7 +9941,7 @@ const communes = [
     "2": 88,
     "id": 1243,
     "name": "Andranofotsy",
-    "id_district": 88
+    "districtId": 88
   },
   {
     "0": 1244,
@@ -9949,7 +9949,7 @@ const communes = [
     "2": 88,
     "id": 1244,
     "name": "Androndrona",
-    "id_district": 88
+    "districtId": 88
   },
   {
     "0": 1245,
@@ -9957,7 +9957,7 @@ const communes = [
     "2": 88,
     "id": 1245,
     "name": "Anjahana",
-    "id_district": 88
+    "districtId": 88
   },
   {
     "0": 1246,
@@ -9965,7 +9965,7 @@ const communes = [
     "2": 88,
     "id": 1246,
     "name": "Anjanazana",
-    "id_district": 88
+    "districtId": 88
   },
   {
     "0": 1247,
@@ -9973,7 +9973,7 @@ const communes = [
     "2": 88,
     "id": 1247,
     "name": "Ankofa",
-    "id_district": 88
+    "districtId": 88
   },
   {
     "0": 1248,
@@ -9981,7 +9981,7 @@ const communes = [
     "2": 88,
     "id": 1248,
     "name": "Ankofabe",
-    "id_district": 88
+    "districtId": 88
   },
   {
     "0": 1249,
@@ -9989,7 +9989,7 @@ const communes = [
     "2": 88,
     "id": 1249,
     "name": "Antakotako",
-    "id_district": 88
+    "districtId": 88
   },
   {
     "0": 1250,
@@ -9997,7 +9997,7 @@ const communes = [
     "2": 88,
     "id": 1250,
     "name": "Antsirabe Sahatany",
-    "id_district": 88
+    "districtId": 88
   },
   {
     "0": 1251,
@@ -10005,7 +10005,7 @@ const communes = [
     "2": 88,
     "id": 1251,
     "name": "Mahavelona",
-    "id_district": 88
+    "districtId": 88
   },
   {
     "0": 1252,
@@ -10013,7 +10013,7 @@ const communes = [
     "2": 88,
     "id": 1252,
     "name": "Manambolo",
-    "id_district": 88
+    "districtId": 88
   },
   {
     "0": 1253,
@@ -10021,7 +10021,7 @@ const communes = [
     "2": 88,
     "id": 1253,
     "name": "Maroantsetra",
-    "id_district": 88
+    "districtId": 88
   },
   {
     "0": 1254,
@@ -10029,7 +10029,7 @@ const communes = [
     "2": 88,
     "id": 1254,
     "name": "Morafeno",
-    "id_district": 88
+    "districtId": 88
   },
   {
     "0": 1255,
@@ -10037,7 +10037,7 @@ const communes = [
     "2": 88,
     "id": 1255,
     "name": "Rantabe",
-    "id_district": 88
+    "districtId": 88
   },
   {
     "0": 1256,
@@ -10045,7 +10045,7 @@ const communes = [
     "2": 88,
     "id": 1256,
     "name": "Voloina",
-    "id_district": 88
+    "districtId": 88
   },
   {
     "0": 1257,
@@ -10053,7 +10053,7 @@ const communes = [
     "2": 89,
     "id": 1257,
     "name": "Sainte-Marie",
-    "id_district": 89
+    "districtId": 89
   },
   {
     "0": 1258,
@@ -10061,7 +10061,7 @@ const communes = [
     "2": 90,
     "id": 1258,
     "name": "Ambahoambe",
-    "id_district": 90
+    "districtId": 90
   },
   {
     "0": 1259,
@@ -10069,7 +10069,7 @@ const communes = [
     "2": 90,
     "id": 1259,
     "name": "Ambodiampana",
-    "id_district": 90
+    "districtId": 90
   },
   {
     "0": 1260,
@@ -10077,7 +10077,7 @@ const communes = [
     "2": 90,
     "id": 1260,
     "name": "Andapafito",
-    "id_district": 90
+    "districtId": 90
   },
   {
     "0": 1261,
@@ -10085,7 +10085,7 @@ const communes = [
     "2": 90,
     "id": 1261,
     "name": "Antanifotsy",
-    "id_district": 90
+    "districtId": 90
   },
   {
     "0": 1262,
@@ -10093,7 +10093,7 @@ const communes = [
     "2": 90,
     "id": 1262,
     "name": "Antenina",
-    "id_district": 90
+    "districtId": 90
   },
   {
     "0": 1263,
@@ -10101,7 +10101,7 @@ const communes = [
     "2": 90,
     "id": 1263,
     "name": "Fotsialanana",
-    "id_district": 90
+    "districtId": 90
   },
   {
     "0": 1264,
@@ -10109,7 +10109,7 @@ const communes = [
     "2": 90,
     "id": 1264,
     "name": "Manompana",
-    "id_district": 90
+    "districtId": 90
   },
   {
     "0": 1265,
@@ -10117,7 +10117,7 @@ const communes = [
     "2": 90,
     "id": 1265,
     "name": "Soanierana Ivongo",
-    "id_district": 90
+    "districtId": 90
   },
   {
     "0": 1266,
@@ -10125,7 +10125,7 @@ const communes = [
     "2": 91,
     "id": 1266,
     "name": "Ambatoharanana",
-    "id_district": 91
+    "districtId": 91
   },
   {
     "0": 1267,
@@ -10133,7 +10133,7 @@ const communes = [
     "2": 91,
     "id": 1267,
     "name": "Ambodimangavalo",
-    "id_district": 91
+    "districtId": 91
   },
   {
     "0": 1268,
@@ -10141,7 +10141,7 @@ const communes = [
     "2": 91,
     "id": 1268,
     "name": "Ambohibe",
-    "id_district": 91
+    "districtId": 91
   },
   {
     "0": 1269,
@@ -10149,7 +10149,7 @@ const communes = [
     "2": 91,
     "id": 1269,
     "name": "Ampasimazava",
-    "id_district": 91
+    "districtId": 91
   },
   {
     "0": 1270,
@@ -10157,7 +10157,7 @@ const communes = [
     "2": 91,
     "id": 1270,
     "name": "Andasibe",
-    "id_district": 91
+    "districtId": 91
   },
   {
     "0": 1271,
@@ -10165,7 +10165,7 @@ const communes = [
     "2": 91,
     "id": 1271,
     "name": "Anjahambe",
-    "id_district": 91
+    "districtId": 91
   },
   {
     "0": 1272,
@@ -10173,7 +10173,7 @@ const communes = [
     "2": 91,
     "id": 1272,
     "name": "Maromitety",
-    "id_district": 91
+    "districtId": 91
   },
   {
     "0": 1273,
@@ -10181,7 +10181,7 @@ const communes = [
     "2": 91,
     "id": 1273,
     "name": "Miarinarivo",
-    "id_district": 91
+    "districtId": 91
   },
   {
     "0": 1274,
@@ -10189,7 +10189,7 @@ const communes = [
     "2": 91,
     "id": 1274,
     "name": "Sahatavy",
-    "id_district": 91
+    "districtId": 91
   },
   {
     "0": 1275,
@@ -10197,7 +10197,7 @@ const communes = [
     "2": 91,
     "id": 1275,
     "name": "Vavatenina",
-    "id_district": 91
+    "districtId": 91
   },
   {
     "0": 1276,
@@ -10205,7 +10205,7 @@ const communes = [
     "2": 92,
     "id": 1276,
     "name": "Antanambao Manampotsy",
-    "id_district": 92
+    "districtId": 92
   },
   {
     "0": 1277,
@@ -10213,7 +10213,7 @@ const communes = [
     "2": 92,
     "id": 1277,
     "name": "Antanandehibe",
-    "id_district": 92
+    "districtId": 92
   },
   {
     "0": 1278,
@@ -10221,7 +10221,7 @@ const communes = [
     "2": 92,
     "id": 1278,
     "name": "Mahela",
-    "id_district": 92
+    "districtId": 92
   },
   {
     "0": 1279,
@@ -10229,7 +10229,7 @@ const communes = [
     "2": 92,
     "id": 1279,
     "name": "Manakana",
-    "id_district": 92
+    "districtId": 92
   },
   {
     "0": 1280,
@@ -10237,7 +10237,7 @@ const communes = [
     "2": 92,
     "id": 1280,
     "name": "Saivaza",
-    "id_district": 92
+    "districtId": 92
   },
   {
     "0": 1281,
@@ -10245,7 +10245,7 @@ const communes = [
     "2": 93,
     "id": 1281,
     "name": "Ambalarondra",
-    "id_district": 93
+    "districtId": 93
   },
   {
     "0": 1282,
@@ -10253,7 +10253,7 @@ const communes = [
     "2": 93,
     "id": 1282,
     "name": "Ambinaninony",
-    "id_district": 93
+    "districtId": 93
   },
   {
     "0": 1283,
@@ -10261,7 +10261,7 @@ const communes = [
     "2": 93,
     "id": 1283,
     "name": "Ambohimanana",
-    "id_district": 93
+    "districtId": 93
   },
   {
     "0": 1284,
@@ -10269,7 +10269,7 @@ const communes = [
     "2": 93,
     "id": 1284,
     "name": "Ampasimbe",
-    "id_district": 93
+    "districtId": 93
   },
   {
     "0": 1285,
@@ -10277,7 +10277,7 @@ const communes = [
     "2": 93,
     "id": 1285,
     "name": "Andekaleka",
-    "id_district": 93
+    "districtId": 93
   },
   {
     "0": 1286,
@@ -10285,7 +10285,7 @@ const communes = [
     "2": 93,
     "id": 1286,
     "name": "Andevoranto",
-    "id_district": 93
+    "districtId": 93
   },
   {
     "0": 1287,
@@ -10293,7 +10293,7 @@ const communes = [
     "2": 93,
     "id": 1287,
     "name": "Anivorano Est",
-    "id_district": 93
+    "districtId": 93
   },
   {
     "0": 1288,
@@ -10301,7 +10301,7 @@ const communes = [
     "2": 93,
     "id": 1288,
     "name": "Anjahamana",
-    "id_district": 93
+    "districtId": 93
   },
   {
     "0": 1289,
@@ -10309,7 +10309,7 @@ const communes = [
     "2": 93,
     "id": 1289,
     "name": "Brickaville",
-    "id_district": 93
+    "districtId": 93
   },
   {
     "0": 1290,
@@ -10317,7 +10317,7 @@ const communes = [
     "2": 93,
     "id": 1290,
     "name": "Fanasana",
-    "id_district": 93
+    "districtId": 93
   },
   {
     "0": 1291,
@@ -10325,7 +10325,7 @@ const communes = [
     "2": 93,
     "id": 1291,
     "name": "Fetraomby",
-    "id_district": 93
+    "districtId": 93
   },
   {
     "0": 1292,
@@ -10333,7 +10333,7 @@ const communes = [
     "2": 93,
     "id": 1292,
     "name": "Lohariandava",
-    "id_district": 93
+    "districtId": 93
   },
   {
     "0": 1293,
@@ -10341,7 +10341,7 @@ const communes = [
     "2": 93,
     "id": 1293,
     "name": "Mahatsara",
-    "id_district": 93
+    "districtId": 93
   },
   {
     "0": 1294,
@@ -10349,7 +10349,7 @@ const communes = [
     "2": 93,
     "id": 1294,
     "name": "Maroseranana",
-    "id_district": 93
+    "districtId": 93
   },
   {
     "0": 1295,
@@ -10357,7 +10357,7 @@ const communes = [
     "2": 93,
     "id": 1295,
     "name": "Ranomafana Est",
-    "id_district": 93
+    "districtId": 93
   },
   {
     "0": 1296,
@@ -10365,7 +10365,7 @@ const communes = [
     "2": 93,
     "id": 1296,
     "name": "Razanaka",
-    "id_district": 93
+    "districtId": 93
   },
   {
     "0": 1297,
@@ -10373,7 +10373,7 @@ const communes = [
     "2": 93,
     "id": 1297,
     "name": "Vohitranivona",
-    "id_district": 93
+    "districtId": 93
   },
   {
     "0": 1298,
@@ -10381,7 +10381,7 @@ const communes = [
     "2": 94,
     "id": 1298,
     "name": "Ambinanidilana",
-    "id_district": 94
+    "districtId": 94
   },
   {
     "0": 1299,
@@ -10389,7 +10389,7 @@ const communes = [
     "2": 94,
     "id": 1299,
     "name": "Ambinanindrano",
-    "id_district": 94
+    "districtId": 94
   },
   {
     "0": 1300,
@@ -10397,7 +10397,7 @@ const communes = [
     "2": 94,
     "id": 1300,
     "name": "Ambodiboanara",
-    "id_district": 94
+    "districtId": 94
   },
   {
     "0": 1301,
@@ -10405,7 +10405,7 @@ const communes = [
     "2": 94,
     "id": 1301,
     "name": "Ambodiharina",
-    "id_district": 94
+    "districtId": 94
   },
   {
     "0": 1302,
@@ -10413,7 +10413,7 @@ const communes = [
     "2": 94,
     "id": 1302,
     "name": "Ankazotsifantatra",
-    "id_district": 94
+    "districtId": 94
   },
   {
     "0": 1303,
@@ -10421,7 +10421,7 @@ const communes = [
     "2": 94,
     "id": 1303,
     "name": "Befotaka",
-    "id_district": 94
+    "districtId": 94
   },
   {
     "0": 1304,
@@ -10429,7 +10429,7 @@ const communes = [
     "2": 94,
     "id": 1304,
     "name": "Betsizaraina",
-    "id_district": 94
+    "districtId": 94
   },
   {
     "0": 1305,
@@ -10437,7 +10437,7 @@ const communes = [
     "2": 94,
     "id": 1305,
     "name": "Mahanoro",
-    "id_district": 94
+    "districtId": 94
   },
   {
     "0": 1306,
@@ -10445,7 +10445,7 @@ const communes = [
     "2": 94,
     "id": 1306,
     "name": "Manjakandriana",
-    "id_district": 94
+    "districtId": 94
   },
   {
     "0": 1307,
@@ -10453,7 +10453,7 @@ const communes = [
     "2": 94,
     "id": 1307,
     "name": "Masomeloka",
-    "id_district": 94
+    "districtId": 94
   },
   {
     "0": 1308,
@@ -10461,7 +10461,7 @@ const communes = [
     "2": 94,
     "id": 1308,
     "name": "Tsaravinany",
-    "id_district": 94
+    "districtId": 94
   },
   {
     "0": 1309,
@@ -10469,7 +10469,7 @@ const communes = [
     "2": 95,
     "id": 1309,
     "name": "Ambalapaiso II",
-    "id_district": 95
+    "districtId": 95
   },
   {
     "0": 1310,
@@ -10477,7 +10477,7 @@ const communes = [
     "2": 95,
     "id": 1310,
     "name": "Ambatofisaka II",
-    "id_district": 95
+    "districtId": 95
   },
   {
     "0": 1311,
@@ -10485,7 +10485,7 @@ const communes = [
     "2": 95,
     "id": 1311,
     "name": "Amboasary",
-    "id_district": 95
+    "districtId": 95
   },
   {
     "0": 1312,
@@ -10493,7 +10493,7 @@ const communes = [
     "2": 95,
     "id": 1312,
     "name": "Ambodinonoka",
-    "id_district": 95
+    "districtId": 95
   },
   {
     "0": 1313,
@@ -10501,7 +10501,7 @@ const communes = [
     "2": 95,
     "id": 1313,
     "name": "Ambodivoahangy",
-    "id_district": 95
+    "districtId": 95
   },
   {
     "0": 1314,
@@ -10509,7 +10509,7 @@ const communes = [
     "2": 95,
     "id": 1314,
     "name": "Ambohimilanja",
-    "id_district": 95
+    "districtId": 95
   },
   {
     "0": 1315,
@@ -10517,7 +10517,7 @@ const communes = [
     "2": 95,
     "id": 1315,
     "name": "Andodabe Sud",
-    "id_district": 95
+    "districtId": 95
   },
   {
     "0": 1316,
@@ -10525,7 +10525,7 @@ const communes = [
     "2": 95,
     "id": 1316,
     "name": "Androrangavola",
-    "id_district": 95
+    "districtId": 95
   },
   {
     "0": 1317,
@@ -10533,7 +10533,7 @@ const communes = [
     "2": 95,
     "id": 1317,
     "name": "Anosiarivo",
-    "id_district": 95
+    "districtId": 95
   },
   {
     "0": 1318,
@@ -10541,7 +10541,7 @@ const communes = [
     "2": 95,
     "id": 1318,
     "name": "Betampona",
-    "id_district": 95
+    "districtId": 95
   },
   {
     "0": 1319,
@@ -10549,7 +10549,7 @@ const communes = [
     "2": 95,
     "id": 1319,
     "name": "Lohavanana",
-    "id_district": 95
+    "districtId": 95
   },
   {
     "0": 1320,
@@ -10557,7 +10557,7 @@ const communes = [
     "2": 95,
     "id": 1320,
     "name": "Marolambo",
-    "id_district": 95
+    "districtId": 95
   },
   {
     "0": 1321,
@@ -10565,7 +10565,7 @@ const communes = [
     "2": 95,
     "id": 1321,
     "name": "Sahakevo",
-    "id_district": 95
+    "districtId": 95
   },
   {
     "0": 1322,
@@ -10573,7 +10573,7 @@ const communes = [
     "2": 95,
     "id": 1322,
     "name": "Tanambao Rabemanana",
-    "id_district": 95
+    "districtId": 95
   },
   {
     "0": 1323,
@@ -10581,7 +10581,7 @@ const communes = [
     "2": 96,
     "id": 1323,
     "name": "CU Toamasina",
-    "id_district": 96
+    "districtId": 96
   },
   {
     "0": 1324,
@@ -10589,7 +10589,7 @@ const communes = [
     "2": 97,
     "id": 1324,
     "name": "Ambodilazana",
-    "id_district": 97
+    "districtId": 97
   },
   {
     "0": 1325,
@@ -10597,7 +10597,7 @@ const communes = [
     "2": 97,
     "id": 1325,
     "name": "Ambodiriana",
-    "id_district": 97
+    "districtId": 97
   },
   {
     "0": 1326,
@@ -10605,7 +10605,7 @@ const communes = [
     "2": 97,
     "id": 1326,
     "name": "Amboditandroho",
-    "id_district": 97
+    "districtId": 97
   },
   {
     "0": 1327,
@@ -10613,7 +10613,7 @@ const communes = [
     "2": 97,
     "id": 1327,
     "name": "Ampasimadinika",
-    "id_district": 97
+    "districtId": 97
   },
   {
     "0": 1328,
@@ -10621,7 +10621,7 @@ const communes = [
     "2": 97,
     "id": 1328,
     "name": "Ampasimbe Onibe",
-    "id_district": 97
+    "districtId": 97
   },
   {
     "0": 1329,
@@ -10629,7 +10629,7 @@ const communes = [
     "2": 97,
     "id": 1329,
     "name": "Ampisokina",
-    "id_district": 97
+    "districtId": 97
   },
   {
     "0": 1330,
@@ -10637,7 +10637,7 @@ const communes = [
     "2": 97,
     "id": 1330,
     "name": "Amporoforo",
-    "id_district": 97
+    "districtId": 97
   },
   {
     "0": 1331,
@@ -10645,7 +10645,7 @@ const communes = [
     "2": 97,
     "id": 1331,
     "name": "Andondabe",
-    "id_district": 97
+    "districtId": 97
   },
   {
     "0": 1332,
@@ -10653,7 +10653,7 @@ const communes = [
     "2": 97,
     "id": 1332,
     "name": "Andranobolaha",
-    "id_district": 97
+    "districtId": 97
   },
   {
     "0": 1333,
@@ -10661,7 +10661,7 @@ const communes = [
     "2": 97,
     "id": 1333,
     "name": "Antenina",
-    "id_district": 97
+    "districtId": 97
   },
   {
     "0": 1334,
@@ -10669,7 +10669,7 @@ const communes = [
     "2": 97,
     "id": 1334,
     "name": "Antetezambaro",
-    "id_district": 97
+    "districtId": 97
   },
   {
     "0": 1335,
@@ -10677,7 +10677,7 @@ const communes = [
     "2": 97,
     "id": 1335,
     "name": "Fanandrana",
-    "id_district": 97
+    "districtId": 97
   },
   {
     "0": 1336,
@@ -10685,7 +10685,7 @@ const communes = [
     "2": 97,
     "id": 1336,
     "name": "Fito",
-    "id_district": 97
+    "districtId": 97
   },
   {
     "0": 1337,
@@ -10693,7 +10693,7 @@ const communes = [
     "2": 97,
     "id": 1337,
     "name": "Foulpointe",
-    "id_district": 97
+    "districtId": 97
   },
   {
     "0": 1338,
@@ -10701,7 +10701,7 @@ const communes = [
     "2": 97,
     "id": 1338,
     "name": "Mangabe",
-    "id_district": 97
+    "districtId": 97
   },
   {
     "0": 1339,
@@ -10709,7 +10709,7 @@ const communes = [
     "2": 97,
     "id": 1339,
     "name": "Sahambala",
-    "id_district": 97
+    "districtId": 97
   },
   {
     "0": 1340,
@@ -10717,7 +10717,7 @@ const communes = [
     "2": 97,
     "id": 1340,
     "name": "Toamasina Suburbaine",
-    "id_district": 97
+    "districtId": 97
   },
   {
     "0": 1341,
@@ -10725,7 +10725,7 @@ const communes = [
     "2": 98,
     "id": 1341,
     "name": "Ambalabe",
-    "id_district": 98
+    "districtId": 98
   },
   {
     "0": 1342,
@@ -10733,7 +10733,7 @@ const communes = [
     "2": 98,
     "id": 1342,
     "name": "Ambalavolo",
-    "id_district": 98
+    "districtId": 98
   },
   {
     "0": 1343,
@@ -10741,7 +10741,7 @@ const communes = [
     "2": 98,
     "id": 1343,
     "name": "Amboditavolo",
-    "id_district": 98
+    "districtId": 98
   },
   {
     "0": 1344,
@@ -10749,7 +10749,7 @@ const communes = [
     "2": 98,
     "id": 1344,
     "name": "Ambodivoananto",
-    "id_district": 98
+    "districtId": 98
   },
   {
     "0": 1345,
@@ -10757,7 +10757,7 @@ const communes = [
     "2": 98,
     "id": 1345,
     "name": "Ampasimadinika",
-    "id_district": 98
+    "districtId": 98
   },
   {
     "0": 1346,
@@ -10765,7 +10765,7 @@ const communes = [
     "2": 98,
     "id": 1346,
     "name": "Ampasimazava",
-    "id_district": 98
+    "districtId": 98
   },
   {
     "0": 1347,
@@ -10773,7 +10773,7 @@ const communes = [
     "2": 98,
     "id": 1347,
     "name": "Antanambao Mahatsara",
-    "id_district": 98
+    "districtId": 98
   },
   {
     "0": 1348,
@@ -10781,7 +10781,7 @@ const communes = [
     "2": 98,
     "id": 1348,
     "name": "Iamborano",
-    "id_district": 98
+    "districtId": 98
   },
   {
     "0": 1349,
@@ -10789,7 +10789,7 @@ const communes = [
     "2": 98,
     "id": 1349,
     "name": "Ifasina I",
-    "id_district": 98
+    "districtId": 98
   },
   {
     "0": 1350,
@@ -10797,7 +10797,7 @@ const communes = [
     "2": 98,
     "id": 1350,
     "name": "Ifasina II",
-    "id_district": 98
+    "districtId": 98
   },
   {
     "0": 1351,
@@ -10805,7 +10805,7 @@ const communes = [
     "2": 98,
     "id": 1351,
     "name": "Ilaka Est",
-    "id_district": 98
+    "districtId": 98
   },
   {
     "0": 1352,
@@ -10813,7 +10813,7 @@ const communes = [
     "2": 98,
     "id": 1352,
     "name": "Maintinandry",
-    "id_district": 98
+    "districtId": 98
   },
   {
     "0": 1353,
@@ -10821,7 +10821,7 @@ const communes = [
     "2": 98,
     "id": 1353,
     "name": "Niarovana Caroline",
-    "id_district": 98
+    "districtId": 98
   },
   {
     "0": 1354,
@@ -10829,7 +10829,7 @@ const communes = [
     "2": 98,
     "id": 1354,
     "name": "Niherenana",
-    "id_district": 98
+    "districtId": 98
   },
   {
     "0": 1355,
@@ -10837,7 +10837,7 @@ const communes = [
     "2": 98,
     "id": 1355,
     "name": "Sahamatevina",
-    "id_district": 98
+    "districtId": 98
   },
   {
     "0": 1356,
@@ -10845,7 +10845,7 @@ const communes = [
     "2": 98,
     "id": 1356,
     "name": "Tanambao Vahatrakaka",
-    "id_district": 98
+    "districtId": 98
   },
   {
     "0": 1357,
@@ -10853,7 +10853,7 @@ const communes = [
     "2": 98,
     "id": 1357,
     "name": "Tsarasambo",
-    "id_district": 98
+    "districtId": 98
   },
   {
     "0": 1358,
@@ -10861,7 +10861,7 @@ const communes = [
     "2": 98,
     "id": 1358,
     "name": "Tsivangiana",
-    "id_district": 98
+    "districtId": 98
   },
   {
     "0": 1359,
@@ -10869,7 +10869,7 @@ const communes = [
     "2": 98,
     "id": 1359,
     "name": "Vatomandry",
-    "id_district": 98
+    "districtId": 98
   },
   {
     "0": 1360,
@@ -10877,7 +10877,7 @@ const communes = [
     "2": 99,
     "id": 1360,
     "name": "Ambanisarika",
-    "id_district": 99
+    "districtId": 99
   },
   {
     "0": 1361,
@@ -10885,7 +10885,7 @@ const communes = [
     "2": 99,
     "id": 1361,
     "name": "Ambazoa",
-    "id_district": 99
+    "districtId": 99
   },
   {
     "0": 1362,
@@ -10893,7 +10893,7 @@ const communes = [
     "2": 99,
     "id": 1362,
     "name": "Ambohimalaza",
-    "id_district": 99
+    "districtId": 99
   },
   {
     "0": 1363,
@@ -10901,7 +10901,7 @@ const communes = [
     "2": 99,
     "id": 1363,
     "name": "Ambonaivo",
-    "id_district": 99
+    "districtId": 99
   },
   {
     "0": 1364,
@@ -10909,7 +10909,7 @@ const communes = [
     "2": 99,
     "id": 1364,
     "name": "Ambondro",
-    "id_district": 99
+    "districtId": 99
   },
   {
     "0": 1365,
@@ -10917,7 +10917,7 @@ const communes = [
     "2": 99,
     "id": 1365,
     "name": "Ambovombe Androy",
-    "id_district": 99
+    "districtId": 99
   },
   {
     "0": 1366,
@@ -10925,7 +10925,7 @@ const communes = [
     "2": 99,
     "id": 1366,
     "name": "Ampamanta",
-    "id_district": 99
+    "districtId": 99
   },
   {
     "0": 1367,
@@ -10933,7 +10933,7 @@ const communes = [
     "2": 99,
     "id": 1367,
     "name": "Analamary",
-    "id_district": 99
+    "districtId": 99
   },
   {
     "0": 1368,
@@ -10941,7 +10941,7 @@ const communes = [
     "2": 99,
     "id": 1368,
     "name": "Andalatanosy",
-    "id_district": 99
+    "districtId": 99
   },
   {
     "0": 1369,
@@ -10949,7 +10949,7 @@ const communes = [
     "2": 99,
     "id": 1369,
     "name": "Anjeky Ankilikira",
-    "id_district": 99
+    "districtId": 99
   },
   {
     "0": 1370,
@@ -10957,7 +10957,7 @@ const communes = [
     "2": 99,
     "id": 1370,
     "name": "Antanimora Sud",
-    "id_district": 99
+    "districtId": 99
   },
   {
     "0": 1371,
@@ -10965,7 +10965,7 @@ const communes = [
     "2": 99,
     "id": 1371,
     "name": "Erada",
-    "id_district": 99
+    "districtId": 99
   },
   {
     "0": 1372,
@@ -10973,7 +10973,7 @@ const communes = [
     "2": 99,
     "id": 1372,
     "name": "Imanombo",
-    "id_district": 99
+    "districtId": 99
   },
   {
     "0": 1373,
@@ -10981,7 +10981,7 @@ const communes = [
     "2": 99,
     "id": 1373,
     "name": "Jafaro",
-    "id_district": 99
+    "districtId": 99
   },
   {
     "0": 1374,
@@ -10989,7 +10989,7 @@ const communes = [
     "2": 99,
     "id": 1374,
     "name": "Maroalomainte",
-    "id_district": 99
+    "districtId": 99
   },
   {
     "0": 1375,
@@ -10997,7 +10997,7 @@ const communes = [
     "2": 99,
     "id": 1375,
     "name": "Maroalopoty",
-    "id_district": 99
+    "districtId": 99
   },
   {
     "0": 1376,
@@ -11005,7 +11005,7 @@ const communes = [
     "2": 99,
     "id": 1376,
     "name": "Marovato Befeno",
-    "id_district": 99
+    "districtId": 99
   },
   {
     "0": 1377,
@@ -11013,7 +11013,7 @@ const communes = [
     "2": 99,
     "id": 1377,
     "name": "Sihanamaro",
-    "id_district": 99
+    "districtId": 99
   },
   {
     "0": 1378,
@@ -11021,7 +11021,7 @@ const communes = [
     "2": 99,
     "id": 1378,
     "name": "Tsimanada",
-    "id_district": 99
+    "districtId": 99
   },
   {
     "0": 1379,
@@ -11029,7 +11029,7 @@ const communes = [
     "2": 100,
     "id": 1379,
     "name": "Ambahita",
-    "id_district": 100
+    "districtId": 100
   },
   {
     "0": 1380,
@@ -11037,7 +11037,7 @@ const communes = [
     "2": 100,
     "id": 1380,
     "name": "Ambatosola",
-    "id_district": 100
+    "districtId": 100
   },
   {
     "0": 1381,
@@ -11045,7 +11045,7 @@ const communes = [
     "2": 100,
     "id": 1381,
     "name": "Anivorano Mitsinjo",
-    "id_district": 100
+    "districtId": 100
   },
   {
     "0": 1382,
@@ -11053,7 +11053,7 @@ const communes = [
     "2": 100,
     "id": 1382,
     "name": "Anja Nord",
-    "id_district": 100
+    "districtId": 100
   },
   {
     "0": 1383,
@@ -11061,7 +11061,7 @@ const communes = [
     "2": 100,
     "id": 1383,
     "name": "Ankaranabo Nord",
-    "id_district": 100
+    "districtId": 100
   },
   {
     "0": 1384,
@@ -11069,7 +11069,7 @@ const communes = [
     "2": 100,
     "id": 1384,
     "name": "Antsakoamaro",
-    "id_district": 100
+    "districtId": 100
   },
   {
     "0": 1385,
@@ -11077,7 +11077,7 @@ const communes = [
     "2": 100,
     "id": 1385,
     "name": "Bekitro",
-    "id_district": 100
+    "districtId": 100
   },
   {
     "0": 1386,
@@ -11085,7 +11085,7 @@ const communes = [
     "2": 100,
     "id": 1386,
     "name": "Belindo Mahasoa",
-    "id_district": 100
+    "districtId": 100
   },
   {
     "0": 1387,
@@ -11093,7 +11093,7 @@ const communes = [
     "2": 100,
     "id": 1387,
     "name": "Beraketa",
-    "id_district": 100
+    "districtId": 100
   },
   {
     "0": 1388,
@@ -11101,7 +11101,7 @@ const communes = [
     "2": 100,
     "id": 1388,
     "name": "Besakoa",
-    "id_district": 100
+    "districtId": 100
   },
   {
     "0": 1389,
@@ -11109,7 +11109,7 @@ const communes = [
     "2": 100,
     "id": 1389,
     "name": "Beteza",
-    "id_district": 100
+    "districtId": 100
   },
   {
     "0": 1390,
@@ -11117,7 +11117,7 @@ const communes = [
     "2": 100,
     "id": 1390,
     "name": "Bevitiky",
-    "id_district": 100
+    "districtId": 100
   },
   {
     "0": 1391,
@@ -11125,7 +11125,7 @@ const communes = [
     "2": 100,
     "id": 1391,
     "name": "Manakompy",
-    "id_district": 100
+    "districtId": 100
   },
   {
     "0": 1392,
@@ -11133,7 +11133,7 @@ const communes = [
     "2": 100,
     "id": 1392,
     "name": "Maroviro",
-    "id_district": 100
+    "districtId": 100
   },
   {
     "0": 1393,
@@ -11141,7 +11141,7 @@ const communes = [
     "2": 100,
     "id": 1393,
     "name": "Morafeno",
-    "id_district": 100
+    "districtId": 100
   },
   {
     "0": 1394,
@@ -11149,7 +11149,7 @@ const communes = [
     "2": 100,
     "id": 1394,
     "name": "Tanandava",
-    "id_district": 100
+    "districtId": 100
   },
   {
     "0": 1395,
@@ -11157,7 +11157,7 @@ const communes = [
     "2": 100,
     "id": 1395,
     "name": "Tsikolaky",
-    "id_district": 100
+    "districtId": 100
   },
   {
     "0": 1396,
@@ -11165,7 +11165,7 @@ const communes = [
     "2": 100,
     "id": 1396,
     "name": "Tsirandrany",
-    "id_district": 100
+    "districtId": 100
   },
   {
     "0": 1397,
@@ -11173,7 +11173,7 @@ const communes = [
     "2": 100,
     "id": 1397,
     "name": "Vohimanga",
-    "id_district": 100
+    "districtId": 100
   },
   {
     "0": 1398,
@@ -11181,7 +11181,7 @@ const communes = [
     "2": 101,
     "id": 1398,
     "name": "Behabobo",
-    "id_district": 101
+    "districtId": 101
   },
   {
     "0": 1399,
@@ -11189,7 +11189,7 @@ const communes = [
     "2": 101,
     "id": 1399,
     "name": "Beloha Androy",
-    "id_district": 101
+    "districtId": 101
   },
   {
     "0": 1400,
@@ -11197,7 +11197,7 @@ const communes = [
     "2": 101,
     "id": 1400,
     "name": "Kopoky",
-    "id_district": 101
+    "districtId": 101
   },
   {
     "0": 1401,
@@ -11205,7 +11205,7 @@ const communes = [
     "2": 101,
     "id": 1401,
     "name": "Marolinta",
-    "id_district": 101
+    "districtId": 101
   },
   {
     "0": 1402,
@@ -11213,7 +11213,7 @@ const communes = [
     "2": 101,
     "id": 1402,
     "name": "Tranoroa",
-    "id_district": 101
+    "districtId": 101
   },
   {
     "0": 1403,
@@ -11221,7 +11221,7 @@ const communes = [
     "2": 101,
     "id": 1403,
     "name": "Tranovaho",
-    "id_district": 101
+    "districtId": 101
   },
   {
     "0": 1404,
@@ -11229,7 +11229,7 @@ const communes = [
     "2": 102,
     "id": 1404,
     "name": "Anjampaly",
-    "id_district": 102
+    "districtId": 102
   },
   {
     "0": 1405,
@@ -11237,7 +11237,7 @@ const communes = [
     "2": 102,
     "id": 1405,
     "name": "Antaritarika",
-    "id_district": 102
+    "districtId": 102
   },
   {
     "0": 1406,
@@ -11245,7 +11245,7 @@ const communes = [
     "2": 102,
     "id": 1406,
     "name": "Faux Cap",
-    "id_district": 102
+    "districtId": 102
   },
   {
     "0": 1407,
@@ -11253,7 +11253,7 @@ const communes = [
     "2": 102,
     "id": 1407,
     "name": "Imongy",
-    "id_district": 102
+    "districtId": 102
   },
   {
     "0": 1408,
@@ -11261,7 +11261,7 @@ const communes = [
     "2": 102,
     "id": 1408,
     "name": "Marovato",
-    "id_district": 102
+    "districtId": 102
   },
   {
     "0": 1409,
@@ -11269,7 +11269,7 @@ const communes = [
     "2": 102,
     "id": 1409,
     "name": "Nikoly",
-    "id_district": 102
+    "districtId": 102
   },
   {
     "0": 1410,
@@ -11277,7 +11277,7 @@ const communes = [
     "2": 102,
     "id": 1410,
     "name": "Tsihombe",
-    "id_district": 102
+    "districtId": 102
   },
   {
     "0": 1411,
@@ -11285,7 +11285,7 @@ const communes = [
     "2": 103,
     "id": 1411,
     "name": "Amboasary Sud",
-    "id_district": 103
+    "districtId": 103
   },
   {
     "0": 1412,
@@ -11293,7 +11293,7 @@ const communes = [
     "2": 103,
     "id": 1412,
     "name": "Behara",
-    "id_district": 103
+    "districtId": 103
   },
   {
     "0": 1413,
@@ -11301,7 +11301,7 @@ const communes = [
     "2": 103,
     "id": 1413,
     "name": "Ebelo",
-    "id_district": 103
+    "districtId": 103
   },
   {
     "0": 1414,
@@ -11309,7 +11309,7 @@ const communes = [
     "2": 103,
     "id": 1414,
     "name": "Elonty",
-    "id_district": 103
+    "districtId": 103
   },
   {
     "0": 1415,
@@ -11317,7 +11317,7 @@ const communes = [
     "2": 103,
     "id": 1415,
     "name": "Esira",
-    "id_district": 103
+    "districtId": 103
   },
   {
     "0": 1416,
@@ -11325,7 +11325,7 @@ const communes = [
     "2": 103,
     "id": 1416,
     "name": "Ifotaka",
-    "id_district": 103
+    "districtId": 103
   },
   {
     "0": 1417,
@@ -11333,7 +11333,7 @@ const communes = [
     "2": 103,
     "id": 1417,
     "name": "Mahaly",
-    "id_district": 103
+    "districtId": 103
   },
   {
     "0": 1418,
@@ -11341,7 +11341,7 @@ const communes = [
     "2": 103,
     "id": 1418,
     "name": "Manevy",
-    "id_district": 103
+    "districtId": 103
   },
   {
     "0": 1419,
@@ -11349,7 +11349,7 @@ const communes = [
     "2": 103,
     "id": 1419,
     "name": "Maromby",
-    "id_district": 103
+    "districtId": 103
   },
   {
     "0": 1420,
@@ -11357,7 +11357,7 @@ const communes = [
     "2": 103,
     "id": 1420,
     "name": "Marotsiraka",
-    "id_district": 103
+    "districtId": 103
   },
   {
     "0": 1421,
@@ -11365,7 +11365,7 @@ const communes = [
     "2": 103,
     "id": 1421,
     "name": "Ranobe",
-    "id_district": 103
+    "districtId": 103
   },
   {
     "0": 1422,
@@ -11373,7 +11373,7 @@ const communes = [
     "2": 103,
     "id": 1422,
     "name": "Sampona",
-    "id_district": 103
+    "districtId": 103
   },
   {
     "0": 1423,
@@ -11381,7 +11381,7 @@ const communes = [
     "2": 103,
     "id": 1423,
     "name": "Tanandava Sud",
-    "id_district": 103
+    "districtId": 103
   },
   {
     "0": 1424,
@@ -11389,7 +11389,7 @@ const communes = [
     "2": 103,
     "id": 1424,
     "name": "Tomboarivo",
-    "id_district": 103
+    "districtId": 103
   },
   {
     "0": 1425,
@@ -11397,7 +11397,7 @@ const communes = [
     "2": 103,
     "id": 1425,
     "name": "Tranomaro",
-    "id_district": 103
+    "districtId": 103
   },
   {
     "0": 1426,
@@ -11405,7 +11405,7 @@ const communes = [
     "2": 103,
     "id": 1426,
     "name": "Tsivory",
-    "id_district": 103
+    "districtId": 103
   },
   {
     "0": 1427,
@@ -11413,7 +11413,7 @@ const communes = [
     "2": 104,
     "id": 1427,
     "name": "Ambalasoa",
-    "id_district": 104
+    "districtId": 104
   },
   {
     "0": 1428,
@@ -11421,7 +11421,7 @@ const communes = [
     "2": 104,
     "id": 1428,
     "name": "Ambatomivary",
-    "id_district": 104
+    "districtId": 104
   },
   {
     "0": 1429,
@@ -11429,7 +11429,7 @@ const communes = [
     "2": 104,
     "id": 1429,
     "name": "Analamary",
-    "id_district": 104
+    "districtId": 104
   },
   {
     "0": 1430,
@@ -11437,7 +11437,7 @@ const communes = [
     "2": 104,
     "id": 1430,
     "name": "Andriandampy",
-    "id_district": 104
+    "districtId": 104
   },
   {
     "0": 1431,
@@ -11445,7 +11445,7 @@ const communes = [
     "2": 104,
     "id": 1431,
     "name": "Beampombo I",
-    "id_district": 104
+    "districtId": 104
   },
   {
     "0": 1432,
@@ -11453,7 +11453,7 @@ const communes = [
     "2": 104,
     "id": 1432,
     "name": "Beampombo II",
-    "id_district": 104
+    "districtId": 104
   },
   {
     "0": 1433,
@@ -11461,7 +11461,7 @@ const communes = [
     "2": 104,
     "id": 1433,
     "name": "Bekorobo",
-    "id_district": 104
+    "districtId": 104
   },
   {
     "0": 1434,
@@ -11469,7 +11469,7 @@ const communes = [
     "2": 104,
     "id": 1434,
     "name": "Benato Toby",
-    "id_district": 104
+    "districtId": 104
   },
   {
     "0": 1435,
@@ -11477,7 +11477,7 @@ const communes = [
     "2": 104,
     "id": 1435,
     "name": "Betroka",
-    "id_district": 104
+    "districtId": 104
   },
   {
     "0": 1436,
@@ -11485,7 +11485,7 @@ const communes = [
     "2": 104,
     "id": 1436,
     "name": "Iaborotra",
-    "id_district": 104
+    "districtId": 104
   },
   {
     "0": 1437,
@@ -11493,7 +11493,7 @@ const communes = [
     "2": 104,
     "id": 1437,
     "name": "Ianabinda",
-    "id_district": 104
+    "districtId": 104
   },
   {
     "0": 1438,
@@ -11501,7 +11501,7 @@ const communes = [
     "2": 104,
     "id": 1438,
     "name": "Ianakafy",
-    "id_district": 104
+    "districtId": 104
   },
   {
     "0": 1439,
@@ -11509,7 +11509,7 @@ const communes = [
     "2": 104,
     "id": 1439,
     "name": "Isoanala",
-    "id_district": 104
+    "districtId": 104
   },
   {
     "0": 1440,
@@ -11517,7 +11517,7 @@ const communes = [
     "2": 104,
     "id": 1440,
     "name": "Ivahona",
-    "id_district": 104
+    "districtId": 104
   },
   {
     "0": 1441,
@@ -11525,7 +11525,7 @@ const communes = [
     "2": 104,
     "id": 1441,
     "name": "Jangany",
-    "id_district": 104
+    "districtId": 104
   },
   {
     "0": 1442,
@@ -11533,7 +11533,7 @@ const communes = [
     "2": 104,
     "id": 1442,
     "name": "Mahabo",
-    "id_district": 104
+    "districtId": 104
   },
   {
     "0": 1443,
@@ -11541,7 +11541,7 @@ const communes = [
     "2": 104,
     "id": 1443,
     "name": "Mahasoa Est",
-    "id_district": 104
+    "districtId": 104
   },
   {
     "0": 1444,
@@ -11549,7 +11549,7 @@ const communes = [
     "2": 104,
     "id": 1444,
     "name": "Nanarena Besakoa",
-    "id_district": 104
+    "districtId": 104
   },
   {
     "0": 1445,
@@ -11557,7 +11557,7 @@ const communes = [
     "2": 104,
     "id": 1445,
     "name": "Naninora",
-    "id_district": 104
+    "districtId": 104
   },
   {
     "0": 1446,
@@ -11565,7 +11565,7 @@ const communes = [
     "2": 104,
     "id": 1446,
     "name": "Sakamahily",
-    "id_district": 104
+    "districtId": 104
   },
   {
     "0": 1447,
@@ -11573,7 +11573,7 @@ const communes = [
     "2": 104,
     "id": 1447,
     "name": "Tsaraitso",
-    "id_district": 104
+    "districtId": 104
   },
   {
     "0": 1448,
@@ -11581,7 +11581,7 @@ const communes = [
     "2": 105,
     "id": 1448,
     "name": "Ambatoabo",
-    "id_district": 105
+    "districtId": 105
   },
   {
     "0": 1449,
@@ -11589,7 +11589,7 @@ const communes = [
     "2": 105,
     "id": 1449,
     "name": "Ampasimena",
-    "id_district": 105
+    "districtId": 105
   },
   {
     "0": 1450,
@@ -11597,7 +11597,7 @@ const communes = [
     "2": 105,
     "id": 1450,
     "name": "Ampasy Nahampoana",
-    "id_district": 105
+    "districtId": 105
   },
   {
     "0": 1451,
@@ -11605,7 +11605,7 @@ const communes = [
     "2": 105,
     "id": 1451,
     "name": "Analamary",
-    "id_district": 105
+    "districtId": 105
   },
   {
     "0": 1452,
@@ -11613,7 +11613,7 @@ const communes = [
     "2": 105,
     "id": 1452,
     "name": "Analapatsy",
-    "id_district": 105
+    "districtId": 105
   },
   {
     "0": 1453,
@@ -11621,7 +11621,7 @@ const communes = [
     "2": 105,
     "id": 1453,
     "name": "Andranobory",
-    "id_district": 105
+    "districtId": 105
   },
   {
     "0": 1454,
@@ -11629,7 +11629,7 @@ const communes = [
     "2": 105,
     "id": 1454,
     "name": "Ankaramena",
-    "id_district": 105
+    "districtId": 105
   },
   {
     "0": 1455,
@@ -11637,7 +11637,7 @@ const communes = [
     "2": 105,
     "id": 1455,
     "name": "Ankariera",
-    "id_district": 105
+    "districtId": 105
   },
   {
     "0": 1456,
@@ -11645,7 +11645,7 @@ const communes = [
     "2": 105,
     "id": 1456,
     "name": "Bevoay",
-    "id_district": 105
+    "districtId": 105
   },
   {
     "0": 1457,
@@ -11653,7 +11653,7 @@ const communes = [
     "2": 105,
     "id": 1457,
     "name": "Emagnobo",
-    "id_district": 105
+    "districtId": 105
   },
   {
     "0": 1458,
@@ -11661,7 +11661,7 @@ const communes = [
     "2": 105,
     "id": 1458,
     "name": "Enakara Haut",
-    "id_district": 105
+    "districtId": 105
   },
   {
     "0": 1459,
@@ -11669,7 +11669,7 @@ const communes = [
     "2": 105,
     "id": 1459,
     "name": "Enaniliha",
-    "id_district": 105
+    "districtId": 105
   },
   {
     "0": 1460,
@@ -11677,7 +11677,7 @@ const communes = [
     "2": 105,
     "id": 1460,
     "name": "Fenoevo Efita",
-    "id_district": 105
+    "districtId": 105
   },
   {
     "0": 1461,
@@ -11685,7 +11685,7 @@ const communes = [
     "2": 105,
     "id": 1461,
     "name": "Iaboakoho",
-    "id_district": 105
+    "districtId": 105
   },
   {
     "0": 1462,
@@ -11693,7 +11693,7 @@ const communes = [
     "2": 105,
     "id": 1462,
     "name": "Ifarantsa",
-    "id_district": 105
+    "districtId": 105
   },
   {
     "0": 1463,
@@ -11701,7 +11701,7 @@ const communes = [
     "2": 105,
     "id": 1463,
     "name": "Isaka Ivondro",
-    "id_district": 105
+    "districtId": 105
   },
   {
     "0": 1464,
@@ -11709,7 +11709,7 @@ const communes = [
     "2": 105,
     "id": 1464,
     "name": "Mahatalaky",
-    "id_district": 105
+    "districtId": 105
   },
   {
     "0": 1465,
@@ -11717,7 +11717,7 @@ const communes = [
     "2": 105,
     "id": 1465,
     "name": "Manambaro",
-    "id_district": 105
+    "districtId": 105
   },
   {
     "0": 1466,
@@ -11725,7 +11725,7 @@ const communes = [
     "2": 105,
     "id": 1466,
     "name": "Manantenina",
-    "id_district": 105
+    "districtId": 105
   },
   {
     "0": 1467,
@@ -11733,7 +11733,7 @@ const communes = [
     "2": 105,
     "id": 1467,
     "name": "Mandiso",
-    "id_district": 105
+    "districtId": 105
   },
   {
     "0": 1468,
@@ -11741,7 +11741,7 @@ const communes = [
     "2": 105,
     "id": 1468,
     "name": "Mandromodromotra",
-    "id_district": 105
+    "districtId": 105
   },
   {
     "0": 1469,
@@ -11749,7 +11749,7 @@ const communes = [
     "2": 105,
     "id": 1469,
     "name": "Ranomafana Sud",
-    "id_district": 105
+    "districtId": 105
   },
   {
     "0": 1470,
@@ -11757,7 +11757,7 @@ const communes = [
     "2": 105,
     "id": 1470,
     "name": "Ranopiso",
-    "id_district": 105
+    "districtId": 105
   },
   {
     "0": 1471,
@@ -11765,7 +11765,7 @@ const communes = [
     "2": 105,
     "id": 1471,
     "name": "Sarisambo",
-    "id_district": 105
+    "districtId": 105
   },
   {
     "0": 1472,
@@ -11773,7 +11773,7 @@ const communes = [
     "2": 105,
     "id": 1472,
     "name": "Soanierana",
-    "id_district": 105
+    "districtId": 105
   },
   {
     "0": 1473,
@@ -11781,7 +11781,7 @@ const communes = [
     "2": 105,
     "id": 1473,
     "name": "Soavary",
-    "id_district": 105
+    "districtId": 105
   },
   {
     "0": 1474,
@@ -11789,7 +11789,7 @@ const communes = [
     "2": 105,
     "id": 1474,
     "name": "Taolagnaro",
-    "id_district": 105
+    "districtId": 105
   },
   {
     "0": 1475,
@@ -11797,7 +11797,7 @@ const communes = [
     "2": 106,
     "id": 1475,
     "name": "Amboropotsy",
-    "id_district": 106
+    "districtId": 106
   },
   {
     "0": 1476,
@@ -11805,7 +11805,7 @@ const communes = [
     "2": 106,
     "id": 1476,
     "name": "Ampanihy Centre",
-    "id_district": 106
+    "districtId": 106
   },
   {
     "0": 1477,
@@ -11813,7 +11813,7 @@ const communes = [
     "2": 106,
     "id": 1477,
     "name": "Androka",
-    "id_district": 106
+    "districtId": 106
   },
   {
     "0": 1478,
@@ -11821,7 +11821,7 @@ const communes = [
     "2": 106,
     "id": 1478,
     "name": "Ankiliabo",
-    "id_district": 106
+    "districtId": 106
   },
   {
     "0": 1479,
@@ -11829,7 +11829,7 @@ const communes = [
     "2": 106,
     "id": 1479,
     "name": "Ankilimivory",
-    "id_district": 106
+    "districtId": 106
   },
   {
     "0": 1480,
@@ -11837,7 +11837,7 @@ const communes = [
     "2": 106,
     "id": 1480,
     "name": "Ankilizato",
-    "id_district": 106
+    "districtId": 106
   },
   {
     "0": 1481,
@@ -11845,7 +11845,7 @@ const communes = [
     "2": 106,
     "id": 1481,
     "name": "Antaly",
-    "id_district": 106
+    "districtId": 106
   },
   {
     "0": 1482,
@@ -11853,7 +11853,7 @@ const communes = [
     "2": 106,
     "id": 1482,
     "name": "Beahitse",
-    "id_district": 106
+    "districtId": 106
   },
   {
     "0": 1483,
@@ -11861,7 +11861,7 @@ const communes = [
     "2": 106,
     "id": 1483,
     "name": "Beroy Sud",
-    "id_district": 106
+    "districtId": 106
   },
   {
     "0": 1484,
@@ -11869,7 +11869,7 @@ const communes = [
     "2": 106,
     "id": 1484,
     "name": "Betafike Haut",
-    "id_district": 106
+    "districtId": 106
   },
   {
     "0": 1485,
@@ -11877,7 +11877,7 @@ const communes = [
     "2": 106,
     "id": 1485,
     "name": "Ejeda",
-    "id_district": 106
+    "districtId": 106
   },
   {
     "0": 1486,
@@ -11885,7 +11885,7 @@ const communes = [
     "2": 106,
     "id": 1486,
     "name": "Fotadrevo",
-    "id_district": 106
+    "districtId": 106
   },
   {
     "0": 1487,
@@ -11893,7 +11893,7 @@ const communes = [
     "2": 106,
     "id": 1487,
     "name": "Gogogogo",
-    "id_district": 106
+    "districtId": 106
   },
   {
     "0": 1488,
@@ -11901,7 +11901,7 @@ const communes = [
     "2": 106,
     "id": 1488,
     "name": "Itampolo",
-    "id_district": 106
+    "districtId": 106
   },
   {
     "0": 1489,
@@ -11909,7 +11909,7 @@ const communes = [
     "2": 106,
     "id": 1489,
     "name": "Maniry",
-    "id_district": 106
+    "districtId": 106
   },
   {
     "0": 1490,
@@ -11917,7 +11917,7 @@ const communes = [
     "2": 106,
     "id": 1490,
     "name": "Vohitany",
-    "id_district": 106
+    "districtId": 106
   },
   {
     "0": 1491,
@@ -11925,7 +11925,7 @@ const communes = [
     "2": 107,
     "id": 1491,
     "name": "Andranomafana",
-    "id_district": 107
+    "districtId": 107
   },
   {
     "0": 1492,
@@ -11933,7 +11933,7 @@ const communes = [
     "2": 107,
     "id": 1492,
     "name": "Ankazoabo Sud",
-    "id_district": 107
+    "districtId": 107
   },
   {
     "0": 1493,
@@ -11941,7 +11941,7 @@ const communes = [
     "2": 107,
     "id": 1493,
     "name": "Berenty",
-    "id_district": 107
+    "districtId": 107
   },
   {
     "0": 1494,
@@ -11949,7 +11949,7 @@ const communes = [
     "2": 107,
     "id": 1494,
     "name": "Fotivolo",
-    "id_district": 107
+    "districtId": 107
   },
   {
     "0": 1495,
@@ -11957,7 +11957,7 @@ const communes = [
     "2": 107,
     "id": 1495,
     "name": "Ilemby",
-    "id_district": 107
+    "districtId": 107
   },
   {
     "0": 1496,
@@ -11965,7 +11965,7 @@ const communes = [
     "2": 107,
     "id": 1496,
     "name": "Tandrano",
-    "id_district": 107
+    "districtId": 107
   },
   {
     "0": 1497,
@@ -11973,7 +11973,7 @@ const communes = [
     "2": 108,
     "id": 1497,
     "name": "Ambalavato",
-    "id_district": 108
+    "districtId": 108
   },
   {
     "0": 1498,
@@ -11981,7 +11981,7 @@ const communes = [
     "2": 108,
     "id": 1498,
     "name": "Benenitra",
-    "id_district": 108
+    "districtId": 108
   },
   {
     "0": 1499,
@@ -11989,7 +11989,7 @@ const communes = [
     "2": 108,
     "id": 1499,
     "name": "Ehara",
-    "id_district": 108
+    "districtId": 108
   },
   {
     "0": 1500,
@@ -11997,7 +11997,7 @@ const communes = [
     "2": 108,
     "id": 1500,
     "name": "Ianapera",
-    "id_district": 108
+    "districtId": 108
   },
   {
     "0": 1501,
@@ -12005,7 +12005,7 @@ const communes = [
     "2": 109,
     "id": 1501,
     "name": "Behisatsy",
-    "id_district": 109
+    "districtId": 109
   },
   {
     "0": 1502,
@@ -12013,7 +12013,7 @@ const communes = [
     "2": 109,
     "id": 1502,
     "name": "Bemavo",
-    "id_district": 109
+    "districtId": 109
   },
   {
     "0": 1503,
@@ -12021,7 +12021,7 @@ const communes = [
     "2": 109,
     "id": 1503,
     "name": "Beroroha",
-    "id_district": 109
+    "districtId": 109
   },
   {
     "0": 1504,
@@ -12029,7 +12029,7 @@ const communes = [
     "2": 109,
     "id": 1504,
     "name": "Fanjakana",
-    "id_district": 109
+    "districtId": 109
   },
   {
     "0": 1505,
@@ -12037,7 +12037,7 @@ const communes = [
     "2": 109,
     "id": 1505,
     "name": "Mandronarivo",
-    "id_district": 109
+    "districtId": 109
   },
   {
     "0": 1506,
@@ -12045,7 +12045,7 @@ const communes = [
     "2": 109,
     "id": 1506,
     "name": "Marerano",
-    "id_district": 109
+    "districtId": 109
   },
   {
     "0": 1507,
@@ -12053,7 +12053,7 @@ const communes = [
     "2": 109,
     "id": 1507,
     "name": "Sakena",
-    "id_district": 109
+    "districtId": 109
   },
   {
     "0": 1508,
@@ -12061,7 +12061,7 @@ const communes = [
     "2": 109,
     "id": 1508,
     "name": "Tanamary",
-    "id_district": 109
+    "districtId": 109
   },
   {
     "0": 1509,
@@ -12069,7 +12069,7 @@ const communes = [
     "2": 110,
     "id": 1509,
     "name": "Ambatry Mitsinjo",
-    "id_district": 110
+    "districtId": 110
   },
   {
     "0": 1510,
@@ -12077,7 +12077,7 @@ const communes = [
     "2": 110,
     "id": 1510,
     "name": "Andranomangatsiaka",
-    "id_district": 110
+    "districtId": 110
   },
   {
     "0": 1511,
@@ -12085,7 +12085,7 @@ const communes = [
     "2": 110,
     "id": 1511,
     "name": "Ankazomanga Ouest",
-    "id_district": 110
+    "districtId": 110
   },
   {
     "0": 1512,
@@ -12093,7 +12093,7 @@ const communes = [
     "2": 110,
     "id": 1512,
     "name": "Ankazombalala",
-    "id_district": 110
+    "districtId": 110
   },
   {
     "0": 1513,
@@ -12101,7 +12101,7 @@ const communes = [
     "2": 110,
     "id": 1513,
     "name": "Ankilivalo",
-    "id_district": 110
+    "districtId": 110
   },
   {
     "0": 1514,
@@ -12109,7 +12109,7 @@ const communes = [
     "2": 110,
     "id": 1514,
     "name": "Antohabato",
-    "id_district": 110
+    "districtId": 110
   },
   {
     "0": 1515,
@@ -12117,7 +12117,7 @@ const communes = [
     "2": 110,
     "id": 1515,
     "name": "Antsavoa",
-    "id_district": 110
+    "districtId": 110
   },
   {
     "0": 1516,
@@ -12125,7 +12125,7 @@ const communes = [
     "2": 110,
     "id": 1516,
     "name": "Beantake",
-    "id_district": 110
+    "districtId": 110
   },
   {
     "0": 1517,
@@ -12133,7 +12133,7 @@ const communes = [
     "2": 110,
     "id": 1517,
     "name": "Belamoty",
-    "id_district": 110
+    "districtId": 110
   },
   {
     "0": 1518,
@@ -12141,7 +12141,7 @@ const communes = [
     "2": 110,
     "id": 1518,
     "name": "Besely",
-    "id_district": 110
+    "districtId": 110
   },
   {
     "0": 1519,
@@ -12149,7 +12149,7 @@ const communes = [
     "2": 110,
     "id": 1519,
     "name": "Betioky Sud",
-    "id_district": 110
+    "districtId": 110
   },
   {
     "0": 1520,
@@ -12157,7 +12157,7 @@ const communes = [
     "2": 110,
     "id": 1520,
     "name": "Bezaha",
-    "id_district": 110
+    "districtId": 110
   },
   {
     "0": 1521,
@@ -12165,7 +12165,7 @@ const communes = [
     "2": 110,
     "id": 1521,
     "name": "Fenoandala",
-    "id_district": 110
+    "districtId": 110
   },
   {
     "0": 1522,
@@ -12173,7 +12173,7 @@ const communes = [
     "2": 110,
     "id": 1522,
     "name": "Lazarivo",
-    "id_district": 110
+    "districtId": 110
   },
   {
     "0": 1523,
@@ -12181,7 +12181,7 @@ const communes = [
     "2": 110,
     "id": 1523,
     "name": "Manalobe",
-    "id_district": 110
+    "districtId": 110
   },
   {
     "0": 1524,
@@ -12189,7 +12189,7 @@ const communes = [
     "2": 110,
     "id": 1524,
     "name": "Maroarivo Ankazomanga",
-    "id_district": 110
+    "districtId": 110
   },
   {
     "0": 1525,
@@ -12197,7 +12197,7 @@ const communes = [
     "2": 110,
     "id": 1525,
     "name": "Marosavoa",
-    "id_district": 110
+    "districtId": 110
   },
   {
     "0": 1526,
@@ -12205,7 +12205,7 @@ const communes = [
     "2": 110,
     "id": 1526,
     "name": "Masiaboay",
-    "id_district": 110
+    "districtId": 110
   },
   {
     "0": 1527,
@@ -12213,7 +12213,7 @@ const communes = [
     "2": 110,
     "id": 1527,
     "name": "Montifeno",
-    "id_district": 110
+    "districtId": 110
   },
   {
     "0": 1528,
@@ -12221,7 +12221,7 @@ const communes = [
     "2": 110,
     "id": 1528,
     "name": "Sakamasay",
-    "id_district": 110
+    "districtId": 110
   },
   {
     "0": 1529,
@@ -12229,7 +12229,7 @@ const communes = [
     "2": 110,
     "id": 1529,
     "name": "Salobe",
-    "id_district": 110
+    "districtId": 110
   },
   {
     "0": 1530,
@@ -12237,7 +12237,7 @@ const communes = [
     "2": 110,
     "id": 1530,
     "name": "Soamanonga",
-    "id_district": 110
+    "districtId": 110
   },
   {
     "0": 1531,
@@ -12245,7 +12245,7 @@ const communes = [
     "2": 110,
     "id": 1531,
     "name": "Soaserana",
-    "id_district": 110
+    "districtId": 110
   },
   {
     "0": 1532,
@@ -12253,7 +12253,7 @@ const communes = [
     "2": 110,
     "id": 1532,
     "name": "Tanambao Haut",
-    "id_district": 110
+    "districtId": 110
   },
   {
     "0": 1533,
@@ -12261,7 +12261,7 @@ const communes = [
     "2": 110,
     "id": 1533,
     "name": "Temeantsoa",
-    "id_district": 110
+    "districtId": 110
   },
   {
     "0": 1534,
@@ -12269,7 +12269,7 @@ const communes = [
     "2": 110,
     "id": 1534,
     "name": "Tongobory",
-    "id_district": 110
+    "districtId": 110
   },
   {
     "0": 1535,
@@ -12277,7 +12277,7 @@ const communes = [
     "2": 110,
     "id": 1535,
     "name": "Vatolatsaka",
-    "id_district": 110
+    "districtId": 110
   },
   {
     "0": 1536,
@@ -12285,7 +12285,7 @@ const communes = [
     "2": 111,
     "id": 1536,
     "name": "Ambahikily",
-    "id_district": 111
+    "districtId": 111
   },
   {
     "0": 1537,
@@ -12293,7 +12293,7 @@ const communes = [
     "2": 111,
     "id": 1537,
     "name": "Antanimieva",
-    "id_district": 111
+    "districtId": 111
   },
   {
     "0": 1538,
@@ -12301,7 +12301,7 @@ const communes = [
     "2": 111,
     "id": 1538,
     "name": "Antongo Vaovao",
-    "id_district": 111
+    "districtId": 111
   },
   {
     "0": 1539,
@@ -12309,7 +12309,7 @@ const communes = [
     "2": 111,
     "id": 1539,
     "name": "Basibasy",
-    "id_district": 111
+    "districtId": 111
   },
   {
     "0": 1540,
@@ -12317,7 +12317,7 @@ const communes = [
     "2": 111,
     "id": 1540,
     "name": "Befandeha",
-    "id_district": 111
+    "districtId": 111
   },
   {
     "0": 1541,
@@ -12325,7 +12325,7 @@ const communes = [
     "2": 111,
     "id": 1541,
     "name": "Befandriana Sud",
-    "id_district": 111
+    "districtId": 111
   },
   {
     "0": 1542,
@@ -12333,7 +12333,7 @@ const communes = [
     "2": 111,
     "id": 1542,
     "name": "Morombe",
-    "id_district": 111
+    "districtId": 111
   },
   {
     "0": 1543,
@@ -12341,7 +12341,7 @@ const communes = [
     "2": 111,
     "id": 1543,
     "name": "Nosy Ambositra",
-    "id_district": 111
+    "districtId": 111
   },
   {
     "0": 1544,
@@ -12349,7 +12349,7 @@ const communes = [
     "2": 112,
     "id": 1544,
     "name": "Ambinany",
-    "id_district": 112
+    "districtId": 112
   },
   {
     "0": 1545,
@@ -12357,7 +12357,7 @@ const communes = [
     "2": 112,
     "id": 1545,
     "name": "Amboronabo",
-    "id_district": 112
+    "districtId": 112
   },
   {
     "0": 1546,
@@ -12365,7 +12365,7 @@ const communes = [
     "2": 112,
     "id": 1546,
     "name": "Andamasiny Vineta",
-    "id_district": 112
+    "districtId": 112
   },
   {
     "0": 1547,
@@ -12373,7 +12373,7 @@ const communes = [
     "2": 112,
     "id": 1547,
     "name": "Andranolava",
-    "id_district": 112
+    "districtId": 112
   },
   {
     "0": 1548,
@@ -12381,7 +12381,7 @@ const communes = [
     "2": 112,
     "id": 1548,
     "name": "Beraketa",
-    "id_district": 112
+    "districtId": 112
   },
   {
     "0": 1549,
@@ -12389,7 +12389,7 @@ const communes = [
     "2": 112,
     "id": 1549,
     "name": "Mahaboboka",
-    "id_district": 112
+    "districtId": 112
   },
   {
     "0": 1550,
@@ -12397,7 +12397,7 @@ const communes = [
     "2": 112,
     "id": 1550,
     "name": "Mihary Lamatihy",
-    "id_district": 112
+    "districtId": 112
   },
   {
     "0": 1551,
@@ -12405,7 +12405,7 @@ const communes = [
     "2": 112,
     "id": 1551,
     "name": "Mihary Teheza",
-    "id_district": 112
+    "districtId": 112
   },
   {
     "0": 1552,
@@ -12413,7 +12413,7 @@ const communes = [
     "2": 112,
     "id": 1552,
     "name": "Mihavatsy",
-    "id_district": 112
+    "districtId": 112
   },
   {
     "0": 1553,
@@ -12421,7 +12421,7 @@ const communes = [
     "2": 112,
     "id": 1553,
     "name": "Mikoboka",
-    "id_district": 112
+    "districtId": 112
   },
   {
     "0": 1554,
@@ -12429,7 +12429,7 @@ const communes = [
     "2": 112,
     "id": 1554,
     "name": "Mitsinjo",
-    "id_district": 112
+    "districtId": 112
   },
   {
     "0": 1555,
@@ -12437,7 +12437,7 @@ const communes = [
     "2": 112,
     "id": 1555,
     "name": "Sakaraha",
-    "id_district": 112
+    "districtId": 112
   },
   {
     "0": 1556,
@@ -12445,7 +12445,7 @@ const communes = [
     "2": 113,
     "id": 1556,
     "name": "Toliara",
-    "id_district": 113
+    "districtId": 113
   },
   {
     "0": 1557,
@@ -12453,7 +12453,7 @@ const communes = [
     "2": 114,
     "id": 1557,
     "name": "Ambohimahavelona",
-    "id_district": 114
+    "districtId": 114
   },
   {
     "0": 1558,
@@ -12461,7 +12461,7 @@ const communes = [
     "2": 114,
     "id": 1558,
     "name": "Ambolofoty",
-    "id_district": 114
+    "districtId": 114
   },
   {
     "0": 1559,
@@ -12469,7 +12469,7 @@ const communes = [
     "2": 114,
     "id": 1559,
     "name": "Anakao",
-    "id_district": 114
+    "districtId": 114
   },
   {
     "0": 1560,
@@ -12477,7 +12477,7 @@ const communes = [
     "2": 114,
     "id": 1560,
     "name": "Analamisampy",
-    "id_district": 114
+    "districtId": 114
   },
   {
     "0": 1561,
@@ -12485,7 +12485,7 @@ const communes = [
     "2": 114,
     "id": 1561,
     "name": "Andranohinaly",
-    "id_district": 114
+    "districtId": 114
   },
   {
     "0": 1562,
@@ -12493,7 +12493,7 @@ const communes = [
     "2": 114,
     "id": 1562,
     "name": "Andranovory",
-    "id_district": 114
+    "districtId": 114
   },
   {
     "0": 1563,
@@ -12501,7 +12501,7 @@ const communes = [
     "2": 114,
     "id": 1563,
     "name": "Ankililoaka",
-    "id_district": 114
+    "districtId": 114
   },
   {
     "0": 1564,
@@ -12509,7 +12509,7 @@ const communes = [
     "2": 114,
     "id": 1564,
     "name": "Ankilimalinika",
-    "id_district": 114
+    "districtId": 114
   },
   {
     "0": 1565,
@@ -12517,7 +12517,7 @@ const communes = [
     "2": 114,
     "id": 1565,
     "name": "Antanimena Onilahy",
-    "id_district": 114
+    "districtId": 114
   },
   {
     "0": 1566,
@@ -12525,7 +12525,7 @@ const communes = [
     "2": 114,
     "id": 1566,
     "name": "Beheloka",
-    "id_district": 114
+    "districtId": 114
   },
   {
     "0": 1567,
@@ -12533,7 +12533,7 @@ const communes = [
     "2": 114,
     "id": 1567,
     "name": "Behompy",
-    "id_district": 114
+    "districtId": 114
   },
   {
     "0": 1568,
@@ -12541,7 +12541,7 @@ const communes = [
     "2": 114,
     "id": 1568,
     "name": "Belalanda",
-    "id_district": 114
+    "districtId": 114
   },
   {
     "0": 1569,
@@ -12549,7 +12549,7 @@ const communes = [
     "2": 114,
     "id": 1569,
     "name": "Betsinjaka",
-    "id_district": 114
+    "districtId": 114
   },
   {
     "0": 1570,
@@ -12557,7 +12557,7 @@ const communes = [
     "2": 114,
     "id": 1570,
     "name": "Manombo Sud",
-    "id_district": 114
+    "districtId": 114
   },
   {
     "0": 1571,
@@ -12565,7 +12565,7 @@ const communes = [
     "2": 114,
     "id": 1571,
     "name": "Manorofify",
-    "id_district": 114
+    "districtId": 114
   },
   {
     "0": 1572,
@@ -12573,7 +12573,7 @@ const communes = [
     "2": 114,
     "id": 1572,
     "name": "Marofoty",
-    "id_district": 114
+    "districtId": 114
   },
   {
     "0": 1573,
@@ -12581,7 +12581,7 @@ const communes = [
     "2": 114,
     "id": 1573,
     "name": "Maromiandra",
-    "id_district": 114
+    "districtId": 114
   },
   {
     "0": 1574,
@@ -12589,7 +12589,7 @@ const communes = [
     "2": 114,
     "id": 1574,
     "name": "Miary",
-    "id_district": 114
+    "districtId": 114
   },
   {
     "0": 1575,
@@ -12597,7 +12597,7 @@ const communes = [
     "2": 114,
     "id": 1575,
     "name": "Milenaka",
-    "id_district": 114
+    "districtId": 114
   },
   {
     "0": 1576,
@@ -12605,7 +12605,7 @@ const communes = [
     "2": 114,
     "id": 1576,
     "name": "Mitsinjo Betanimena",
-    "id_district": 114
+    "districtId": 114
   },
   {
     "0": 1577,
@@ -12613,7 +12613,7 @@ const communes = [
     "2": 114,
     "id": 1577,
     "name": "Saint Augustin",
-    "id_district": 114
+    "districtId": 114
   },
   {
     "0": 1578,
@@ -12621,7 +12621,7 @@ const communes = [
     "2": 114,
     "id": 1578,
     "name": "Soalara Sud",
-    "id_district": 114
+    "districtId": 114
   },
   {
     "0": 1579,
@@ -12629,7 +12629,7 @@ const communes = [
     "2": 114,
     "id": 1579,
     "name": "Tsianisiha",
-    "id_district": 114
+    "districtId": 114
   },
   {
     "0": 1580,
@@ -12637,7 +12637,7 @@ const communes = [
     "2": 115,
     "id": 1580,
     "name": "Ambiky",
-    "id_district": 115
+    "districtId": 115
   },
   {
     "0": 1581,
@@ -12645,7 +12645,7 @@ const communes = [
     "2": 115,
     "id": 1581,
     "name": "Amboalimena",
-    "id_district": 115
+    "districtId": 115
   },
   {
     "0": 1582,
@@ -12653,7 +12653,7 @@ const communes = [
     "2": 115,
     "id": 1582,
     "name": "Andimaky Manambolo",
-    "id_district": 115
+    "districtId": 115
   },
   {
     "0": 1583,
@@ -12661,7 +12661,7 @@ const communes = [
     "2": 115,
     "id": 1583,
     "name": "Ankalalobe",
-    "id_district": 115
+    "districtId": 115
   },
   {
     "0": 1584,
@@ -12669,7 +12669,7 @@ const communes = [
     "2": 115,
     "id": 1584,
     "name": "Ankororoky",
-    "id_district": 115
+    "districtId": 115
   },
   {
     "0": 1585,
@@ -12677,7 +12677,7 @@ const communes = [
     "2": 115,
     "id": 1585,
     "name": "Antsoha",
-    "id_district": 115
+    "districtId": 115
   },
   {
     "0": 1586,
@@ -12685,7 +12685,7 @@ const communes = [
     "2": 115,
     "id": 1586,
     "name": "Belinta",
-    "id_district": 115
+    "districtId": 115
   },
   {
     "0": 1587,
@@ -12693,7 +12693,7 @@ const communes = [
     "2": 115,
     "id": 1587,
     "name": "Belo sur Tsiribihina",
-    "id_district": 115
+    "districtId": 115
   },
   {
     "0": 1588,
@@ -12701,7 +12701,7 @@ const communes = [
     "2": 115,
     "id": 1588,
     "name": "Bemarivo Ankirondro",
-    "id_district": 115
+    "districtId": 115
   },
   {
     "0": 1589,
@@ -12709,7 +12709,7 @@ const communes = [
     "2": 115,
     "id": 1589,
     "name": "Berevo",
-    "id_district": 115
+    "districtId": 115
   },
   {
     "0": 1590,
@@ -12717,7 +12717,7 @@ const communes = [
     "2": 115,
     "id": 1590,
     "name": "Beroboka",
-    "id_district": 115
+    "districtId": 115
   },
   {
     "0": 1591,
@@ -12725,7 +12725,7 @@ const communes = [
     "2": 115,
     "id": 1591,
     "name": "Masoarivo",
-    "id_district": 115
+    "districtId": 115
   },
   {
     "0": 1592,
@@ -12733,7 +12733,7 @@ const communes = [
     "2": 115,
     "id": 1592,
     "name": "Tsaraotana",
-    "id_district": 115
+    "districtId": 115
   },
   {
     "0": 1593,
@@ -12741,7 +12741,7 @@ const communes = [
     "2": 115,
     "id": 1593,
     "name": "Tsimafana",
-    "id_district": 115
+    "districtId": 115
   },
   {
     "0": 1594,
@@ -12749,7 +12749,7 @@ const communes = [
     "2": 116,
     "id": 1594,
     "name": "Ambia",
-    "id_district": 116
+    "districtId": 116
   },
   {
     "0": 1595,
@@ -12757,7 +12757,7 @@ const communes = [
     "2": 116,
     "id": 1595,
     "name": "Ampanihy",
-    "id_district": 116
+    "districtId": 116
   },
   {
     "0": 1596,
@@ -12765,7 +12765,7 @@ const communes = [
     "2": 116,
     "id": 1596,
     "name": "Analamitsivala",
-    "id_district": 116
+    "districtId": 116
   },
   {
     "0": 1597,
@@ -12773,7 +12773,7 @@ const communes = [
     "2": 116,
     "id": 1597,
     "name": "Ankilivalo",
-    "id_district": 116
+    "districtId": 116
   },
   {
     "0": 1598,
@@ -12781,7 +12781,7 @@ const communes = [
     "2": 116,
     "id": 1598,
     "name": "Ankilizato",
-    "id_district": 116
+    "districtId": 116
   },
   {
     "0": 1599,
@@ -12789,7 +12789,7 @@ const communes = [
     "2": 116,
     "id": 1599,
     "name": "Befotaka",
-    "id_district": 116
+    "districtId": 116
   },
   {
     "0": 1600,
@@ -12797,7 +12797,7 @@ const communes = [
     "2": 116,
     "id": 1600,
     "name": "Beronono",
-    "id_district": 116
+    "districtId": 116
   },
   {
     "0": 1601,
@@ -12805,7 +12805,7 @@ const communes = [
     "2": 116,
     "id": 1601,
     "name": "Mahabo",
-    "id_district": 116
+    "districtId": 116
   },
   {
     "0": 1602,
@@ -12813,7 +12813,7 @@ const communes = [
     "2": 116,
     "id": 1602,
     "name": "Malaimbandy",
-    "id_district": 116
+    "districtId": 116
   },
   {
     "0": 1603,
@@ -12821,7 +12821,7 @@ const communes = [
     "2": 116,
     "id": 1603,
     "name": "Mandabe",
-    "id_district": 116
+    "districtId": 116
   },
   {
     "0": 1604,
@@ -12829,7 +12829,7 @@ const communes = [
     "2": 116,
     "id": 1604,
     "name": "Tsimazava",
-    "id_district": 116
+    "districtId": 116
   },
   {
     "0": 1605,
@@ -12837,7 +12837,7 @@ const communes = [
     "2": 117,
     "id": 1605,
     "name": "Andranopasy",
-    "id_district": 117
+    "districtId": 117
   },
   {
     "0": 1606,
@@ -12845,7 +12845,7 @@ const communes = [
     "2": 117,
     "id": 1606,
     "name": "Ankiliabo",
-    "id_district": 117
+    "districtId": 117
   },
   {
     "0": 1607,
@@ -12853,7 +12853,7 @@ const communes = [
     "2": 117,
     "id": 1607,
     "name": "Anontsibe Centre",
-    "id_district": 117
+    "districtId": 117
   },
   {
     "0": 1608,
@@ -12861,7 +12861,7 @@ const communes = [
     "2": 117,
     "id": 1608,
     "name": "Beharona",
-    "id_district": 117
+    "districtId": 117
   },
   {
     "0": 1609,
@@ -12869,7 +12869,7 @@ const communes = [
     "2": 117,
     "id": 1609,
     "name": "Manja",
-    "id_district": 117
+    "districtId": 117
   },
   {
     "0": 1610,
@@ -12877,7 +12877,7 @@ const communes = [
     "2": 117,
     "id": 1610,
     "name": "Soaserana",
-    "id_district": 117
+    "districtId": 117
   },
   {
     "0": 1611,
@@ -12885,7 +12885,7 @@ const communes = [
     "2": 118,
     "id": 1611,
     "name": "Ambatolahy",
-    "id_district": 118
+    "districtId": 118
   },
   {
     "0": 1612,
@@ -12893,7 +12893,7 @@ const communes = [
     "2": 118,
     "id": 1612,
     "name": "Ampanihy",
-    "id_district": 118
+    "districtId": 118
   },
   {
     "0": 1613,
@@ -12901,7 +12901,7 @@ const communes = [
     "2": 118,
     "id": 1613,
     "name": "Ankavandra",
-    "id_district": 118
+    "districtId": 118
   },
   {
     "0": 1614,
@@ -12909,7 +12909,7 @@ const communes = [
     "2": 118,
     "id": 1614,
     "name": "Ankondromena",
-    "id_district": 118
+    "districtId": 118
   },
   {
     "0": 1615,
@@ -12917,7 +12917,7 @@ const communes = [
     "2": 118,
     "id": 1615,
     "name": "Ankorofotsy",
-    "id_district": 118
+    "districtId": 118
   },
   {
     "0": 1616,
@@ -12925,7 +12925,7 @@ const communes = [
     "2": 118,
     "id": 1616,
     "name": "Anosimena",
-    "id_district": 118
+    "districtId": 118
   },
   {
     "0": 1617,
@@ -12933,7 +12933,7 @@ const communes = [
     "2": 118,
     "id": 1617,
     "name": "Bemahatazana",
-    "id_district": 118
+    "districtId": 118
   },
   {
     "0": 1618,
@@ -12941,7 +12941,7 @@ const communes = [
     "2": 118,
     "id": 1618,
     "name": "Betsipolitra",
-    "id_district": 118
+    "districtId": 118
   },
   {
     "0": 1619,
@@ -12949,7 +12949,7 @@ const communes = [
     "2": 118,
     "id": 1619,
     "name": "Dabolava",
-    "id_district": 118
+    "districtId": 118
   },
   {
     "0": 1620,
@@ -12957,7 +12957,7 @@ const communes = [
     "2": 118,
     "id": 1620,
     "name": "Isalo",
-    "id_district": 118
+    "districtId": 118
   },
   {
     "0": 1621,
@@ -12965,7 +12965,7 @@ const communes = [
     "2": 118,
     "id": 1621,
     "name": "Itondy",
-    "id_district": 118
+    "districtId": 118
   },
   {
     "0": 1622,
@@ -12973,7 +12973,7 @@ const communes = [
     "2": 118,
     "id": 1622,
     "name": "Manambina",
-    "id_district": 118
+    "districtId": 118
   },
   {
     "0": 1623,
@@ -12981,7 +12981,7 @@ const communes = [
     "2": 118,
     "id": 1623,
     "name": "Manandaza",
-    "id_district": 118
+    "districtId": 118
   },
   {
     "0": 1624,
@@ -12989,7 +12989,7 @@ const communes = [
     "2": 118,
     "id": 1624,
     "name": "Miandrivazo",
-    "id_district": 118
+    "districtId": 118
   },
   {
     "0": 1625,
@@ -12997,7 +12997,7 @@ const communes = [
     "2": 118,
     "id": 1625,
     "name": "Soaloka",
-    "id_district": 118
+    "districtId": 118
   },
   {
     "0": 1626,
@@ -13005,7 +13005,7 @@ const communes = [
     "2": 119,
     "id": 1626,
     "name": "Analaiva",
-    "id_district": 119
+    "districtId": 119
   },
   {
     "0": 1627,
@@ -13013,7 +13013,7 @@ const communes = [
     "2": 119,
     "id": 1627,
     "name": "Befasy",
-    "id_district": 119
+    "districtId": 119
   },
   {
     "0": 1628,
@@ -13021,7 +13021,7 @@ const communes = [
     "2": 119,
     "id": 1628,
     "name": "Belo sur Mer",
-    "id_district": 119
+    "districtId": 119
   },
   {
     "0": 1629,
@@ -13029,7 +13029,7 @@ const communes = [
     "2": 119,
     "id": 1629,
     "name": "Bemanonga",
-    "id_district": 119
+    "districtId": 119
   },
   {
     "0": 1630,
@@ -13037,7 +13037,7 @@ const communes = [
     "2": 119,
     "id": 1630,
     "name": "Morondava",
-    "id_district": 119
+    "districtId": 119
   }
 ]
 

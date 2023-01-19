@@ -3,10 +3,9 @@ import { Express } from "express-serve-static-core"
 import { Province } from "../../db/sequelize"
 
 const add = (app: Express):any => {
-  app.post("/api/province", (req: Request, res: Response) => {
+  app.post('/api/province', (req: Request, res: Response) => {
     console.log(req.body.id)
-    Province.findByPk(req.body.id).then((p): any => {
-      const province:any = p
+    Province.findByPk(req.body.id).then((province: any): any => {
       if(province !== null){
         const message = `ID n°${province.id} already taken by ${province.name}`
         return res.status(401).json({message, data: province})

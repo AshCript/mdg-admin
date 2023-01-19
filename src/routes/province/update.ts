@@ -2,15 +2,14 @@ import { Express } from 'express-serve-static-core'
 import { Province } from '../../db/sequelize'
 
 const update = (app: Express) => {
-  app.put("/api/province/:id", (req, res) => {
+  app.put('/api/province/:id', (req, res) => {
     const id = req.params.id
     Province.update(req.body, {
       where: {id: id}
     }).then(_ => {
-      return Province.findByPk(id).then(p => {
-        const province:any = p
+      return Province.findByPk(id).then((province: any) => {
         const message = `The province with id ${province.id} is updated successfully!`
-        res.json({ message, data: p})
+        res.json({ message, data: province})
       })
     }).catch(e => {
       const message = `Error while updating province with id ${id}`

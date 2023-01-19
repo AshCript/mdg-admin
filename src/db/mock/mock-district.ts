@@ -5,7 +5,7 @@ const districts = [
     "2": 1,
     "id": 1,
     "name": "Ambohidratrimo",
-    "id_region": 1
+    "regionId": 1
   },
   {
     "0": 2,
@@ -13,7 +13,7 @@ const districts = [
     "2": 1,
     "id": 2,
     "name": "Andramasina",
-    "id_region": 1
+    "regionId": 1
   },
   {
     "0": 3,
@@ -21,7 +21,7 @@ const districts = [
     "2": 1,
     "id": 3,
     "name": "Anjozorobe",
-    "id_region": 1
+    "regionId": 1
   },
   {
     "0": 4,
@@ -29,7 +29,7 @@ const districts = [
     "2": 1,
     "id": 4,
     "name": "Ankazobe",
-    "id_region": 1
+    "regionId": 1
   },
   {
     "0": 5,
@@ -37,7 +37,7 @@ const districts = [
     "2": 1,
     "id": 5,
     "name": "Antananarivo-Atsimondrano",
-    "id_region": 1
+    "regionId": 1
   },
   {
     "0": 6,
@@ -45,7 +45,7 @@ const districts = [
     "2": 1,
     "id": 6,
     "name": "Antananarivo-Avaradrano",
-    "id_region": 1
+    "regionId": 1
   },
   {
     "0": 7,
@@ -53,7 +53,7 @@ const districts = [
     "2": 1,
     "id": 7,
     "name": "Antananarivo I",
-    "id_region": 1
+    "regionId": 1
   },
   {
     "0": 8,
@@ -61,7 +61,7 @@ const districts = [
     "2": 1,
     "id": 8,
     "name": "Antananarivo II",
-    "id_region": 1
+    "regionId": 1
   },
   {
     "0": 9,
@@ -69,7 +69,7 @@ const districts = [
     "2": 1,
     "id": 9,
     "name": "Antananarivo III",
-    "id_region": 1
+    "regionId": 1
   },
   {
     "0": 10,
@@ -77,7 +77,7 @@ const districts = [
     "2": 1,
     "id": 10,
     "name": "Antananarivo IV",
-    "id_region": 1
+    "regionId": 1
   },
   {
     "0": 11,
@@ -85,7 +85,7 @@ const districts = [
     "2": 1,
     "id": 11,
     "name": "Antananarivo V",
-    "id_region": 1
+    "regionId": 1
   },
   {
     "0": 12,
@@ -93,7 +93,7 @@ const districts = [
     "2": 1,
     "id": 12,
     "name": "Antananarivo VI",
-    "id_region": 1
+    "regionId": 1
   },
   {
     "0": 13,
@@ -101,7 +101,7 @@ const districts = [
     "2": 1,
     "id": 13,
     "name": "Manjakandriana",
-    "id_region": 1
+    "regionId": 1
   },
   {
     "0": 14,
@@ -109,7 +109,7 @@ const districts = [
     "2": 2,
     "id": 14,
     "name": "Fenoarivobe",
-    "id_region": 2
+    "regionId": 2
   },
   {
     "0": 15,
@@ -117,7 +117,7 @@ const districts = [
     "2": 2,
     "id": 15,
     "name": "Tsiroanomandidy",
-    "id_region": 2
+    "regionId": 2
   },
   {
     "0": 16,
@@ -125,7 +125,7 @@ const districts = [
     "2": 3,
     "id": 16,
     "name": "Arivonimamo",
-    "id_region": 3
+    "regionId": 3
   },
   {
     "0": 17,
@@ -133,7 +133,7 @@ const districts = [
     "2": 3,
     "id": 17,
     "name": "Miarinarivo",
-    "id_region": 3
+    "regionId": 3
   },
   {
     "0": 18,
@@ -141,7 +141,7 @@ const districts = [
     "2": 3,
     "id": 18,
     "name": "Soavinandriana",
-    "id_region": 3
+    "regionId": 3
   },
   {
     "0": 19,
@@ -149,7 +149,7 @@ const districts = [
     "2": 4,
     "id": 19,
     "name": "Ambatolampy",
-    "id_region": 4
+    "regionId": 4
   },
   {
     "0": 20,
@@ -157,7 +157,7 @@ const districts = [
     "2": 4,
     "id": 20,
     "name": "Antanifotsy",
-    "id_region": 4
+    "regionId": 4
   },
   {
     "0": 21,
@@ -165,7 +165,7 @@ const districts = [
     "2": 4,
     "id": 21,
     "name": "Antsirabe I",
-    "id_region": 4
+    "regionId": 4
   },
   {
     "0": 22,
@@ -173,7 +173,7 @@ const districts = [
     "2": 4,
     "id": 22,
     "name": "Antsirabe II",
-    "id_region": 4
+    "regionId": 4
   },
   {
     "0": 23,
@@ -181,7 +181,7 @@ const districts = [
     "2": 4,
     "id": 23,
     "name": "Betafo",
-    "id_region": 4
+    "regionId": 4
   },
   {
     "0": 24,
@@ -189,7 +189,7 @@ const districts = [
     "2": 4,
     "id": 24,
     "name": "Faratsiho",
-    "id_region": 4
+    "regionId": 4
   },
   {
     "0": 25,
@@ -197,7 +197,7 @@ const districts = [
     "2": 4,
     "id": 25,
     "name": "Mandoto",
-    "id_region": 4
+    "regionId": 4
   },
   {
     "0": 26,
@@ -205,7 +205,7 @@ const districts = [
     "2": 5,
     "id": 26,
     "name": "Ambanja",
-    "id_region": 5
+    "regionId": 5
   },
   {
     "0": 27,
@@ -213,7 +213,7 @@ const districts = [
     "2": 5,
     "id": 27,
     "name": "Ambilobe",
-    "id_region": 5
+    "regionId": 5
   },
   {
     "0": 28,
@@ -221,7 +221,7 @@ const districts = [
     "2": 5,
     "id": 28,
     "name": "Antsiranana I",
-    "id_region": 5
+    "regionId": 5
   },
   {
     "0": 29,
@@ -229,7 +229,7 @@ const districts = [
     "2": 5,
     "id": 29,
     "name": "Antsiranana II",
-    "id_region": 5
+    "regionId": 5
   },
   {
     "0": 30,
@@ -237,7 +237,7 @@ const districts = [
     "2": 5,
     "id": 30,
     "name": "Nosy-Be",
-    "id_region": 5
+    "regionId": 5
   },
   {
     "0": 31,
@@ -245,7 +245,7 @@ const districts = [
     "2": 6,
     "id": 31,
     "name": "Andapa",
-    "id_region": 6
+    "regionId": 6
   },
   {
     "0": 32,
@@ -253,7 +253,7 @@ const districts = [
     "2": 6,
     "id": 32,
     "name": "Antalaha",
-    "id_region": 6
+    "regionId": 6
   },
   {
     "0": 33,
@@ -261,7 +261,7 @@ const districts = [
     "2": 6,
     "id": 33,
     "name": "Sambava",
-    "id_region": 6
+    "regionId": 6
   },
   {
     "0": 34,
@@ -269,7 +269,7 @@ const districts = [
     "2": 6,
     "id": 34,
     "name": "Vohémar",
-    "id_region": 6
+    "regionId": 6
   },
   {
     "0": 35,
@@ -277,7 +277,7 @@ const districts = [
     "2": 7,
     "id": 35,
     "name": "Ambatofinandrahana",
-    "id_region": 7
+    "regionId": 7
   },
   {
     "0": 36,
@@ -285,7 +285,7 @@ const districts = [
     "2": 7,
     "id": 36,
     "name": "Ambositra",
-    "id_region": 7
+    "regionId": 7
   },
   {
     "0": 37,
@@ -293,7 +293,7 @@ const districts = [
     "2": 7,
     "id": 37,
     "name": "Fandriana",
-    "id_region": 7
+    "regionId": 7
   },
   {
     "0": 38,
@@ -301,7 +301,7 @@ const districts = [
     "2": 7,
     "id": 38,
     "name": "Manandriana",
-    "id_region": 7
+    "regionId": 7
   },
   {
     "0": 39,
@@ -309,7 +309,7 @@ const districts = [
     "2": 8,
     "id": 39,
     "name": "Befotaka Sud",
-    "id_region": 8
+    "regionId": 8
   },
   {
     "0": 40,
@@ -317,7 +317,7 @@ const districts = [
     "2": 8,
     "id": 40,
     "name": "Farafangana",
-    "id_region": 8
+    "regionId": 8
   },
   {
     "0": 41,
@@ -325,7 +325,7 @@ const districts = [
     "2": 8,
     "id": 41,
     "name": "Midongy Sud",
-    "id_region": 8
+    "regionId": 8
   },
   {
     "0": 42,
@@ -333,7 +333,7 @@ const districts = [
     "2": 8,
     "id": 42,
     "name": "Vangaindrano",
-    "id_region": 8
+    "regionId": 8
   },
   {
     "0": 43,
@@ -341,7 +341,7 @@ const districts = [
     "2": 8,
     "id": 43,
     "name": "Vondrozo",
-    "id_region": 8
+    "regionId": 8
   },
   {
     "0": 44,
@@ -349,7 +349,7 @@ const districts = [
     "2": 9,
     "id": 44,
     "name": "Ambalavao",
-    "id_region": 9
+    "regionId": 9
   },
   {
     "0": 45,
@@ -357,7 +357,7 @@ const districts = [
     "2": 9,
     "id": 45,
     "name": "Ambohimahasoa",
-    "id_region": 9
+    "regionId": 9
   },
   {
     "0": 46,
@@ -365,7 +365,7 @@ const districts = [
     "2": 9,
     "id": 46,
     "name": "Fianarantsoa",
-    "id_region": 9
+    "regionId": 9
   },
   {
     "0": 47,
@@ -373,7 +373,7 @@ const districts = [
     "2": 9,
     "id": 47,
     "name": "Ikalamavony",
-    "id_region": 9
+    "regionId": 9
   },
   {
     "0": 48,
@@ -381,7 +381,7 @@ const districts = [
     "2": 9,
     "id": 48,
     "name": "Isandra",
-    "id_region": 9
+    "regionId": 9
   },
   {
     "0": 49,
@@ -389,7 +389,7 @@ const districts = [
     "2": 9,
     "id": 49,
     "name": "Lalangina",
-    "id_region": 9
+    "regionId": 9
   },
   {
     "0": 50,
@@ -397,7 +397,7 @@ const districts = [
     "2": 9,
     "id": 50,
     "name": "Vohibato",
-    "id_region": 9
+    "regionId": 9
   },
   {
     "0": 51,
@@ -405,7 +405,7 @@ const districts = [
     "2": 10,
     "id": 51,
     "name": "Iakora",
-    "id_region": 10
+    "regionId": 10
   },
   {
     "0": 52,
@@ -413,7 +413,7 @@ const districts = [
     "2": 10,
     "id": 52,
     "name": "Ihosy",
-    "id_region": 10
+    "regionId": 10
   },
   {
     "0": 53,
@@ -421,7 +421,7 @@ const districts = [
     "2": 10,
     "id": 53,
     "name": "Ivohibe",
-    "id_region": 10
+    "regionId": 10
   },
   {
     "0": 54,
@@ -429,7 +429,7 @@ const districts = [
     "2": 11,
     "id": 54,
     "name": "Ifanadiana",
-    "id_region": 11
+    "regionId": 11
   },
   {
     "0": 55,
@@ -437,7 +437,7 @@ const districts = [
     "2": 11,
     "id": 55,
     "name": "Ikongo",
-    "id_region": 11
+    "regionId": 11
   },
   {
     "0": 56,
@@ -445,7 +445,7 @@ const districts = [
     "2": 11,
     "id": 56,
     "name": "Manakara",
-    "id_region": 11
+    "regionId": 11
   },
   {
     "0": 57,
@@ -453,7 +453,7 @@ const districts = [
     "2": 11,
     "id": 57,
     "name": "Mananjary",
-    "id_region": 11
+    "regionId": 11
   },
   {
     "0": 58,
@@ -461,7 +461,7 @@ const districts = [
     "2": 11,
     "id": 58,
     "name": "Nosy Varika",
-    "id_region": 11
+    "regionId": 11
   },
   {
     "0": 59,
@@ -469,7 +469,7 @@ const districts = [
     "2": 11,
     "id": 59,
     "name": "Vohipeno",
-    "id_region": 11
+    "regionId": 11
   },
   {
     "0": 60,
@@ -477,7 +477,7 @@ const districts = [
     "2": 12,
     "id": 60,
     "name": "Kandreho",
-    "id_region": 12
+    "regionId": 12
   },
   {
     "0": 61,
@@ -485,7 +485,7 @@ const districts = [
     "2": 12,
     "id": 61,
     "name": "Maevatanàna",
-    "id_region": 12
+    "regionId": 12
   },
   {
     "0": 62,
@@ -493,7 +493,7 @@ const districts = [
     "2": 12,
     "id": 62,
     "name": "Tsaratanàna",
-    "id_region": 12
+    "regionId": 12
   },
   {
     "0": 63,
@@ -501,7 +501,7 @@ const districts = [
     "2": 13,
     "id": 63,
     "name": "Ambato Boeny",
-    "id_region": 13
+    "regionId": 13
   },
   {
     "0": 64,
@@ -509,7 +509,7 @@ const districts = [
     "2": 13,
     "id": 64,
     "name": "Mahajanga I",
-    "id_region": 13
+    "regionId": 13
   },
   {
     "0": 65,
@@ -517,7 +517,7 @@ const districts = [
     "2": 13,
     "id": 65,
     "name": "Mahajanga II",
-    "id_region": 13
+    "regionId": 13
   },
   {
     "0": 66,
@@ -525,7 +525,7 @@ const districts = [
     "2": 13,
     "id": 66,
     "name": "Marovoay",
-    "id_region": 13
+    "regionId": 13
   },
   {
     "0": 67,
@@ -533,7 +533,7 @@ const districts = [
     "2": 13,
     "id": 67,
     "name": "Mitsinjo",
-    "id_region": 13
+    "regionId": 13
   },
   {
     "0": 68,
@@ -541,7 +541,7 @@ const districts = [
     "2": 13,
     "id": 68,
     "name": "Soalala",
-    "id_region": 13
+    "regionId": 13
   },
   {
     "0": 69,
@@ -549,7 +549,7 @@ const districts = [
     "2": 14,
     "id": 69,
     "name": "Ambatomainty",
-    "id_region": 14
+    "regionId": 14
   },
   {
     "0": 70,
@@ -557,7 +557,7 @@ const districts = [
     "2": 14,
     "id": 70,
     "name": "Antsalova",
-    "id_region": 14
+    "regionId": 14
   },
   {
     "0": 71,
@@ -565,7 +565,7 @@ const districts = [
     "2": 14,
     "id": 71,
     "name": "Besalampy",
-    "id_region": 14
+    "regionId": 14
   },
   {
     "0": 72,
@@ -573,7 +573,7 @@ const districts = [
     "2": 14,
     "id": 72,
     "name": "Maintirano",
-    "id_region": 14
+    "regionId": 14
   },
   {
     "0": 73,
@@ -581,7 +581,7 @@ const districts = [
     "2": 14,
     "id": 73,
     "name": "Morafenobe",
-    "id_region": 14
+    "regionId": 14
   },
   {
     "0": 74,
@@ -589,7 +589,7 @@ const districts = [
     "2": 15,
     "id": 74,
     "name": "Analalava",
-    "id_region": 15
+    "regionId": 15
   },
   {
     "0": 75,
@@ -597,7 +597,7 @@ const districts = [
     "2": 15,
     "id": 75,
     "name": "Antsohihy",
-    "id_region": 15
+    "regionId": 15
   },
   {
     "0": 76,
@@ -605,7 +605,7 @@ const districts = [
     "2": 15,
     "id": 76,
     "name": "Bealanana",
-    "id_region": 15
+    "regionId": 15
   },
   {
     "0": 77,
@@ -613,7 +613,7 @@ const districts = [
     "2": 15,
     "id": 77,
     "name": "Befandriana Nord",
-    "id_region": 15
+    "regionId": 15
   },
   {
     "0": 78,
@@ -621,7 +621,7 @@ const districts = [
     "2": 15,
     "id": 78,
     "name": "Mampikony",
-    "id_region": 15
+    "regionId": 15
   },
   {
     "0": 79,
@@ -629,7 +629,7 @@ const districts = [
     "2": 15,
     "id": 79,
     "name": "Mandritsara",
-    "id_region": 15
+    "regionId": 15
   },
   {
     "0": 80,
@@ -637,7 +637,7 @@ const districts = [
     "2": 15,
     "id": 80,
     "name": "Port Berger",
-    "id_region": 15
+    "regionId": 15
   },
   {
     "0": 81,
@@ -645,7 +645,7 @@ const districts = [
     "2": 16,
     "id": 81,
     "name": "Ambatondrazaka",
-    "id_region": 16
+    "regionId": 16
   },
   {
     "0": 82,
@@ -653,7 +653,7 @@ const districts = [
     "2": 16,
     "id": 82,
     "name": "Amparafaravola",
-    "id_region": 16
+    "regionId": 16
   },
   {
     "0": 83,
@@ -661,7 +661,7 @@ const districts = [
     "2": 16,
     "id": 83,
     "name": "Andilamena",
-    "id_region": 16
+    "regionId": 16
   },
   {
     "0": 84,
@@ -669,7 +669,7 @@ const districts = [
     "2": 16,
     "id": 84,
     "name": "Anosibe An_ala",
-    "id_region": 16
+    "regionId": 16
   },
   {
     "0": 85,
@@ -677,7 +677,7 @@ const districts = [
     "2": 16,
     "id": 85,
     "name": "Moramanga",
-    "id_region": 16
+    "regionId": 16
   },
   {
     "0": 86,
@@ -685,7 +685,7 @@ const districts = [
     "2": 17,
     "id": 86,
     "name": "Fenerive Est",
-    "id_region": 17
+    "regionId": 17
   },
   {
     "0": 87,
@@ -693,7 +693,7 @@ const districts = [
     "2": 17,
     "id": 87,
     "name": "Mananara Nord",
-    "id_region": 17
+    "regionId": 17
   },
   {
     "0": 88,
@@ -701,7 +701,7 @@ const districts = [
     "2": 17,
     "id": 88,
     "name": "Maroantsetra",
-    "id_region": 17
+    "regionId": 17
   },
   {
     "0": 89,
@@ -709,7 +709,7 @@ const districts = [
     "2": 17,
     "id": 89,
     "name": "Sainte-Marie",
-    "id_region": 17
+    "regionId": 17
   },
   {
     "0": 90,
@@ -717,7 +717,7 @@ const districts = [
     "2": 17,
     "id": 90,
     "name": "Soanierana Ivongo",
-    "id_region": 17
+    "regionId": 17
   },
   {
     "0": 91,
@@ -725,7 +725,7 @@ const districts = [
     "2": 17,
     "id": 91,
     "name": "Vavatenina",
-    "id_region": 17
+    "regionId": 17
   },
   {
     "0": 92,
@@ -733,7 +733,7 @@ const districts = [
     "2": 18,
     "id": 92,
     "name": "Antanambao Manampotsy",
-    "id_region": 18
+    "regionId": 18
   },
   {
     "0": 93,
@@ -741,7 +741,7 @@ const districts = [
     "2": 18,
     "id": 93,
     "name": "Brickaville",
-    "id_region": 18
+    "regionId": 18
   },
   {
     "0": 94,
@@ -749,7 +749,7 @@ const districts = [
     "2": 18,
     "id": 94,
     "name": "Mahanoro",
-    "id_region": 18
+    "regionId": 18
   },
   {
     "0": 95,
@@ -757,7 +757,7 @@ const districts = [
     "2": 18,
     "id": 95,
     "name": "Marolambo",
-    "id_region": 18
+    "regionId": 18
   },
   {
     "0": 96,
@@ -765,7 +765,7 @@ const districts = [
     "2": 18,
     "id": 96,
     "name": "Toamasina I",
-    "id_region": 18
+    "regionId": 18
   },
   {
     "0": 97,
@@ -773,7 +773,7 @@ const districts = [
     "2": 18,
     "id": 97,
     "name": "Toamasina II",
-    "id_region": 18
+    "regionId": 18
   },
   {
     "0": 98,
@@ -781,7 +781,7 @@ const districts = [
     "2": 18,
     "id": 98,
     "name": "Vatomandry",
-    "id_region": 18
+    "regionId": 18
   },
   {
     "0": 99,
@@ -789,7 +789,7 @@ const districts = [
     "2": 19,
     "id": 99,
     "name": "Ambovombe Androy",
-    "id_region": 19
+    "regionId": 19
   },
   {
     "0": 100,
@@ -797,7 +797,7 @@ const districts = [
     "2": 19,
     "id": 100,
     "name": "Bekily",
-    "id_region": 19
+    "regionId": 19
   },
   {
     "0": 101,
@@ -805,7 +805,7 @@ const districts = [
     "2": 19,
     "id": 101,
     "name": "Beloha",
-    "id_region": 19
+    "regionId": 19
   },
   {
     "0": 102,
@@ -813,7 +813,7 @@ const districts = [
     "2": 19,
     "id": 102,
     "name": "Tsihombe",
-    "id_region": 19
+    "regionId": 19
   },
   {
     "0": 103,
@@ -821,7 +821,7 @@ const districts = [
     "2": 20,
     "id": 103,
     "name": "Amboasary Sud",
-    "id_region": 20
+    "regionId": 20
   },
   {
     "0": 104,
@@ -829,7 +829,7 @@ const districts = [
     "2": 20,
     "id": 104,
     "name": "Betroka",
-    "id_region": 20
+    "regionId": 20
   },
   {
     "0": 105,
@@ -837,7 +837,7 @@ const districts = [
     "2": 20,
     "id": 105,
     "name": "Taolagnaro",
-    "id_region": 20
+    "regionId": 20
   },
   {
     "0": 106,
@@ -845,7 +845,7 @@ const districts = [
     "2": 21,
     "id": 106,
     "name": "Ampanihy Ouest",
-    "id_region": 21
+    "regionId": 21
   },
   {
     "0": 107,
@@ -853,7 +853,7 @@ const districts = [
     "2": 21,
     "id": 107,
     "name": "Ankazoabo-Sud",
-    "id_region": 21
+    "regionId": 21
   },
   {
     "0": 108,
@@ -861,7 +861,7 @@ const districts = [
     "2": 21,
     "id": 108,
     "name": "Benenitra",
-    "id_region": 21
+    "regionId": 21
   },
   {
     "0": 109,
@@ -869,7 +869,7 @@ const districts = [
     "2": 21,
     "id": 109,
     "name": "Beroroha",
-    "id_region": 21
+    "regionId": 21
   },
   {
     "0": 110,
@@ -877,7 +877,7 @@ const districts = [
     "2": 21,
     "id": 110,
     "name": "Betioky-Sud",
-    "id_region": 21
+    "regionId": 21
   },
   {
     "0": 111,
@@ -885,7 +885,7 @@ const districts = [
     "2": 21,
     "id": 111,
     "name": "Morombe",
-    "id_region": 21
+    "regionId": 21
   },
   {
     "0": 112,
@@ -893,7 +893,7 @@ const districts = [
     "2": 21,
     "id": 112,
     "name": "Sakaraha",
-    "id_region": 21
+    "regionId": 21
   },
   {
     "0": 113,
@@ -901,7 +901,7 @@ const districts = [
     "2": 21,
     "id": 113,
     "name": "Toliara I",
-    "id_region": 21
+    "regionId": 21
   },
   {
     "0": 114,
@@ -909,7 +909,7 @@ const districts = [
     "2": 21,
     "id": 114,
     "name": "Toliara II",
-    "id_region": 21
+    "regionId": 21
   },
   {
     "0": 115,
@@ -917,7 +917,7 @@ const districts = [
     "2": 22,
     "id": 115,
     "name": "Belo sur Tsiribihina",
-    "id_region": 22
+    "regionId": 22
   },
   {
     "0": 116,
@@ -925,7 +925,7 @@ const districts = [
     "2": 22,
     "id": 116,
     "name": "Mahabo",
-    "id_region": 22
+    "regionId": 22
   },
   {
     "0": 117,
@@ -933,7 +933,7 @@ const districts = [
     "2": 22,
     "id": 117,
     "name": "Manja",
-    "id_region": 22
+    "regionId": 22
   },
   {
     "0": 118,
@@ -941,7 +941,7 @@ const districts = [
     "2": 22,
     "id": 118,
     "name": "Miandrivazo",
-    "id_region": 22
+    "regionId": 22
   },
   {
     "0": 119,
@@ -949,7 +949,7 @@ const districts = [
     "2": 22,
     "id": 119,
     "name": "Morondava",
-    "id_region": 22
+    "regionId": 22
   }
 ]
 

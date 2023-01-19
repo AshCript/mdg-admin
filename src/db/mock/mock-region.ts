@@ -5,7 +5,7 @@ const regions = [
     "2": 1,
     "id": 1,
     "name": "Analamanga",
-    "id_province": 1
+    "provinceId": 1
   },
   {
     "0": 2,
@@ -13,7 +13,7 @@ const regions = [
     "2": 1,
     "id": 2,
     "name": "Bongolava",
-    "id_province": 1
+    "provinceId": 1
   },
   {
     "0": 3,
@@ -21,7 +21,7 @@ const regions = [
     "2": 1,
     "id": 3,
     "name": "Itasy",
-    "id_province": 1
+    "provinceId": 1
   },
   {
     "0": 4,
@@ -29,7 +29,7 @@ const regions = [
     "2": 1,
     "id": 4,
     "name": "Vakinankaratra",
-    "id_province": 1
+    "provinceId": 1
   },
   {
     "0": 5,
@@ -37,7 +37,7 @@ const regions = [
     "2": 2,
     "id": 5,
     "name": "Diana",
-    "id_province": 2
+    "provinceId": 2
   },
   {
     "0": 6,
@@ -45,7 +45,7 @@ const regions = [
     "2": 2,
     "id": 6,
     "name": "SAVA",
-    "id_province": 2
+    "provinceId": 2
   },
   {
     "0": 7,
@@ -53,7 +53,7 @@ const regions = [
     "2": 3,
     "id": 7,
     "name": "Amoron_i Mania",
-    "id_province": 3
+    "provinceId": 3
   },
   {
     "0": 8,
@@ -61,7 +61,7 @@ const regions = [
     "2": 3,
     "id": 8,
     "name": "Atsimo Atsinanana",
-    "id_province": 3
+    "provinceId": 3
   },
   {
     "0": 9,
@@ -69,7 +69,7 @@ const regions = [
     "2": 3,
     "id": 9,
     "name": "Haute Matsiatra",
-    "id_province": 3
+    "provinceId": 3
   },
   {
     "0": 10,
@@ -77,7 +77,7 @@ const regions = [
     "2": 3,
     "id": 10,
     "name": "Ihorombe",
-    "id_province": 3
+    "provinceId": 3
   },
   {
     "0": 11,
@@ -85,7 +85,7 @@ const regions = [
     "2": 3,
     "id": 11,
     "name": "Vatovavy Fitovinany",
-    "id_province": 3
+    "provinceId": 3
   },
   {
     "0": 12,
@@ -93,7 +93,7 @@ const regions = [
     "2": 4,
     "id": 12,
     "name": "Betsiboka",
-    "id_province": 4
+    "provinceId": 4
   },
   {
     "0": 13,
@@ -101,7 +101,7 @@ const regions = [
     "2": 4,
     "id": 13,
     "name": "Boeny",
-    "id_province": 4
+    "provinceId": 4
   },
   {
     "0": 14,
@@ -109,7 +109,7 @@ const regions = [
     "2": 4,
     "id": 14,
     "name": "Melaky",
-    "id_province": 4
+    "provinceId": 4
   },
   {
     "0": 15,
@@ -117,7 +117,7 @@ const regions = [
     "2": 4,
     "id": 15,
     "name": "Sofia",
-    "id_province": 4
+    "provinceId": 4
   },
   {
     "0": 16,
@@ -125,7 +125,7 @@ const regions = [
     "2": 5,
     "id": 16,
     "name": "Alaotra Mangoro",
-    "id_province": 5
+    "provinceId": 5
   },
   {
     "0": 17,
@@ -133,7 +133,7 @@ const regions = [
     "2": 5,
     "id": 17,
     "name": "Analanjirofo",
-    "id_province": 5
+    "provinceId": 5
   },
   {
     "0": 18,
@@ -141,7 +141,7 @@ const regions = [
     "2": 5,
     "id": 18,
     "name": "Atsinanana",
-    "id_province": 5
+    "provinceId": 5
   },
   {
     "0": 19,
@@ -149,7 +149,7 @@ const regions = [
     "2": 6,
     "id": 19,
     "name": "Androy",
-    "id_province": 6
+    "provinceId": 6
   },
   {
     "0": 20,
@@ -157,7 +157,7 @@ const regions = [
     "2": 6,
     "id": 20,
     "name": "Anosy",
-    "id_province": 6
+    "provinceId": 6
   },
   {
     "0": 21,
@@ -165,7 +165,7 @@ const regions = [
     "2": 6,
     "id": 21,
     "name": "Atsimo Andrefana",
-    "id_province": 6
+    "provinceId": 6
   },
   {
     "0": 22,
@@ -173,7 +173,7 @@ const regions = [
     "2": 6,
     "id": 22,
     "name": "Menabe",
-    "id_province": 6
+    "provinceId": 6
   }
 ]
 
