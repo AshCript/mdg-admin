@@ -12,8 +12,8 @@ const findAllByProvince = (app: Express) => {
         return res.status(404).json({ message })
       }
       return Region.findAll({
-        where: { provinceId: province.id },
-        order: ['id', 'ASC']
+        where: {provinceId: province.id},
+        order: [['id', 'ASC']]
       }).then(regions => {
         if(regions.length === 0) {
           const message = `No regions has been found for province ${province.name} with ID ${province.id}`

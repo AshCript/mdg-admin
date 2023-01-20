@@ -4,7 +4,7 @@ import { Region } from '../../db/sequelize'
 
 const findAll = (app: Express) => {
   app.get('/api/regions', (req: Request, res: Response) => {
-    Region.findAll({order: ['id', 'ASC']}).then(regions => {
+    Region.findAll({order: [['id', 'ASC']]}).then(regions => {
       const found = `${regions.length} ${regions.length === 1 ? 'region':'regions'} has been found!`
       const message = `${regions.length === 0 ? found : "All regions data has been loaded successfully! " + found}`
       res.json({ message, data: regions })
