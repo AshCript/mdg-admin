@@ -5,7 +5,7 @@ const update = (app: Express) => {
   app.put('/api/province/:id', (req, res) => {
     const id = req.params.id
     Province.update(req.body, {
-      where: {id: id}
+      where: {id}
     }).then(_ => {
       return Province.findByPk(id).then((province: any) => {
         const message = `The province with id ${province.id} is updated successfully!`

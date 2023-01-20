@@ -13,7 +13,7 @@ const update = (app: Express) => {
       }
 
       return Region.update(req.body, {
-        where: {id: id}
+        where: {id}
       }).then(_ => {
         return Region.findByPk(id).then((newRegion: any) => {
           const message = `Region with ID ${newRegion.id} updated successfully!`
