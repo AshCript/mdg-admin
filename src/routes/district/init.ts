@@ -4,7 +4,7 @@ import districtData from '../../db/mock/mock-district';
 import { District } from '../../db/sequelize';
 
 const init = (app: Express) => {
-  app.get('/api/regions/init', (req: Request, res: Response) => {
+  app.get('/api/districts/init', (req: Request, res: Response) => {
     districtData.map((district): any => {
       District.create(district).then((district:any) => {
         console.log(`[ADDED] id: ${district.id}, name: ${district.name}, provinceId: ${district.regionId}`)
