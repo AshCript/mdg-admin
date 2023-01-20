@@ -1,7 +1,7 @@
 import { Sequelize, DataTypes } from 'sequelize';
 
 
-const DistrictModel = (sequelize: Sequelize, DataTypes) => {
+const DistrictModel = (sequelize: Sequelize, DataTypes: typeof import("sequelize/types/data-types")) => {
   return sequelize.define('district', {
     id: {
       type: DataTypes.INTEGER,
@@ -10,10 +10,6 @@ const DistrictModel = (sequelize: Sequelize, DataTypes) => {
     },
     name: {
       type: DataTypes.STRING,
-      allowNull: false
-    },
-    regionId: {
-      type: DataTypes.INTEGER,
       allowNull: false
     }
   }, {

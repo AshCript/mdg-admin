@@ -1,9 +1,8 @@
 import { Sequelize, DataTypes } from 'sequelize';
-import ProvinceModel from './province';
 
 
-const RegionModel = (sequelize: Sequelize, DataTypes: typeof import("sequelize/types/data-types")) => {
-  return sequelize.define('region', {
+const CommuneModel = (sequelize: Sequelize, DataTypes: typeof import("sequelize/types/data-types")) => {
+  return sequelize.define('commune', {
     id: {
       type: DataTypes.INTEGER,
       primaryKey: true,
@@ -20,4 +19,4 @@ const RegionModel = (sequelize: Sequelize, DataTypes: typeof import("sequelize/t
   })
 }
 
-export default RegionModel
+export default CommuneModel
