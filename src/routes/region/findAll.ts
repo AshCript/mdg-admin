@@ -5,11 +5,7 @@ import { Region } from '../../db/sequelize'
 const findAll = (app: Express) => {
   app.get('/api/regions', (req: Request, res: Response) => {
     Region.findAll().then(regions => {
-      if(regions.length === 0){
-        const message = "No data found for region"
-        return res.status(404).json({ message, data: regions })
-      }
-      const message = `${regions.length} ${regions.length > 1 ? 'regions':'region'} has been found!`
+      const message = `All regions data has been loaded successfully! ${regions.length} ${regions.length === 1 ? 'region':'regions'} has been found!`
       res.json({ message, data: regions })
     }).catch(e => {
       const message = "Something went wrong! Retry later."
