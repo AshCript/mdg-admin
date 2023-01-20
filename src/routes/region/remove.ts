@@ -5,10 +5,10 @@ import { Province, Region } from '../../db/sequelize';
 const remove = (app: Express) => {
   app.delete('/api/region/:id', (req: Request, res: Response) => {
     const id = req.params.id
-    Region.findByPk(id).then((region: any) => {
+    Region.findByPk(id).then((region: any): any => {
       if(region === null){
         const message = `The region with ID ${id} doesn't exist. Try with another ID!`
-        res.status(404).json({ message })
+        return res.status(404).json({ message })
       }
       return Province.findByPk(region.provinceId).then((province: any) => {
         return Region.destroy({where: {id: region.id}}).then(_ => {
