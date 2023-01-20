@@ -11,3 +11,5 @@ const findAll = (app: Express) => {
     })
   })
 }
+
+export default findAll
