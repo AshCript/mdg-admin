@@ -16,9 +16,12 @@ const findAllByProvince = (app: Express) => {
       }}).then(async (regions: any) => {
         var districts = []
         for(let i = 0 ; i < regions.length ; i++){
-          const ds = await District.findAll({where: {
-            regionId: regions[i].id
-          }})
+          const ds = await District.findAll({
+            where: {
+              regionId: regions[i].id
+            },
+            order: ['id', 'ASC']
+          })
           districts.push(...ds)
         }
         return districts

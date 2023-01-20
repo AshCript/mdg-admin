@@ -11,9 +11,12 @@ const findAllByRegion = (app: Express) => {
         const message = `The regions's foreign key with ID ${regionId} doesn't exist. Retry with another region ID!`
         return res.status(404).json({ message })
       }
-      return District.findAll({where: {
-        regionId
-      }}).then(districts => {
+      return District.findAll({
+        where: {
+          regionId
+        },
+        order: ['id', 'ASC']
+      }).then(districts => {
         const found = `${districts.length} ${districts.length === 1 ? 'district' : 'districts'} found.`
         const message = `${districts.length === 0 ? found : 'All districts for region ' + region.name + ' have been loaded! ' + found}`
         res.json({ message, data: districts })
