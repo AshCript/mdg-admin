@@ -1,9 +1,8 @@
 import { Express } from 'express-serve-static-core'
 import { Request, Response } from 'express';
-import provinces from '../../db/mock/mock-province';
+import provinceData from '../../db/mock/mock-province';
 import { Province } from '../../db/sequelize';
 
-const provinceData = provinces
 const init = (app: Express) => {
   app.get('/api/provinces/init', (req: Request, res: Response) => {
     provinceData.map((province): any => {

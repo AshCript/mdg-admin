@@ -1,9 +1,8 @@
 import { Express } from 'express-serve-static-core'
 import { Request, Response } from 'express';
-import districts from '../../db/mock/mock-district';
+import districtData from '../../db/mock/mock-district';
 import { District } from '../../db/sequelize';
 
-const districtData = districts
 const init = (app: Express) => {
   app.get('/api/regions/init', (req: Request, res: Response) => {
     districtData.map((district): any => {
