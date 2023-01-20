@@ -6,7 +6,8 @@ import { District } from '../../db/sequelize';
 const findAll = (app: Express) => {
   app.get('/api/districts', (req: Request, res: Response) => {
     District.findAll().then(districts => {
-      const message = `All districts data have been loaded successfully! ${districts.length} ${districts.length === 1 ? 'district' : 'districts'} has been found!`
+      const found = `${districts.length} ${districts.length === 1 ? 'district' : 'districts'} found!`
+      const message = `${districts.length === 0 ? found : "All districts data have been loaded successfully! " + found }`
       res.json({ message, data: districts })
     })
   })
