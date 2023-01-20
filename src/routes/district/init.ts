@@ -7,7 +7,7 @@ const init = (app: Express) => {
   app.get('/api/districts/init', (req: Request, res: Response) => {
     districtData.map((district): any => {
       District.create(district).then((district:any) => {
-        console.log(`[ADDED] id: ${district.id}, name: ${district.name}, provinceId: ${district.regionId}`)
+        console.log(`[ADDED] id: ${district.id}, name: ${district.name}, regionId: ${district.regionId}`)
       }).catch(e => {
         console.log(`[ERROR] ${e}`)
       })
