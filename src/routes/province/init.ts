@@ -13,7 +13,7 @@ const init = (app: Express) => {
         console.log(`[ERROR] ${e}`)
       })
     })
-    const message = `All province data is initialized!`
+    const message = `Province data initialization DONE!`
     res.json({message})
   })
 }

@@ -19,3 +19,28 @@ const ProvinceModel = (sequelize: Sequelize, DataTypes: typeof import("sequelize
 }
 
 export default ProvinceModel
+
+// const ProvinceModel = (sequelize: Sequelize, DataTypes: typeof import("sequelize/types/data-types")) => {
+//   class Province extends Model {
+//     static associate(models:any){
+
+//     }
+//   }
+//   Province.init({
+//     id: {
+//       type: DataTypes.INTEGER,
+//       primaryKey: true,
+//       autoIncrement: true
+//     },
+//     name: {
+//       type: DataTypes.STRING,
+//       allowNull: false
+//     }
+//   }, {
+//     sequelize,
+//     modelName: 'ProvinceModel'
+//   })
+//   return Province
+// }
+
+// export default ProvinceModel
