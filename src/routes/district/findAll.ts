@@ -9,6 +9,9 @@ const findAll = (app: Express) => {
       const found = `${districts.length} ${districts.length === 1 ? 'district' : 'districts'} found!`
       const message = `${districts.length === 0 ? found : "All districts data have been loaded successfully! " + found }`
       res.json({ message, data: districts })
+    }).catch(e => {
+      const message = "Impossible to load all districts. Retry later!"
+      res.status(500).json({ message, data: e })
     })
   })
 }
