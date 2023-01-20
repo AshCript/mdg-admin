@@ -5,6 +5,7 @@ import findById from './district/findById';
 import init from './district/init';
 import findAllByRegion from './district/findAllByRegion';
 import findAllByProvince from './district/findAllByProvince';
+import update from './district/update';
 
 const district = (app: Express) => {
   add(app)
@@ -13,6 +14,7 @@ const district = (app: Express) => {
   findById(app)
   findAllByRegion(app)
   findAllByProvince(app)
+  update(app)
 }
 
 export default district
