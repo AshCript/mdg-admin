@@ -1,6 +1,7 @@
 import { Sequelize, DataTypes} from 'sequelize'
 import ProvinceModel from '../models/province';
 import RegionModel from '../models/region';
+import DistrictModel from '../models/district';
 
 const sequelize = new Sequelize(
   'db_mdg_admin',
@@ -24,11 +25,18 @@ sequelize.authenticate().then(_ => {
 
 const Province = ProvinceModel(sequelize, DataTypes)
 const Region = RegionModel(sequelize, DataTypes)
+const District = DistrictModel(sequelize, DataTypes)
 
 Province.hasMany(Region, {
   foreignKey: 'provinceId'
 })
 Region.belongsTo(Province)
+
+Region.hasMany(District, {
+  foreignKey: 'regionId'
+})
+District.belongsTo(Region)
+
 
 const initDb = () => {
   sequelize.sync({force: true}).then(_ => {
@@ -41,5 +49,6 @@ const initDb = () => {
 export {
   initDb,
   Province,
-  Region
+  Region,
+  District
 }
