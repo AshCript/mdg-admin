@@ -4,7 +4,7 @@ import { District, Region } from '../../db/sequelize';
 
 
 const findAllByRegion = (app: Express) => {
-  app.get('/api/districts/r/:regionId', (req: Request, res: Response) => {
+  app.get('/api/districts/:regionId', (req: Request, res: Response) => {
     const regionId = req.params.regionId
     Region.findByPk(regionId).then((region: any): any => {
       if(region === null){
