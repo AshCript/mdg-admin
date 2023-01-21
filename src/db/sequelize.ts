@@ -3,6 +3,7 @@ import ProvinceModel from '../models/province';
 import RegionModel from '../models/region';
 import DistrictModel from '../models/district';
 import CommuneModel from '../models/commune';
+import FokotanyModel from '../models/fokotany';
 
 
 const sequelize = new Sequelize(
@@ -29,6 +30,7 @@ const Province = ProvinceModel(sequelize, DataTypes)
 const Region = RegionModel(sequelize, DataTypes)
 const District = DistrictModel(sequelize, DataTypes)
 const Commune = CommuneModel(sequelize, DataTypes)
+const Fokotany = FokotanyModel(sequelize, DataTypes)
 
 Province.hasMany(Region, {
   foreignKey: 'provinceId'
@@ -45,6 +47,11 @@ District.hasMany(Commune, {
 })
 Commune.belongsTo(District)
 
+Commune.hasMany(Fokotany, {
+  foreignKey: 'communeId'
+})
+Fokotany.belongsTo(Commune)
+
 
 const initDb = () => {
   sequelize.sync({force: true}).then(_ => {
@@ -59,5 +66,6 @@ export {
   Province,
   Region,
   District,
-  Commune
+  Commune,
+  Fokotany
 }
