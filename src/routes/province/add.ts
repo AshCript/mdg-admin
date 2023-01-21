@@ -10,8 +10,8 @@ const add = (app: Express):any => {
         const message = `ID n°${province.id} already taken by ${province.name}`
         return res.status(401).json({message, data: province})
       }
-      return Province.create(req.body).then(p => {
-        const message = "Province added successfully!"
+      return Province.create(req.body).then((p: any) => {
+        const message = `Province ${p.name} added successfully!`
         res.json({message, data: p})
       })
     }).catch(e => {

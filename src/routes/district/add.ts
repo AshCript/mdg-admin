@@ -10,8 +10,8 @@ const add = (app: Express) => {
         const message = `The foreign key regionId = ${regionId} doesn't exist. Retry with another regionId`
         res.status(404).json({ message })
       }
-      return District.create(req.body).then(district => {
-        const message = "A district is added successfully!"
+      return District.create(req.body).then((district:any) => {
+        const message = `District ${district.name} added successfully!`
         res.json({ message, data: district })
       })
     }).catch(e => {

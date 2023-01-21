@@ -10,8 +10,8 @@ const add = (app: Express) => {
         const message = `The foreign key districtId = ${districtId} doesn't exist. Retry with another districtId`
         res.status(404).json({ message })
       }
-      return Commune.create(req.body).then(commune => {
-        const message = "A commune has been added successfully!"
+      return Commune.create(req.body).then((commune: any) => {
+        const message = `Commune ${commune.name} added successfully!`
         res.json({ message, data: commune })
       })
     }).catch(e => {
