@@ -9,7 +9,7 @@ const init = (app: Express) => {
       const c = communeData[i]
       try{
         const commune: any = await Commune.create(c)
-        console.log(`[ADDED] id: ${commune.id}, name: ${commune.name}, regionId: ${commune.regionId}`)
+        console.log(`[ADDED] id: ${commune.id}, name: ${commune.name}, district: ${commune.districtId}`)
       }catch(e){
         console.log(`[ERROR] ${e}`)
       }
