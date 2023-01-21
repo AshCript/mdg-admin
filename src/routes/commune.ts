@@ -6,6 +6,7 @@ import update from './commune/update';
 import init from './commune/init';
 import findAllByDistrict from './commune/findAllByDistrict';
 import findAllByRegion from './commune/findAllByRegion';
+import findAllByProvince from './commune/findAllByProvince';
 
 
 const commune = (app: Express) => {
@@ -13,6 +14,7 @@ const commune = (app: Express) => {
   findAll(app)
   findAllByDistrict(app)
   findAllByRegion(app)
+  findAllByProvince(app)
   update(app)
   remove(app)
   init(app)
