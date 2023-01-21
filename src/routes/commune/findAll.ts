@@ -4,7 +4,7 @@ import { Commune } from '../../db/sequelize';
 
 
 const findAll = (app: Express) => {
-  app.get('/api/districts', (req: Request, res: Response) => {
+  app.get('/api/communes', (req: Request, res: Response) => {
     Commune.findAll({order: [['id', 'ASC']]}).then(communes => {
       const found = `${communes.length} ${communes.length === 1 ? 'district' : 'communes'} found!`
       const message = `${communes.length === 0 ? found : "All communes data have been loaded successfully! " + found }`
