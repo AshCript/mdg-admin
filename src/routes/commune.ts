@@ -3,6 +3,7 @@ import add from './commune/add';
 import findAll from './commune/findAll';
 import remove from './commune/remove';
 import update from './commune/update';
+import init from './commune/init';
 
 
 const commune = (app: Express) => {
@@ -10,6 +11,7 @@ const commune = (app: Express) => {
   findAll(app)
   update(app)
   remove(app)
+  init(app)
 }
 
 export default commune
