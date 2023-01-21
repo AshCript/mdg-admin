@@ -1,6 +1,6 @@
 import { Express } from 'express-serve-static-core';
 import { Request, Response } from 'express'
-import { Commune, Region } from '../../db/sequelize';
+import { Commune, District } from '../../db/sequelize';
 
 const remove = (app: Express) => {
   app.delete('/api/commune/:id', (req: Request, res: Response) => {
@@ -10,9 +10,9 @@ const remove = (app: Express) => {
         const message = `The commune with ID ${id} doesn't exist. Try with another ID!`
         return res.status(404).json({ message })
       }
-      return Region.findByPk(commune.regionId).then((region: any) => {
+      return District.findByPk(commune.districtId).then((district: any) => {
         return Commune.destroy({where: {id: commune.id}}).then(_ => {
-          const message = `The commune ${commune.name} with ID ${id} which belongs to ${commune !== null ? 'province ' + commune.name + ' ' : 'no province'} has been deleted!`
+          const message = `The commune ${commune.name} with ID ${id} which belongs to ${commune !== null ? 'district ' + district.name + ' ' : 'no province'} has been deleted!`
           res.json({ message, data: commune })
         })
       })

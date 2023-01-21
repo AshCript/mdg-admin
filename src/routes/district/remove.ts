@@ -12,7 +12,7 @@ const remove = (app: Express) => {
       }
       return Region.findByPk(district.regionId).then((region: any) => {
         return District.destroy({where: {id: district.id}}).then(_ => {
-          const message = `The district ${district.name} with ID ${id} which belongs to ${region !== null ? 'province ' + region.name + ' ' : 'no province'} has been deleted!`
+          const message = `The district ${district.name} with ID ${id} which belongs to ${region !== null ? 'region ' + region.name + ' ' : 'no region'} has been deleted!`
           res.json({ message, data: district })
         })
       })
