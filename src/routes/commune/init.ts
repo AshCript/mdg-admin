@@ -4,7 +4,7 @@ import communeData from '../../db/mock/mock-commune';
 import { Commune } from '../../db/sequelize';
 
 const init = (app: Express) => {
-  app.get('/api/districts/init', async (req: Request, res: Response) => {
+  app.get('/api/commune/init', async (req: Request, res: Response) => {
     for(let i = 0 ; i < communeData.length ; i++){
       const c = communeData[i]
       try{
