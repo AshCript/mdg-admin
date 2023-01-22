@@ -4,7 +4,7 @@ import { Commune, Fokotany } from '../../db/sequelize';
 
 
 const add = (app: Express) => {
-  app.get('/api/fokotany', (req: Request, res: Response) => {
+  app.post('/api/fokotany', (req: Request, res: Response) => {
     const communeId = req.body.communeId
     Commune.findByPk(communeId).then((commune): any => {
       if(commune === null){
