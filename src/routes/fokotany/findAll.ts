@@ -5,7 +5,7 @@ import { Fokotany } from '../../db/sequelize';
 
 const findAll = (app: Express) => {
   app.get('/api/fokotanys', (req: Request, res: Response) => {
-    Fokotany.findAll().then(fokotanys => {
+    Fokotany.findAll({order: [['id', 'ASC']]}).then(fokotanys => {
       const found = `${fokotanys.length} ${fokotanys.length === 1 ? 'fokotany' : 'fokotanys'} found!`
       const message = `${fokotanys.length === 0 ? found : "All fokotanys data have been loaded successfully! " + found }`
       res.json({ message, data: fokotanys })
