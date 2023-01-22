@@ -5,6 +5,7 @@ import findAll from './fokotany/findAll'
 import update from './fokotany/update';
 import remove from './fokotany/remove';
 import findAllByCommune from './fokotany/findByCommune';
+import findAllByDistrict from './fokotany/findAllByDistrict';
 
 
 const fokotany = (app: Express) => {
@@ -12,6 +13,7 @@ const fokotany = (app: Express) => {
   findById(app)
   findAll(app)
   findAllByCommune(app)
+  findAllByDistrict
   update(app)
   remove(app)
 }
