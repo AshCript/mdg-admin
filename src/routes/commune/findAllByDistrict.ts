@@ -16,7 +16,7 @@ const findAllByDistrict = (app: Express) => {
         order: [['id', 'ASC']]
       }).then(communes => {
         const found = `${communes.length} ${communes.length === 1 ? 'district' : 'communes'} found.`
-        const message = `${communes.length === 0 ? found : 'All communes for region ' + district.name + ' have been loaded! ' + found}`
+        const message = `${communes.length === 0 ? found : 'All communes for district ' + district.name + ' have been loaded! ' + found}`
         res.json({ message, data: communes })
       })
     }).catch(e => {
