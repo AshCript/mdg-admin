@@ -1,23 +1,34 @@
 import { Request, Response } from 'express';
 import { Express } from 'express-serve-static-core';
+import { Op } from 'sequelize';
 import { Fokotany, Commune, District } from '../../db/sequelize';
 
 
 const findAllByCommune = (app: Express) => {
   app.get('/api/fokotanys/:communeId', (req: Request, res: Response) => {
     const communeId = req.params.communeId
+    const name = req.query.name
+    const order = req.query.order ? ['ASC', 'DESC'].includes(req.query.order.toString()) ? req.query.order.toString() : 'ASC' : 'ASC'
+    const limit = req.query.limit ? parseInt(req.query.limit.toString()) : 20
+
     Commune.findByPk(communeId).then((commune: any): any => {
       if(commune === null){
         const message = `The commune's foreign key with ID ${communeId} doesn't exist. Retry with another commune ID!`
         return res.status(404).json({ message })
       }
-      return Fokotany.findAll({
-        where: {communeId},
-        order: [['id', 'ASC']]
-      }).then(fokotany => {
-        const found = `${fokotany.length} ${fokotany.length === 1 ? 'district' : 'fokotany'} found.`
-        const message = `${fokotany.length === 0 ? found : 'All fokotany for commune ' + commune.name + ' have been loaded! ' + found}`
-        res.json({ message, data: fokotany })
+      return Fokotany.findAndCountAll({
+        where: {
+          communeId,
+          name: {
+            [Op.like]: name
+          }
+        },
+        order: [['name', order]],
+        limit
+      }).then(({count, rows}) => {
+        const found = `${count} ${count === 1 ? 'fokotany' : 'fokotanys'} found.`
+        const message = `${count === 0 ? found : 'All fokotany for commune ' + commune.name + ' have been loaded! ' + found}`
+        res.json({ message, data: rows })
       })
     }).catch(e => {
       const message = "Something went wrong. Retry later!"

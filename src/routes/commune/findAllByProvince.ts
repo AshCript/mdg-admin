@@ -1,11 +1,16 @@
 import { Request, Response } from 'express';
 import { Express } from 'express-serve-static-core';
+import { Op } from 'sequelize';
 import { Commune, District, Region, Province } from '../../db/sequelize';
 
 
 const findAllByProvince = (app: Express) => {
   app.get('/api/communes/p/:provinceId', (req: Request, res: Response) => {
     const provinceId = req.params.provinceId
+    const name = req.query.name ? `%${req.query.name}%` : `%%`
+    const order = req.query.order ? ['ASC', 'DESC'].includes(req.query.order.toString()) ? req.query.order.toString() : 'ASC' : 'ASC'
+    const limit = req.query.limit ? parseInt(req.query.limit.toString()) : 20
+
     Province.findByPk(provinceId).then((province: any) => {
       if(province === null){
         const message = `The province with ID ${provinceId} doesn't exist. Retry with another region ID!`
@@ -28,8 +33,14 @@ const findAllByProvince = (app: Express) => {
           var cs = []
           for(let j = 0 ; j < districts[i].districts.length ; j++){
             const css = await Commune.findAll({
-              where: {districtId: districts[i].districts[j].id},
-              order: [['id', 'ASC']]
+              where: {
+                districtId: districts[i].districts[j].id,
+                name: {
+                  [Op.like]: name
+                }
+              },
+              order: [['name', order]],
+              limit
             })
             nbCommunes += css.length
             cs.push(...css)
@@ -38,7 +49,7 @@ const findAllByProvince = (app: Express) => {
         }
         return {communes, nbCommunes}
       }).then(({communes, nbCommunes}) => {
-        const found = `${nbCommunes} ${nbCommunes === 1 ? 'district' : 'communes'} found in ${communes.length /** It returns then the number of regions */} regions.`
+        const found = `${nbCommunes} ${nbCommunes === 1 ? 'commune' : 'communes'} found in ${communes.length /** It returns then the number of regions */} regions.`
         const message = `${nbCommunes === 0 ? found : 'All communes for province ' + province.name + ' have been loaded! ' + found}`
         res.json({ message, data: communes })
       })

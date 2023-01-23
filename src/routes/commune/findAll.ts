@@ -1,14 +1,27 @@
 import { Request, Response } from 'express';
 import { Express } from 'express-serve-static-core';
+import { Op } from 'sequelize';
 import { Commune } from '../../db/sequelize';
 
 
 const findAll = (app: Express) => {
   app.get('/api/communes', (req: Request, res: Response) => {
-    Commune.findAll({order: [['id', 'ASC']]}).then(communes => {
-      const found = `${communes.length} ${communes.length === 1 ? 'district' : 'communes'} found!`
-      const message = `${communes.length === 0 ? found : "All communes data have been loaded successfully! " + found }`
-      res.json({ message, data: communes })
+    const name = req.query.name ? `%${req.query.name}%` : `%%`
+    const order = req.query.order ? ['ASC', 'DESC'].includes(req.query.order.toString()) ? req.query.order.toString() : 'ASC' : 'ASC'
+    const limit = req.query.limit ? parseInt(req.query.limit.toString()) : 20
+
+    Commune.findAndCountAll({
+      where: {
+        name: {
+          [Op.like]: name
+        }
+      },
+      order: [['name', order]],
+      limit
+    }).then(({count, rows}) => {
+      const found = `${count} ${count === 1 ? 'commune' : 'communes'} found!`
+      const message = `${count === 0 ? found : "All communes data have been loaded successfully! " + found }`
+      res.json({ message, data: rows })
     }).catch(e => {
       const message = "Impossible to load all communes. Retry later!"
       res.status(500).json({ message, data: e })

@@ -12,7 +12,7 @@ const remove = (app: Express) => {
       }
       return District.findByPk(commune.districtId).then((district: any) => {
         return Commune.destroy({where: {id: commune.id}}).then(_ => {
-          const message = `The commune ${commune.name} with ID ${id} which belongs to ${commune !== null ? 'district ' + district.name + ' ' : 'no province'} has been deleted!`
+          const message = `The commune ${commune.name} with ID ${id} which belongs to ${district !== null ? 'district ' + district.name + ' ' : 'no district'} has been deleted!`
           res.json({ message, data: commune })
         })
       })
