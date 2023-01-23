@@ -1,4 +1,4 @@
-import { Sequelize, DataTypes } from 'sequelize';
+import { Sequelize } from 'sequelize';
 
 
 const CommuneModel = (sequelize: Sequelize, DataTypes: typeof import("sequelize/types/data-types")) => {

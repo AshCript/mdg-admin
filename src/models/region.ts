@@ -1,5 +1,4 @@
-import { Sequelize, DataTypes } from 'sequelize';
-import ProvinceModel from './province';
+import { Sequelize } from 'sequelize';
 
 
 const RegionModel = (sequelize: Sequelize, DataTypes: typeof import("sequelize/types/data-types")) => {
