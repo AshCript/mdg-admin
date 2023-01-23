@@ -1,5 +1,6 @@
 import { Request, Response } from 'express';
 import { Express } from 'express-serve-static-core';
+import { ValidationError, UniqueConstraintError } from 'sequelize';
 import { Region } from '../../db/sequelize';
 
 
@@ -21,6 +22,9 @@ const update = (app: Express) => {
         })
       })
     }).catch(e => {
+      if(e instanceof ValidationError || e instanceof UniqueConstraintError){
+        return res.status(400).json({ message: e.message, data: e})
+      }
       const message = `Error while updating the region with the ID ${id}`
       res.status(500).json({ message, data: e })
     })

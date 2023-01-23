@@ -1,5 +1,6 @@
 import { Request, Response } from 'express';
 import { Express } from 'express-serve-static-core';
+import { UniqueConstraintError, ValidationError } from 'sequelize';
 import { Commune, District } from '../../db/sequelize';
 
 const add = (app: Express) => {
@@ -15,6 +16,9 @@ const add = (app: Express) => {
         res.json({ message, data: commune })
       })
     }).catch(e => {
+      if(e instanceof ValidationError || e instanceof UniqueConstraintError){
+        return res.status(400).json({ message: e.message, data: e})
+      }
       const message = "Something went wrong! Retry later."
       res.status(500).json({ message, data: e })
     })

@@ -1,6 +1,7 @@
 import { Express } from 'express-serve-static-core'
 import { Request, Response } from 'express'
 import { Province, Region } from '../../db/sequelize'
+import { ValidationError, UniqueConstraintError } from 'sequelize'
 
 const add = (app: Express) => {
   app.post('/api/region', (req: Request, res: Response) => {
@@ -14,6 +15,9 @@ const add = (app: Express) => {
         res.json({message, data: region})
       })
     }).catch(e => {
+      if(e instanceof ValidationError || e instanceof UniqueConstraintError){
+        return res.status(400).json({ message: e.message, data: e})
+      }
       const message = "Server not responding! Retry later!"
       res.status(500).json({ message, data: e })
     })
