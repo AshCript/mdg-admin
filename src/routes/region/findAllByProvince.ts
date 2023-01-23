@@ -7,7 +7,7 @@ import { Province, Region } from '../../db/sequelize';
 const findAllByProvince = (app: Express) => {
   app.get('/api/regions/:provinceId', (req: Request, res: Response) => {
     const provinceId = req.params.provinceId
-    const name = req.query.name
+    const name = req.query.name ? `%${req.query.name}%` : `%%`
     const order = req.query.order ? ['ASC', 'DESC'].includes(req.query.order.toString()) ? req.query.order.toString() : 'ASC' : 'ASC'
     const limit = req.query.limit ? parseInt(req.query.limit.toString()) : 5
 
@@ -16,7 +16,7 @@ const findAllByProvince = (app: Express) => {
         const message = `The ID ${provinceId} doesn't exist. Try with another province ID.`
         return res.status(404).json({ message })
       }
-      return Region.findAll({
+      return Region.findAndCountAll({
         where: {
           provinceId: province.id,
           name: {
@@ -25,13 +25,13 @@ const findAllByProvince = (app: Express) => {
         },
         order: [['name', order]],
         limit
-      }).then(regions => {
-        if(regions.length === 0) {
+      }).then(({count, rows}) => {
+        if(count === 0) {
           const message = `No regions has been found for province ${province.name} with ID ${province.id}`
-          return res.status(404).json({ message, data: regions })
+          return res.status(404).json({ message, data: rows })
         }
-        const message = `${regions.length} ${regions.length === 1 ? 'region' : 'regions'} has been found!`
-        res.json({ message, data: regions })
+        const message = `${count} ${count === 1 ? 'region' : 'regions'} has been found!`
+        res.json({ message, data: rows })
       })
     }).catch(e => {
       const message = "Something went wrong! Retry later."

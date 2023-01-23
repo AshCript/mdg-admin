@@ -21,22 +21,21 @@ const findAllByDistrict = (app: Express) => {
       }}).then(async (communes: any) => {
         var fokotanys = []
         for(let i = 0 ; i < communes.length ; i++){
-          const fs = await Fokotany.findAll({
+          const fs = await Fokotany.findAndCountAll({
             where: {
               name: {
                 [Op.like]: name
               }
             },
-            order: [['name', order]],
-            limit
+            order: [['name', order]]
           })
-          fokotanys.push(...fs)
+          fokotanys.push(...fs.rows)
         }
-        return fokotanys
+        return (fokotanys)
       }).then(fokotanys => {
         const found = `${fokotanys.length} ${fokotanys.length === 1 ? 'district' : 'fokotanys'} found.`
         const message = `${fokotanys.length === 0 ? found : 'All fokotanys for district ' + district.name + ' have been loaded! ' + found}`
-        res.json({ message, data: fokotanys })
+        res.json({ message, data: fokotanys.splice(0, limit).sort() })
       })
     })
   })

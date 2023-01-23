@@ -7,7 +7,7 @@ import { Fokotany, Commune, District } from '../../db/sequelize';
 const findAllByCommune = (app: Express) => {
   app.get('/api/fokotanys/:communeId', (req: Request, res: Response) => {
     const communeId = req.params.communeId
-    const name = req.query.name
+    const name = req.query.name ? `%${req.query.name}%` : `%%`
     const order = req.query.order ? ['ASC', 'DESC'].includes(req.query.order.toString()) ? req.query.order.toString() : 'ASC' : 'ASC'
     const limit = req.query.limit ? parseInt(req.query.limit.toString()) : 20
 

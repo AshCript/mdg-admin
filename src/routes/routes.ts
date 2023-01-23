@@ -4,8 +4,10 @@ import province from "./province"
 import region from "./region"
 import commune from './commune';
 import fokotany from './fokotany';
+import mdgAdminInit from "./mdgAdminInit";
 
 const routes = (app: Express) => {
+  mdgAdminInit(app)
   province(app)
   region(app)
   district(app)

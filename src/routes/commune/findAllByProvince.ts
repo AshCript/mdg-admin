@@ -23,6 +23,9 @@ const findAllByProvince = (app: Express) => {
             where: {regionId: regions[i].id},
             order: [['id', 'ASC']]
           })
+          if(ds.length === 0){
+            continue
+          }
           districts.push({region: regions[i], districts: ds})
         }
         return districts
@@ -32,7 +35,7 @@ const findAllByProvince = (app: Express) => {
         for(let i = 0 ; i < districts.length ; i++){
           var cs = []
           for(let j = 0 ; j < districts[i].districts.length ; j++){
-            const css = await Commune.findAll({
+            const css = await Commune.findAndCountAll({
               where: {
                 districtId: districts[i].districts[j].id,
                 name: {
@@ -42,8 +45,14 @@ const findAllByProvince = (app: Express) => {
               order: [['name', order]],
               limit
             })
-            nbCommunes += css.length
-            cs.push(...css)
+            if(css.count === 0){
+              continue
+            }
+            nbCommunes += css.count
+            cs.push(...css.rows)
+          }
+          if(cs.length === 0){
+            continue
           }
           communes.push({region: districts[i].region , commmunes: cs})
         }

@@ -37,7 +37,7 @@ const findAllByProvince = (app: Express) => {
       }).then(districts => {
         const found = `${districts.length} ${districts.length === 1 ? 'district' : 'districts'} found.`
         const message = `${districts.length === 0 ? found : 'All districts for province ' + province.name + ' have been loaded! ' + found}`
-        res.json({ message, data: districts })
+        res.json({ message, data: districts.splice(0, limit) })
       })
     })
   })

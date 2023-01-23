@@ -22,7 +22,7 @@ const findAllByProvince = (app: Express) => {
         for(let i = 0 ; i < regions.length ; i++){
           const districts: any = await District.findAll({
             where: {regionId: regions[i].id},
-            order: [['id', 'ASC']]
+            order: [['name', 'ASC']]
           })
           if(districts.length === 0){
             continue
@@ -31,11 +31,11 @@ const findAllByProvince = (app: Express) => {
           for(let j = 0 ; j < districts.length; j++){
             const communes: any = await Commune.findAll({
               where: {districtId: districts[j].id},
-              order: [['id', 'ASC']]
+              order: [['name', 'ASC']]
             })
             if(communes.length === 0) continue
             for(let k = 0 ; k < communes.length ; k++){
-              const fss = await Fokotany.findAll({
+              const fss = await Fokotany.findAndCountAll({
                 where: {
                   communeId: communes[k].id,
                   name: {
@@ -45,13 +45,13 @@ const findAllByProvince = (app: Express) => {
                 order: [['name', order]],
                 limit
               })
-              if(fss.length === 0) continue
-              nbFokotanys += fss.length
-              fs.push(...fss)
+              if(fss.count === 0) continue
+              nbFokotanys += fss.count
+              fs.push(...fss.rows)
             }
           }
           if(fs.length === 0) continue
-          fokotanys.push({region: regions[i], fokotanys: fs})
+          fokotanys.push({region: regions[i], fokotanys: fs.splice(0, limit)})
         }
         return {fokotanys, nbFokotanys, regions}
       }).then(({fokotanys, nbFokotanys, regions}) => {

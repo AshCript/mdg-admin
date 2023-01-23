@@ -21,8 +21,8 @@ const findAllByRegion = (app: Express) => {
         const districts: any = rows
         for(let i = 0 ; i < districts.length ; i++){
           const cs = await Commune.findAll({
-            where: {regionId: districts[i].id},
-            order: [['id', 'ASC']]
+            where: {districtId: districts[i].id},
+            order: [['name', 'ASC']]
           })
           communes.push({district: districts[i], communes: cs})
         }
@@ -47,7 +47,10 @@ const findAllByRegion = (app: Express) => {
             nbFokotanys += fss.length
             fs.push(...fss)
           }
-          fokotanys.push({commune: communes[i].region , fokotanys: fs})
+          if(fs.length === 0){
+            continue
+          }
+          fokotanys.push({district: communes[i].district , fokotanys: fs.splice(0, limit)})
         }
         return {nbDistricts, fokotanys, nbFokotanys}
       }).then(({nbDistricts, fokotanys, nbFokotanys}) => {

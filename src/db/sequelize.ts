@@ -54,7 +54,7 @@ Fokotany.belongsTo(Commune)
 
 
 const initDb = () => {
-  sequelize.sync({force: true}).then(_ => {
+  sequelize.sync({alter: true}).then(_ => {
     console.log("[SUCCESS] Database connection synchronized!")
   }).catch(e => {
     console.log(`[ERROR] Database connection not synchronized : ${e}`)

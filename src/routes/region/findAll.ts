@@ -5,7 +5,7 @@ import { Region } from '../../db/sequelize'
 
 const findAll = (app: Express) => {
   app.get('/api/regions', (req: Request, res: Response) => {
-    const name = req.query.name
+    const name = req.query.name ? `%${req.query.name}%` : `%%`
     const order = req.query.order ? req.query.order.toString() : 'ASC'
     const limit = req.query.limit ? parseInt(req.query.limit.toString()) : 5
 
