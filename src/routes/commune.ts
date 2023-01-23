@@ -7,10 +7,12 @@ import init from './commune/init';
 import findAllByDistrict from './commune/findAllByDistrict';
 import findAllByRegion from './commune/findAllByRegion';
 import findAllByProvince from './commune/findAllByProvince';
+import findById from './commune/findById';
 
 
 const commune = (app: Express) => {
   add(app)
+  findById(app)
   findAll(app)
   findAllByDistrict(app)
   findAllByRegion(app)
