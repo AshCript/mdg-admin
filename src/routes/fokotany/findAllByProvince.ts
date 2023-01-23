@@ -11,6 +11,11 @@ const findAllByProvince = (app: Express) => {
     const order = req.query.order ? ['ASC', 'DESC'].includes(req.query.order.toString()) ? req.query.order.toString() : 'ASC' : 'ASC'
     const limit = req.query.limit ? parseInt(req.query.limit.toString()) : 20
 
+    if(req.query.name && req.query.name.length < 4){
+      const message = "Use name length greater than 3"
+      return res.status(400).json({message})
+    }
+
     Province.findByPk(provinceId).then((province: any) => {
       if(province === null){
         const message = `The province with ID ${provinceId} doesn't exist. Retry with another province ID!`

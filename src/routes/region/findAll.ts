@@ -7,7 +7,12 @@ const findAll = (app: Express) => {
   app.get('/api/regions', (req: Request, res: Response) => {
     const name = req.query.name ? `%${req.query.name}%` : `%%`
     const order = req.query.order ? req.query.order.toString() : 'ASC'
-    const limit = req.query.limit ? parseInt(req.query.limit.toString()) : 5
+    const limit = req.query.limit ? parseInt(req.query.limit.toString()) : 20
+
+    if(req.query.name && req.query.name.length < 4){
+      const message = "Use name length greater than 3"
+      return res.status(400).json({message})
+    }
 
     Region.findAndCountAll({
       where: {

@@ -6,27 +6,21 @@ import { Fokotany } from '../../db/sequelize';
 
 const findAll = (app: Express) => {
   app.get('/api/fokotanys', (req: Request, res: Response) => {
+    const name = req.query.name ? `%${req.query.name}%` : `%%`
     const order = req.query.order ? ['ASC', 'DESC'].includes(req.query.order.toString()) ? req.query.order.toString() : 'ASC' : 'ASC'
     const limit = req.query.limit ? parseInt(req.query.limit.toString()) : 20
-    if(req.query.name){
-      const name = req.query.name ? `%${req.query.name}%` : `%%`
-      return Fokotany.findAndCountAll({
-        where: {
-          name: {
-            [Op.like]: name
-          }
-        },
-        order: [['name', order]],
-        limit
-      }).then(({count, rows}) => {
-        const fokotanys = [...rows]
-        const found = `${count} ${count === 1 ? 'fokotany':'fokotanys'} has been found!`
-        const message = `${count === 0 ? found : "All  fokotanys data (" + count + ") has been loaded successfully! " + found}`
-        res.json({ message, data: fokotanys })
-      })
+
+    if(req.query.name && req.query.name.length < 4){
+      const message = "Use name length greater than 3"
+      return res.status(400).json({message})
     }
 
     Fokotany.findAndCountAll({
+      where: {
+        name: {
+          [Op.like]: name
+        }
+      },
       order: [['name', order]],
       limit
     }).then(({count, rows}) => {
