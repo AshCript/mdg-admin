@@ -1,9 +1,10 @@
 import { Express } from 'express-serve-static-core'
 import { ValidationError, UniqueConstraintError } from 'sequelize'
+import auth from '../../auth/auth'
 import { Province } from '../../db/sequelize'
 
 const update = (app: Express) => {
-  app.put('/api/province/:id', (req, res) => {
+  app.put('/api/province/:id', auth(['admin']), (req, res) => {
     const id = req.params.id
     Province.update(req.body, {
       where: {id}

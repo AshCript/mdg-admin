@@ -3,6 +3,7 @@ import { Express } from 'express-serve-static-core';
 import { User } from '../../db/sequelize';
 import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken'
+import PRIVATE_KEY from '../../auth/private_key';
 
 
 const login = (app: Express) => {
@@ -23,10 +24,11 @@ const login = (app: Express) => {
 
         const token = jwt.sign(
           {
-            userEmail: email
+            userId: email,
+            userRole: user.role
           },
-          'MDG_ADMIN_KEY',
-          {expiresIn: "30d"},
+          PRIVATE_KEY,
+          {expiresIn: "3d"},
         )
 
         const message = `You are logged in, ${user.lastName} ${user.firstName}`

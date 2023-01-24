@@ -1,10 +1,11 @@
 import { Request, Response } from 'express';
 import { Express } from 'express-serve-static-core';
+import auth from '../../auth/auth';
 import { Commune } from '../../db/sequelize';
 
 
 const findById = (app: Express) => {
-  app.get('/api/commune/:id', (req: Request, res: Response) => {
+  app.get('/api/commune/:id', auth(['anon', 'user', 'admin']), (req: Request, res: Response) => {
     const id = req.params.id
     Commune.findByPk(id).then(commune => {
       if(commune === null){

@@ -1,10 +1,11 @@
 import { Request, Response } from 'express';
 import { Express } from 'express-serve-static-core';
+import auth from '../../auth/auth';
 import { Fokotany } from '../../db/sequelize';
 
 
 const remove = (app: Express) => {
-  app.delete('/api/fokotany/:id', (req: Request, res: Response) => {
+  app.delete('/api/fokotany/:id', auth(['admin']), (req: Request, res: Response) => {
     const id = req.params.id
     Fokotany.findByPk(id).then(fokotany => {
       if(fokotany === null){

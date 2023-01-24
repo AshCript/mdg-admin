@@ -62,7 +62,8 @@ const initDb = () => {
         "firstName": "RAKOTONDRABE",
         "lastName": "As Manjaka Josvah",
         "email": "asjosvah@gmail.com",
-        "password": hash
+        "password": hash,
+        "role": "admin"
       }).then(user => {
         console.log(user.toJSON())
       }).catch(e => {

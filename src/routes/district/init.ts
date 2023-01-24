@@ -2,9 +2,10 @@ import { Express } from 'express-serve-static-core'
 import { Request, Response } from 'express';
 import data from '../../db/mock/mock-district';
 import { District } from '../../db/sequelize';
+import auth from '../../auth/auth';
 
 const init = (app: Express) => {
-  app.get('/api/districts/init', async (req: Request, res: Response) => {
+  app.get('/api/districts/init', auth(['admin']), async (req: Request, res: Response) => {
     for(let i = 0 ; i < data.length ; i++){
       try{
         const district: any = await District.create(data[i])

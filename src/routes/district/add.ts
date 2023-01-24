@@ -1,10 +1,11 @@
 import { Request, Response } from 'express';
 import { Express } from 'express-serve-static-core';
 import { ValidationError, UniqueConstraintError } from 'sequelize';
+import auth from '../../auth/auth';
 import { District, Region } from '../../db/sequelize';
 
 const add = (app: Express) => {
-  app.post('/api/district', (req: Request, res: Response) => {
+  app.post('/api/district', auth(['admin']), (req: Request, res: Response) => {
     const regionId = req.body.regionId
     Region.findByPk(regionId).then(region => {
       if(region === null){

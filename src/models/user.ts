@@ -34,7 +34,10 @@ const UserModel = (sequelize: Sequelize, DataTypes: typeof import("sequelize/typ
     email: {
       type: DataTypes.STRING,
       allowNull: false,
-      unique: true,
+      unique: {
+        name: 'unique_email',
+        msg: 'Email already taken. Try another email.'
+      },
       validate: {
         notNull: {
           msg: 'Email address must not be null.'
@@ -60,6 +63,23 @@ const UserModel = (sequelize: Sequelize, DataTypes: typeof import("sequelize/typ
         isLong(value: string | any[]){
           if(value.length < 3){
             throw new Error('Password length be greater than 2 and less than 31')
+          }
+        }
+      }
+    },
+    role: {
+      type: DataTypes.STRING,
+      allowNull: false,
+      validate: {
+        notNull: {
+          msg: 'User role must not be null.'
+        },
+        notEmpty: {
+          msg: 'User role must not be empty.'
+        },
+        specificValue(value: string){
+          if(!['user', 'admin'].includes(value)){
+            throw new Error ('User role must be one oth these values : user and admin')
           }
         }
       }

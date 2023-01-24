@@ -1,10 +1,11 @@
 import { Request, Response } from 'express';
 import { Express } from 'express-serve-static-core';
+import auth from '../../auth/auth';
 import { Fokotany } from '../../db/sequelize';
 
 
 const findById = (app: Express) => {
-  app.get('/api/fokotany/:id', (req: Request, res: Response) => {
+  app.get('/api/fokotany/:id', auth(['anon', 'user', 'admin']), (req: Request, res: Response) => {
     const id = req.params.id
     Fokotany.findByPk(id).then((fokotany: any) => {
       if(fokotany === null){

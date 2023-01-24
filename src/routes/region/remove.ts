@@ -1,9 +1,10 @@
 import { Request, Response } from 'express';
 import { Express } from 'express-serve-static-core';
+import auth from '../../auth/auth';
 import { Province, Region } from '../../db/sequelize';
 
 const remove = (app: Express) => {
-  app.delete('/api/region/:id', (req: Request, res: Response) => {
+  app.delete('/api/region/:id', auth(['admin']), (req: Request, res: Response) => {
     const id = req.params.id
     Region.findByPk(id).then((region: any): any => {
       if(region === null){

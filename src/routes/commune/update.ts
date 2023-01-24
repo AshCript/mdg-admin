@@ -1,11 +1,12 @@
 import { Request, Response } from 'express';
 import { Express } from 'express-serve-static-core';
 import { UniqueConstraintError, ValidationError } from 'sequelize';
+import auth from '../../auth/auth';
 import { Commune } from '../../db/sequelize';
 
 
 const update = (app: Express) => {
-  app.put('/api/commune/:id', (req: Request, res: Response) => {
+  app.put('/api/commune/:id', auth(['admin']), (req: Request, res: Response) => {
     const id = req.params.id
     Commune.findByPk(id).then((commune: any): any => {
       if(commune === null){

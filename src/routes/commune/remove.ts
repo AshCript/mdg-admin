@@ -1,9 +1,10 @@
 import { Express } from 'express-serve-static-core';
 import { Request, Response } from 'express'
 import { Commune, District } from '../../db/sequelize';
+import auth from '../../auth/auth';
 
 const remove = (app: Express) => {
-  app.delete('/api/commune/:id', (req: Request, res: Response) => {
+  app.delete('/api/commune/:id', auth(['admin']), (req: Request, res: Response) => {
     const id = req.params.id
     Commune.findByPk(id).then((commune: any): any => {
       if(commune === null){

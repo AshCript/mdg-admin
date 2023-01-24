@@ -1,8 +1,9 @@
 import { Express } from 'express-serve-static-core'
+import auth from '../../auth/auth'
 import { Province } from '../../db/sequelize'
 
 const findById = (app: Express) => {
-  app.get('/api/province/:id', (req, res) => {
+  app.get('/api/province/:id', auth(['anon', 'user', 'admin']), (req, res) => {
     const id = req.params.id
     Province.findByPk(id).then((province: any): any => {
       if(province === null){

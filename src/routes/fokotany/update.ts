@@ -1,11 +1,12 @@
 import { Request, Response } from 'express';
 import { Express } from 'express-serve-static-core';
 import { ValidationError, UniqueConstraintError } from 'sequelize';
+import auth from '../../auth/auth';
 import { Fokotany } from '../../db/sequelize';
 
 
 const update = (app: Express) => {
-  app.put('/api/fokotany/:id', (req: Request, res: Response) => {
+  app.put('/api/fokotany/:id', auth(['admin']), (req: Request, res: Response) => {
     const id = req.params.id
     const newFokotany = req.body
     Fokotany.findByPk(id).then((fokotany): any => {

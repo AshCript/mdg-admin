@@ -1,10 +1,11 @@
 import { Request, Response } from 'express';
 import { Express } from 'express-serve-static-core';
+import auth from '../../auth/auth';
 import { District } from '../../db/sequelize';
 
 
 const findById = (app: Express) => {
-  app.get('/api/district/:id', (req: Request, res: Response) => {
+  app.get('/api/district/:id', auth(['anon', 'user', 'admin']), (req: Request, res: Response) => {
     const id = req.params.id
     District.findByPk(id).then(district => {
       if(district === null){

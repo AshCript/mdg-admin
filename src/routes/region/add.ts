@@ -2,9 +2,10 @@ import { Express } from 'express-serve-static-core'
 import { Request, Response } from 'express'
 import { Province, Region } from '../../db/sequelize'
 import { ValidationError, UniqueConstraintError } from 'sequelize'
+import auth from '../../auth/auth'
 
 const add = (app: Express) => {
-  app.post('/api/region', (req: Request, res: Response) => {
+  app.post('/api/region', auth(['admin']), (req: Request, res: Response) => {
     Province.findByPk(req.body.provinceId).then((province): any => {
       if(province === null){
         const message = "The foreign key for province is not found! Try another province key"

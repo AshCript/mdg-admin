@@ -1,11 +1,12 @@
 import { Request, Response } from 'express';
 import { Express } from 'express-serve-static-core';
 import { Op } from 'sequelize';
-import { Fokotany, Commune, District, Region } from '../../db/sequelize';
+import auth from '../../auth/auth';
+import { Fokotany, Commune, District } from '../../db/sequelize';
 
 
 const findAllByDistrict = (app: Express) => {
-  app.get('/api/fokotanys/d/:districtId', (req: Request, res: Response) => {
+  app.get('/api/fokotanys/d/:districtId', auth(['anon', 'user', 'admin']), (req: Request, res: Response) => {
     const districtId = req.params.districtId
     const name = req.query.name ? `%${req.query.name}%` : `%%`
     const order = req.query.order ? ['ASC', 'DESC'].includes(req.query.order.toString()) ? req.query.order.toString() : 'ASC' : 'ASC'

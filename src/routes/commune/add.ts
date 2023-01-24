@@ -1,10 +1,11 @@
 import { Request, Response } from 'express';
 import { Express } from 'express-serve-static-core';
 import { UniqueConstraintError, ValidationError } from 'sequelize';
+import auth from '../../auth/auth';
 import { Commune, District } from '../../db/sequelize';
 
 const add = (app: Express) => {
-  app.post('/api/commune', (req: Request, res: Response) => {
+  app.post('/api/commune', auth(['admin']), (req: Request, res: Response) => {
     const districtId = req.body.districtId
     District.findByPk(districtId).then(district => {
       if(district === null){

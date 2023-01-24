@@ -2,9 +2,10 @@ import { Request, Response } from 'express'
 import { Express } from 'express-serve-static-core'
 import { Op } from 'sequelize'
 import { Province } from '../../db/sequelize'
+import auth from '../../auth/auth';
 
 const findAll = (app: Express) => {
-  app.get('/api/provinces', (req: Request, res: Response) => {
+  app.get('/api/provinces', auth(['anon', 'user', 'admin']), (req: Request, res: Response) => {
     const name = req.query.name ? `%${req.query.name}%` : `%%`
     const order = req.query.order ? ['ASC', 'DESC'].includes(req.query.order.toString()) ? req.query.order.toString() : 'ASC' : 'ASC'
     const limit = req.query.limit ? parseInt(req.query.limit.toString()) : 20

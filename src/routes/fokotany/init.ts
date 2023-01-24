@@ -2,9 +2,10 @@ import { Express } from 'express-serve-static-core'
 import { Request, Response } from 'express';
 import data from '../../db/mock/mock-fokotany';
 import { Fokotany } from '../../db/sequelize';
+import auth from '../../auth/auth';
 
 const init = (app: Express) => {
-  app.get('/api/fokotanys/init', async (req: Request, res: Response) => {
+  app.get('/api/fokotanys/init', auth(['admin']), async (req: Request, res: Response) => {
     for(let i = 0 ; i < data.length ; i++){
       try{
         const fokotany: any = await Fokotany.create(data[i])

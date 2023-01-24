@@ -1,11 +1,12 @@
 import { Request, Response } from 'express';
 import { Express } from 'express-serve-static-core';
 import { Op } from 'sequelize';
+import auth from '../../auth/auth';
 import { Province, Region } from '../../db/sequelize';
 
 
 const findAllByProvince = (app: Express) => {
-  app.get('/api/regions/:provinceId', (req: Request, res: Response) => {
+  app.get('/api/regions/:provinceId', auth(['anon', 'user', 'admin']), (req: Request, res: Response) => {
     const provinceId = req.params.provinceId
     const name = req.query.name ? `%${req.query.name}%` : `%%`
     const order = req.query.order ? ['ASC', 'DESC'].includes(req.query.order.toString()) ? req.query.order.toString() : 'ASC' : 'ASC'
