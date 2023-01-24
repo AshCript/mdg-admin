@@ -6,8 +6,10 @@ import commune from './commune';
 import fokotany from './fokotany';
 import mdgAdminInit from "./mdgAdminInit";
 import auth from './auth';
+import welcome from './welcome';
 
 const routes = (app: Express) => {
+  welcome(app)
   auth(app)
   mdgAdminInit(app)
   province(app)
