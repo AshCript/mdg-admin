@@ -4,7 +4,7 @@
   "description": "API Madagascar Province >>> Fokotany",
   "main": "dist/index.js",
   "scripts": {
-    "start": "NODE_ENV=production npx tsc && node dist/index.js",
+    "start": "NODE_ENV=production node dist/index.js",
     "dev": "NODE_ENV=development nodemon dist/index.js",
     "ts": "ts-node index.ts",
     "up": "docker-compose up -d",
