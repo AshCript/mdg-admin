@@ -4,12 +4,12 @@
   "description": "API Madagascar Province >>> Fokotany",
   "main": "dist/index.js",
   "scripts": {
+    "build": "npx tsc",
     "start": "NODE_ENV=production node dist/index.js",
     "dev": "NODE_ENV=development nodemon dist/index.js",
     "ts": "ts-node index.ts",
     "up": "docker-compose up -d",
     "down": "docker-compose down",
-    "build": "npx tsc",
     "watch": "npx tsc --watch"
   },
   "author": "RAKOTONDRABE As Manjaka Josvah",
