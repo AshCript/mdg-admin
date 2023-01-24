@@ -4,8 +4,8 @@ import { Express } from 'express-serve-static-core';
 const welcome = (app: Express) => {
   app.get('/', (req: Request, res: Response) => {
     const html = `
-      <body style="background-color: #222222; color: #dddddd">
-        <h1>Welcome to MDG-ADMIN v1.0.0</h1>
+      <body style="background-color: #222222; color: #dddddd;">
+        <h1 style="text-align: center">Welcome to MDG-ADMIN v1.0.0</h1>
         <hr/>
         <p>Those are all the available free services for this API :</p>
         <ol>
@@ -53,9 +53,9 @@ const welcome = (app: Express) => {
         </ol>
         <hr/>
         <p>
-          All these endpoints are available for free, for personal use. You can pass as query params : "name", "order" and "limit". 
-          &nbsp;&nbsp;&nbsp;&nbsp;- The data you want to get is set to <b>20</b> by default, but you can change it by passing limit as a query parameter.<br/>
-          &nbsp;&nbsp;&nbsp;&nbsp;- By default, data are ordered by name, ascendently. But you can change it by passing order as a query parameter. It can take the values ASC or DESC.<br/>
+          All these endpoints are available for free, for personal use. You can pass as query parameters : "name", "order" and "limit".<br/><br/>
+          &nbsp;&nbsp;&nbsp;&nbsp;- The data you want to get is set to <b>20</b> by default, but you can change it by passing limit as a query parameter.<br/><br/>
+          &nbsp;&nbsp;&nbsp;&nbsp;- By default, data are ordered by name, ascendently. But you can change it by passing order as a query parameter. It can take the values ASC or DESC.<br/><br/>
           &nbsp;&nbsp;&nbsp;&nbsp;- You can filter researches by adding a query parameter "name". It can take string as value, and filter researches by just showing data which contains that string.
         </p>
         <div style="text-align: center">
