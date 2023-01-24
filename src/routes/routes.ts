@@ -5,10 +5,10 @@ import region from "./region"
 import commune from './commune';
 import fokotany from './fokotany';
 import mdgAdminInit from "./mdgAdminInit";
-import login from './auth/login';
+import auth from './auth';
 
 const routes = (app: Express) => {
-  login(app)
+  auth(app)
   mdgAdminInit(app)
   province(app)
   region(app)

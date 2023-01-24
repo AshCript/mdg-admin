@@ -1,5 +1,4 @@
 import { Sequelize, DataTypes} from 'sequelize'
-import bcrypt from 'bcrypt'
 import UserModel from '../models/user';
 import ProvinceModel from '../models/province';
 import RegionModel from '../models/region';
@@ -56,20 +55,6 @@ Fokotany.belongsTo(Commune)
 
 const initDb = () => {
   sequelize.sync({alter: true}).then(_ => {
-    bcrypt.hash("asjosvah", 10).then(hash => {
-      User.create({
-        "id": 1,
-        "firstName": "RAKOTONDRABE",
-        "lastName": "As Manjaka Josvah",
-        "email": "asjosvah@gmail.com",
-        "password": hash,
-        "role": "admin"
-      }).then(user => {
-        console.log(user.toJSON())
-      }).catch(e => {
-        console.log(`[ERROR] ${e}`)
-      })
-    })
     console.log("[SUCCESS] Database connection synchronized!")
   }).catch(e => {
     console.log(`[ERROR] Database connection not synchronized : ${e}`)

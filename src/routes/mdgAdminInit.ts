@@ -6,9 +6,10 @@ import districtData from '../db/mock/mock-district'
 import communeData from '../db/mock/mock-commune'
 import fokotanyData from '../db/mock/mock-fokotany'
 import { Commune, District, Fokotany, Province, Region } from '../db/sequelize';
+import auth from '../auth/auth';
 
 const mdgAdminInit = (app: Express) => {
-  app.get('/api/mdg-admin/init', async (req: Request, res: Response) => {
+  app.get('/api/mdg-admin/init', auth(['admin']), async (req: Request, res: Response) => {
     // Province data initialization
     for(let i = 0 ; i < provinceData.length ; i++){
       try{
