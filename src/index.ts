@@ -5,7 +5,7 @@ import { initDb } from './db/sequelize'
 import routes from './routes/routes'
 
 const app = express()
-const port = 3000
+const port = process.env.PORT || 3000
 
 app
    .use(morgan('dev'))
@@ -21,4 +21,4 @@ app.use((req: Request, res: Response, next: NextFunction) => {
   next()
 })
 
-app.listen(port, () => console.log("[SUCCESS] Server started!"))
+app.listen(port, () => console.log(`[SUCCESS] Server started on port : ${port}`))

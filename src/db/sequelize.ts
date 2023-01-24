@@ -6,19 +6,38 @@ import DistrictModel from '../models/district';
 import CommuneModel from '../models/commune';
 import FokotanyModel from '../models/fokotany';
 
-const sequelize = new Sequelize(
-  'db_mdg_admin',
-  'pguser',
-  'root',
-  {
-    host: "localhost",
-    dialect: "postgres",
-    dialectOptions: {
-      timezone: "Etc/GMT+3"
-    },
-    logging: false
-  }
-)
+let sequelize
+
+if(process.env.NODE_ENV === 'production'){
+  sequelize = new Sequelize(
+    'db_mdg_admin',
+    'pguser',
+    'root',
+    {
+      host: "localhost",
+      dialect: "postgres",
+      dialectOptions: {
+        timezone: "Etc/GMT+3"
+      },
+      logging: true
+    }
+  )
+}else{
+  sequelize = new Sequelize(
+    'db_mdg_admin',
+    'pguser',
+    'root',
+    {
+      host: "localhost",
+      dialect: "postgres",
+      dialectOptions: {
+        timezone: "Etc/GMT+3"
+      },
+      logging: false
+    }
+  )
+}
+
 sequelize.authenticate().then(_ => {
   console.log("[SUCCESS] Database authentication established!")
 }).catch(e => {
