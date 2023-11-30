@@ -10,11 +10,11 @@ let sequelize
 
 if(process.env.NODE_ENV === 'production'){
   sequelize = new Sequelize(
-    'db_mdg_admin',
-    'db_mdg_admin_user',
-    'MfErHBYk3jR37awuQVjkoEzcZclTo33i',
+    'db_mdg_admin_csye',
+    'asjosvah',
+    'E5tG7W56daStPqbb8kHHj196FW0yyXaL',
     {
-      host: "dpg-cf84rb9gp3jqqer4s1a0-a",
+      host: "dpg-clk2gm6g1b2c739fn790-a",
       dialect: "postgres",
       dialectOptions: {
         timezone: "Etc/GMT+3"
