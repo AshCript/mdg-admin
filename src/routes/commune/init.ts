@@ -5,7 +5,7 @@ import { Commune } from '../../db/sequelize';
 import auth from '../../auth/auth';
 
 const init = (app: Express) => {
-  app.get('/api/commune/init', auth(['admin']), async (req: Request, res: Response) => {
+  app.get('/api/communes/init', auth(['admin']), async (req: Request, res: Response) => {
     for(let i = 0 ; i < data.length ; i++){
       try{
         const commune: any = await Commune.create(data[i])
